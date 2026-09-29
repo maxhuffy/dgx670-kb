@@ -7,6 +7,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 
 | You might say | Manual term(s) to search |
 |---|---|
+| 3-pedal unit, triple pedal, FC35 | [PEDAL UNIT] jack; LP-1B/LP-1WH pedal unit; Pedal Unit Functions (FC35 is not named in the manuals) |
 | accompaniment, backing band, beats, drum pattern, rhythm | Style; Auto Accompaniment; [ACMP]; STYLE CONTROL |
 | auto-change sounds with the style | One Touch Setting (OTS); [OTS LINK] |
 | backup, save everything | Data Backup; Backup/Restore |
@@ -20,10 +21,11 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | default at startup, on/off when I turn it on | "when the power is turned on"; ACMP On/Off Default (Style Setting → Setting2) |
 | demo songs | Demo; [DEMO] |
 | dimensions, polyphony, specs, weight | Specifications (OM); Compatible Format |
-| edit a sound | Voice Set (Editing Voices) |
 | edit a recorded song | Song Creator |
+| edit a sound | Voice Set (Editing Voices) |
 | effects, chorus, reverb | Reverb; Chorus; DSP; [VOICE EFFECT] |
 | EQ, bass/treble, levels, volume balance | Mixer; Master EQ; Master Compressor; [MIXER/EQ] |
+| expression pedal, volume pedal, continuous pedal, FC7 | Half Pedal; FC3A; pedal functions marked * (Pitch Bend Up/Down, Modulation); expression/FC7 pedals are not named in the manuals |
 | factory reset, reset everything | Resetting to the Factory-programmed Settings (Initializing); Piano Reset (Piano Room only) |
 | favorites, presets, recall my setup, save my setup | Registration Memory; Playlist; Favorite |
 | fill, intro, ending | [INTRO]; [ENDING/rit.]; Fill-in; Break; [MAIN] |
