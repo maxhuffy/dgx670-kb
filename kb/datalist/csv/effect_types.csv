@@ -1,0 +1,464 @@
+dl_page,table,block,no,category,type_name,description,msb,lsb,parameter_list
+25,1,Reverb Block,1,Reverb,RealLrgHall,Real reverb simulating the acoustics of a large sized hall.,1,32,REAL REVERB
+25,1,Reverb Block,2,Reverb,RealMedHall,Real reverb simulating the acoustics of a medium sized hall.,1,33,REAL REVERB
+25,1,Reverb Block,3,Reverb,RealBrtHall,Real reverb simulating the acoustics of a bright sounding hall.,1,34,REAL REVERB
+25,1,Reverb Block,4,Reverb,BasicHall,Reverb simulating the acoustics of a hall. Standard setting.,1,21,REVERB1
+25,1,Reverb Block,5,Reverb,LightHall,Reverb simulating the acoustics of a hall. Light setting.,1,22,REVERB1
+25,1,Reverb Block,6,Reverb,BalladHall,Reverb simulating the acoustics of a hall. For ballad type music.,1,19,REVERB2
+25,1,Reverb Block,7,Reverb,PianoHall,Reverb simulating the acoustics of a hall. For piano sound.,1,20,REVERB2
+25,1,Reverb Block,8,Reverb,Hall1,Reverb simulating the acoustics of a hall.,1,0,REVERB1
+25,1,Reverb Block,9,Reverb,Hall2,Reverb simulating the acoustics of a hall.,1,16,REVERB1
+25,1,Reverb Block,10,Reverb,Hall3,Reverb simulating the acoustics of a hall.,1,17,REVERB1
+25,1,Reverb Block,11,Reverb,Hall4,Reverb simulating the acoustics of a hall.,1,18,REVERB1
+25,1,Reverb Block,12,Reverb,Hall5,Reverb simulating the acoustics of a hall.,1,1,REVERB1
+25,1,Reverb Block,13,Reverb,VocalHall1,Reverb suitable for vocals.,1,27,REVERB1
+25,1,Reverb Block,14,Reverb,VocalHall2,Reverb suitable for vocals.,1,28,REVERB1
+25,1,Reverb Block,15,Reverb,PfRecitHall,Reverb simulating the acoustics of a medium sized recital hall. For piano sound.,1,24,REAL PIANO REVERB
+25,1,Reverb Block,16,Reverb,PfCncertHall,Reverb simulating the acoustics of a large sized hall. For piano sound.,1,4,REAL PIANO REVERB
+25,1,Reverb Block,17,Reverb,PfCathedral,Reverb simulating the acoustics of a cathedral. For piano sound.,1,5,REAL PIANO REVERB
+25,1,Reverb Block,18,Reverb,RealRoom,Real reverb simulating the acoustics of a room.,2,32,REAL REVERB
+25,1,Reverb Block,19,Reverb,RealPwrRoom,Real reverb simulating the acoustics of a room with powerful room reflections.,2,33,REAL REVERB
+25,1,Reverb Block,20,Reverb,AcousticRoom,Reverb simulating the acoustics of a room. Standard setting.,2,20,REVERB1
+25,1,Reverb Block,21,Reverb,DrumsRoom,Reverb simulating the acoustics of a room. For drum sounds.,2,21,REVERB1
+25,1,Reverb Block,22,Reverb,PfChamber,Reverb simulating the acoustics of a chamber. For piano sound.,2,24,REAL PIANO REVERB
+25,1,Reverb Block,23,Reverb,Stage1,Reverb suitable for a solo instrument.,3,16,REVERB1
+25,1,Reverb Block,24,Reverb,PianoClub,Reverb simulating the acoustics of a club. For piano sound.,3,24,REAL PIANO REVERB
+25,1,Reverb Block,25,Reverb,RealLrgPlate,Real reverb simulating a large plate reverb unit.,4,32,REAL REVERB
+25,1,Reverb Block,26,Reverb,RealMedPlate,Real reverb simulating a medium sized plate reverb unit.,4,33,REAL REVERB
+25,1,Reverb Block,27,Reverb,RealRtlPlate,Real reverb simulating a plate reverb unit with spring rattle.,4,34,REAL REVERB
+25,1,Reverb Block,28,Reverb,Plate1,Reverb simulating a plate reverb unit.,4,16,REVERB1
+25,1,Reverb Block,29,Reverb,PianoPlate,Reverb simulating a plate reverb unit. For piano sound.,4,24,REAL PIANO REVERB
+25,1,Reverb Block,30,Legacy,HallM,Reverb simulating the acoustics of a hall.,1,6,REVERB1
+25,1,Reverb Block,31,Legacy,HallL,Reverb simulating the acoustics of a hall.,1,7,REVERB1
+25,1,Reverb Block,32,Legacy,AtmoHall,A unique long reverb with atmosphere.,1,23,REVERB1
+25,1,Reverb Block,33,Legacy,LargeHall,Reverb simulating the acoustics of a hall.,1,2,REVERB2
+25,1,Reverb Block,34,Legacy,MediumHall,Reverb simulating the acoustics of a hall.,1,3,REVERB2
+25,1,Reverb Block,35,Legacy,PercRoom,Reverb simulating the acoustics of a room. For percussion sounds.,2,22,REVERB1
+25,1,Reverb Block,36,Legacy,Room1,Reverb simulating the acoustics of a room.,2,16,REVERB1
+25,1,Reverb Block,37,Legacy,Room2,Reverb simulating the acoustics of a room.,2,17,REVERB1
+25,1,Reverb Block,38,Legacy,Room3,Reverb simulating the acoustics of a room.,2,18,REVERB1
+25,1,Reverb Block,39,Legacy,Room4,Reverb simulating the acoustics of a room.,2,19,REVERB1
+25,1,Reverb Block,40,Legacy,Room5,Reverb simulating the acoustics of a room.,2,0,REVERB1
+25,1,Reverb Block,41,Legacy,Room6,Reverb simulating the acoustics of a room.,2,1,REVERB1
+25,1,Reverb Block,42,Legacy,Room7,Reverb simulating the acoustics of a room.,2,2,REVERB1
+25,1,Reverb Block,43,Legacy,RoomS,Reverb simulating the acoustics of a room.,2,5,REVERB1
+25,1,Reverb Block,44,Legacy,RoomM,Reverb simulating the acoustics of a room.,2,6,REVERB1
+25,1,Reverb Block,45,Legacy,RoomL,Reverb simulating the acoustics of a room.,2,7,REVERB1
+25,1,Reverb Block,46,Legacy,WarmRoom,Reverb simulating the acoustics of a warm room.,2,3,REVERB2
+25,1,Reverb Block,47,Legacy,WhiteRoom,A unique short reverb with a bit of initial delay.,16,0,REVERB3
+25,1,Reverb Block,48,Legacy,WoodyRoom,Reverb simulating the acoustics of a wood-built room.,2,4,REVERB2
+25,1,Reverb Block,49,Legacy,Stage2,Reverb suitable for a solo instrument.,3,17,REVERB1
+25,1,Reverb Block,50,Legacy,Stage3,Reverb suitable for a solo instrument.,3,0,REVERB1
+25,1,Reverb Block,51,Legacy,Stage4,Reverb suitable for a solo instrument.,3,1,REVERB1
+25,1,Reverb Block,52,Legacy,Plate2,Reverb simulating a plate reverb unit.,4,17,REVERB1
+25,1,Reverb Block,53,Legacy,Plate3,Reverb simulating a plate reverb unit.,4,0,REVERB1
+25,1,Reverb Block,54,Legacy,GM Plate,Reverb simulating a plate reverb unit.,4,7,REVERB1
+25,1,Reverb Block,55,Legacy,RichPlate,Reverb simulating a rich plate reverb unit.,4,1,REVERB2
+25,1,Reverb Block,56,Legacy,Tunnel,Simulates a cylindrical space expanding to left and right.,17,0,REVERB3
+25,1,Reverb Block,57,Legacy,Canyon,A hypothetical acoustic space which extends without limit.,18,0,REVERB3
+25,1,Reverb Block,58,Legacy,Basement,A bit of initial delay followed by reverb with a unique resonance.,19,0,REVERB3
+25,1,Reverb Block,59,---,NoEffect,No effect.,0,0,NO EFFECT
+26,1,Chorus Block,1,Reverb,Hall1,Reverb simulating the acoustics of a hall.,1,0,REVERB1
+26,1,Chorus Block,2,Reverb,Hall2,Reverb simulating the acoustics of a hall.,1,16,REVERB1
+26,1,Chorus Block,3,Reverb,Hall3,Reverb simulating the acoustics of a hall.,1,17,REVERB1
+26,1,Chorus Block,4,Reverb,Hall4,Reverb simulating the acoustics of a hall.,1,18,REVERB1
+26,1,Chorus Block,5,Reverb,Hall5,Reverb simulating the acoustics of a hall.,1,1,REVERB1
+26,1,Chorus Block,6,Reverb,AcousticRoom,Reverb simulating the acoustics of a room. Standard setting.,2,20,REVERB1
+26,1,Chorus Block,7,Reverb,DrumsRoom,Reverb simulating the acoustics of a room. For drum sounds.,2,21,REVERB1
+26,1,Chorus Block,8,Reverb,Stage1,Reverb suitable for a solo instrument.,3,16,REVERB1
+26,1,Chorus Block,9,Reverb,Plate1,Reverb simulating a plate reverb unit.,4,16,REVERB1
+26,1,Chorus Block,10,Delay,TempoDelay1,Tempo-synchronized delay.,21,0,TEMPO DELAY
+26,1,Chorus Block,11,Delay,TempoDelay2,Tempo-synchronized delay.,21,16,TEMPO DELAY
+26,1,Chorus Block,12,Delay,TempoEcho,Tempo-synchronized echo.,21,8,TEMPO DELAY
+26,1,Chorus Block,13,Delay,TempoCross1,Tempo-synchronized cross delay.,22,0,TEMPO CROSS DELAY
+26,1,Chorus Block,14,Delay,TempoCross2,Tempo-synchronized cross delay.,22,16,TEMPO CROSS DELAY
+26,1,Chorus Block,15,Delay,TempoCross3,Tempo-synchronized cross delay.,22,17,TEMPO CROSS DELAY
+26,1,Chorus Block,16,Delay,TempoCross4,Tempo-synchronized cross delay.,22,18,TEMPO CROSS DELAY
+26,1,Chorus Block,17,Modulation,Chorus1,"Conventional chorus program with rich, warm chorusing.",66,17,CHORUS
+26,1,Chorus Block,18,Modulation,Chorus2,"Conventional chorus program with rich, warm chorusing.",66,8,CHORUS
+26,1,Chorus Block,19,Modulation,Symphonic1,Adds more stages to the modulation of Celeste.,68,16,SYMPHONIC
+26,1,Chorus Block,20,Modulation,Flanger1,Creates a sound similar to that of a jet airplane.,67,8,FLANGER
+26,1,Chorus Block,21,Modulation,TempoFlanger,Tempo-synchronized flanger.,107,0,TEMPO FLANGER
+26,1,Chorus Block,22,Modulation,Phaser1,Cyclically modulates the phase to add modulation to the sound.,72,0,PHASER1
+26,1,Chorus Block,23,Modulation,TempoPhaser1,Tempo-synchronized phaser.,108,0,TEMPO PHASER
+26,1,Chorus Block,24,Modulation,EP Phaser1,Cyclically modulates the phase to add modulation to the sound. For electric piano.,72,17,PHASER1
+26,1,Chorus Block,25,Modulation,DualRotBrt,Simulates a rotary speaker.,99,16,ROTARY SPEAKER1
+26,1,Chorus Block,26,Modulation,DualRotWarm,Simulates a rotary speaker.,99,17,ROTARY SPEAKER1
+26,1,Chorus Block,27,Modulation,RotarySp1,Simulates a rotary speaker.,69,16,ROTARY SPEAKER2
+26,1,Chorus Block,28,Modulation,Tremolo1,Rich Tremolo effect with both volume and pitch modulation.,70,16,TREMOLO
+26,1,Chorus Block,29,Modulation,EP Tremolo,Rich Tremolo effect with both volume and pitch modulation.,70,18,TREMOLO
+26,1,Chorus Block,30,Modulation,TempoTremolo,Tempo-synchronized rich Tremolo effect with both volume and pitch modulation.,120,0,TEMPO TREMOLO
+26,1,Chorus Block,31,Modulation,AutoPan1,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,16,AUTO PAN1
+26,1,Chorus Block,32,Modulation,TempoAtPan1,Tempo-synchronized auto pan.,121,0,TEMPO AUTO PAN1
+26,1,Chorus Block,33,Legacy,HallM,Reverb simulating the acoustics of a hall.,1,6,REVERB1
+26,1,Chorus Block,34,Legacy,HallL,Reverb simulating the acoustics of a hall.,1,7,REVERB1
+26,1,Chorus Block,35,Legacy,AtmoHall,A unique long reverb with atmosphere.,1,23,REVERB1
+26,1,Chorus Block,36,Legacy,PercRoom,Reverb simulating the acoustics of a room. For percussion sounds.,2,22,REVERB1
+26,1,Chorus Block,37,Legacy,Room1,Reverb simulating the acoustics of a room.,2,16,REVERB1
+26,1,Chorus Block,38,Legacy,Room2,Reverb simulating the acoustics of a room.,2,17,REVERB1
+26,1,Chorus Block,39,Legacy,Room3,Reverb simulating the acoustics of a room.,2,18,REVERB1
+26,1,Chorus Block,40,Legacy,Room4,Reverb simulating the acoustics of a room.,2,19,REVERB1
+26,1,Chorus Block,41,Legacy,Room5,Reverb simulating the acoustics of a room.,2,0,REVERB1
+26,1,Chorus Block,42,Legacy,Room6,Reverb simulating the acoustics of a room.,2,1,REVERB1
+26,1,Chorus Block,43,Legacy,Room7,Reverb simulating the acoustics of a room.,2,2,REVERB1
+26,1,Chorus Block,44,Legacy,RoomS,Reverb simulating the acoustics of a room.,2,5,REVERB1
+26,1,Chorus Block,45,Legacy,RoomM,Reverb simulating the acoustics of a room.,2,6,REVERB1
+26,1,Chorus Block,46,Legacy,RoomL,Reverb simulating the acoustics of a room.,2,7,REVERB1
+26,1,Chorus Block,47,Legacy,Stage2,Reverb suitable for a solo instrument.,3,17,REVERB1
+26,1,Chorus Block,48,Legacy,Stage3,Reverb suitable for a solo instrument.,3,0,REVERB1
+26,1,Chorus Block,49,Legacy,Stage4,Reverb suitable for a solo instrument.,3,1,REVERB1
+26,1,Chorus Block,50,Legacy,Plate2,Reverb simulating a plate reverb unit.,4,17,REVERB1
+26,1,Chorus Block,51,Legacy,Plate3,Reverb simulating a plate reverb unit.,4,0,REVERB1
+26,1,Chorus Block,52,Legacy,GM Plate,Reverb simulating a plate reverb unit.,4,7,REVERB1
+26,1,Chorus Block,53,Legacy,Karaoke1,Echo for karaoke.,20,0,KARAOKE
+26,1,Chorus Block,54,Legacy,Karaoke2,Echo for karaoke.,20,1,KARAOKE
+26,1,Chorus Block,55,Legacy,Karaoke3,Echo for karaoke.,20,2,KARAOKE
+26,1,Chorus Block,56,Legacy,EarlyRef1,This effect isolates only the early reflection components of the reverb.,9,0,EARLY REFLECTION
+26,1,Chorus Block,57,Legacy,EarlyRef2,This effect isolates only the early reflection components of the reverb.,9,1,EARLY REFLECTION
+26,1,Chorus Block,58,Legacy,Chorus3,"Conventional chorus program with rich, warm chorusing.",66,16,CHORUS
+26,1,Chorus Block,59,Legacy,Chorus4,"Conventional chorus program with rich, warm chorusing.",66,1,CHORUS
+26,1,Chorus Block,60,Legacy,Chorus5,"Conventional chorus program with rich, warm chorusing.",65,2,CHORUS
+26,1,Chorus Block,61,Legacy,Chorus6,"Conventional chorus program with rich, warm chorusing.",65,0,CHORUS
+26,1,Chorus Block,62,Legacy,Chorus7,"Conventional chorus program with rich, warm chorusing.",65,1,CHORUS
+26,1,Chorus Block,63,Legacy,Chorus8,"Conventional chorus program with rich, warm chorusing.",65,8,CHORUS
+27,1,Chorus Block,64,Legacy,ChorusFast,"Conventional chorus program with rich, warm chorusing.",65,16,CHORUS
+27,1,Chorus Block,65,Legacy,ChorusLite,"Conventional chorus program with rich, warm chorusing.",65,17,CHORUS
+27,1,Chorus Block,66,Legacy,GM Chorus1,"Conventional chorus program with rich, warm chorusing.",65,3,CHORUS
+27,1,Chorus Block,67,Legacy,GM Chorus2,"Conventional chorus program with rich, warm chorusing.",65,4,CHORUS
+27,1,Chorus Block,68,Legacy,GM Chorus3,"Conventional chorus program with rich, warm chorusing.",65,5,CHORUS
+27,1,Chorus Block,69,Legacy,GM Chorus4,"Conventional chorus program with rich, warm chorusing.",65,6,CHORUS
+27,1,Chorus Block,70,Legacy,FeedBkChorus,"Conventional chorus program with rich, warm chorusing.",65,7,CHORUS
+27,1,Chorus Block,71,Legacy,Celeste1,A 3-phase LFO adds modulation and spaciousness to the sound.,66,0,CHORUS
+27,1,Chorus Block,72,Legacy,Celeste2,A 3-phase LFO adds modulation and spaciousness to the sound.,66,2,CHORUS
+27,1,Chorus Block,73,Legacy,Symphonic2,Adds more stages to the modulation of Celeste.,68,0,SYMPHONIC
+27,1,Chorus Block,74,Legacy,EnsDetune1,"Chorus effect without modulation, created by adding a slightly pitch-shifted sound.",87,0,ENSEMBLE DETUNE
+27,1,Chorus Block,75,Legacy,EnsDetune2,"Chorus effect without modulation, created by adding a slightly pitch-shifted sound.",87,16,ENSEMBLE DETUNE
+27,1,Chorus Block,76,Legacy,Flanger2,Creates a sound similar to that of a jet airplane.,67,16,FLANGER
+27,1,Chorus Block,77,Legacy,Flanger3,Creates a sound similar to that of a jet airplane.,67,17,FLANGER
+27,1,Chorus Block,78,Legacy,Flanger4,Creates a sound similar to that of a jet airplane.,67,1,FLANGER
+27,1,Chorus Block,79,Legacy,Flanger5,Creates a sound similar to that of a jet airplane.,67,0,FLANGER
+27,1,Chorus Block,80,Legacy,GM Flanger,Creates a sound similar to that of a jet airplane.,67,7,FLANGER
+27,1,Chorus Block,81,Legacy,Phaser2,Cyclically modulates the phase to add modulation to the sound.,72,8,PHASER2
+27,1,Chorus Block,82,Legacy,Phaser3,Cyclically modulates the phase to add modulation to the sound.,72,19,PHASER2
+27,1,Chorus Block,83,Legacy,TempoPhaser2,Tempo-synchronized phaser.,108,16,TEMPO PHASER
+27,1,Chorus Block,84,Legacy,EP Phaser2,Cyclically modulates the phase to add modulation to the sound. For electric piano.,72,18,PHASER1
+27,1,Chorus Block,85,Legacy,EP Phaser3,Cyclically modulates the phase to add modulation to the sound. For electric piano.,72,16,PHASER1
+27,1,Chorus Block,86,Legacy,DualRotSp1,Simulates a rotary speaker.,99,0,ROTARY SPEAKER1
+27,1,Chorus Block,87,Legacy,DualRotSp2,Simulates a rotary speaker.,99,1,ROTARY SPEAKER1
+27,1,Chorus Block,88,Legacy,RotarySp2,Simulates a rotary speaker.,71,17,AUTO PAN1
+27,1,Chorus Block,89,Legacy,RotarySp3,Simulates a rotary speaker.,71,18,AUTO PAN1
+27,1,Chorus Block,90,Legacy,RotarySp4,Simulates a rotary speaker.,70,17,TREMOLO
+27,1,Chorus Block,91,Legacy,RotarySp5,Simulates a rotary speaker.,66,18,CHORUS
+27,1,Chorus Block,92,Legacy,RotarySp6,Simulates a rotary speaker.,69,0,ROTARY SPEAKER2
+27,1,Chorus Block,93,Legacy,RotarySp7,Simulates a rotary speaker.,71,22,AUTO PAN1
+27,1,Chorus Block,94,Legacy,2WayRotarySp,Simulates a rotary speaker.,86,0,2WAY ROTARY SPEAKER
+27,1,Chorus Block,95,Legacy,Tremolo2,Rich Tremolo effect with both volume and pitch modulation.,71,19,AUTO PAN1
+27,1,Chorus Block,96,Legacy,Tremolo3,Rich Tremolo effect with both volume and pitch modulation.,70,0,TREMOLO
+27,1,Chorus Block,97,Legacy,GtTremolo1,Rich Tremolo effect with both volume and pitch modulation.,71,20,AUTO PAN1
+27,1,Chorus Block,98,Legacy,GtTremolo2,Rich Tremolo effect with both volume and pitch modulation.,70,19,TREMOLO
+27,1,Chorus Block,99,Legacy,VibeRotor,Vibraphone effect.,119,0,VIBE VIBRATE
+27,1,Chorus Block,100,Legacy,AutoPan2,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,0,AUTO PAN1
+27,1,Chorus Block,101,Legacy,AutoPan3,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,1,AUTO PAN2
+27,1,Chorus Block,102,Legacy,EP AutoPan,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,21,AUTO PAN1
+27,1,Chorus Block,103,Legacy,TempoAtPan2,Tempo-synchronized auto pan.,121,1,TEMPO AUTO PAN2
+27,1,Chorus Block,104,Legacy,PitchChange1,Changes the pitch of the input signal.,80,16,PITCH CHANGE1
+27,1,Chorus Block,105,Legacy,PitchChange2,Changes the pitch of the input signal.,80,0,PITCH CHANGE1
+27,1,Chorus Block,106,Legacy,PitchChange3,Changes the pitch of the input signal.,80,1,PITCH CHANGE2
+27,1,Chorus Block,107,---,NoEffect,No effect.,0,0,NO EFFECT
+28,1,Variation/Insertion Block,1,Reverb,Hall1,Reverb simulating the acoustics of a hall.,1,0,REVERB1
+28,1,Variation/Insertion Block,2,Reverb,Hall2,Reverb simulating the acoustics of a hall.,1,16,REVERB1
+28,1,Variation/Insertion Block,3,Reverb,Hall3,Reverb simulating the acoustics of a hall.,1,17,REVERB1
+28,1,Variation/Insertion Block,4,Reverb,Hall4,Reverb simulating the acoustics of a hall.,1,18,REVERB1
+28,1,Variation/Insertion Block,5,Reverb,Hall5,Reverb simulating the acoustics of a hall.,1,1,REVERB1
+28,1,Variation/Insertion Block,6,Reverb,AcousticRoom,Reverb simulating the acoustics of a room. Standard setting.,2,20,REVERB1
+28,1,Variation/Insertion Block,7,Reverb,DrumsRoom,Reverb simulating the acoustics of a room. For drum sounds.,2,21,REVERB1
+28,1,Variation/Insertion Block,8,Reverb,Stage1,Reverb suitable for a solo instrument.,3,16,REVERB1
+28,1,Variation/Insertion Block,9,Reverb,Plate1,Reverb simulating a plate reverb unit.,4,16,REVERB1
+28,1,Variation/Insertion Block,10,Delay,DelayLCR1,"Produces three delayed sounds: L, R and C (center).",5,16,DELAY LCR
+28,1,Variation/Insertion Block,11,Delay,DelayLCR2,"Produces three delayed sounds: L, R and C (center).",5,0,DELAY LCR
+28,1,Variation/Insertion Block,12,Delay,DelayLR,Produces two delayed sounds: L and R. Two feedback delays are provided.,6,0,DELAY LR
+28,1,Variation/Insertion Block,13,Delay,Echo,"Two delayed sounds (L and R), and independent feedback delays for L and R.",7,0,ECHO
+28,1,Variation/Insertion Block,14,Delay,CrossDelay1,The feedback of the two delayed sounds is crossed.,8,0,CROSS DELAY
+28,1,Variation/Insertion Block,15,Delay,CrossDelay2,The feedback of the two delayed sounds is crossed.,8,16,CROSS DELAY
+28,1,Variation/Insertion Block,16,Delay,TempoDelay1,Tempo-synchronized delay.,21,0,TEMPO DELAY
+28,1,Variation/Insertion Block,17,Delay,TempoDelay2,Tempo-synchronized delay.,21,16,TEMPO DELAY
+28,1,Variation/Insertion Block,18,Delay,TempoEcho,Tempo-synchronized echo.,21,8,TEMPO DELAY
+28,1,Variation/Insertion Block,19,Delay,TempoCross1,Tempo-synchronized cross delay.,22,0,TEMPO CROSS DELAY
+28,1,Variation/Insertion Block,20,Delay,TempoCross2,Tempo-synchronized cross delay.,22,16,TEMPO CROSS DELAY
+28,1,Variation/Insertion Block,21,Delay,TempoCross3,Tempo-synchronized cross delay.,22,17,TEMPO CROSS DELAY
+28,1,Variation/Insertion Block,22,Delay,TempoCross4,Tempo-synchronized cross delay.,22,18,TEMPO CROSS DELAY
+28,1,Variation/Insertion Block,23,Distortion,MltDistSolo,Multi effector for guitar. Setting for guitar solo.,95,32,MULTI FX
+28,1,Variation/Insertion Block,24,Distortion,MltDistBasic,Multi effector for guitar. Setting for basic distortion.,95,33,MULTI FX
+28,1,Variation/Insertion Block,25,Distortion,MltOD Chorus,Multi effector for guitar. Setting for overdrive & chorus.,95,34,MULTI FX
+28,1,Variation/Insertion Block,26,Distortion,MltCrunchWah,Multi effector for guitar. Setting for crunch & wah.,95,35,MULTI FX
+28,1,Variation/Insertion Block,27,Distortion,MltOldDelay,Multi effector for guitar. Setting for vintage delay.,95,36,MULTI FX
+28,1,Variation/Insertion Block,28,Distortion,MltVintgEcho,Multi effector for guitar. Setting for vintage echo.,95,37,MULTI FX
+28,1,Variation/Insertion Block,29,Distortion,SmallStDist,Stereo distortion for guitar. Setting for distortion sound.,96,32,SMALL STEREO DIST
+28,1,Variation/Insertion Block,30,Distortion,SmallStOD,Stereo distortion for guitar. Setting for overdrive sound.,96,33,SMALL STEREO DIST
+28,1,Variation/Insertion Block,31,Distortion,SmallStVintg,Stereo distortion for guitar. Setting for vintage sound.,96,34,SMALL STEREO DIST
+28,1,Variation/Insertion Block,32,Distortion,SmallStHeavy,Stereo distortion for guitar. Setting for heavy sound.,96,35,SMALL STEREO DIST
+28,1,Variation/Insertion Block,33,Distortion,BCmbClassic,British combo amp simulator. Setting for classic sound.,97,32,BRITISH COMBO
+28,1,Variation/Insertion Block,34,Distortion,BCmbTopBst,British combo amp simulator. Setting for “TOP BOOST” sound.,97,33,BRITISH COMBO
+28,1,Variation/Insertion Block,35,Distortion,BCmbCustom,British combo amp simulator. Setting for custom sound.,97,34,BRITISH COMBO
+28,1,Variation/Insertion Block,36,Distortion,BCmbHeavy,British combo amp simulator. Setting for heavy sound.,97,35,BRITISH COMBO
+28,1,Variation/Insertion Block,37,Distortion,BLegndBlues,British stack amp simulator. Setting for blues sound.,98,32,BRITISH LEGEND
+28,1,Variation/Insertion Block,38,Distortion,BLegndHvy1,British stack amp simulator. Setting for heavy sound 1.,98,33,BRITISH LEGEND
+28,1,Variation/Insertion Block,39,Distortion,BLegndHvy2,British stack amp simulator. Setting for heavy sound 2.,98,34,BRITISH LEGEND
+28,1,Variation/Insertion Block,40,Distortion,BLegndClean,British stack amp simulator. Setting for clean sound.,98,35,BRITISH LEGEND
+28,1,Variation/Insertion Block,41,Distortion,BLegndDtCln,British stack amp simulator. Setting for crunch sound.,98,36,BRITISH LEGEND
+28,1,Variation/Insertion Block,42,Distortion,VDistCrunch,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,18,V DISTORTION
+28,1,Variation/Insertion Block,43,Distortion,VDistBlues,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,21,V DISTORTION
+28,1,Variation/Insertion Block,44,Distortion,StAmpSolid,Stereo amp simulator.,75,29,STEREO AMP SIMULATOR
+28,1,Variation/Insertion Block,45,Distortion,StAmpCrunch,Stereo amp simulator.,75,30,STEREO AMP SIMULATOR
+28,1,Variation/Insertion Block,46,Distortion,StAmpBlues,Stereo amp simulator.,75,28,STEREO AMP SIMULATOR
+28,1,Variation/Insertion Block,47,Distortion,VDistHd+Dly,V Distortion Hard and Delay are connected in series.,98,1,V DISTORTION DELAY
+28,1,Variation/Insertion Block,48,EQ & Comp,CompMed,Compressor with medium setting.,83,16,COMPRESSOR
+28,1,Variation/Insertion Block,49,EQ & Comp,CompHeavy,Compressor with heavy setting.,83,17,COMPRESSOR
+28,1,Variation/Insertion Block,50,EQ & Comp,CompMelody,Compressor for the Melody part.,105,16,MULTI BAND COMP
+28,1,Variation/Insertion Block,51,EQ & Comp,CompBass,Compressor for the Bass part.,105,17,MULTI BAND COMP
+28,1,Variation/Insertion Block,52,EQ & Comp,EQ Telephone,"Equalizer effect that cuts both high and low frequencies, to simulate the sound heard through a telephone receiver.",76,17,3BAND EQ
+28,1,Variation/Insertion Block,53,EQ & Comp,3BandEQ,"A mono EQ with adjustable LOW, MID, and HIGH equalization.",76,0,3BAND EQ
+28,1,Variation/Insertion Block,54,Modulation,Chorus1,"Conventional chorus program with rich, warm chorusing.",66,17,CHORUS
+28,1,Variation/Insertion Block,55,Modulation,Chorus2,"Conventional chorus program with rich, warm chorusing.",66,8,CHORUS
+28,1,Variation/Insertion Block,56,Modulation,Symphonic1,Adds more stages to the modulation of Celeste.,68,16,SYMPHONIC
+28,1,Variation/Insertion Block,57,Modulation,Flanger1,Creates a sound similar to that of a jet airplane.,67,8,FLANGER
+28,1,Variation/Insertion Block,58,Modulation,VFlanger,A simulation of an analog flanger effect. The LFO has a random setting.,104,0,V FLANGER
+28,1,Variation/Insertion Block,59,Modulation,TempoFlanger,Tempo-synchronized flanger.,107,0,TEMPO FLANGER
+28,1,Variation/Insertion Block,60,Modulation,Phaser1,Cyclically modulates the phase to add modulation to the sound.,72,0,PHASER1
+28,1,Variation/Insertion Block,61,Modulation,TempoPhaser1,Tempo-synchronized phaser.,108,0,TEMPO PHASER
+28,1,Variation/Insertion Block,62,Modulation,EP Phaser1,Cyclically modulates the phase to add modulation to the sound. For electric piano.,72,17,PHASER1
+28,1,Variation/Insertion Block,63,Modulation,AutoWah1,Cyclically modulates the center frequency of a wah filter.,78,16,AUTO WAH
+28,1,Variation/Insertion Block,64,Modulation,AtWah+Dist1,Distortion can be applied to the output of Auto Wah.,78,17,AUTO WAH DISTORTION
+28,1,Variation/Insertion Block,65,Modulation,TempoAutoWah,Tempo-synchronized Auto Wah.,79,0,TEMPO AUTO WAH1
+28,1,Variation/Insertion Block,66,Modulation,TouchWah1,Changes the center frequency of a wah filter according to the input level.,82,0,TOUCH WAH1
+29,1,Variation/Insertion Block,67,Modulation,TcWah+Dist1,Distortion can be applied to the output of Touch Wah.,82,16,TOUCH WAH1
+29,1,Variation/Insertion Block,68,Modulation,PedalWah,Changes the center frequency of a wah filter according to “Pedal Control” parameter. (See Effect Parameter List.),122,0,PEDAL WAH1
+29,1,Variation/Insertion Block,69,Modulation,PWah+Dist,Distortion can be applied to the output of Pedal Wah.,122,1,PEDAL WAH2
+29,1,Variation/Insertion Block,70,Modulation,DualRotBrt,Simulates a rotary speaker.,99,16,ROTARY SPEAKER1
+29,1,Variation/Insertion Block,71,Modulation,DualRotWarm,Simulates a rotary speaker.,99,17,ROTARY SPEAKER1
+29,1,Variation/Insertion Block,72,Modulation,RotarySp1,Simulates a rotary speaker.,69,16,ROTARY SPEAKER2
+29,1,Variation/Insertion Block,73,Modulation,Tremolo1,Rich Tremolo effect with both volume and pitch modulation.,70,16,TREMOLO
+29,1,Variation/Insertion Block,74,Modulation,EP Tremolo,Rich Tremolo effect with both volume and pitch modulation.,70,18,TREMOLO
+29,1,Variation/Insertion Block,75,Modulation,TempoTremolo,Tempo-synchronized rich Tremolo effect with both volume and pitch modulation.,120,0,TEMPO TREMOLO
+29,1,Variation/Insertion Block,76,Modulation,AutoPan1,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,16,AUTO PAN1
+29,1,Variation/Insertion Block,77,Modulation,TempoAtPan1,Tempo-synchronized auto pan.,121,0,TEMPO AUTO PAN1
+29,1,Variation/Insertion Block,78,Misc,LoopFX1,Degrades the audio quality of the input signal.,94,16,LO FI
+29,1,Variation/Insertion Block,79,Misc,LoopFX2,Degrades the audio quality of the input signal.,94,17,LO FI
+29,1,Variation/Insertion Block,80,Misc,Lo-FiDrum1,Degrades the audio quality of the input signal. Ideal for drum sounds.,94,18,LO FI
+29,1,Variation/Insertion Block,81,Misc,Lo-FiDrum2,Degrades the audio quality of the input signal. Ideal for drum sounds.,94,19,LO FI
+29,1,Variation/Insertion Block,82,Misc,Lo-FiDrum3,Degrades the audio quality of the input signal. Ideal for drum sounds.,76,19,3BAND EQ
+29,1,Variation/Insertion Block,83,Misc,Lo-FiDrum4,Degrades the audio quality of the input signal. Ideal for drum sounds.,76,20,3BAND EQ
+29,1,Variation/Insertion Block,84,Legacy,HallM,Reverb simulating the acoustics of a hall.,1,6,REVERB1
+29,1,Variation/Insertion Block,85,Legacy,HallL,Reverb simulating the acoustics of a hall.,1,7,REVERB1
+29,1,Variation/Insertion Block,86,Legacy,AtmoHall,A unique long reverb with atmosphere.,1,23,REVERB1
+29,1,Variation/Insertion Block,87,Legacy,PercRoom,Reverb simulating the acoustics of a room. For percussion sounds.,2,22,REVERB1
+29,1,Variation/Insertion Block,88,Legacy,Room1,Reverb simulating the acoustics of a room.,2,16,REVERB1
+29,1,Variation/Insertion Block,89,Legacy,Room2,Reverb simulating the acoustics of a room.,2,17,REVERB1
+29,1,Variation/Insertion Block,90,Legacy,Room3,Reverb simulating the acoustics of a room.,2,18,REVERB1
+29,1,Variation/Insertion Block,91,Legacy,Room4,Reverb simulating the acoustics of a room.,2,19,REVERB1
+29,1,Variation/Insertion Block,92,Legacy,Room5,Reverb simulating the acoustics of a room.,2,0,REVERB1
+29,1,Variation/Insertion Block,93,Legacy,Room6,Reverb simulating the acoustics of a room.,2,1,REVERB1
+29,1,Variation/Insertion Block,94,Legacy,Room7,Reverb simulating the acoustics of a room.,2,2,REVERB1
+29,1,Variation/Insertion Block,95,Legacy,RoomS,Reverb simulating the acoustics of a room.,2,5,REVERB1
+29,1,Variation/Insertion Block,96,Legacy,RoomM,Reverb simulating the acoustics of a room.,2,6,REVERB1
+29,1,Variation/Insertion Block,97,Legacy,RoomL,Reverb simulating the acoustics of a room.,2,7,REVERB1
+29,1,Variation/Insertion Block,98,Legacy,WhiteRoom,A unique short reverb with a bit of initial delay.,16,0,REVERB3
+29,1,Variation/Insertion Block,99,Legacy,Stage2,Reverb suitable for a solo instrument.,3,17,REVERB1
+29,1,Variation/Insertion Block,100,Legacy,Stage3,Reverb suitable for a solo instrument.,3,0,REVERB1
+29,1,Variation/Insertion Block,101,Legacy,Stage4,Reverb suitable for a solo instrument.,3,1,REVERB1
+29,1,Variation/Insertion Block,102,Legacy,Plate2,Reverb simulating a plate reverb unit.,4,17,REVERB1
+29,1,Variation/Insertion Block,103,Legacy,Plate3,Reverb simulating a plate reverb unit.,4,0,REVERB1
+29,1,Variation/Insertion Block,104,Legacy,GM Plate,Reverb simulating a plate reverb unit.,4,7,REVERB1
+29,1,Variation/Insertion Block,105,Legacy,Tunnel,Simulates a cylindrical space expanding to left and right.,17,0,REVERB3
+29,1,Variation/Insertion Block,106,Legacy,Canyon,A hypothetical acoustic space which extends without limit.,18,0,REVERB3
+29,1,Variation/Insertion Block,107,Legacy,Basement,A bit of initial delay followed by reverb with a unique resonance.,19,0,REVERB3
+29,1,Variation/Insertion Block,108,Legacy,Karaoke1,Echo for karaoke.,20,0,KARAOKE
+29,1,Variation/Insertion Block,109,Legacy,Karaoke2,Echo for karaoke.,20,1,KARAOKE
+29,1,Variation/Insertion Block,110,Legacy,Karaoke3,Echo for karaoke.,20,2,KARAOKE
+29,1,Variation/Insertion Block,111,Legacy,EarlyRef1,This effect isolates only the early reflection components of the reverb.,9,0,EARLY REFLECTION
+29,1,Variation/Insertion Block,112,Legacy,EarlyRef2,This effect isolates only the early reflection components of the reverb.,9,1,EARLY REFLECTION
+29,1,Variation/Insertion Block,113,Legacy,GateReverb1,Simulation of gated reverb.,10,0,GATE REVERB
+29,1,Variation/Insertion Block,114,Legacy,GateReverb2,Simulation of gated reverb.,10,16,GATE REVERB
+29,1,Variation/Insertion Block,115,Legacy,ReverseGate,Simulation of gated reverb played back in reverse.,11,0,GATE REVERB
+29,1,Variation/Insertion Block,116,Legacy,VDistWarm,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,22,V DISTORTION
+29,1,Variation/Insertion Block,117,Legacy,VDistClsHd,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,23,V DISTORTION
+29,1,Variation/Insertion Block,118,Legacy,VDistClsSft,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,20,V DISTORTION
+29,1,Variation/Insertion Block,119,Legacy,VDistMetal,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,24,V DISTORTION
+29,1,Variation/Insertion Block,120,Legacy,VDistEdgy,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,19,V DISTORTION
+29,1,Variation/Insertion Block,121,Legacy,VDistSolid,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,25,V DISTORTION
+29,1,Variation/Insertion Block,122,Legacy,VDistClean1,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,17,V DISTORTION
+29,1,Variation/Insertion Block,123,Legacy,VDistClean2,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,26,V DISTORTION
+29,1,Variation/Insertion Block,124,Legacy,VDistTwin,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,16,V DISTORTION
+29,1,Variation/Insertion Block,125,Legacy,VDistRockbly,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",103,18,V DIST TEMPO DELAY
+29,1,Variation/Insertion Block,126,Legacy,VDistJzCln,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,27,V DISTORTION
+29,1,Variation/Insertion Block,127,Legacy,VDistFusion,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",103,19,V DIST TEMPO DELAY
+29,1,Variation/Insertion Block,128,Legacy,VDistHard,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,0,V DISTORTION
+29,1,Variation/Insertion Block,129,Legacy,VDistSoft,"Distortion which simulates the sound of a vintage tube, fuzz effect, etc.",98,2,V DISTORTION
+29,1,Variation/Insertion Block,130,Legacy,StAmpClean,Stereo amp simulator.,75,27,STEREO AMP SIMULATOR
+29,1,Variation/Insertion Block,131,Legacy,StAmpHarp,Stereo amp simulator.,75,31,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,132,Legacy,DistHard1,Hard-edge distortion.,75,16,AMP SIMULATOR1
+30,1,Variation/Insertion Block,133,Legacy,DistHard2,Hard-edge distortion.,75,22,AMP SIMULATOR1
+30,1,Variation/Insertion Block,134,Legacy,DistSoft1,"Soft, warm distortion.",75,17,AMP SIMULATOR1
+30,1,Variation/Insertion Block,135,Legacy,DistSoft2,"Soft, warm distortion.",75,23,AMP SIMULATOR1
+30,1,Variation/Insertion Block,136,Legacy,DistHeavy,Heavy distortion.,73,0,DISTORTION
+30,1,Variation/Insertion Block,137,Legacy,Overdrive,Adds mild distortion to the sound.,74,0,DISTORTION
+30,1,Variation/Insertion Block,138,Legacy,StDistortion,Stereo distortion.,73,8,STEREO DISTORTION
+30,1,Variation/Insertion Block,139,Legacy,StOverdrive,Stereo overdrive.,74,8,STEREO DISTORTION
+30,1,Variation/Insertion Block,140,Legacy,StDistHard,Hard-edge stereo distortion.,75,18,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,141,Legacy,StDistSoft,"Soft, warm soft distortion.",75,19,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,142,Legacy,AmpSim1,A simulation of a guitar amp.,75,0,AMP SIMULATOR1
+30,1,Variation/Insertion Block,143,Legacy,AmpSim2,A simulation of a guitar amp.,75,1,AMP SIMULATOR2
+30,1,Variation/Insertion Block,144,Legacy,StAmpSim1,Stereo amp simulator.,75,20,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,145,Legacy,StAmpSim2,Stereo amp simulator.,75,21,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,146,Legacy,StAmpSim3,Stereo amp simulator.,75,8,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,147,Legacy,StAmpSim4,Stereo amp simulator.,75,24,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,148,Legacy,StAmpSim5,Stereo amp simulator.,75,25,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,149,Legacy,StAmpSim6,Stereo amp simulator.,75,26,STEREO AMP SIMULATOR
+30,1,Variation/Insertion Block,150,Legacy,Dist+Delay1,Distortion and Delay are connected in series.,95,16,DISTORTION DELAY
+30,1,Variation/Insertion Block,151,Legacy,Dist+Delay2,Distortion and Delay are connected in series.,95,0,DISTORTION DELAY
+30,1,Variation/Insertion Block,152,Legacy,OD+Delay1,Overdrive and Delay are connected in series.,95,17,DISTORTION DELAY
+30,1,Variation/Insertion Block,153,Legacy,OD+Delay2,Overdrive and Delay are connected in series.,95,1,DISTORTION DELAY
+30,1,Variation/Insertion Block,154,Legacy,Cmp+Dst+Dly1,"Compressor, Distortion and Delay are connected in series.",96,16,COMP DIST DELAY
+30,1,Variation/Insertion Block,155,Legacy,Cmp+Dst+Dly2,"Compressor, Distortion and Delay are connected in series.",96,0,COMP DIST DELAY
+30,1,Variation/Insertion Block,156,Legacy,Cmp+OD+Dly1,"Compressor, Overdrive and Delay are connected in series.",96,17,COMP DIST DELAY
+30,1,Variation/Insertion Block,157,Legacy,Cmp+OD+Dly2,"Compressor, Overdrive and Delay are connected in series.",96,1,COMP DIST DELAY
+30,1,Variation/Insertion Block,158,Legacy,VDistS+Dly,V Distortion Soft and Delay are connected in series.,98,3,V DISTORTION DELAY
+30,1,Variation/Insertion Block,159,Legacy,VDistH+TDly1,V Distortion Hard and Tempo Delay are connected in series.,103,0,V DIST TEMPO DELAY
+30,1,Variation/Insertion Block,160,Legacy,VDistH+TDly2,V Distortion Hard and Tempo Delay are connected in series.,103,17,V DIST TEMPO DELAY
+30,1,Variation/Insertion Block,161,Legacy,VDistS+TDly1,V Distortion Soft and Tempo Delay are connected in series.,103,1,V DIST TEMPO DELAY
+30,1,Variation/Insertion Block,162,Legacy,VDistS+TDly2,V Distortion Soft and Tempo Delay are connected in series.,103,16,V DIST TEMPO DELAY
+30,1,Variation/Insertion Block,163,Legacy,Dst+TmpDelay,Distortion and Tempo Delay are connected in series.,100,0,DIST TEMPO DELAY
+30,1,Variation/Insertion Block,164,Legacy,OD+TmpDelay,Overdrive and Tempo Delay are connected in series.,100,1,DIST TEMPO DELAY
+30,1,Variation/Insertion Block,165,Legacy,Comp+Dist1,"Since a Compressor is included in the first stage, steady distortion can be produced regardless of changes in input level.",73,16,COMP DISTORTION
+30,1,Variation/Insertion Block,166,Legacy,Comp+Dist2,"Since a Compressor is included in the first stage, steady distortion can be produced regardless of changes in input level.",73,1,COMP DISTORTION
+30,1,Variation/Insertion Block,167,Legacy,Cmp+Dst+TDly,"Compressor, Distortion and Tempo Delay are connected in series.",101,0,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,168,Legacy,Cmp+OD+TDly1,"Compressor, Overdrive and Tempo Delay are connected in series.",101,1,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,169,Legacy,Cmp+OD+TDly2,"Compressor, Overdrive and Tempo Delay are connected in series.",101,16,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,170,Legacy,Cmp+OD+TDly3,"Compressor, Overdrive and Tempo Delay are connected in series.",101,17,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,171,Legacy,Cmp+OD+TDly4,"Compressor, Overdrive and Tempo Delay are connected in series.",101,18,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,172,Legacy,Cmp+OD+TDly5,"Compressor, Overdrive and Tempo Delay are connected in series.",101,19,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,173,Legacy,Cmp+OD+TDly6,"Compressor, Overdrive and Tempo Delay are connected in series.",101,20,COMP DIST TEMPO DELAY
+30,1,Variation/Insertion Block,174,Legacy,MltBandComp,Multi-band compressor that allows you to adjust the compression effect for individual frequency bands.,105,0,MULTI BAND COMP
+30,1,Variation/Insertion Block,175,Legacy,Compressor,Holds down the output level when a specified input level is exceeded. A sense of attack can also be added to the sound.,83,0,COMPRESSOR
+30,1,Variation/Insertion Block,176,Legacy,NoiseGate,Gates the input when the input signal falls below a specified level.,84,0,NOISE GATE
+30,1,Variation/Insertion Block,177,Legacy,EQ Disco,"Equalizer effect that boosts both high and low frequencies, as is typical in most disco music.",76,16,3BAND EQ
+30,1,Variation/Insertion Block,178,Legacy,2BandEQ,A stereo EQ with adjustable LOW and HIGH. Ideal for drum Parts.,77,0,2BAND EQ
+30,1,Variation/Insertion Block,179,Legacy,St3BandEQ,"A stereo EQ with adjustable LOW, MID, and HIGH equalization.",76,18,3BAND EQ
+30,1,Variation/Insertion Block,180,Legacy,HmEnhance1,Adds new harmonics to the input signal to make the sound stand out.,81,16,HARMONIC ENHANCER
+30,1,Variation/Insertion Block,181,Legacy,HmEnhance2,Adds new harmonics to the input signal to make the sound stand out.,81,0,HARMONIC ENHANCER
+30,1,Variation/Insertion Block,182,Legacy,Isolator,Controls the level of a specified frequency band of the input signal.,115,0,ISOLATOR
+30,1,Variation/Insertion Block,183,Legacy,Chorus3,"Conventional chorus program with rich, warm chorusing.",66,16,CHORUS
+30,1,Variation/Insertion Block,184,Legacy,Chorus4,"Conventional chorus program with rich, warm chorusing.",66,1,CHORUS
+30,1,Variation/Insertion Block,185,Legacy,Chorus5,"Conventional chorus program with rich, warm chorusing.",65,2,CHORUS
+30,1,Variation/Insertion Block,186,Legacy,Chorus6,"Conventional chorus program with rich, warm chorusing.",65,0,CHORUS
+30,1,Variation/Insertion Block,187,Legacy,Chorus7,"Conventional chorus program with rich, warm chorusing.",65,1,CHORUS
+30,1,Variation/Insertion Block,188,Legacy,Chorus8,"Conventional chorus program with rich, warm chorusing.",65,8,CHORUS
+30,1,Variation/Insertion Block,189,Legacy,ChorusFast,"Conventional chorus program with rich, warm chorusing.",65,16,CHORUS
+30,1,Variation/Insertion Block,190,Legacy,ChorusLite,"Conventional chorus program with rich, warm chorusing.",65,17,CHORUS
+30,1,Variation/Insertion Block,191,Legacy,GM Chorus1,"Conventional chorus program with rich, warm chorusing.",65,3,CHORUS
+30,1,Variation/Insertion Block,192,Legacy,GM Chorus2,"Conventional chorus program with rich, warm chorusing.",65,4,CHORUS
+30,1,Variation/Insertion Block,193,Legacy,GM Chorus3,"Conventional chorus program with rich, warm chorusing.",65,5,CHORUS
+30,1,Variation/Insertion Block,194,Legacy,GM Chorus4,"Conventional chorus program with rich, warm chorusing.",65,6,CHORUS
+30,1,Variation/Insertion Block,195,Legacy,FeedBkChorus,"Conventional chorus program with rich, warm chorusing.",65,7,CHORUS
+30,1,Variation/Insertion Block,196,Legacy,Celeste1,A 3-phase LFO adds modulation and spaciousness to the sound.,66,0,CHORUS
+30,1,Variation/Insertion Block,197,Legacy,Celeste2,A 3-phase LFO adds modulation and spaciousness to the sound.,66,2,CHORUS
+31,1,Variation/Insertion Block,198,Legacy,Symphonic2,Adds more stages to the modulation of Celeste.,68,0,SYMPHONIC
+31,1,Variation/Insertion Block,199,Legacy,EnsDetune1,"Chorus effect without modulation, created by adding a slightly pitch-shifted sound.",87,0,ENSEMBLE DETUNE
+31,1,Variation/Insertion Block,200,Legacy,EnsDetune2,"Chorus effect without modulation, created by adding a slightly pitch-shifted sound.",87,16,ENSEMBLE DETUNE
+31,1,Variation/Insertion Block,201,Legacy,AmbiChorus,Chorus which added early reflection sound.,65,9,AMBIENCE CHORUS
+31,1,Variation/Insertion Block,202,Legacy,AmbiCeleste,Celeste which added early reflection sound.,66,9,AMBIENCE CHORUS
+31,1,Variation/Insertion Block,203,Legacy,AmbiSympho,Symphonic which added early reflection sound.,68,9,AMBIENCE SYMPHONIC
+31,1,Variation/Insertion Block,204,Legacy,Flanger2,Creates a sound similar to that of a jet airplane.,67,16,FLANGER
+31,1,Variation/Insertion Block,205,Legacy,Flanger3,Creates a sound similar to that of a jet airplane.,67,17,FLANGER
+31,1,Variation/Insertion Block,206,Legacy,Flanger4,Creates a sound similar to that of a jet airplane.,67,1,FLANGER
+31,1,Variation/Insertion Block,207,Legacy,Flanger5,Creates a sound similar to that of a jet airplane.,67,0,FLANGER
+31,1,Variation/Insertion Block,208,Legacy,GM Flanger,Creates a sound similar to that of a jet airplane.,67,7,FLANGER
+31,1,Variation/Insertion Block,209,Legacy,DynFlanger,Dynamically controlled flanger.,110,0,DYNAMIC FLANGER
+31,1,Variation/Insertion Block,210,Legacy,AmbiFlanger,Flanger which added early reflection sound.,67,9,AMBIENCE FLANGER
+31,1,Variation/Insertion Block,211,Legacy,Phaser2,Cyclically modulates the phase to add modulation to the sound.,72,8,PHASER2
+31,1,Variation/Insertion Block,212,Legacy,Phaser3,Cyclically modulates the phase to add modulation to the sound.,72,19,PHASER2
+31,1,Variation/Insertion Block,213,Legacy,TempoPhaser2,Tempo-synchronized phaser.,108,16,TEMPO PHASER
+31,1,Variation/Insertion Block,214,Legacy,EP Phaser2,Cyclically modulates the phase to add modulation to the sound. For electric piano.,72,18,PHASER1
+31,1,Variation/Insertion Block,215,Legacy,EP Phaser3,Cyclically modulates the phase to add modulation to the sound. For electric piano.,72,16,PHASER1
+31,1,Variation/Insertion Block,216,Legacy,DynPhaser,Dynamically controlled phaser.,111,0,DYNAMIC PHASER
+31,1,Variation/Insertion Block,217,Legacy,AutoWah2,Cyclically modulates the center frequency of a wah filter.,78,0,AUTO WAH
+31,1,Variation/Insertion Block,218,Legacy,AtWah+Dist2,Distortion can be applied to the output of Auto Wah.,78,1,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,219,Legacy,AtWah+DistHd,Distortion can be applied to the output of Auto Wah.,78,21,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,220,Legacy,AtWah+DistHv,Distortion can be applied to the output of Auto Wah.,78,23,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,221,Legacy,AtWah+DistLt,Distortion can be applied to the output of Auto Wah.,78,25,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,222,Legacy,AtWah+OD1,Overdrive distortion can be applied to the output of Auto Wah.,78,18,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,223,Legacy,AtWah+OD2,Overdrive distortion can be applied to the output of Auto Wah.,78,2,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,224,Legacy,AtWah+OD Hd,Overdrive distortion can be applied to the output of Auto Wah.,78,22,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,225,Legacy,AtWah+OD Hv,Overdrive distortion can be applied to the output of Auto Wah.,78,24,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,226,Legacy,AtWah+OD Lt,Overdrive distortion can be applied to the output of Auto Wah.,78,26,AUTO WAH DISTORTION
+31,1,Variation/Insertion Block,227,Legacy,T.AtWh+Dst,Tempo-synchronized Auto Wah. Distortion can be applied to the output.,79,1,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,228,Legacy,T.AtWh+DstHd,Tempo-synchronized Auto Wah. Distortion can be applied to the output.,79,21,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,229,Legacy,T.AtWh+DstHv,Tempo-synchronized Auto Wah. Distortion can be applied to the output.,79,23,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,230,Legacy,T.AtWh+DstLt,Tempo-synchronized Auto Wah. Distortion can be applied to the output.,79,25,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,231,Legacy,T.AtWah+OD,Tempo-synchronized Auto Wah. Overdrive distortion can be applied to the output.,79,2,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,232,Legacy,T.AtWah+ODHd,Tempo-synchronized Auto Wah. Overdrive distortion can be applied to the output.,79,22,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,233,Legacy,T.AtWah+ODHv,Tempo-synchronized Auto Wah. Overdrive distortion can be applied to the output.,79,24,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,234,Legacy,T.AtWah+ODLt,Tempo-synchronized Auto Wah. Overdrive distortion can be applied to the output.,79,26,TEMPO AUTO WAH2
+31,1,Variation/Insertion Block,235,Legacy,TouchWah2,Changes the center frequency of a wah filter according to the input level.,82,8,TOUCH WAH2
+31,1,Variation/Insertion Block,236,Legacy,TouchWah3,Changes the center frequency of a wah filter according to the input level.,82,20,TOUCH WAH2
+31,1,Variation/Insertion Block,237,Legacy,TcWah+Dist2,Distortion can be applied to the output of Touch Wah.,82,1,TOUCH WAH1
+31,1,Variation/Insertion Block,238,Legacy,TcWah+DistHd,Distortion can be applied to the output of Touch Wah.,82,21,TOUCH WAH2
+31,1,Variation/Insertion Block,239,Legacy,TcWah+DistHv,Distortion can be applied to the output of Touch Wah.,82,23,TOUCH WAH2
+31,1,Variation/Insertion Block,240,Legacy,TcWah+DistLt,Distortion can be applied to the output of Touch Wah.,82,25,TOUCH WAH2
+31,1,Variation/Insertion Block,241,Legacy,TcWah+OD1,Overdrive distortion can be applied to the output of Touch Wah.,82,17,TOUCH WAH2
+31,1,Variation/Insertion Block,242,Legacy,TcWah+OD2,Overdrive distortion can be applied to the output of Touch Wah.,82,2,TOUCH WAH2
+31,1,Variation/Insertion Block,243,Legacy,TcWah+OD Hd,Overdrive distortion can be applied to the output of Touch Wah.,82,22,TOUCH WAH2
+31,1,Variation/Insertion Block,244,Legacy,TcWah+OD Hv,Overdrive distortion can be applied to the output of Touch Wah.,82,24,TOUCH WAH2
+31,1,Variation/Insertion Block,245,Legacy,TcWah+OD Lt,Overdrive distortion can be applied to the output of Touch Wah.,82,26,TOUCH WAH2
+31,1,Variation/Insertion Block,246,Legacy,Wah+Dst+Dly1,"Wah, Distortion and Delay are connected in series.",97,16,WAH DISTORTION DELAY
+31,1,Variation/Insertion Block,247,Legacy,Wah+Dst+Dly2,"Wah, Distortion and Delay are connected in series.",97,0,WAH DISTORTION DELAY
+31,1,Variation/Insertion Block,248,Legacy,Wah+Dst+TDly,"Wah, Distortion and Tempo Delay are connected in series.",102,0,WAH DIST TEMPO DELAY
+31,1,Variation/Insertion Block,249,Legacy,Wah+OD+Dly1,"Wah, Overdrive and Delay are connected in series.",97,17,WAH DISTORTION DELAY
+31,1,Variation/Insertion Block,250,Legacy,Wah+OD+Dly2,"Wah, Overdrive and Delay are connected in series.",97,1,WAH DISTORTION DELAY
+31,1,Variation/Insertion Block,251,Legacy,Wah+OD+TDly1,"Wah, Overdrive and Tempo Delay are connected in series.",102,1,WAH DIST TEMPO DELAY
+31,1,Variation/Insertion Block,252,Legacy,Wah+OD+TDly2,"Wah, Overdrive and Tempo Delay are connected in series.",102,16,WAH DIST TEMPO DELAY
+31,1,Variation/Insertion Block,253,Legacy,ClaviTcWah,Clavinet Touch Wah,82,18,TOUCH WAH2
+31,1,Variation/Insertion Block,254,Legacy,EP TcWah,EP Touch Wah,82,19,TOUCH WAH2
+31,1,Variation/Insertion Block,255,Legacy,PWah+DistHd,Distortion can be applied to the output of Pedal Wah.,122,21,PEDAL WAH2
+31,1,Variation/Insertion Block,256,Legacy,PWah+DistHv,Distortion can be applied to the output of Pedal Wah.,122,23,PEDAL WAH2
+31,1,Variation/Insertion Block,257,Legacy,PWah+DistLt,Distortion can be applied to the output of Pedal Wah.,122,25,PEDAL WAH2
+31,1,Variation/Insertion Block,258,Legacy,PWah+OD,Overdrive distortion can be applied to the output of Pedal Wah.,122,2,PEDAL WAH2
+31,1,Variation/Insertion Block,259,Legacy,PWah+OD Hd,Overdrive distortion can be applied to the output of Pedal Wah.,122,22,PEDAL WAH2
+31,1,Variation/Insertion Block,260,Legacy,PWah+OD Hv,Overdrive distortion can be applied to the output of Pedal Wah.,122,24,PEDAL WAH2
+31,1,Variation/Insertion Block,261,Legacy,PWah+OD Lt,Overdrive distortion can be applied to the output of Pedal Wah.,122,26,PEDAL WAH2
+32,1,Variation/Insertion Block,262,Legacy,DualRotSp1,Simulates a rotary speaker.,99,0,ROTARY SPEAKER1
+32,1,Variation/Insertion Block,263,Legacy,DualRotSp2,Simulates a rotary speaker.,99,1,ROTARY SPEAKER1
+32,1,Variation/Insertion Block,264,Legacy,RotarySp2,Simulates a rotary speaker.,71,17,AUTO PAN1
+32,1,Variation/Insertion Block,265,Legacy,RotarySp3,Simulates a rotary speaker.,71,18,AUTO PAN1
+32,1,Variation/Insertion Block,266,Legacy,RotarySp4,Simulates a rotary speaker.,70,17,TREMOLO
+32,1,Variation/Insertion Block,267,Legacy,RotarySp5,Simulates a rotary speaker.,66,18,CHORUS
+32,1,Variation/Insertion Block,268,Legacy,RotarySp6,Simulates a rotary speaker.,69,0,ROTARY SPEAKER2
+32,1,Variation/Insertion Block,269,Legacy,RotarySp7,Simulates a rotary speaker.,71,22,AUTO PAN1
+32,1,Variation/Insertion Block,270,Legacy,2WayRotarySp,Simulates a rotary speaker.,86,0,2WAY ROTARY SPEAKER
+32,1,Variation/Insertion Block,271,Legacy,Dist+RotSp,Distortion and rotary speaker connected in series.,69,1,DIST ROTARY SPEAKER
+32,1,Variation/Insertion Block,272,Legacy,Dist+2RotSp,Distortion and 2-way rotary speaker connected in series.,86,1,DIST 2WAY ROTARY SP
+32,1,Variation/Insertion Block,273,Legacy,OD+RotarySp,Overdrive and rotary speaker connected in series.,69,2,DIST ROTARY SPEAKER
+32,1,Variation/Insertion Block,274,Legacy,OD+2RotarySp,Overdrive and 2-way rotary speaker connected in series.,86,2,DIST 2WAY ROTARY SP
+32,1,Variation/Insertion Block,275,Legacy,Amp+RotSp,Amp simulator and rotary speaker connected in series.,69,3,AMP ROTARY SPEAKER
+32,1,Variation/Insertion Block,276,Legacy,Amp+2RotSp,Amp simulator and 2-way rotary speaker connected in series.,86,3,AMP 2WAY ROTARY SP
+32,1,Variation/Insertion Block,277,Legacy,Tremolo2,Rich Tremolo effect with both volume and pitch modulation.,71,19,AUTO PAN1
+32,1,Variation/Insertion Block,278,Legacy,Tremolo3,Rich Tremolo effect with both volume and pitch modulation.,70,0,TREMOLO
+32,1,Variation/Insertion Block,279,Legacy,GtTremolo1,Rich Tremolo effect with both volume and pitch modulation.,71,20,AUTO PAN1
+32,1,Variation/Insertion Block,280,Legacy,GtTremolo2,Rich Tremolo effect with both volume and pitch modulation.,70,19,TREMOLO
+32,1,Variation/Insertion Block,281,Legacy,VibeRotor,Vibraphone effect.,119,0,VIBE VIBRATE
+32,1,Variation/Insertion Block,282,Legacy,AutoPan2,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,0,AUTO PAN1
+32,1,Variation/Insertion Block,283,Legacy,AutoPan3,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,1,AUTO PAN2
+32,1,Variation/Insertion Block,284,Legacy,EP AutoPan,"Several panning effects that automatically shift the sound position (left, right, front, back).",71,21,AUTO PAN1
+32,1,Variation/Insertion Block,285,Legacy,TempoAtPan2,Tempo-synchronized auto pan.,121,1,TEMPO AUTO PAN2
+32,1,Variation/Insertion Block,286,Legacy,PitchChange1,Changes the pitch of the input signal.,80,16,PITCH CHANGE1
+32,1,Variation/Insertion Block,287,Legacy,PitchChange2,Changes the pitch of the input signal.,80,0,PITCH CHANGE1
+32,1,Variation/Insertion Block,288,Legacy,PitchChange3,Changes the pitch of the input signal.,80,1,PITCH CHANGE2
+32,1,Variation/Insertion Block,289,Legacy,VoiceCancel,Attenuates the vocal part of a CD or other source.,85,0,VOICE CANCELAR
+32,1,Variation/Insertion Block,290,Legacy,Ambience,Blurs the stereo positioning of the sound to add spatial width.,88,0,AMBIENCE
+32,1,Variation/Insertion Block,291,Legacy,TalkingMod,Adds a vowel sound to the input signal.,93,0,TALKING MODULATION
+32,1,Variation/Insertion Block,292,Legacy,Lo-Fi,Degrades the audio quality of the input signal.,94,0,LO FI
+32,1,Variation/Insertion Block,293,Legacy,DynFilter,Dynamically controlled filter.,109,0,DYNAMIC FILTER
+32,1,Variation/Insertion Block,294,Legacy,DynRingMod,Dynamically controlled Ring Modulator.,112,0,DYNAMIC RING MOD
+32,1,Variation/Insertion Block,295,Legacy,RingMod,An effect that modifies the pitch by applying amplitude modulation to the frequency of the input.,113,0,RING MODULATOR
+32,1,Variation/Insertion Block,296,---,NoEffect,No effect.,0,0,NO EFFECT
+32,1,Variation/Insertion Block,297,---,Thru,Bypass without applying an effect.,64,0,THRU

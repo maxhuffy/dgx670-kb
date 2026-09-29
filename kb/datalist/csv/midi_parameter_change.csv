@@ -1,0 +1,315 @@
+dl_page,table,section,Address (H) high,Address (H) mid,Address (H) low,Size (H),Data (H),Parameter,Description,XG Default (H),Voice › Regular/Drum/Natural,Voice › Mic,MIDI Reception › Song,MIDI Reception › Main/Layer/Left,MIDI Reception › Keyboard,MIDI Reception › Style,MIDI Reception › Extra,MIDI Transmission › Main/Layer/Left,MIDI Transmission › Style,MIDI Transmission › Song,MIDI Transmission › Upper Lower,PLAY › PLAY,PLAY › REW,REC › From panel (Main/Layer/Left)
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,00 01 02 03,4,00-0F 00-0F 00-0F 00-0F,MASTER TUNE,-102.4…0…+102.3 [cent] 1st bit 3-0 → bit 15-12 2nd bit 3-0 → bit 11-8 3rd bit 3-0 → bit 7-4 4th bit 3-0 → bit 3-0,* Panel setting value,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,04,1,00-7F,MASTER VOLUME,0…127,7F,○,×,○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○,○,○,○,○,○,×
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,05,1,00-7F,MASTER ATTENUATOR,0…127,00,×,×,×,×,×,×,×,○,○,○,○,×,×,×
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,06,1,28-58,TRANSPOSE,-24…0…+24 [semitones],40,○,○,○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○,○,○,○,○,○,×
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,7D,1,N,DRUM SETUP RESET,N: Drum setup number,—,○ (Drum only),×,○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○,○,○,○,○,×,×
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,7E,1,00,XG SYSTEM ON,00=XG system ON,—,○,×,○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○,○,○,○,○,×,○
+61,1,MIDI Parameter Change Table (XG SYSTEM),00,00,7F,1,00,ALL PARAMETER RESET,00=ON,—,○,×,○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○ (Available only for Song parts and Extra parts),○,○,○,○,○,×,×
+61,2,MIDI Parameter Change Table (SYSTEM INFORMATION),01,00,00 … 0D 0E 0F,E 1 1,20-7F … 20-7F,Model Name 1 … Model Name 14 NOT USED NOT USED,32…127 (ASCII CHARACTER) … 32…127 (ASCII CHARACTER),—,—,—,—,—,—,—,—,○ (Available only when receiving requests via MIDI),○ (Available only when receiving requests via MIDI),○ (Available only when receiving requests via MIDI),○ (Available only when receiving requests via MIDI),—,—,—
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,00,2,00-7F 00-7F,REVERB TYPE MSB REVERB TYPE LSB,Refer to Effect Parameter List Refer to Effect Parameter List,01 (=HALL1) 00,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,02,1,00-7F,REVERB PARAMETER 1,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,03,1,00-7F,REVERB PARAMETER 2,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,04,1,00-7F,REVERB PARAMETER 3,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,05,1,00-7F,REVERB PARAMETER 4,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,06,1,00-7F,REVERB PARAMETER 5,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,07,1,00-7F,REVERB PARAMETER 6,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,08,1,00-7F,REVERB PARAMETER 7,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,09,1,00-7F,REVERB PARAMETER 8,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,0A,1,00-7F,REVERB PARAMETER 9,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,0B,1,00-7F,REVERB PARAMETER 10,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,0C,1,00-7F,REVERB RETURN,-∞dB…0dB…+6dB (0…64…127),40,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,3,MIDI Parameter Change Table (EFFECT1),02,01,0D,1,01-7F,REVERB PAN,L63…C…R63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+61,4,MIDI Parameter Change Table (EFFECT1),02,01,10,1,00-7F,REVERB PARAMETER 11,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,4,MIDI Parameter Change Table (EFFECT1),02,01,11,1,00-7F,REVERB PARAMETER 12,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,4,MIDI Parameter Change Table (EFFECT1),02,01,12,1,00-7F,REVERB PARAMETER 13,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,4,MIDI Parameter Change Table (EFFECT1),02,01,13,1,00-7F,REVERB PARAMETER 14,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,4,MIDI Parameter Change Table (EFFECT1),02,01,14,1,00-7F,REVERB PARAMETER 15,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+61,4,MIDI Parameter Change Table (EFFECT1),02,01,15,1,00-7F,REVERB PARAMETER 16,Refer to Effect Parameter List,Depends on Reverb Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,20,2,00-7F 00-7F,CHORUS TYPE MSB CHORUS TYPE LSB,Refer to Effect Parameter List Refer to Effect Parameter List,41 (=CHORUS1) 00,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,22,1,00-7F,CHORUS PARAMETER 1,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,23,1,00-7F,CHORUS PARAMETER 2,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,24,1,00-7F,CHORUS PARAMETER 3,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,25,1,00-7F,CHORUS PARAMETER 4,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,26,1,00-7F,CHORUS PARAMETER 5,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,27,1,00-7F,CHORUS PARAMETER 6,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,28,1,00-7F,CHORUS PARAMETER 7,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,29,1,00-7F,CHORUS PARAMETER 8,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,2A,1,00-7F,CHORUS PARAMETER 9,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,2B,1,00-7F,CHORUS PARAMETER 10,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,2C,1,00-7F,CHORUS RETURN,-∞dB…0dB…+6dB (0…64…127),40,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,2D,1,01-7F,CHORUS PAN,L63…C…R63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,1,MIDI Parameter Change Table (EFFECT1),02,01,2E,1,00-7F,SEND CHORUS TO REVERB,-∞dB…0dB…+6dB (0…64…127),00,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,2,MIDI Parameter Change Table (EFFECT1),02,01,30,1,00-7F,CHORUS PARAMETER 11,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,2,MIDI Parameter Change Table (EFFECT1),02,01,31,1,00-7F,CHORUS PARAMETER 12,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,2,MIDI Parameter Change Table (EFFECT1),02,01,32,1,00-7F,CHORUS PARAMETER 13,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,2,MIDI Parameter Change Table (EFFECT1),02,01,33,1,00-7F,CHORUS PARAMETER 14,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,2,MIDI Parameter Change Table (EFFECT1),02,01,34,1,00-7F,CHORUS PARAMETER 15,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,2,MIDI Parameter Change Table (EFFECT1),02,01,35,1,00-7F,CHORUS PARAMETER 16,Refer to Effect Parameter List,Depends on Chorus Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,40,2,00-7F 00-7F,VARIATION TYPE MSB VARIATION TYPE LSB,Refer to Effect Parameter List,"05 (=DELAY L, C, R) 00",○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,42,2,00-7F 00-7F,VARIATION PARAMETER 1 MSB VARIATION PARAMETER 1 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,44,2,00-7F 00-7F,VARIATION PARAMETER 2 MSB VARIATION PARAMETER 2 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,46,2,00-7F 00-7F,VARIATION PARAMETER 3 MSB VARIATION PARAMETER 3 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,48,2,00-7F 00-7F,VARIATION PARAMETER 4 MSB VARIATION PARAMETER 4 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,4A,2,00-7F 00-7F,VARIATION PARAMETER 5 MSB VARIATION PARAMETER 5 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,4C,2,00-7F 00-7F,VARIATION PARAMETER 6 MSB VARIATION PARAMETER 6 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,4E,2,00-7F 00-7F,VARIATION PARAMETER 7 MSB VARIATION PARAMETER 7 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,50,2,00-7F 00-7F,VARIATION PARAMETER 8 MSB VARIATION PARAMETER 8 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,52,2,00-7F 00-7F,VARIATION PARAMETER 9 MSB VARIATION PARAMETER 9 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,54,2,00-7F 00-7F,VARIATION PARAMETER 10 MSB VARIATION PARAMETER 10 LSB,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,56,1,00-7F,VARIATION RETURN,-∞dB…0dB…+6dB (0…64…127),40,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,57,1,01-7F,VARIATION PAN,L63…C…R63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,58,1,00-7F,SEND VARIATION TO REVERB,-∞dB…0dB…+6dB (0…64…127),00,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,59,1,00-7F,SEND VARIATION TO CHORUS,-∞dB…0dB…+6dB (0…64…127),00,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,5A,1,00-01,VARIATION CONNECTION,"INSERTION, SYSTEM",00,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,5B,1,00-7F,VARIATION PART NUMBER,Reception: Part1...16 (0...15) Transmission: Part1...16 (0...15) AD (64) OFF (127),7F,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,5C,1,00-7F,MW VARIATION CONTROL DEPTH,-64…0…+63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,5D,1,00-7F,BEND VARIATION CONTROL DEPTH,-64…0…+63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,5E,1,00-7F,CAT VARIATION CONTROL DEPTH,-64…0…+63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,5F,1,00-7F,AC1 VARIATION CONTROL DEPTH,-64…0…+63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+62,3,MIDI Parameter Change Table (EFFECT1),02,01,60,1,00-7F,AC2 VARIATION CONTROL DEPTH,-64…0…+63,40,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+63,1,MIDI Parameter Change Table (EFFECT1),02,01,70,1,00-7F,VARIATION PARAMETER 11,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+63,1,MIDI Parameter Change Table (EFFECT1),02,01,71,1,00-7F,VARIATION PARAMETER 12,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+63,1,MIDI Parameter Change Table (EFFECT1),02,01,72,1,00-7F,VARIATION PARAMETER 13,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+63,1,MIDI Parameter Change Table (EFFECT1),02,01,73,1,00-7F,VARIATION PARAMETER 14,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+63,1,MIDI Parameter Change Table (EFFECT1),02,01,74,1,00-7F,VARIATION PARAMETER 15,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+63,1,MIDI Parameter Change Table (EFFECT1),02,01,75,1,00-7F,VARIATION PARAMETER 16,Refer to Effect Parameter List,Depends on Variation Type,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,00,1,00-04,EQ TYPE,"flat, jazz, pops, rock, classic",—,○,○,○,○,○,○,○,○,○,○,○,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,01,1,34-4C,EQ GAIN1,-12…0…+12 [dB],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,02,1,04-28,EQ FREQUENCY1,32…2.0k [Hz],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,03,1,01-78,EQ Q1,0.1…12.0,—,○,○,○,○,○,○,○,○,○,○,○,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,04,1,00-01,EQ SHAPE1,"shelving, peaking",—,○,○,○,○,○,○,○,○,○,○,○,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,05,1,34-4C,EQ GAIN2,-12…0…+12 [dB],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,06,1,0E-36,EQ FREQUENCY2,100…10.0k [Hz],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,07,1,01-78,EQ Q2,0.1…12.0,—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,08,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,09,1,34-4C,EQ GAIN3,-12…0…+12 [dB],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,0A,1,0E-36,EQ FREQUENCY3,100…10.0k[ Hz],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,0B,1,01-78,EQ Q3,0.1…12.0,—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,0C,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,0D,1,34-4C,EQ GAIN4,-12…0…+12 [dB],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,0E,1,0E-36,EQ FREQUENCY4,100…10.0k [Hz],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,0F,1,01-78,EQ Q4,0.1…12.0,—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,10,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,11,1,34-4C,EQ GAIN5,-12…0…+12 [dB],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,12,1,1C-3A,EQ FREQUENCY5,0.5k…16.0k [Hz],—,○,○,○,○,○,○,○,●,●,●,●,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,13,1,01-78,EQ Q5,0.1…12.0,—,○,○,○,○,○,○,○,○,○,○,○,○,×,×
+63,2,MIDI Parameter Change Table (MULTI EQ),02,40,14,1,00-01,EQ SHAPE5,"shelving, peaking",—,○,○,○,○,○,○,○,○,○,○,○,○,×,×
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,00,2,00-7F 00-7F,INSERTION EFFECT TYPE MSB INSERTION EFFECT TYPE LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,02,1,00-7F,INSERTION EFFECT PARAMETER 1,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,03,1,00-7F,INSERTION EFFECT PARAMETER 2,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,04,1,00-7F,INSERTION EFFECT PARAMETER 3,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,05,1,00-7F,INSERTION EFFECT PARAMETER 4,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,06,1,00-7F,INSERTION EFFECT PARAMETER 5,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,07,1,00-7F,INSERTION EFFECT PARAMETER 6,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,08,1,00-7F,INSERTION EFFECT PARAMETER 7,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,09,1,00-7F,INSERTION EFFECT PARAMETER 8,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,0A,1,00-7F,INSERTION EFFECT PARAMETER 9,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,0B,1,00-7F,INSERTION EFFECT PARAMETER 10,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,0C,1,00-7F,INSERTION EFFECT PART NUMBER,Reception: Part1...16 (0...15) Transmission: Part1...16 (0...15) AD (64) OFF (127),—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,0D,1,00-7F,MW INSERTION CONTROL DEPTH,-64…0…+63,—,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,0E,1,00-7F,BEND INSERTION CONTROL DEPTH,-64…0…+63,—,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,0F,1,00-7F,CAT INSERTION CONTROL DEPTH,-64…0…+63,—,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,10,1,00-7F,AC1 INSERTION CONTROL DEPTH,-64…0…+63,—,○,○,○,○,○,○,○,○,○,○,○,○,○,×
+64,1,MIDI Parameter Change Table (EFFECT2),03,n,11,1,00-7F,AC2 INSERTION CONTROL DEPTH,-64…0…+63,—,○,○,○,○,○,○,○,○,○,○,○,○,○,○
+64,2,MIDI Parameter Change Table (EFFECT2),03,n,20,1,00-7F,INSERTION EFFECT PARAMETER 11,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,2,MIDI Parameter Change Table (EFFECT2),03,n,21,1,00-7F,INSERTION EFFECT PARAMETER 12,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,2,MIDI Parameter Change Table (EFFECT2),03,n,22,1,00-7F,INSERTION EFFECT PARAMETER 13,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,2,MIDI Parameter Change Table (EFFECT2),03,n,23,1,00-7F,INSERTION EFFECT PARAMETER 14,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,2,MIDI Parameter Change Table (EFFECT2),03,n,24,1,00-7F,INSERTION EFFECT PARAMETER 15,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,2,MIDI Parameter Change Table (EFFECT2),03,n,25,1,00-7F,INSERTION EFFECT PARAMETER 16,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,30,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 1 MSB INSERTION EFFECT PARAMETER 1 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,32,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 2 MSB INSERTION EFFECT PARAMETER 2 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,34,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 3 MSB INSERTION EFFECT PARAMETER 3 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,36,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 4 MSB INSERTION EFFECT PARAMETER 4 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,38,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 5 MSB INSERTION EFFECT PARAMETER 5 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,3A,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 6 MSB INSERTION EFFECT PARAMETER 6 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,3C,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 7 MSB INSERTION EFFECT PARAMETER 7 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,3E,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 8 MSB INSERTION EFFECT PARAMETER 8 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,40,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 9 MSB INSERTION EFFECT PARAMETER 9 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,○,○,○,○,○,○,○
+64,3,MIDI Parameter Change Table (EFFECT2),03,n,42,2,00-7F 00-7F,INSERTION EFFECT PARAMETER 10 MSB INSERTION EFFECT PARAMETER 10 LSB,Refer to Effect Parameter List,—,○,○,○,○,○,○,○,●,●,●,●,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,00,1,00-20,ELEMENT RESERVE,0…32,"part 10, 26=0, other parts=2",—,—,—,—,—,—,—,—,—,—,—,—,—,—
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,01,1,00-7F,BANK SELECT MSB,0…127,"part 10=7F, other parts=00",○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,02,1,00-7F,BANK SELECT LSB,0…127,00,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,03,1,00-7F,PROGRAM NUMBER,1…128,00,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,04,1,"00-0F, 7F",Rcv CHANNEL,"1…16, OFF",Part No.,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,05,1,00-01,MONO/POLY MODE,"MONO, POLY",01,○,×,○,×,×,×,×,×,×,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,06,1,00-02,SAME NOTE NUMBER KEY ON ASSIGN,"SINGLE, MULTI, INST (for Drum)",01,○,×,○,×,×,○,×,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,07,1,00-03,PART MODE,"NORMAL, DRUM, DRUMS1…2","part 10=02, other parts=00",○,×,○,×,×,×,×,●,●,●,×,○,×,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,08,1,28-58,NOTE SHIFT,-24…0…+24 [semitones],40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,09 0A,2,00-0F 00-0F,DETUNE,-12.8…0…+12.7 [Hz] 1st bit 3-0 → bit 7-4 2nd bit 3-0 → bit 3-0,08 00,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,0B,1,00-7F,VOLUME,0…127,64,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,0C,1,00-7F,VELOCITY SENSE DEPTH,0…127,40,○,×,○,○,×,×,○,●,×,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,0D,1,00-7F,VELOCITY SENSE OFFSET,0…127,40,○,×,○,○,×,×,○,●,×,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,0E,1,00-7F,PAN,"RND, L63…C…R63",40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,0F,1,00-7F,NOTE LIMIT LOW,C-2…G8,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,10,1,00-7F,NOTE LIMIT HIGH,C-2…G8,7F,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,11,1,00-7F,DRY LEVEL,0…127,7F,○,×,○,○,×,○,○,×,○,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,12,1,00-7F,CHORUS SEND,0…127,00,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,13,1,00-7F,REVERB SEND,0…127,28,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,14,1,00-7F,VARIATION SEND,0…127,00,○,×,○,○,×,○,○,×,×,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,15,1,00-7F,VIBRATO RATE,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,16,1,00-7F,VIBRATO DEPTH,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,17,1,00-7F,VIBRATO DELAY,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,18,1,00-7F,FILTER CUTOFF FREQUENCY -64…0…+63,,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,19,1,00-7F,FILTER RESONANCE,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,1A,1,00-7F,EG ATTACK TIME,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,1B,1,00-7F,EG DECAY TIME,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,1C,1,00-7F,EG RELEASE TIME,-64…0…+63,40,○,×,○,○,×,○,○,×,×,○,×,○,○,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,1D,1,28-58,MW PITCH CONTROL,-24…0…+24 [semitones],40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,1E,1,00-7F,MW LOW PASS FILTER CONTROL,-9600…0…+9450 [cent],40,○,×,○,○,×,×,○,●,×,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,1F,1,00-7F,MW AMPLITUDE CONTROL,-100…0…+100 [%],40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,20,1,00-7F,MW LFO PMOD DEPTH,0…127,0A,○,×,○,○,×,×,○,●,○,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,21,1,00-7F,MW LFO FMOD DEPTH,0…127,00,○,×,○,○,×,×,○,●,○,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,22,1,00-7F,MW LFO AMOD DEPTH,0…127,00,○,×,○,○,×,×,○,●,○,○,×,○,○,○
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,23,1,28-58,BEND PITCH CONTROL,-24…0…+24 [semitones],42,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,24,1,00-7F,BEND LOW PASS FILTER CONTROL,-9600…0…+9450 [cent],40,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,25,1,00-7F,BEND AMPLITUDE CONTROL -100…0…+100 [%],,40,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,26,1,00-7F,BEND LFO PMOD DEPTH,0…127,00,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,27,1,00-7F,BEND LFO FMOD DEPTH,0…127,00,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,1,MIDI Parameter Change Table (MULTI PART),08,nn,28,1,00-7F,BEND LFO AMOD DEPTH,0…127,00,○,×,○,○,×,○,○,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,30,1,00-01,Rcv PITCH BEND,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,31,1,00-01,Rcv CH AFTER TOUCH (CAT),"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,32,1,00-01,Rcv PROGRAM CHANGE,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,33,1,00-01,Rcv CONTROL CHANGE,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,34,1,00-01,Rcv POLY AFTER TOUCH (PAT),"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,35,1,00-01,Rcv NOTE MESSAGE,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,36,1,00-01,Rcv RPN,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,37,1,00-01,Rcv NRPN,"OFF, ON","XGmode=01, GMmode=00",○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,38,1,00-01,Rcv MODULATION,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,39,1,00-01,Rcv VOLUME,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,3A,1,00-01,Rcv PAN,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,3B,1,00-01,Rcv EXPRESSION,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,3C,1,00-01,Rcv HOLD1,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,3D,1,00-01,Rcv PORTAMENTO,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,3E,1,00-01,Rcv SOSTENUTO,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,3F,1,00-01,Rcv SOFT PEDAL,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,40,1,00-01,Rcv BANK SELECT,"OFF, ON",01,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,41,1,00-7F,SCALE TUNING C,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,42,1,00-7F,SCALE TUNING C#,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,43,1,00-7F,SCALE TUNING D,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,44,1,00-7F,SCALE TUNING D#,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,45,1,00-7F,SCALE TUNING E,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,46,1,00-7F,SCALE TUNING F,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,47,1,00-7F,SCALE TUNING F#,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,48,1,00-7F,SCALE TUNING G,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,49,1,00-7F,SCALE TUNING G#,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,4A,1,00-7F,SCALE TUNING A,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,4B,1,00-7F,SCALE TUNING A#,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,4C,1,00-7F,SCALE TUNING B,-64…0…+63 [cent],40,○,×,○,○,×,○,○,●,●,○,×,○,○,○
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,4D,1,28-58,CAT PITCH CONTROL,-24…0…+24 [semitones],40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,4E,1,00-7F,CAT LOW PASS FILTER CONTROL,-9600…0…+9450 [cent],40,○,×,○,○,×,×,○,×,×,○,×,○,○,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,4F,1,00-7F,CAT AMPLITUDE CONTROL,-100…0…+100 [%],40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,50,1,00-7F,CAT LFO PMOD DEPTH,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,51,1,00-7F,CAT LFO FMOD DEPTH,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,52,1,00-7F,CAT LFO AMOD DEPTH,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,53,1,28-58,PAT PITCH CONTROL,-24…0…+24 [semitones],40,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+65,2,MIDI Parameter Change Table (MULTI PART),08,nn,54,1,00-7F,PAT LOW PASS FILTER CONTROL,-9600…0…+9450 [cent],40,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,55,1,00-7F,PAT AMPLITUDE CONTROL,-100…0…+100 [%],40,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,56,1,00-7F,PAT LFO PMOD DEPTH,0…127,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,57,1,00-7F,PAT LFO FMOD DEPTH,0…127,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,58,1,00-7F,PAT LFO AMOD DEPTH,0…127,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,59,1,00-5F,AC1 CONTROLLER NUMBER,0…95,10,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,5A,1,28-58,AC1 PITCH CONTROL,-24…0…+24 [semitones],40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,5B,1,00-7F,AC1 LOW PASS FILTER CONTROL,-9600…0…+9450 [cent],40,○,×,○,○,×,×,○,×,×,○,×,○,○,○
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,5C,1,00-7F,AC1 AMPLITUDE CONTROL,-100…0…+100 [%],40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,5D,1,00-7F,AC1 LFO PMOD DEPTH,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,○
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,5E,1,00-7F,AC1 LFO FMOD DEPTH,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,○
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,5F,1,00-7F,AC1 LFO AMOD DEPTH,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,○
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,60,1,00-5F,AC2 CONTROLLER NUMBER,0…95,11,○,×,○,×,×,×,×,×,×,○,×,○,○,○
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,61,1,28-58,AC2 PITCH CONTROL,-24…0…+24 [semitones],40,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,62,1,00-7F,AC2 LOW PASS FILTER CONTROL,-9600…0…+9450 [cent],40,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,63,1,00-7F,AC2 AMPLITUDE CONTROL,-100…0…+100 [%],40,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,64,1,00-7F,AC2 LFO PMOD DEPTH,0…127,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,65,1,00-7F,AC2 LFO FMOD DEPTH,0…127,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,66,1,00-7F,AC2 LFO AMOD DEPTH,0…127,00,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,67,1,00-01,PORTAMENTO SWITCH,"OFF, ON",00,○,×,○,○,×,×,○,×,×,○,×,○,○,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,68,1,00-7F,PORTAMENTO TIME,0…127,00,○,×,○,○,×,×,○,×,×,○,×,○,○,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,69,1,00-7F,PITCH EG INITIAL LEVEL,-64…0…+63,40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,6A,1,00-7F,PITCH EG ATTACK TIME,-64…0…+63,40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,6B,1,00-7F,PITCH EG RELEASE LEVEL,-64…0…+63,40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,6C,1,00-7F,PITCH EG RELEASE TIME,-64…0…+63,40,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,6D,1,01-7F,VELOCITY LIMIT LOW,1…127,01,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,1,MIDI Parameter Change Table (MULTI PART),08,nn,6E,1,01-7F,VELOCITY LIMIT HIGH,1…127,7F,○,×,○,○,×,×,○,×,×,○,×,○,×,×
+66,2,MIDI Parameter Change Table (MULTI PART),08,nn,70,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,2,MIDI Parameter Change Table (MULTI PART),08,nn,71,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,2,MIDI Parameter Change Table (MULTI PART),08,nn,72,1,00-7F,EQ BASS GAIN,-12dB…+12dB,40,○,×,○,○,×,○,○,●,●,●,×,○,○,○
+66,2,MIDI Parameter Change Table (MULTI PART),08,nn,73,1,00-7F,EQ TREBLE GAIN,-12dB…+12dB,40,○,×,○,○,×,○,○,●,●,●,×,○,○,○
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,74,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,75,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,76,1,04-28,EQ BASS FREQUENCY,32…2.0k [Hz],0C,○,×,○,○,×,×,○,●,○,○,×,○,○,○
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,77,1,1C-3A,EQ TREBLE FREQUENCY,500…16.0k [Hz],36,○,×,○,○,×,×,○,●,○,○,×,○,○,○
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,78,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,79,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,7A,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,7B,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,7C,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,7D,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,7E,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,3,MIDI Parameter Change Table (MULTI PART),08,nn,7F,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,4,MIDI Parameter Change Table (MULTI PART),0A,nn,00,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,4,MIDI Parameter Change Table (MULTI PART),0A,nn,01,1,00-01,Mono Priority,"Lastest, Highest",00,○ (Regular only),—,○,×,×,×,×,●,×,○,×,○,○,○
+66,4,MIDI Parameter Change Table (MULTI PART),0A,nn,02,1,00-02,Portamento Mono Legato,"Normal, Pitch Poly, Crossfade",00,○ (Regular only),—,○,×,×,×,×,●,×,○,×,○,○,○
+66,4,MIDI Parameter Change Table (MULTI PART),0A,nn,03,1,00-01,Portamento Time Mode,"Rate, Time",00,○ (Regular only),—,○,×,×,×,×,●,×,○,×,○,○,○
+66,4,MIDI Parameter Change Table (MULTI PART),0A,nn,04,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+66,5,MIDI Parameter Change Table (MULTI PART),0A,nn,40,1,00-7F,MW OFFSET LEVEL CONTROL,-100 - 100 [%],40,○,—,○,○,×,×,○,●,×,○,×,○,○,○
+66,5,MIDI Parameter Change Table (MULTI PART),0A,nn,41,1,00-7F,BEND OFFSET LEVEL CONTROL,-100 - 100 [%],40,○,—,○,×,×,×,×,×,×,○,×,○,○,×
+66,5,MIDI Parameter Change Table (MULTI PART),0A,nn,42,1,00-7F,CAT OFFSET LEVEL CONTROL,-100 - 100 [%],40,○,—,○,○,×,×,○,×,×,○,×,○,○,×
+66,5,MIDI Parameter Change Table (MULTI PART),0A,nn,43,1,00-7F,PAT OFFSET LEVEL CONTROL,-100 - 100 [%],40,○,—,○,×,×,×,×,×,×,○,×,○,○,×
+66,5,MIDI Parameter Change Table (MULTI PART),0A,nn,44,1,00-7F,AC1 OFFSET LEVEL CONTROL,-100 - 100 [%],40,○,—,○,○,×,×,○,×,×,○,×,○,○,○
+66,5,MIDI Parameter Change Table (MULTI PART),0A,nn,45,1,00-7F,AC2 OFFSET LEVEL CONTROL,-100 - 100 [%],40,○,—,○,×,×,×,×,×,×,○,×,○,○,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,00,1,00-01,INPUT GAIN,"MIC, LINE",—,×,×,×,×,×,×,×,×,×,×,×,×,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,01,1,00-7F,BANK SELECT MSB,0…127,—,×,×,×,×,×,×,×,×,×,×,×,×,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,02,1,00-7F,BANK SELECT LSB,0…127,—,×,×,×,×,×,×,×,×,×,×,×,×,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,03,1,00-7F,PROGRAM NUMBER,1…128,—,×,×,×,×,×,×,×,×,×,×,×,×,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,04,1,"00-0F, 7F",Rcv CHANNEL,"1…32 (*1), OFF",—,×,○,○,○,○,○,○,○,○,○,○,○,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,05,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,06,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,07,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,08,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,09,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,0A,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,0B,1,00-7F,VOLUME,0…127,—,×,○,○,○,○,○,○,●,●,●,●,○,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,0C,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,0D,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,0E,1,01-7F,PAN,L63…C…R63,—,×,○,○,○,○,○,○,●,●,●,●,○,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,0F,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,10,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,11,1,00-7F,DRY LEVEL,0…127,—,×,○,○,○,○,○,○,●,●,●,●,○,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,12,1,00-7F,CHORUS SEND,0…127,—,×,○,○,○,○,○,○,●,●,●,●,○,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,13,1,00-7F,REVERB SEND,0…127,—,×,○,○,○,○,○,○,●,●,●,●,○,×,×
+67,1,MIDI Parameter Change Table (A/D PART),10,0n,14,1,00-7F,VARIATION SEND,0…127,—,×,○,○,○,○,○,○,●,●,●,●,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,00,1,00-7F,PITCH COARSE,-64…0…+63,40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,01,1,00-7F,PITCH FINE,-64…0…+63 [cent],40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,02,1,00-7F,LEVEL,0…127,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,03,1,00-7F,ALTERNATE GROUP,"OFF, 1…127",Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,04,1,00-7F,PAN,"RND, L63…C…R63",Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,05,1,00-7F,REVERB SEND,0…127,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,06,1,00-7F,CHORUS SEND,0…127,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,07,1,00-7F,VARIATION SEND,0…127,7F,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,08,1,00-01,KEY ASSIGN,"SINGLE, MULTI",00,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,09,1,00-01,Rcv NOTE OFF,"OFF, ON",Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,0A,1,00-01,Rcv NOTE ON,"OFF, ON",01,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,0B,1,00-7F,LOW PASS FILTER CUTOFF FREQUENCY,-64…0…+63,40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,0C,1,00-7F,LOW PASS FILTER RESONANCE,-64…0…+63,40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,0D,1,00-7F,EG ATTACK RATE,-64…0…+63,40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,0E,1,00-7F,EG DECAY1 RATE,-64…0…+63,40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,1,MIDI Parameter Change Table (DRUM SETUP),3n,rr,0F,1,00-7F,EG DECAY2 RATE,-64…0…+63,40,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,20,1,00-7F,EQ BASS GAIN,-12…+12 [dB],40,×,×,×,×,×,×,×,○,○,○,○,×,×,×
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,21,1,00-7F,EQ TREBLE GAIN,-12…+12 [dB],40,×,×,×,×,×,×,×,○,○,○,○,×,×,×
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,22,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,23,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,24,1,04-28,EQ BASS FREQUENCY,32…2.0k [Hz],0C,×,×,×,×,×,×,×,○,○,○,○,×,×,×
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,25,1,1C-3A,EQ TREBLE FREQUENCY,500…16.0k [Hz],36,×,×,×,×,×,×,×,○,○,○,○,×,×,×
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,26,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,27,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,28,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,29,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,2A,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,2B,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,2C,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,2,MIDI Parameter Change Table (DRUM SETUP),3n,rr,2D,1,,NOT USED,,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+68,3,MIDI Parameter Change Table (DRUM SETUP),3n,rr,70,4,00-7F,SOURCE DRUM KIT (Bank Select MSB),0…127,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,3,MIDI Parameter Change Table (DRUM SETUP),3n,rr,,,00-7F,SOURCE DRUM KIT (Bank Select LSB),0…127,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,3,MIDI Parameter Change Table (DRUM SETUP),3n,rr,,,00-7F,SOURCE DRUM KIT (Program Number),0…127,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×
+68,3,MIDI Parameter Change Table (DRUM SETUP),3n,rr,,,0D-5B,SOURCE DRUM KIT (Note Number),C-1…G5,Depends on the note,○ (Drum only),×,○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○ (Available only for Song parts),○,○,○,○,○,×,×

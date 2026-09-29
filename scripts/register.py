@@ -4,7 +4,6 @@ update the page file's markers + frontmatter. Stdlib only.
 
 Usage:
   python scripts/register.py figure   RM-005     # after writing kb/figures/RM-005.md
-  python scripts/register.py datalist DL-023     # after writing kb/datalist/DL-023.md
   python scripts/register.py faq      split-point-change   # after writing faq/split-point-change.md
 """
 import re
@@ -65,19 +64,6 @@ def register_figure(pid):
     print(f"ok: {pid} registered ({len(titles)} figure sections); page markers updated")
 
 
-def register_datalist(did):
-    f = KB / "datalist" / f"{did}.md"
-    if not f.exists():
-        die(f"{f} does not exist")
-    body = f.read_text(encoding="utf-8")
-    section, summary = field(body, "section"), field(body, "summary")
-    if not (section and summary):
-        die(f"{f.name} needs 'section:' and 'summary:' lines")
-    upsert_row(KB / "datalist" / "INDEX.md", did,
-               f"| [{did}]({did}.md) | {section.replace('|', '/')} | {summary.replace('|', '/')} |")
-    print(f"ok: {did} registered")
-
-
 def register_faq(slug):
     f = ROOT / "faq" / f"{slug}.md"
     if not f.exists():
@@ -94,7 +80,7 @@ def register_faq(slug):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3 or sys.argv[1] not in ("figure", "datalist", "faq"):
+    if len(sys.argv) != 3 or sys.argv[1] not in ("figure", "faq"):
         print(__doc__)
         sys.exit(2)
-    {"figure": register_figure, "datalist": register_datalist, "faq": register_faq}[sys.argv[1]](sys.argv[2])
+    {"figure": register_figure, "faq": register_faq}[sys.argv[1]](sys.argv[2])

@@ -13,8 +13,9 @@ Never answer from memory. "Not documented" beats a guess.
 
 ## 1. Look up (cheap → expensive)
 **Token economy:** every turn re-sends the whole context, so batch. Run steps 1–3 as **one message of
-parallel `Grep` calls** (FAQ index, GLOSSARY, TERMS, MENU_PATHS, BUTTONS, TOC with your best-guess terms), then
-read all candidate pages in **one parallel batch**. Aim for ≤ 4 turns before answering.
+parallel `Grep` calls** (FAQ index, GLOSSARY, TERMS, MENU_PATHS, BUTTONS, TOC, and the Data List briefs in
+`kb/datalist/INDEX.md` with your best-guess terms), then read all candidate pages / grep candidate CSVs in
+**one parallel batch**. Aim for ≤ 4 turns before answering.
 
 1. **Verified FAQ** — `Grep` `faq/INDEX.md` for the topic. A match is a strong starting point, but still
    confirm its citations still say that (read the cited page) before answering.
@@ -24,6 +25,8 @@ read all candidate pages in **one parallel batch**. Aim for ≤ 4 turns before a
    - `kb/maps/MENU_PATHS.md` ("how do I get to X" → exact button path + page)
    - `kb/maps/BUTTONS.md` (a panel button → pages that mention it most)
    - `kb/maps/TOC.md` (chapter/section → page range; also the OM ↔ RM chapter join)
+   - `kb/datalist/INDEX.md` (briefs of all 18 Data List tables: voices, styles, songs, drum kits, effects,
+     Parameter Chart = what is saved where, Direct Access Chart, MIDI…) → which CSV can answer
 4. **Backstop** — only if the maps found nothing: `Grep -i` `kb/pages` for distinctive words.
 
 ## 2. Read
@@ -38,9 +41,14 @@ read all candidate pages in **one parallel batch**. Aim for ≤ 4 turns before a
   question needs. Do **not** open the PDF yourself (keeps image tokens out of this conversation).
 - `figure_cache: skip` (cover/marketing/legal/index pages) → don't describe; answer from text.
 
-## 4. Data List (only when a manual defers to it, or the question is about lists/charts)
-- Find the page(s) in `kb/maps/DATALIST_TOC.md`; check `kb/datalist/INDEX.md` for a cached `DL-nnn.md`.
-- Not cached → delegate to the **datalist-reader** agent with the DL page number(s).
+## 4. Data List (lists, numbers, charts — and extra context the manuals don't give)
+- Every Data List table is a CSV in `kb/datalist/csv/`, described in `kb/datalist/INDEX.md`. `Grep -i` the CSV
+  for the value (e.g. a voice/style/kit name); read line 1 for the header. Each row starts `dl_page,table` →
+  cite `[DL p.<dl_page>]`. Page legends/footnotes: `kb/datalist/pages/DL-nnn.md`.
+- Use it even when the manuals don't mention it, if a table adds precise facts (voice numbers, which Styles
+  support Unison/Adaptive, what a setting is saved with, which key plays which drum…).
+- Check `kb/datalist/ISSUES.md` for known discrepancies. If a row looks wrong/missing, or the user doubts it,
+  delegate to the **datalist-verifier** agent (it compares with the page image and logs the result).
 
 ## 5. Answer format
 ```
@@ -51,7 +59,7 @@ Steps:
 2. … [RM p.24]
 
 Notes: <caveats / related settings, cited>
-Sources: OM p.58 · RM p.24 · FIG RM-005-f1
+Sources: OM p.58 · RM p.24 · FIG RM-005-f1 · DL p.23
 ```
 - Cite every factual sentence. Quote menu paths exactly as the page prints them.
 - Symbols: ▲▼◀▶ cursor/display buttons; [1▲▼] numbered display buttons; → next step; (n) numbered callout.

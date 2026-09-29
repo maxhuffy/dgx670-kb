@@ -1,7 +1,7 @@
 # Data List — Table of Contents
 
 From page 1 of `dgx_source_docs/dgx670_en_dl_b0.pdf` (79 pages, 4 languages; English column first).
-The Data List is NOT pre-extracted. Read the needed page on the fly, then cache it to `kb/datalist/DL-<nnn>.md`.
+Every table is extracted to CSV: search the briefs in `kb/datalist/INDEX.md`, then grep `kb/datalist/csv/`.
 
 | Section | DL pages |
 |---|---|

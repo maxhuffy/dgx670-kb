@@ -504,7 +504,7 @@ def datalist_toc():
     entries.sort(key=lambda e: e[1])
     lines = ["# Data List — Table of Contents", "",
              f"From page 1 of `dgx_source_docs/{DL_FILE}` ({doc.page_count} pages, 4 languages; English column first).",
-             "The Data List is NOT pre-extracted. Read the needed page on the fly, then cache it to `kb/datalist/DL-<nnn>.md`.", "",
+             "Every table is extracted to CSV: search the briefs in `kb/datalist/INDEX.md`, then grep `kb/datalist/csv/`.", "",
              "| Section | DL pages |", "|---|---|"]
     for i, (title, start) in enumerate(entries):
         end = entries[i + 1][1] - 1 if i + 1 < len(entries) else doc.page_count
@@ -526,7 +526,9 @@ Source of truth: the PDFs in `dgx_source_docs/`. Everything in `kb/` is derived 
 5. `maps/MENU_PATHS.md` — "how do I get to setting X" → exact button path ({stats['paths']} paths).
 6. `maps/TOC.md` — bookmark tree + Owner's ↔ Reference Manual chapter join.
 7. `pages/OM/OM-nnn.md`, `pages/RM/RM-nnn.md` — one file per PDF page (OM {stats['OM']} pages, RM {stats['RM']} pages).
-8. `figures/INDEX.md` — figures already described (cache). `maps/DATALIST_TOC.md` + `datalist/INDEX.md` — Data List.
+8. `figures/INDEX.md` — figures already described (cache).
+9. `datalist/INDEX.md` — every Data List table (voices, styles, songs, drum kits, effects, Parameter Chart,
+   Direct Access Chart, MIDI) as CSV, with a searchable brief each. `maps/DATALIST_TOC.md` — its page ranges.
 
 ## Page file conventions
 - Frontmatter: `section` (bookmark breadcrumb), `role`, `links_out`/`links_in` (clickable PDF cross-references),
@@ -579,9 +581,6 @@ def main():
     seed(KB / "figures" / "INDEX.md",
          "# Figure Cache Index\n\nPages whose figures have been described. One row per page; details in `<PAGE-ID>.md`.\n\n"
          "| Page | Figures | Summary |\n|---|---|---|\n")
-    seed(KB / "datalist" / "INDEX.md",
-         "# Data List Cache Index\n\nData List pages already extracted to `DL-<nnn>.md`. See `../maps/DATALIST_TOC.md` for page ranges.\n\n"
-         "| Page | Section | Summary |\n|---|---|---|\n")
     seed(ROOT / "faq" / "INDEX.md",
          "# Verified FAQ\n\nAnswers the user confirmed as correct. One row per entry; details in `faq/<slug>.md`.\n\n"
          "| Question | File | Citations |\n|---|---|---|\n")
@@ -595,3 +594,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    import build_datalist  # Data List tables -> kb/datalist/ (same source-of-truth rules)
+    sys.exit(0 if build_datalist.main() else 1)

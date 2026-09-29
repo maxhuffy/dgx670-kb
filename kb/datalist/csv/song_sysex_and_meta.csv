@@ -1,0 +1,26 @@
+dl_page,table,section,Data Format,Parameter,Description,Note
+76,2,Song System Exclusive Message List › Guide,F0 43 73 01 1F 00 cc dd F7,Guide Mode,"cc = Part Select No. 00H: Track1 = On, Track2 = On 01H: Track1 = Off, Track2 = On 02H: Track1 = On, Track2 = Off 03H: Track1 = Off, Track2 = Off dd = Mode 00H: Guide Off 01H: Follow Lights 02H: Any Key 03H: Karao-Key 06H: Your Tempo","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 00 dd F7,Left Part indication On/Off,"dd = 00H: Off, 7FH: On","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 01 dd F7,Right Part indication On/Off,"dd = 00H: Off, 7FH: On","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 02 dd F7,Lyrics indication On/Off,"dd = 00H: Off, 7FH: On","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 03 dd F7,Chord indication On/Off,"dd = 00H: Off, 7FH: On","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 04 dd F7,Note Name Indication On/Off,"dd = 00H: Off, 7FH: On","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 05 dd F7,Size,"dd = 00H: Small, 02H: Large","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 06 dd F7,Left Ch,"dd = 00H – 0FH: Ch, 7EH: Off, 7FH: Auto","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 07 dd F7,Right Ch,"dd = 00H – 0FH: Ch, 7EH: Off, 7FH: Auto","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 08 dd F7,Quantize Triplet On/Off,"dd = 00H: Off, 7FH: On","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 09 dd F7,Quantize,"dd = 00H: Quarter, 01H: Eighth, 02H: Sixteenth, 03H: Thirty-second","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,3,Song System Exclusive Message List › Score,F0 43 73 01 50 12 00 0A dd F7,Note Name,"dd = 00H: A, B, C, 01H: Fixed Do, 02H: Movable Do","Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,4,Song System Exclusive Message List › Style,F0 43 73 01 51 00 00 00 03 10 00 dd F7,Style Split Point,dd = Note Number,"Entered to the Song, from the display called up via [MENU] > [Song Creator] > [Setup]."
+76,4,Song System Exclusive Message List › Style,F0 43 73 01 51 05 00 03 04 00 00 dd dd F7,Style No.,dd dd = Style No.,Entered when recording.
+76,4,Song System Exclusive Message List › Style,F0 43 7E 00 ss dd F7,Section Control,Refer to the MIDI Data Format.,Entered when recording.
+77,2,Song Meta Event List,FF 05 len [Data],Lyrics,len = Data length [Data] = Lyrics Data,–
+77,2,Song Meta Event List,FF 51 03 t1 t2 t3,Set Tempo,t1 t2 t3 = Tempo value: “B7 1B 00” – “01 D4 C0” (5 – 500),Entered when recording.
+77,2,Song Meta Event List,FF 58 04 nn dd cc bb,Beat,nn = Numerator dd = Denominator (power of 2) cc = MIDI clock per metronome click bb = Number of thirty-second notes in MIDI quarter note,Entered when recording.
+77,2,Song Meta Event List,FF 59 02 sf mi,Key Signature,"sf = Key Signature (-7 – 7) mi = 00H: Major key, 01H: Minor key",Entered from the Score display > Detail Setting display.
+77,3,Song Meta Event List › Yamaha Meta Event,FF 7F 06 43 73 0A 00 07 dd,Score Start Bar,"dd = Start from this measure (-100 – -1, 1 – 100)",–
+77,3,Song Meta Event List › Yamaha Meta Event,FF 7F len 43 73 0D 01 [Data],Keyboard Voice,"[Data] = Voice settings for the Main, Layer, and Left parts.",Set on the display called up via [MENU] > [Song Creator] > [Setup].
+77,4,Song Meta Event List › Yamaha XF Meta Event,FF 7F 07 43 7B 01 cr ct bn bt,Chord Name,Refer to “Chord Control” in the MIDI Data Format (System Exclusive Messages),Entered when recording.
+77,4,Song Meta Event List › Yamaha XF Meta Event,FF 7F 05 43 7B 03 20 08,Phrase Mark,Used as a marker for each phrase when executing Phrase Mark repeat playback.,Used when performing the Phrase Mark repeat playback.
+77,4,Song Meta Event List › Yamaha XF Meta Event,FF 7F 04 43 7B 04 dd,Phrase Max,dd = Maximum Phrase Number,Used when performing the Phrase Mark repeat playback.
+77,4,Song Meta Event List › Yamaha XF Meta Event,FF 7F 05 43 7B 0C rr ll,Guide Track Flag,"rr = Right (00H: Off, 01H – 10H: Ch) ll = Left (00H: Off, 01H – 10H: Ch)",Set on the display called up via [MENU] > [Song Setting] > [Setting] > [Part Channel]. Entered when recording.

@@ -1,0 +1,264 @@
+dl_page,table,category,style_name,unison,adaptive
+23,1,Pop & Rock,ContempGtrPop,-,-
+23,1,Pop & Rock,90sGuitarPop,-,-
+23,1,Pop & Rock,80sAmericanPop,-,-
+23,1,Pop & Rock,80sBoyBand,-,-
+23,1,Pop & Rock,80sPowerRock,Unison,-
+23,1,Pop & Rock,8BeatModern,-,-
+23,1,Pop & Rock,Live8Beat,-,-
+23,1,Pop & Rock,60sPianoPop,-,Adaptive
+23,1,Pop & Rock,60sGuitarPop,-,-
+23,1,Pop & Rock,60sPopRock,-,-
+23,1,Pop & Rock,BritRockPop,Unison,-
+23,1,Pop & Rock,StandardRock,Unison,-
+23,1,Pop & Rock,FunkPopRock,Unison,-
+23,1,Pop & Rock,AcousticRock,-,-
+23,1,Pop & Rock,BritPopSwing,-,-
+23,1,Pop & Rock,VintageGtrPop,Unison,-
+23,1,Pop & Rock,60sVintageRock,Unison,-
+23,1,Pop & Rock,60s8Beat,-,-
+23,1,Pop & Rock,70s8Beat,-,Adaptive
+23,1,Pop & Rock,BubblegumPop,Unison,Adaptive
+23,1,Pop & Rock,WestCoastPop,-,-
+23,1,Pop & Rock,ChartGuitarPop,-,-
+23,1,Pop & Rock,JazzPop,Unison,-
+23,1,Pop & Rock,SoftRock,-,-
+23,1,Ballad,ModernPopBld,-,-
+23,1,Ballad,90sRockBallad,Unison,-
+23,1,Ballad,90sCoolBallad,Unison,-
+23,1,Ballad,R&BSoulBallad,-,-
+23,1,Ballad,NewR&BBallad,-,-
+23,1,Ballad,Easy8Beat,-,-
+23,1,Ballad,70sPianoHit,-,-
+23,1,Ballad,70sGlamPiano,Unison,Adaptive
+23,1,Ballad,70sPopDuo,-,Adaptive
+23,1,Ballad,60sBigHit,-,-
+23,1,Ballad,ClassicPianoBld,-,Adaptive
+23,1,Ballad,StandardPnoBld,-,-
+23,1,Ballad,80sEPBallad,-,-
+23,1,Ballad,EPBallad,-,-
+23,1,Ballad,PopGuitarBallad,-,Adaptive
+23,1,Ballad,8BeatBallad1,-,-
+23,1,Ballad,8BeatBallad2,-,Adaptive
+23,1,Ballad,PopBallad,-,Adaptive
+23,1,Ballad,PowerBallad,-,-
+23,1,Ballad,AcousticGtrBld,-,-
+23,1,Ballad,6-8BalladRock,-,-
+23,1,Ballad,6-8SlowRock,Unison,-
+23,1,Ballad,6-8Orchestral,-,-
+23,1,Ballad,6-8Modern,-,Adaptive
+23,1,Ballad,12-8Ballad,-,-
+23,1,Ballad,EasyAcousticBld,-,-
+23,1,Ballad,Modern16BtBld,-,-
+23,1,Ballad,16BeatBallad,-,Adaptive
+23,1,Ballad,PianoBallad,-,Adaptive
+23,1,Ballad,OrganBallad,-,-
+23,1,Ballad,LoveSong,-,Adaptive
+23,1,Ballad,PopWaltz,Unison,-
+23,1,Ballad,GuitarSerenade,-,-
+23,1,Ballad,Chillout,-,-
+23,1,Dance & R&B,Electronica,Unison,Adaptive
+23,1,Dance & R&B,GlobalDJ's,-,-
+23,1,Dance & R&B,Ibiza2010,-,Adaptive
+23,1,Dance & R&B,EuroTrance,Unison,Adaptive
+23,1,Dance & R&B,DreamDance,-,-
+23,1,Dance & R&B,70sDisco1,-,-
+23,1,Dance & R&B,70sDisco2,Unison,-
+23,1,Dance & R&B,DiscoPhilly,-,-
+23,1,Dance & R&B,MovieDisco,-,Adaptive
+23,1,Dance & R&B,80sDisco,-,-
+23,1,Dance & R&B,ClubHouse,-,-
+23,1,Dance & R&B,RetroPop,-,-
+23,1,Dance & R&B,ClassicHipHop,-,-
+23,1,Dance & R&B,NewR&B,-,-
+23,1,Dance & R&B,ChartPop,-,Adaptive
+23,1,Dance & R&B,KoolShuffle,-,-
+23,1,Dance & R&B,SaturdayNight,-,-
+23,1,Dance & R&B,DiscoFoxRock,Unison,Adaptive
+23,1,Dance & R&B,DiscoHouse,-,-
+23,2,Dance & R&B,6-8Trance,-,Adaptive
+23,2,Dance & R&B,FranklySoul,Unison,-
+23,2,Dance & R&B,FunkyShuffle,-,-
+23,2,Dance & R&B,KoolFunk,-,-
+23,2,Dance & R&B,WorshipSlow,-,-
+23,2,Dance & R&B,WorshipMedium,-,-
+23,2,Dance & R&B,DetroitPop1,-,-
+23,2,Dance & R&B,DetroitPop2,Unison,Adaptive
+23,2,Dance & R&B,MotorCity,-,-
+23,2,Dance & R&B,Soul,-,Adaptive
+23,2,Dance & R&B,LovelyShuffle,-,-
+23,2,Dance & R&B,Twist,-,Adaptive
+23,2,Dance & R&B,60sRock&Roll,-,-
+23,2,Dance & R&B,Rock&Roll,-,Adaptive
+23,2,Dance & R&B,PianoBoogie,-,Adaptive
+23,2,Country & Blues,EasyCountryPop,-,-
+23,2,Country & Blues,ModernBluegrass,-,-
+23,2,Country & Blues,70sChartCntry,Unison,-
+23,2,Country & Blues,70sCountryPop,Unison,-
+23,2,Country & Blues,70sCountrySwing,-,-
+23,2,Country & Blues,NewCountry,Unison,-
+23,2,Country & Blues,EasyCountry,-,-
+23,2,Country & Blues,ModCountryBld,-,-
+23,2,Country & Blues,CountryPop,-,-
+23,2,Country & Blues,CountryHits,-,Adaptive
+23,2,Country & Blues,Bluegrass,Unison,-
+23,2,Country & Blues,Hoedown,-,Adaptive
+23,2,Country & Blues,FolkPop,-,Adaptive
+23,2,Country & Blues,Country2-4,-,-
+23,2,Country & Blues,CountryShuffle,Unison,-
+23,2,Country & Blues,CountryPopBld,-,-
+23,2,Country & Blues,SlowCountryPop,-,-
+23,2,Country & Blues,CntrySing-along,-,-
+23,2,Country & Blues,CountryWaltz,Unison,-
+23,2,Country & Blues,6-8Soul,-,-
+23,2,Country & Blues,TheBlues,-,-
+23,2,Country & Blues,BluesRock,-,-
+23,2,Country & Blues,SlowBlues,-,-
+23,2,Country & Blues,GospelSisters,-,-
+23,2,Country & Blues,GospelSwing,-,Adaptive
+23,2,Standards & Jazz,AcousticJazz,Unison,-
+23,2,Standards & Jazz,InstrumentalJazz,Unison,-
+23,2,Standards & Jazz,JazzGuitarClub,-,-
+23,2,Standards & Jazz,FastJazz,-,-
+23,2,Standards & Jazz,SlowJazzBallad,-,-
+23,2,Standards & Jazz,ModernBigBand,Unison,-
+23,2,Standards & Jazz,ModBigBandShfl,Unison,-
+23,2,Standards & Jazz,ClassicBigBand,Unison,-
+23,2,Standards & Jazz,JazzClub,-,Adaptive
+23,2,Standards & Jazz,Bebop,-,-
+23,2,Standards & Jazz,OrchBigBand1,-,-
+23,2,Standards & Jazz,OrchBigBand2,Unison,-
+23,2,Standards & Jazz,OrchSwing1,-,-
+23,2,Standards & Jazz,OrchSwing2,-,-
+23,2,Standards & Jazz,MORSwing,-,Adaptive
+23,2,Standards & Jazz,BigBandFast1,-,Adaptive
+23,2,Standards & Jazz,BigBandFast2,-,-
+23,2,Standards & Jazz,40sBigBand,-,-
+23,2,Standards & Jazz,EasySwing,-,Adaptive
+23,2,Standards & Jazz,JumpJive,-,-
+23,2,Standards & Jazz,CoolJazzBallad,-,-
+23,2,Standards & Jazz,CoolJazzWaltz,-,-
+23,2,Standards & Jazz,JazzWaltzFast,-,-
+23,2,Standards & Jazz,JazzWaltzSlow,-,-
+23,2,Standards & Jazz,EasyWaltz,-,-
+23,2,Standards & Jazz,SaloonPiano,-,-
+23,2,Standards & Jazz,Dixieland1,-,-
+23,2,Standards & Jazz,Dixieland2,-,-
+23,2,Standards & Jazz,Ragtime,-,-
+23,2,Standards & Jazz,Charleston,-,Adaptive
+23,2,Standards & Jazz,OrganGroove,Unison,Adaptive
+23,2,Standards & Jazz,MidnightSwing,-,-
+23,2,Standards & Jazz,Five-Four,-,-
+23,2,Entertainment,Sci-fiMarch,Unison,-
+23,2,Entertainment,TapDanceSwing,-,-
+23,2,Entertainment,BroadwayBallad,-,-
+23,2,Entertainment,CartoonBallad,-,-
+24,1,Entertainment,WildWest,-,Adaptive
+24,1,Entertainment,SecretService,-,-
+24,1,Entertainment,70sTVTheme,Unison,-
+24,1,Entertainment,MovieSwing,-,-
+24,1,Entertainment,MovieBallad,-,Adaptive
+24,1,Entertainment,ModBroadwyBld,-,-
+24,1,Entertainment,Showtune,-,-
+24,1,Entertainment,PubPiano,-,-
+24,1,Entertainment,Tijuana,-,-
+24,1,Entertainment,ChristmasSwing,-,-
+24,1,Entertainment,ChristmasWaltz,-,-
+24,1,Entertainment,BaroqueAir,-,-
+24,1,Entertainment,OrchestralMarch,Unison,Adaptive
+24,1,Entertainment,OrchestraBolero,-,Adaptive
+24,1,Entertainment,Moonlight6-8,-,-
+24,1,Entertainment,9-8Waltz,-,-
+24,1,Entertainment,MallorcaParty,Unison,Adaptive
+24,1,Entertainment,SchlagerFox,-,Adaptive
+24,1,Entertainment,SchlagerShuffle,-,-
+24,1,Entertainment,Schlager6-8,-,Adaptive
+24,1,Entertainment,SchlagerBeat,-,Adaptive
+24,1,Entertainment,AlpBallad,-,Adaptive
+24,1,Entertainment,ScandSlowRock,-,Adaptive
+24,1,Entertainment,PolkaPop,-,-
+24,1,Entertainment,Swingfox,-,-
+24,1,Entertainment,Jive,-,-
+24,1,Entertainment,VienneseWaltz,Unison,-
+24,1,Entertainment,EnglishWaltz,-,Adaptive
+24,1,Entertainment,Slowfox,-,Adaptive
+24,1,Entertainment,Foxtrot,Unison,-
+24,1,Entertainment,Quickstep,-,-
+24,1,Entertainment,Tango,Unison,-
+24,1,Entertainment,Pasodoble,-,-
+24,1,Entertainment,Samba,-,-
+24,1,Entertainment,Rumba,-,-
+24,1,Entertainment,ChaChaCha,-,-
+24,1,Entertainment,Beguine,-,-
+24,1,Latin & World,BrazilianBossa,-,-
+24,1,Latin & World,CoolBossa,-,-
+24,1,Latin & World,BossaSlow,-,-
+24,1,Latin & World,SambaFast,-,-
+24,1,Latin & World,BrazilianSamba,Unison,-
+24,1,Latin & World,BossaNova,Unison,Adaptive
+24,1,Latin & World,OrchestralBossa,-,Adaptive
+24,1,Latin & World,RumbaBolero,-,-
+24,1,Latin & World,Guajira,-,-
+24,1,Latin & World,Danzon,-,-
+24,1,Latin & World,Cumbia,-,-
+24,1,Latin & World,Bomba,Unison,-
+24,1,Latin & World,Bachata,-,-
+24,1,Latin & World,BoleroLento,-,-
+24,1,Latin & World,GuitarRumba,-,Adaptive
+24,1,Latin & World,Merengue,-,-
+24,1,Latin & World,Salsa,-,-
+24,1,Latin & World,CubanSon,-,-
+24,1,Latin & World,Norteno,-,-
+24,1,Latin & World,MariachiWaltz,-,-
+24,1,Latin & World,EuroPopMambo,-,-
+24,1,Latin & World,LatinDisco,Unison,-
+24,1,Latin & World,RockChaCha,Unison,-
+24,1,Latin & World,HappyReggae,Unison,-
+24,1,Latin & World,RumbaIsland,-,-
+24,1,Latin & World,Flamenco,-,-
+24,1,Latin & World,PopFlamenco,Unison,-
+24,1,Latin & World,PopBossa,-,-
+24,1,Latin & World,SpanishPaso,-,-
+24,1,Latin & World,Tarantella,-,-
+24,1,Latin & World,IrishDance,Unison,-
+24,1,Latin & World,IrishHymn,-,-
+24,1,Latin & World,Reel,-,-
+24,1,Latin & World,OrientalPop,-,-
+24,1,Latin & World,Hawaiian,-,-
+24,1,Latin & World,FrenchMusette,-,-
+24,1,Latin & World,GermanWaltz,Unison,-
+24,1,Latin & World,ItalianWaltz,-,-
+24,1,Latin & World,OberWalzer,-,-
+24,1,Latin & World,OberPolka,-,-
+24,2,Latin & World,USMarch,Unison,-
+24,2,Latin & World,GermanMarch,-,-
+24,2,Latin & World,6-8March,Unison,-
+24,2,PIANIST,Stride,-,-
+24,2,PIANIST,PianoSwing,-,-
+24,2,PIANIST,PianoRag,-,-
+24,2,PIANIST,PianoBlues1,-,-
+24,2,PIANIST,PianoBlues2,-,-
+24,2,PIANIST,PianoRock&Roll,-,-
+24,2,PIANIST,BoogieWoogie,-,-
+24,2,PIANIST,Arpeggio,-,-
+24,2,PIANIST,PianoOrchBallad,-,-
+24,2,PIANIST,Musical,-,-
+24,2,PIANIST,Traditional1,-,-
+24,2,PIANIST,Traditional2,-,-
+24,2,PIANIST,SlowRock,-,-
+24,2,PIANIST,2BeatSwing,-,-
+24,2,PIANIST,JazzBallad,-,-
+24,2,PIANIST,8Beat,-,-
+24,2,PIANIST,8BeatPianoBld,-,-
+24,2,PIANIST,4Stroke,-,-
+24,2,PIANIST,Nocturne,-,-
+24,2,PIANIST,PianoMarch,-,-
+24,2,PIANIST,6-8PianoMarch,-,-
+24,2,PIANIST,Waltz,-,-
+24,2,PIANIST,JazzWaltz,-,-
+24,2,PIANIST,PianoBossa,-,-
+24,2,PIANIST,PianoSamba,-,-
+24,2,PIANIST,PianoChaCha,-,-
+24,2,PIANIST,PianoBeguine,-,-
+24,2,PIANIST,PianoRumba,-,-
+24,2,PIANIST,PianoSlowWaltz,-,-

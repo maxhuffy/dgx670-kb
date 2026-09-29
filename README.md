@@ -10,12 +10,18 @@ check any claim in seconds.
 |---|---|
 | VS Code / terminal | Open this folder in Claude Code and ask, or type `/dgx <question>` |
 | Phone, quick Q&A | Claude app → Project **DGX-670 Expert** (reads `kb/` and `faq/` synced from GitHub; tap **Sync** after pushes) |
-| Phone, full agent | Claude app → Code → this repo (can process new figures and Data List pages, and saves them back) |
+| Phone, full agent | Claude app → Code → this repo (can process new figures and verify Data List rows, and saves them back) |
+
+## Data List
+All 18 tables in the 79-page Data List are extracted to `kb/datalist/csv/`, 8,359 rows in total. Every row starts
+with `dl_page,table`, pointing back to the PDF page. `kb/datalist/INDEX.md` has a search-oriented brief for each table
+and records how it was verified. `CHECKS.md` lists the 32 automated checks, including spec counts, cross-table
+references and no-gap numbering. `ISSUES.md` logs any discrepancy found against the page images.
 
 ## How it gets smarter
 Expensive work is done once and committed:
 - **Figures:** the figure-describer agent looks at the whole page, describes every figure on it, and saves the result to `kb/figures/`.
-- **Data List pages:** the datalist-reader agent saves them to `kb/datalist/`.
+- **Data List doubts:** the datalist-verifier agent compares the rows with the page image and logs the result in `kb/datalist/ISSUES.md`.
 - **Answers you confirm:** saved to `faq/`.
 - **New wording:** added to `kb/maps/GLOSSARY.md`.
 
@@ -24,7 +30,7 @@ Agents commit and push only `kb/` and `faq/`.
 ## Maintenance
 ```bash
 python -m venv .venv && .venv/Scripts/pip install -r requirements.txt   # once (PyMuPDF)
-.venv/Scripts/python scripts/build_kb.py   # rebuild pages + maps from the PDFs (deterministic; keeps caches)
+.venv/Scripts/python scripts/build_kb.py   # rebuild pages, maps and Data List CSVs from the PDFs (deterministic; keeps caches)
 python scripts/check_kb.py                 # consistency checks (stdlib only)
 python evals/run_evals.py                  # 10 test questions: citation accuracy + cost per answer
 ```

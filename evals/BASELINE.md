@@ -1,6 +1,6 @@
-# Eval run 2026-09-29 10:53 (model: newest result per question)
+# Eval run 2026-09-29 13:27 (model: newest result per question)
 
-**Passed 10/10** · mean score 1.00 · total $2.59 · $0.259/question · avg 179,509 in / 2,870 out tokens
+**Passed 10/10** · mean score 1.00 · total $2.57 · $0.257/question · avg 186,839 in / 2,782 out tokens
 
 | Question | Category | Pass | Expected cited | Cost | Tokens in/out | Turns | Tool calls | Secs |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@
 | xref-style-creator | cross-manual | ✅ | ✓ ✓ | $0.230 | 116,039/3,095 | 9 | 0 | 31 |
 | fig-main-display-registration | figure | ✅ | ✓ ✓ | $0.205 | 116,851/1,744 | 8 | 7 | 19 |
 | fig-rear-panel-order | figure | ✅ | ✓ ✓ | $0.235 | 119,040/2,410 | 8 | 7 | 31 |
-| datalist-direct-access | data-list | ✅ | ✓ | $0.247 | 161,639/2,529 | 11 | 10 | 27 |
+| datalist-direct-access | data-list | ✅ | ✓ | $0.232 | 234,942/1,649 | 10 | 9 | 21 |
 | general-auto-power-off | general | ✅ | ✓ | $0.287 | 209,365/3,325 | 13 | 0 | 34 |
 | neg-adapter-cable-weight | undocumented | ✅ | ND ✓ | $0.262 | 162,520/2,678 | 11 | 0 | 28 |
 | neg-vst-plugins | undocumented | ✅ | ND ✓ | $0.324 | 296,709/4,052 | 14 | 0 | 40 |
@@ -239,35 +239,31 @@ Sources: OM p.14 · FIG OM-014-f1
 
 **Expected:** OM p.22 defers to the Direct Access Chart in the Data List [DL p.78]; answer is the chart row for [MIXER/EQ].
 
-**Cited:** DL-078, OM-022, OM-088
+**Cited:** DL-078, OM-022
 
-The **Mixer display** comes up, opened at the **Volume/Pan (Panel)** page. [DL p.78]
+It opens the **Mixer** display on its **Volume/Pan (Panel)** page [DL p.78]. That's the Direct Access Chart's entry for [MIXER/EQ], and it sets no sub-page or item beyond that [DL p.78].
 
 Steps:
-1. Press [DIRECT ACCESS]. A message asks you to press the button for the display you want. [OM p.22]
-2. Press [MIXER/EQ]. The Direct Access Chart lists this as "Mixer → Volume/Pan (Panel)". [DL p.78]
+1. Press [DIRECT ACCESS]. A message appears asking you to press the button you want [OM p.22].
+2. Press [MIXER/EQ]. The display for that button comes up right away [OM p.22]. For [MIXER/EQ], that is Mixer › Volume/Pan (Panel) [DL p.78].
 
 Notes:
-- **The Panel part:** this part balances the Main, Layer and Left parts, the whole Song, the whole Style, and USB Audio Player playback. [OM p.88]
-- **[MIXER/EQ] on its own:** pressing it also opens the Mixer display. Pressing it again steps through the parts to edit: Panel, External, Style, and so on. [OM p.88]
-- **[CHANNEL ON/OFF]:** with [DIRECT ACCESS], this button opens the same Mixer Volume/Pan (Panel) page. [DL p.78]
+- Pressing [DIRECT ACCESS] then [CHANNEL ON/OFF] opens the same Mixer › Volume/Pan (Panel) display [DL p.78].
+- The full list of Direct Access shortcuts is in the Direct Access Chart in the Data List [OM p.22] [DL p.78].
 
-Sources: OM p.22 · OM p.88 · DL p.78
-
-**Housekeeping:** the Data List page I used, `kb/datalist/DL-078.md`, was saved in an earlier session but has never been committed; git shows it as untracked. Other cache files are also uncommitted: the OM-014 and OM-023 figure caches and the updated indexes. I didn't commit any of them because I didn't add anything to the cache this time. Should I commit and push those `kb/` changes now?
+Sources: OM p.22 · DL p.78
 
 <details><summary>Tool trace</summary>
 
-- `main: Grep {"pattern": "(?i)direct access|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\faq\\INDEX.md", "output_mode": "con`
-- `main: Grep {"pattern": "(?i)direct access|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\maps\\GLOSSARY.md", "output_mod`
-- `main: Grep {"pattern": "(?i)direct access|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\maps\\TERMS.md", "output_mode":`
-- `main: Grep {"pattern": "(?i)direct access|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\maps\\MENU_PATHS.md", "output_m`
-- `main: Grep {"pattern": "(?i)direct access|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\maps\\BUTTONS.md", "output_mode`
-- `main: Grep {"pattern": "(?i)direct access|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\maps\\DATALIST_TOC.md", "output`
+- `main: Grep {"pattern": "(?i)direct access", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\faq", "output_mode": "content"}`
+- `main: Grep {"pattern": "(?i)direct access", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\INDEX.md", "output_mode": "`
+- `main: Grep {"pattern": "(?i)direct access", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\maps", "output_mode": "content"}`
+- `main: Grep {"pattern": "(?i)mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\csv", "glob": "*direct*", "output_m`
 - `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\pages\\OM\\OM-022.md"}`
-- `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\INDEX.md"}`
-- `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\DL-078.md"}`
-- `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\pages\\OM\\OM-088.md"}`
+- `main: Grep {"pattern": "(?i)direct.access|DL.?0?78|mixer", "path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\ISSUES.md", `
+- `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\csv\\direct_access.csv", "limit": 3}`
+- `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\pages\\DL-078.md"}`
+- `main: Read {"file_path": "C:\\Users\\maxhu\\Desktop\\Yamaha DGX 670 PDFs and Text\\kb\\datalist\\INDEX.md", "offset": 72, "limit": 11}`
 
 </details>
 

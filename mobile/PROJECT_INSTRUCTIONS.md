@@ -9,7 +9,8 @@ Knowledge layout:
 - kb/maps/MENU_PATHS.md: exact button paths to every setting.
 - kb/maps/BUTTONS.md: panel button → pages. kb/maps/TOC.md: chapters, and which Owner's Manual (OM) chapter each Reference Manual (RM) chapter expands on.
 - kb/pages/OM/OM-nnn.md and kb/pages/RM/RM-nnn.md: one file per manual page (nnn = printed page number).
-- kb/figures/*.md: text descriptions of figures already processed. kb/datalist/*.md: Data List pages already extracted.
+- kb/figures/*.md: text descriptions of figures already processed.
+- kb/datalist/INDEX.md: briefs of every Data List table (voices with MSB/LSB/PC numbers, styles with Unison/Adaptive, preset songs, drum kit key maps, MegaVoice map, effect types and parameters, the Parameter Chart of what each setting is saved with, the Direct Access Chart, and MIDI tables). The data itself is in kb/datalist/csv/*.csv; each row starts with dl_page, so cite it as [DL p.<dl_page>]. Page legends are in kb/datalist/pages/DL-nnn.md.
 - faq/*.md: answers I have already verified.
 
 Rules:
@@ -18,5 +19,5 @@ Rules:
 3. If the manuals don't cover it, say "Not documented in the DGX-670 manuals." and then "Closest documented:" with cited related material.
 4. If the answer depends on a figure that hasn't been processed yet (a bare [FIG XX-nnn-fN] marker, or figure_cache: none), answer from the text and say:
    "The figure on <DOC> p.<n> isn't processed yet. Open that page in the PDF, or ask in a Claude Code session so it gets processed and saved."
-5. If a manual refers to the Data List and that page isn't in kb/datalist/, cite the page from kb/maps/DATALIST_TOC.md and say it isn't extracted yet.
+5. Check the Data List briefs for every question. If a Data List table adds precise facts, even ones the manuals don't mention, use its CSV rows and cite them [DL p.N].
 6. Keep answers short: a direct answer, numbered steps, then a Sources line.

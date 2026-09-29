@@ -1,0 +1,167 @@
+dl_page,table,voice_name,element,msb,lsb,pc,key_range,velocity,sound
+13,1,NylonGuitar,,8,0,1,C8 and higher,1-127,fret noise
+13,1,NylonGuitar,,8,0,1,C6 and higher,1-127,strum noise
+13,1,NylonGuitar,,8,0,1,B5 and lower,121-127,harmonics
+13,1,NylonGuitar,,8,0,1,B5 and lower,106-120,slide
+13,1,NylonGuitar,,8,0,1,B5 and lower,76-90,mute
+13,1,NylonGuitar,,8,0,1,B5 and lower,91-105,hammer
+13,1,NylonGuitar,,8,0,1,B5 and lower,61-75,dead
+13,1,NylonGuitar,,8,0,1,B5 and lower,41-60,open hard
+13,1,NylonGuitar,,8,0,1,B5 and lower,21-40,open med
+13,1,NylonGuitar,,8,0,1,B5 and lower,1-20,open soft
+13,1,SteelGuitar,,8,0,2,C8 and higher,1-127,fret noise
+13,1,SteelGuitar,,8,0,2,C6 and higher,1-127,strum noise
+13,1,SteelGuitar,,8,0,2,B5 and lower,121-127,harmonics
+13,1,SteelGuitar,,8,0,2,B5 and lower,106-120,slide
+13,1,SteelGuitar,,8,0,2,B5 and lower,76-90,mute
+13,1,SteelGuitar,,8,0,2,B5 and lower,91-105,hammer
+13,1,SteelGuitar,,8,0,2,B5 and lower,61-75,dead
+13,1,SteelGuitar,,8,0,2,B5 and lower,41-60,open hard
+13,1,SteelGuitar,,8,0,2,B5 and lower,21-40,open med
+13,1,SteelGuitar,,8,0,2,B5 and lower,1-20,open soft
+13,1,HiStringGuitar,,8,0,3,C8 and higher,1-127,fret noise
+13,1,HiStringGuitar,,8,0,3,C6 and higher,1-127,strum noise
+13,1,HiStringGuitar,,8,0,3,B5 and lower,90-127,hard
+13,1,HiStringGuitar,,8,0,3,B5 and lower,1-89,soft
+13,1,12StringGuitar,both elements,8,1,3,C8 and higher,1-127,fret noise
+13,1,12StringGuitar,both elements,8,1,3,C6 and higher,1-127,strum noise
+13,1,12StringGuitar,Element1(Steel),8,1,3,B5 and lower,116-127,hard
+13,1,12StringGuitar,Element1(Steel),8,1,3,B5 and lower,72-115,med
+13,1,12StringGuitar,Element1(Steel),8,1,3,B5 and lower,1-71,soft
+13,1,12StringGuitar,Element2(HiString),8,1,3,B5 and lower,90-127,hard
+13,1,12StringGuitar,Element2(HiString),8,1,3,B5 and lower,1-89,soft
+13,1,CleanGuitar,,8,0,4,C8 and higher,1-127,fret noise
+13,1,CleanGuitar,,8,0,4,C6 and higher,1-127,strum noise
+13,1,CleanGuitar,,8,0,4,B5 and lower,121-127,pick harmonics
+13,1,CleanGuitar,,8,0,4,B5 and lower,106-120,slide
+13,1,CleanGuitar,,8,0,4,B5 and lower,76-90,mute
+13,1,CleanGuitar,,8,0,4,B5 and lower,91-105,hammer
+13,1,CleanGuitar,,8,0,4,B5 and lower,61-75,dead
+13,1,CleanGuitar,,8,0,4,B5 and lower,41-60,slap
+13,1,CleanGuitar,,8,0,4,B5 and lower,21-40,open hard
+13,1,CleanGuitar,,8,0,4,B5 and lower,1-20,open soft
+13,1,SolidGuitar1,,8,1,4,C8 and higher,1-127,fret noise
+13,1,SolidGuitar1,,8,1,4,C6 and higher,1-127,strum noise
+13,1,SolidGuitar1,,8,1,4,B5 and lower,121-127,pick harmonics
+13,1,SolidGuitar1,,8,1,4,B5 and lower,106-120,slide
+13,1,SolidGuitar1,,8,1,4,B5 and lower,76-90,mute
+13,1,SolidGuitar1,,8,1,4,B5 and lower,91-105,hammer
+13,1,SolidGuitar1,,8,1,4,B5 and lower,61-75,dead
+13,1,SolidGuitar1,,8,1,4,B5 and lower,41-60,slap
+13,1,SolidGuitar1,,8,1,4,B5 and lower,21-40,open hard
+13,1,SolidGuitar1,,8,1,4,B5 and lower,1-20,open soft
+13,1,SolidGuitar2,,8,2,4,C8 and higher,1-127,fret noise
+13,1,SolidGuitar2,,8,2,4,C6 and higher,1-127,strum noise
+13,1,SolidGuitar2,,8,2,4,B5 and lower,121-127,pick harmonics
+13,1,SolidGuitar2,,8,2,4,B5 and lower,106-120,slide
+13,1,SolidGuitar2,,8,2,4,B5 and lower,76-90,mute
+13,1,SolidGuitar2,,8,2,4,B5 and lower,91-105,hammer
+13,1,SolidGuitar2,,8,2,4,B5 and lower,61-75,dead
+13,1,SolidGuitar2,,8,2,4,B5 and lower,41-60,open hard
+13,1,SolidGuitar2,,8,2,4,B5 and lower,21-40,open med
+13,1,SolidGuitar2,,8,2,4,B5 and lower,1-20,open soft
+13,1,SingleCoilGuitar,,8,3,4,C8 and higher,1-127,fret noise
+13,1,SingleCoilGuitar,,8,3,4,C6 and higher,1-127,strum noise
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,121-127,pick harmonics
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,106-120,slide
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,76-90,mute
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,91-105,hammer
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,61-75,dead
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,41-60,open hard
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,21-40,open med
+13,1,SingleCoilGuitar,,8,3,4,B5 and lower,1-20,open soft
+13,1,OverdriveGuitar,,8,0,5,C6 and higher,1-127,SE
+13,1,OverdriveGuitar,,8,0,5,B5 and lower,121-127,pick harmonics
+13,1,OverdriveGuitar,,8,0,5,B5 and lower,56-120,mute
+13,1,OverdriveGuitar,,8,0,5,B5 and lower,1-55,open
+13,1,DistortionGuitar,,8,0,6,C6 and higher,1-127,SE
+13,1,DistortionGuitar,,8,0,6,B5 and lower,121-127,pick harmonics
+13,1,DistortionGuitar,,8,0,6,B5 and lower,56-120,mute
+13,1,DistortionGuitar,,8,0,6,B5 and lower,1-55,open
+13,1,JazzGuitar,,8,0,7,C8 and higher,1-127,fret noise
+13,1,JazzGuitar,,8,0,7,C6 and higher,1-127,strum noise
+13,1,JazzGuitar,,8,0,7,B5 and lower,121-127,pick harmonics
+13,1,JazzGuitar,,8,0,7,B5 and lower,106-120,slide
+13,1,JazzGuitar,,8,0,7,B5 and lower,76-90,dead hard
+13,1,JazzGuitar,,8,0,7,B5 and lower,91-105,hammer
+13,1,JazzGuitar,,8,0,7,B5 and lower,61-75,dead soft
+13,1,JazzGuitar,,8,0,7,B5 and lower,41-60,open hard
+13,1,JazzGuitar,,8,0,7,B5 and lower,21-40,open med
+13,1,JazzGuitar,,8,0,7,B5 and lower,1-20,open soft
+13,1,AcousticBass,,8,0,17,C6 and higher,1-127,SE
+13,1,AcousticBass,,8,0,17,B5 and lower,121-127,harmonics
+13,1,AcousticBass,,8,0,17,B5 and lower,81-120,dead
+13,1,AcousticBass,,8,0,17,B5 and lower,61-80,open hard
+13,1,AcousticBass,,8,0,17,B5 and lower,1-60,open soft
+13,1,ElectricBass,,8,0,18,C6 and higher,1-127,SE
+13,1,ElectricBass,,8,0,18,B5 and lower,121-127,slap
+13,1,ElectricBass,,8,0,18,B5 and lower,81-120,dead
+13,1,ElectricBass,,8,0,18,B5 and lower,61-80,open hard
+13,1,ElectricBass,,8,0,18,B5 and lower,1-60,open soft
+13,1,VintageRound,,8,1,18,C6 and higher,1-127,SE
+13,1,VintageRound,,8,1,18,B5 and lower,121-127,harmonics
+13,1,VintageRound,,8,1,18,B5 and lower,81-120,dead
+13,1,VintageRound,,8,1,18,B5 and lower,61-80,open hard
+13,1,VintageRound,,8,1,18,B5 and lower,1-60,open soft
+13,1,VintageFlat,,8,2,18,C6 and higher,1-127,SE
+13,1,VintageFlat,,8,2,18,B5 and lower,121-127,harmonics
+13,1,VintageFlat,,8,2,18,B5 and lower,81-120,dead
+13,1,VintageFlat,,8,2,18,B5 and lower,61-80,open hard
+13,1,VintageFlat,,8,2,18,B5 and lower,1-60,open soft
+13,1,PickBass,,8,0,19,C6 and higher,1-127,SE
+13,1,PickBass,,8,0,19,B5 and lower,121-127,harmonics
+13,1,PickBass,,8,0,19,B5 and lower,81-120,dead
+13,1,PickBass,,8,0,19,B5 and lower,41-80,mute
+13,1,PickBass,,8,0,19,B5 and lower,1-40,open
+13,1,VintagePick,,8,1,19,C6 and higher,1-127,SE
+13,1,VintagePick,,8,1,19,B5 and lower,121-127,harmonics
+13,1,VintagePick,,8,1,19,B5 and lower,81-120,dead
+13,1,VintagePick,,8,1,19,B5 and lower,41-80,mute
+13,1,VintagePick,,8,1,19,B5 and lower,1-40,open
+13,1,FretlessBass,,8,0,20,C6 and higher,1-127,SE
+13,1,FretlessBass,,8,0,20,B5 and lower,121-127,harmonics
+13,1,FretlessBass,,8,0,20,B5 and lower,81-120,dead
+13,1,FretlessBass,,8,0,20,B5 and lower,1-80,open
+13,1,SmallStrings,,8,0,49,B5 and lower,121-127,glissando down
+13,1,SmallStrings,,8,0,49,B5 and lower,111-120,tremolo
+13,1,SmallStrings,,8,0,49,B5 and lower,81-95,spiccato f
+13,1,SmallStrings,,8,0,49,B5 and lower,96-110,spiccato ff
+13,1,SmallStrings,,8,0,49,B5 and lower,61-80,legato
+13,1,SmallStrings,,8,0,49,B5 and lower,41-60,f
+13,1,SmallStrings,,8,0,49,B5 and lower,21-40,mf
+13,1,SmallStrings,,8,0,49,B5 and lower,1-20,p
+13,1,LargeStrings,,8,0,50,B5 and lower,121-127,glissando down
+13,1,LargeStrings,,8,0,50,B5 and lower,111-120,tremolo
+13,1,LargeStrings,,8,0,50,B5 and lower,81-95,spiccato f
+13,1,LargeStrings,,8,0,50,B5 and lower,96-110,spiccato ff
+13,1,LargeStrings,,8,0,50,B5 and lower,61-80,legato
+13,1,LargeStrings,,8,0,50,B5 and lower,41-60,f
+13,1,LargeStrings,,8,0,50,B5 and lower,21-40,mf
+13,1,LargeStrings,,8,0,50,B5 and lower,1-20,p
+14,1,Brass,,8,0,57,B5 and lower,121-127,glissando up
+14,1,Brass,,8,0,57,B5 and lower,111-120,fall fast f
+14,1,Brass,,8,0,57,B5 and lower,101-110,fall fast mf
+14,1,Brass,,8,0,57,B5 and lower,91-100,shake
+14,1,Brass,,8,0,57,B5 and lower,81-90,scoop
+14,1,Brass,,8,0,57,B5 and lower,61-80,attack
+14,1,Brass,,8,0,57,B5 and lower,41-60,f
+14,1,Brass,,8,0,57,B5 and lower,21-40,mf
+14,1,Brass,,8,0,57,B5 and lower,1-20,p
+14,1,Trumpet,,8,0,65,C8 and higher,1-127,breath noise
+14,1,Trumpet,,8,0,65,C6 and higher,1-127,valve noise
+14,1,Trumpet,,8,0,65,B5 and lower,121-127,glissando up
+14,1,Trumpet,,8,0,65,B5 and lower,111-120,fall
+14,1,Trumpet,,8,0,65,B5 and lower,101-110,shake
+14,1,Trumpet,,8,0,65,B5 and lower,81-100,straight
+14,1,Trumpet,,8,0,65,B5 and lower,61-80,legato
+14,1,Trumpet,,8,0,65,B5 and lower,41-60,ff
+14,1,Trumpet,,8,0,65,B5 and lower,21-40,f
+14,1,Trumpet,,8,0,65,B5 and lower,1-20,mf
+14,1,TenorSax,,8,0,83,C8 and higher,1-127,breath noise
+14,1,TenorSax,,8,0,83,C6 and higher,1-127,valve noise (C6 - B6 key on noise C7 - B7 key off noise)
+14,1,TenorSax,,8,0,83,B5 and lower,101-127,fall
+14,1,TenorSax,,8,0,83,B5 and lower,81-100,growl
+14,1,TenorSax,,8,0,83,B5 and lower,61-80,legato
+14,1,TenorSax,,8,0,83,B5 and lower,41-60,f
+14,1,TenorSax,,8,0,83,B5 and lower,21-40,mf
+14,1,TenorSax,,8,0,83,B5 and lower,1-20,mp

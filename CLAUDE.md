@@ -17,13 +17,15 @@ A cited, growing knowledge base for the **Yamaha DGX-670** keyboard, built from 
 ## Layout
 - `kb/INDEX.md` — entry point. `kb/maps/` — GLOSSARY, TERMS, BUTTONS, MENU_PATHS, TOC, DATALIST_TOC.
 - `kb/pages/{OM,RM}/<ID>.md` — one file per PDF page (generated; `ID` like `OM-050`).
-- `kb/figures/` — cached figure descriptions. `kb/datalist/` — cached Data List pages. `faq/` — verified answers.
-- `scripts/build_kb.py` (needs `pip install -r requirements.txt`) regenerates pages + maps from the PDFs;
-  `scripts/register.py` and `scripts/check_kb.py` are stdlib-only and run anywhere.
+- `kb/datalist/` — every Data List table as CSV (`csv/`, each row starts `dl_page,table`), searchable briefs in
+  `INDEX.md`, per-page legends in `pages/DL-nnn.md`, build checks in `CHECKS.md`, known discrepancies in `ISSUES.md`.
+- `kb/figures/` — cached figure descriptions. `faq/` — verified answers.
+- `scripts/build_kb.py` (needs `pip install -r requirements.txt`) regenerates pages, maps and the Data List CSVs
+  (`build_datalist.py`, briefs from `scripts/datalist_briefs.md`); `register.py`, `check_kb.py` are stdlib-only.
 
 ## Living cache (expensive work is done once)
 - Figure needed and page has `figure_cache: none` → delegate to the **figure-describer** agent.
-- Data List needed and page not in `kb/datalist/INDEX.md` → delegate to the **datalist-reader** agent.
+- A Data List CSV row looks wrong/missing or is doubted → delegate to the **datalist-verifier** agent (logs to ISSUES.md).
 - User confirms an answer ("correct", "save it") → write a FAQ entry (see skill).
 - Wording that didn't map to a manual term → add a row to `kb/maps/GLOSSARY.md`.
 - Hand-editing generated files is only allowed via `scripts/register.py` (it keeps markers/indexes consistent).

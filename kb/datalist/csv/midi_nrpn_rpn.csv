@@ -1,0 +1,33 @@
+dl_page,table,section,NRPN/RPN MSB,NRPN/RPN LSB,Data Entry MSB,Data Entry LSB,Parameter,Data Range,Voice › Regular/Drum/Natural,Voice › Mic,MIDI Reception › Song,MIDI Reception › Main/Layer/Left,MIDI Reception › Keyboard,MIDI Reception › Style,MIDI Reception › Extra,MIDI Transmission › Main/Layer/Left,MIDI Transmission › Style,MIDI Transmission › Song,MIDI Transmission › Upper Lower,PLAY › PLAY,PLAY › REW,REC › From panel (Main/Layer/Left)
+60,1,NRPN (Non Registered Parameter Number),01H,08H,mmH,–,Vibrato Rate,mm: 00H-40H-7FH (-64...0...+63),○,×,○,○,×,○,○,●,○,○,×,○,○,○
+60,1,NRPN (Non Registered Parameter Number),01H,09H,mmH,–,Vibrato Depth,mm: 00H-40H-7FH (-64...0...+63),○,×,○,○,×,○,○,●,○,○,×,○,○,○
+60,1,NRPN (Non Registered Parameter Number),01H,0AH,mmH,–,Vibrato Delay,mm: 00H-40H-7FH (-64...0...+63),○,×,○,○,×,○,○,●,○,○,×,○,○,○
+60,1,NRPN (Non Registered Parameter Number),01H,20H,mmH,–,Low Pass Filter Cutoff Frequency,mm: 00H-40H-7FH (-64...0...+63),○,×,○,×,×,○,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,21H,mmH,–,Low Pass Filter Resonance,mm: 00H-40H-7FH (-64...0...+63),○,×,○,×,×,○,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,30H,mmH,–,EQ Bass Gain,mm: 00H-40H-7FH (-64...0...+63),○,×,○,×,×,○,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,31H,mmH,–,EQ Treble Gain,mm: 00H-40H-7FH (-64...0...+63),○,×,○,×,×,○,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,34H,mmH,–,EQ Bass Frequency,mm: 04H-28H (32...2.0k [Hz]),○,×,○,×,×,×,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,35H,mmH,–,EQ Treble Frequency,mm: 1CH-3AH (500...16.0k [Hz]),○,×,○,×,×,×,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,63H,mmH,–,EG Attack Time,mm: 00H-40H-7FH (-64...0...+63),○,×,○,×,×,○,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),01H,64H,mmH,–,EG Decay Time,mm: 00H-40H-7FH (-64...0...+63),○,×,○,○,×,○,○,●,○,○,×,○,○,○
+60,1,NRPN (Non Registered Parameter Number),01H,66H,mmH,–,EG Release,mm: 00H-40H-7FH (-64...0...+63),○,×,○,×,×,○,×,×,×,○,×,○,○,×
+60,1,NRPN (Non Registered Parameter Number),14H,rrH,mmH,–,Drum Low Pass Filter Cutoff Frequency,rr: drum instrument note number mm: 00H-40H-7FH (-64...0...+63),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),15H,rrH,mmH,–,Drum Low Pass Filter Resonance,rr: drum instrument note number mm: 00H-40H-7FH (-64...0...+63),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),16H,rrH,mmH,–,Drum EG Attack Rate,rr: drum instrument note number mm: 00H-40H-7FH (-64...0...+63),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),17H,rrH,mmH,–,Drum EG Decay Rate,rr: drum instrument note number mm: 00H-40H-7FH (-64...0...+63),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),18H,rrH,mmH,–,Drum Pitch Coarse,rr: drum instrument note number mm: 00H-40H-7FH (-64...0...+63),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),19H,rrH,mmH,–,Drum Pitch Fine,rr: drum instrument note number mm: 00H-40H-7FH (-64...0...+63),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),1AH,rrH,mmH,–,Drum Level,rr: drum instrument note number mm: 00H-7FH (0...127),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),1CH,rrH,mmH,–,Drum Pan,"rr: drum instrument note number mm: 00H, 01H-40H-7FH (RND, L63...C...R63)",○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),1DH,rrH,mmH,–,Drum Reverb Send Level,rr: drum instrument note number mm: 00H-7FH (0...127),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),1EH,rrH,mmH,–,Drum Chorus Send Level,rr: drum instrument note number mm: 00H-7FH (0...127),○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),1FH,rrH,mmH,–,Drum Variation Send Level,"rr: drum instrument note number mm: 00H-7FH (0...127) (Variation Connection = SYSTEM) mm: 00H, 01H-7FH (OFF, ON) (Variation Connection = INSERTION)",○ (Drum only),×,○,×,×,×,×,×,○,○,×,○,×,×
+60,1,NRPN (Non Registered Parameter Number),30H,rrH,mmH,–,Drum EQ Bass Gain,rr: drum instrument note number mm: 00H-7FH (0...127),×,×,×,×,×,×,×,×,×,○,×,×,×,×
+60,1,NRPN (Non Registered Parameter Number),31H,rrH,mmH,–,Drum EQ Treble Gain,rr: drum instrument note number mm: 00H-7FH (0...127),×,×,×,×,×,×,×,×,×,○,×,×,×,×
+60,1,NRPN (Non Registered Parameter Number),34H,rrH,mmH,–,Drum EQ Bass Frequency,rr: drum instrument note number mm: 04H-28H (32...2.0k [Hz]),×,×,×,×,×,×,×,×,×,○,×,×,×,×
+60,1,NRPN (Non Registered Parameter Number),35H,rrH,mmH,–,Drum EQ Treble Frequency,rr: drum instrument note number mm: 1CH-3AH (500...16.0k [Hz]),×,×,×,×,×,×,×,×,×,○,×,×,×,×
+60,2,RPN (Registered Parameter Number),00H,00H,mmH,–,Pitch Bend Sensitivity [GM1] [GM2],mm: 00H-18H (0…+24 [semitones]),○,×,○,○,○ (All keyboard parts),○,○,●,○,○,×,○,○,○
+60,2,RPN (Registered Parameter Number),00H,01H,mmH,llH,Fine Tune [GM1] [GM2],mm ll: 00H 00H -100 [cent] … mm ll: 40H 00H 0 [cent] … mm ll: 7FH 7FH 100 [cent],○,×,○,○,○ (All keyboard parts),○,○,●,○,○,×,○,○,○
+60,2,RPN (Registered Parameter Number),00H,02H,mmH,–,Coarse Tune [GM1] [GM2],mm: 28H-40H-58H (-24...0...+24 [semitones]),○,×,○,○,○ (All keyboard parts),○,○,×,○,○,×,○,○,×
+60,2,RPN (Registered Parameter Number),00H,05H,mmH,llH,Modulation Sensitivity [GM2],mm: Specified in semitone steps ll: Specified in 100/128 cent steps,○,×,○,×,×,×,×,×,×,○,×,○,×,×
+60,2,RPN (Registered Parameter Number),7FH,7FH,–,–,Null [GM2],–,○,○,○,○,○ (All keyboard parts),○,○,×,○,○,×,○,×,×

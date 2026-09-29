@@ -1,0 +1,60 @@
+dl_page,table,group,control,function_1,function_2,function_3,function_4
+78,1,STYLE CONTROL,[ACMP],Menu,Split Point/Chord Fingering,Chord Fingering,–
+78,1,STYLE CONTROL,[OTS LINK],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,SIMPLE,Menu,Style Setting,–,–
+78,1,STYLE CONTROL,INTRO,Menu,Style Setting,–,–
+78,1,STYLE CONTROL,MAIN VARIATION [A],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,MAIN VARIATION [B],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,MAIN VARIATION [C],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,MAIN VARIATION [D],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,[BREAK],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,[ENDING/rit.],Menu,Style Setting,–,–
+78,1,STYLE CONTROL,[SYNC START],Menu,Split Point/Chord Fingering,Split Point,–
+78,1,STYLE CONTROL,[START/STOP],Menu,Style Setting,Setting2,2 Synchro Stop Timing
+78,1,STYLE CONTROL,Category selection buttons,Menu,Style Setting,–,–
+78,1,SONG,[SELECT],Menu,Song Setting,Play,1 Repeat Mode
+78,1,SONG,[GUIDE],Menu,Song Setting,Setting,1 Guide Mode
+78,1,SONG,[SCORE/LYLICS],Menu,Song Setting,Setting,2 Lyrics Language
+78,1,SONG,[▶▶],Menu,Song Setting,Play,1 Fast Forward Type
+78,1,SONG,[◀◀],Menu,Song Setting,Play,1 Fast Forward Type
+78,1,SONG,[▶/❚❚],Menu,Song Setting,Play,2 Quick Start
+78,1,SONG,[REC],Menu,Song Setting,Setting,1 Part Channel (Right)
+78,1,SONG,[A-B REPEAT],Menu,Song Setting,Play,1 Repeat Mode
+78,1,[TEMPO/TAP],,Menu,Metronome Setting,–,2 Tap Tempo
+78,1,[METRONOME],,Menu,Metronome Setting,–,1 Metronome
+78,1,TRANSPOSE,[+],Menu,Controller,Setting,1Touch Response
+78,1,TRANSPOSE,[–],Menu,Controller,Setting,1Touch Response
+78,1,[DEMO],,Menu,System,Common,–
+78,1,[MENU],,Menu,MIDI Setting,–,–
+78,1,[MIXER/EQ],,Mixer,–,Volume/Pan (Panel),–
+78,1,[CHANNEL ON/OFF],,Mixer,–,Volume/Pan (Panel),–
+78,1,[MIC SETTING],,Mic Setting (Select & Save),–,–,–
+78,1,[USB AUDIO],,Audio (Select & Save),–,–,–
+78,1,[DIRECT ACCESS],,–,–,–,–
+78,1,TAB,[◀],–,–,–,–
+78,1,TAB,[▶],–,–,–,–
+78,1,[ENTER],,–,–,–,–
+78,1,[EXIT],,Main,–,–,–
+78,1,Data dial,,–,–,–,–
+78,1,Cursor buttons,[▲],–,–,–,–
+78,1,Cursor buttons,[▼],–,–,–,–
+78,1,Cursor buttons,[◀],–,–,–,–
+78,1,Cursor buttons,[▶],–,–,–,–
+78,1,[VOICE EFFECT],,Menu,Keyboard Harmony,–,–
+78,1,PART ON/OFF,[LEFT],Menu,Voice Setting,Voice Set Filter,1 Voice (Left)
+78,1,PART ON/OFF,[MAIN],Menu,Voice Setting,Voice Set Filter,1 Voice (Main)
+78,1,PART ON/OFF,[LAYER],Menu,Voice Setting,Voice Set Filter,1 Voice (Layer)
+78,1,PART ON/OFF,Category selection buttons,Menu,Voice Setting,Voice Set Filter,–
+78,1,[PLAYLIST],,Playlist (Select & Save),–,–,–
+78,1,[PIANO ROOM],,Menu,Controller,Setting,1 Touch Response
+78,1,REGISTRATION MEMORY,[BANK],Menu,Regist Sequence/Freeze,Registration Sequence,–
+78,1,REGISTRATION MEMORY,[MEMORY],Menu,Regist Sequence/Freeze,Registration Sequence,–
+78,1,REGISTRATION MEMORY,[1],Regist Bank Information,–,–,–
+78,1,REGISTRATION MEMORY,[2],Regist Bank Information,–,–,–
+78,1,REGISTRATION MEMORY,[3],Regist Bank Information,–,–,–
+78,1,REGISTRATION MEMORY,[4],Regist Bank Information,–,–,–
+78,1,[PITCH BEND],,Menu,Controller,Setting,2 Pitch Bend Range
+78,1,[AUX PEDAL],,Menu,Controller,Pedal,1 AUX
+78,1,[PEDAL UNIT],Right Pedal,Menu,Controller,Pedal,2 Right
+78,1,[PEDAL UNIT],Center Pedal,Menu,Controller,Pedal,3 Center
+78,1,[PEDAL UNIT],Left Pedal,Menu,Controller,Pedal,4 Left

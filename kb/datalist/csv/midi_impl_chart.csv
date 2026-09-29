@@ -1,0 +1,40 @@
+dl_page,table,block,function,transmitted,recognized,remarks
+79,1,Basic Default Channel Changed,Basic Default,1 - 16,1 - 16,
+79,1,Basic Default Channel Changed,Channel Changed,1 - 16,1 - 16,
+79,1,Mode Default Messages Altered,Mode Default,3,3,
+79,1,Mode Default Messages Altered,Messages,×,×,
+79,1,Mode Default Messages Altered,Altered,**************,×,
+79,1,Note Number : True voice,Note,0 - 127,0 - 127,
+79,1,Note Number : True voice,Number : True voice,**************,0 - 127,
+79,1,Velocity Note ON Note OFF,Velocity Note ON,"○ 9nH,v=1-127","○ 9nH,v=1-127",
+79,1,Velocity Note ON Note OFF,Note OFF,"× 9nH,v=0",×,
+79,1,After Key's Touch Ch's,After Key's,×,○,
+79,1,After Key's Touch Ch's,Touch Ch's,×,○,
+79,1,Pitch Bend,Pitch Bend,○,○ 0 - 24 semi,
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","0,32",○,○,Bank Select
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","1,5,7,10,11",○,○,
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101",16,×,○,General Purpose
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101",,,,Controller
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","6,38",○,○,Data Entry
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","64,65,66,67",○,○,
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","Control 71,72,73,74",○,○,Sound Controller
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","80,81",○,○,
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101",Change 84,○,○,Portamento Cntrl
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","91,93,94",○,○,Effect Depth
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","96,97",×,○,"RPN Inc,Dec"
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","98,99",○,○,"NRPN LSB,MSB"
+79,1,"0,32 1,5,7,10,11 16 6,38 64,65,66,67 Control 71,72,73,74 80,81 Change 84 91,93,94 96,97 98,99 100,101","100,101",○,○,"RPN LSB,MSB"
+79,1,Prog Change : True #,Prog,○ 0 - 127,○ 0 - 127,
+79,1,Prog Change : True #,Change : True #,**************,,
+79,1,System Exclusive,System Exclusive,○,○,
+79,1,: Song Pos. Common : Song Sel. : Tune,: Song Pos.,×,×,
+79,1,: Song Pos. Common : Song Sel. : Tune,Common : Song Sel.,×,×,
+79,1,: Song Pos. Common : Song Sel. : Tune,: Tune,×,×,
+79,1,System : Clock Real Time: Commands,System : Clock,○,○,
+79,1,System : Clock Real Time: Commands,Real Time: Commands,○,○,
+79,1,: All Sound Off Aux : Reset All Cntrls : Local ON/OFF Mes- : All Notes OFF sages: Active Sense : Reset,: All Sound Off,×,"○ (120,126,127)",
+79,1,: All Sound Off Aux : Reset All Cntrls : Local ON/OFF Mes- : All Notes OFF sages: Active Sense : Reset,Aux : Reset All Cntrls,×,○ (121),
+79,1,: All Sound Off Aux : Reset All Cntrls : Local ON/OFF Mes- : All Notes OFF sages: Active Sense : Reset,: Local ON/OFF,×,○ (122),
+79,1,: All Sound Off Aux : Reset All Cntrls : Local ON/OFF Mes- : All Notes OFF sages: Active Sense : Reset,Mes- : All Notes OFF,×,○ (123 - 125),
+79,1,: All Sound Off Aux : Reset All Cntrls : Local ON/OFF Mes- : All Notes OFF sages: Active Sense : Reset,sages: Active Sense,○,○,
+79,1,: All Sound Off Aux : Reset All Cntrls : Local ON/OFF Mes- : All Notes OFF sages: Active Sense : Reset,: Reset,×,×,

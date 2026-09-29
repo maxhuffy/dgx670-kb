@@ -10,7 +10,9 @@ Source of truth: the PDFs in `dgx_source_docs/`. Everything in `kb/` is derived 
 5. `maps/MENU_PATHS.md` — "how do I get to setting X" → exact button path (71 paths).
 6. `maps/TOC.md` — bookmark tree + Owner's ↔ Reference Manual chapter join.
 7. `pages/OM/OM-nnn.md`, `pages/RM/RM-nnn.md` — one file per PDF page (OM 120 pages, RM 93 pages).
-8. `figures/INDEX.md` — figures already described (cache). `maps/DATALIST_TOC.md` + `datalist/INDEX.md` — Data List.
+8. `figures/INDEX.md` — figures already described (cache).
+9. `datalist/INDEX.md` — every Data List table (voices, styles, songs, drum kits, effects, Parameter Chart,
+   Direct Access Chart, MIDI) as CSV, with a searchable brief each. `maps/DATALIST_TOC.md` — its page ranges.
 
 ## Page file conventions
 - Frontmatter: `section` (bookmark breadcrumb), `role`, `links_out`/`links_in` (clickable PDF cross-references),
