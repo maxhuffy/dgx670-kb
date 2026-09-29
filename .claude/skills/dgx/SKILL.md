@@ -17,8 +17,9 @@ parallel `Grep` calls** (FAQ index, GLOSSARY, TERMS, MENU_PATHS, BUTTONS, TOC, a
 `kb/datalist/INDEX.md` with your best-guess terms), then read all candidate pages / grep candidate CSVs in
 **one parallel batch**. Aim for ≤ 4 turns before answering.
 
-1. **Verified FAQ** — `Grep` `faq/INDEX.md` for the topic. A match is a strong starting point, but still
-   confirm its citations still say that (read the cited page) before answering.
+1. **Verified FAQ + guides** — `Grep` `faq/INDEX.md` and `kb/guides/` for the topic. A match is a strong starting
+   point, but still confirm its citations say that (read the cited page) before answering. FAQ entries whose
+   `status:` says UNVERIFIED are cited drafts the user hasn't tested yet.
 2. **Translate the wording** — `Grep -i` `kb/maps/GLOSSARY.md` for the user's words → manual terms.
 3. **Map terms to pages** — `Grep -i` the manual terms in:
    - `kb/maps/TERMS.md` (printed indexes → page IDs)
