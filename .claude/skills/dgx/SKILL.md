@@ -12,6 +12,10 @@ Goal: a correct answer where **every claim is cited to a page**, using as few re
 Never answer from memory. "Not documented" beats a guess.
 
 ## 1. Look up (cheap → expensive)
+**Token economy:** every turn re-sends the whole context, so batch. Run steps 1–3 as **one message of
+parallel `Grep` calls** (FAQ index, GLOSSARY, TERMS, MENU_PATHS, BUTTONS, TOC with your best-guess terms), then
+read all candidate pages in **one parallel batch**. Aim for ≤ 4 turns before answering.
+
 1. **Verified FAQ** — `Grep` `faq/INDEX.md` for the topic. A match is a strong starting point, but still
    confirm its citations still say that (read the cited page) before answering.
 2. **Translate the wording** — `Grep -i` `kb/maps/GLOSSARY.md` for the user's words → manual terms.
