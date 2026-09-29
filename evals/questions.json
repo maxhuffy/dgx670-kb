@@ -1,0 +1,77 @@
+{
+  "_format": "expect_pages: list of groups; every group must be cited (any page ID inside a group counts). expect_not_documented: answer must say 'Not documented in the DGX-670 manuals'. notes: what a correct answer contains (for human review).",
+  "questions": [
+    {
+      "id": "menu-acmp-default",
+      "category": "menu-path",
+      "question": "How do I make the ACMP button be off by default when I turn the keyboard on?",
+      "expect_pages": [["OM-050"]],
+      "notes": "[MENU] → Cursor buttons [▲][▼][◀][▶] Style Setting, [ENTER] → TAB [◀][▶] Setting2 → Cursor button [▲] 1 ACMP On/Off Default [OM p.50]."
+    },
+    {
+      "id": "menu-split-point",
+      "category": "menu-path",
+      "question": "How do I change where the keyboard splits between my left-hand and right-hand sounds?",
+      "expect_pages": [["OM-058"]],
+      "notes": "Split Point procedure in 'Changing the Split Points' [OM p.58] (default F#2 per OM p.38)."
+    },
+    {
+      "id": "xref-metronome",
+      "category": "cross-manual",
+      "question": "How do I change the metronome's time signature and turn the bell on the first beat on or off?",
+      "expect_pages": [["RM-005"], ["OM-044"]],
+      "notes": "Path via [MENU] → Metronome Setting [OM p.44]; Metronome page: [3▲▼]–[5▲▼] Sound (bell accent), [6▲▼]/[7▲▼] Time Signature [RM p.5]."
+    },
+    {
+      "id": "xref-style-creator",
+      "category": "cross-manual",
+      "question": "Can I create my own Style from scratch, and where do I start?",
+      "expect_pages": [["OM-059"], ["RM-026", "RM-027", "RM-028"]],
+      "notes": "Style Creator: [MENU] → Cursor buttons [▲][▼][◀][▶] Style Creator, [ENTER] [OM p.59]; full procedure in RM Ch3 'Creating/Editing Styles (Style Creator)' [RM p.26+]."
+    },
+    {
+      "id": "fig-main-display-registration",
+      "category": "figure",
+      "question": "Where on the Main display is the Registration Memory Bank name shown?",
+      "expect_pages": [["OM-023"]],
+      "notes": "Callout (5) on the Main display figure [OM p.23]; location must come from the figure description [FIG OM-023-f1] — verify against the PDF page."
+    },
+    {
+      "id": "fig-rear-panel-order",
+      "category": "figure",
+      "question": "Looking at the rear panel, which connector is at the far left and which is at the far right?",
+      "expect_pages": [["OM-014"]],
+      "notes": "Rear panel figure with callouts (1)–(7) [OM p.14, FIG OM-014-f1]; positions come only from the figure — verify against the PDF page."
+    },
+    {
+      "id": "datalist-direct-access",
+      "category": "data-list",
+      "question": "If I press the DIRECT ACCESS button and then the MIXER/EQ button, which display comes up?",
+      "expect_pages": [["DL-078"]],
+      "notes": "OM p.22 defers to the Direct Access Chart in the Data List [DL p.78]; answer is the chart row for [MIXER/EQ]."
+    },
+    {
+      "id": "general-auto-power-off",
+      "category": "general",
+      "question": "My keyboard keeps turning itself off. Why, and how do I stop that?",
+      "expect_pages": [["OM-017", "OM-018"]],
+      "notes": "Auto Power Off: default time, how to change it, and the simple disable method [OM p.17]."
+    },
+    {
+      "id": "neg-adapter-cable-weight",
+      "category": "undocumented",
+      "question": "What is the weight of the power adapter cable?",
+      "expect_pages": [],
+      "expect_not_documented": true,
+      "notes": "Not documented. Closest: Specifications (instrument weight 21.4 kg, power adaptor info) [OM p.106–107]."
+    },
+    {
+      "id": "neg-vst-plugins",
+      "category": "undocumented",
+      "question": "Can I install third-party VST plugins on the DGX-670?",
+      "expect_pages": [],
+      "expect_not_documented": true,
+      "notes": "Not documented. Closest: computer connection via [USB TO HOST] [OM p.92] / Connections chapter."
+    }
+  ]
+}

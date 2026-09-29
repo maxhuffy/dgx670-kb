@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(dgx_source_docs/**)",
+      "Write(kb/**)",
+      "Edit(kb/**)",
+      "Write(faq/**)",
+      "Edit(faq/**)",
+      "Bash(python scripts/register.py *)",
+      "Bash(python scripts/check_kb.py*)",
+      "Bash(python3 scripts/register.py *)",
+      "Bash(python3 scripts/check_kb.py*)",
+      "Bash(git add kb/*)",
+      "Bash(git add faq/*)",
+      "Bash(git commit -m *)",
+      "Bash(git push)",
+      "Bash(git pull*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)"
+    ]
+  }
+}

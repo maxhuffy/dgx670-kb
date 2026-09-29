@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+# Yamaha's supplied text export: used once to calibrate the symbol map; not part of the knowledge base
+dgx_source_docs/*_text/
+evals/runs/
+.claude/settings.local.json
