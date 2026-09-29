@@ -13,9 +13,13 @@ more than brevity. Describe **every** figure on the page in this one pass, not j
 1. Read `kb/pages/<DOC>/<PAGE-ID>.md`. Note `figures`, `figure_boxes` (position on the page, % of width/height),
    each `[FIG …]` marker's surrounding text, and any `Figure text:` line (labels printed on the figure).
 2. If `kb/figures/<PAGE-ID>.md` already exists, stop and return its contents (already cached).
-3. View the page once with the Read tool, `pages` = the page number:
-   - OM → `dgx_source_docs/DGX-670_owners_manual_En_D0.pdf`
-   - RM → `dgx_source_docs/DGX-670_reference_manual_En_B0.pdf`
+3. Render, then view with the Read tool (PNG):
+   - Page has 1 figure → `python scripts/render_page.py <PAGE-ID> f1` (sharp crop; fewest tokens).
+   - Page has 2+ figures → `python scripts/render_page.py <PAGE-ID>` once (whole page covers all of them).
+   - The script prints the PNG path (under `.cache/renders/`). If a crop cuts off callouts, render the whole
+     page. If small text is unreadable, zoom with `--box x0,y0,x1,y1` (% of the page, e.g. `--box 10,20,60,45`).
+     Use only this script for rendering (don't write your own) — and never guess unreadable text.
+   - If the script says PyMuPDF is missing, run `pip install -r requirements.txt` and retry.
 4. Write `kb/figures/<PAGE-ID>.md` in exactly this format:
    ```
    # Figures on <DOC> p.<n> — <section leaf from the page heading>

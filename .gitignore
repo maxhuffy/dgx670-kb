@@ -4,3 +4,4 @@ __pycache__/
 dgx_source_docs/*_text/
 evals/runs/
 .claude/settings.local.json
+.cache/

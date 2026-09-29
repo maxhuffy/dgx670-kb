@@ -11,7 +11,8 @@ You turn Data List pages into a permanent, searchable text cache, one file per p
 ## Steps (per page number n)
 1. If `kb/datalist/DL-<nnn>.md` exists (nnn = zero-padded, e.g. DL-078), use it and skip to step 5.
 2. Find the section name for page n in `kb/maps/DATALIST_TOC.md`.
-3. View the page once with the Read tool: `dgx_source_docs/dgx670_en_dl_b0.pdf`, `pages` = n.
+3. Render it with `python scripts/render_page.py DL-<nnn>` and view the printed PNG path with the Read tool.
+   (If PyMuPDF is missing: `pip install -r requirements.txt`, then retry.)
 4. Write `kb/datalist/DL-<nnn>.md`:
    ```
    # DL p.<n> — <section>

@@ -11,11 +11,13 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | auto-change sounds with the style | One Touch Setting (OTS); [OTS LINK] |
 | backup, save everything | Data Backup; Backup/Restore |
 | bass with left hand, chords with right hand | Specifying Chords with Your Right Hand while Playing Bass with Your Left Hand (RM Ch3) |
+| bell, accent on beat 1, downbeat click | Metronome Settings → Sound ("bell accent … at the first beat of each measure") |
 | BPM, speed | Tempo; [TEMPO/TAP]; Tap Tempo |
 | change key, key shift | Transpose; TRANSPOSE [-]/[+] |
 | chord detection, one-finger chords, which chords are recognized | Chord Fingering; AI Full Keyboard; Smart Chord; Chord Types Recognized in Fingered |
 | click, count-in, metronome settings | Metronome; Time Signature; [METRONOME] |
 | computer, DAW, MIDI | [USB TO HOST]; MIDI; Connections chapter |
+| default at startup, on/off when I turn it on | "when the power is turned on"; ACMP On/Off Default (Style Setting → Setting2) |
 | demo songs | Demo; [DEMO] |
 | dimensions, polyphony, specs, weight | Specifications (OM); Compatible Format |
 | edit a sound | Voice Set (Editing Voices) |
@@ -54,4 +56,5 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | USB stick, delete/rename/save a file | File Management; USB flash drive; [USB TO DEVICE] |
 | velocity, key sensitivity | Touch Response |
 | voice numbers, style list, drum key map | Data List (see `DATALIST_TOC.md`) |
+| VST, plugins, software instruments, install apps on the keyboard | Not in the manuals; closest: [USB TO HOST]; USB Audio Interface; DAW; Yamaha Steinberg USB Driver |
 | wrong sound, no sound, something broken | Troubleshooting (OM) |

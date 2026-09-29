@@ -33,14 +33,14 @@
       "id": "fig-main-display-registration",
       "category": "figure",
       "question": "Where on the Main display is the Registration Memory Bank name shown?",
-      "expect_pages": [["OM-023"]],
+      "expect_pages": [["OM-023"], ["OM-023-f1"]],
       "notes": "Callout (5) on the Main display figure [OM p.23]; location must come from the figure description [FIG OM-023-f1] — verify against the PDF page."
     },
     {
       "id": "fig-rear-panel-order",
       "category": "figure",
       "question": "Looking at the rear panel, which connector is at the far left and which is at the far right?",
-      "expect_pages": [["OM-014"]],
+      "expect_pages": [["OM-014"], ["OM-014-f1"]],
       "notes": "Rear panel figure with callouts (1)–(7) [OM p.14, FIG OM-014-f1]; positions come only from the figure — verify against the PDF page."
     },
     {
