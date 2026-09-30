@@ -48,7 +48,8 @@ summary: Voice files (.vce) are Standard MIDI Files holding parameter settings; 
 - A byte-level specification of the .rgt format for any model, or an open-source .rgt parser (GitHub, PyPI) — as of 2026-09-30.
 - Any report of encryption or checksums in .vce, .rgt, .tsv or .bup files — neither confirmed nor ruled out.
 - The .bup backup format and the Setup File formats (System/MIDI/User Effect): no community documentation found.
-- A DGX-670-specific breakdown of which MIDI/SysEx events a .vce file contains.
+- A DGX-670-specific breakdown of which MIDI/SysEx events a .vce file contains (none online; since worked out
+  first-hand, see [LAB voice-file-format]).
 - Any way to write to the internal User drive from a computer; every tool found works on files on a USB drive.
 - PSR Tutorial pages could only be seen through search excerpts (the site returns a Cloudflare challenge to fetches).
 
@@ -62,3 +63,5 @@ summary: Voice files (.vce) are Standard MIDI Files holding parameter settings; 
     community GM/XG Voice files for the DGX-670 show generated .vce files do load [EXT synth-waveform-voice-choice#E2].
   - Registration Banks (.rgt) have no public spec, but YRM reads and writes DGX-670 banks [EXT usb-file-formats#E8, #E9].
   - Every route found goes through files on USB; the keyboard still has to load or copy them (panel presses).
+- Lab-tested on the user's DGX-670 (not from the manuals): generated .vce files load and play; the full field map
+  is in `kb/lab/voice-file-format.md` [LAB voice-file-format#L4, #L12].

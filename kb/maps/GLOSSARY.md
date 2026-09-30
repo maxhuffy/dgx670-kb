@@ -56,6 +56,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | sustain pedal, damper pedal, foot pedal | Pedal; footswitch; FC3A; FC4A; [PEDAL UNIT]; AUX Pedal |
 | tune to other instruments, A=440 | Master Tune; Scale Tune; Tuning; Pitch-Related Settings |
 | USB stick, delete/rename/save a file | File Management; USB flash drive; [USB TO DEVICE] |
+| user voice file, .vce file, custom voice file, edit voices on a computer | Voice Set; Editing Voices (Voice Set); File Management (file internals: `kb/lab/voice-file-format.md`) |
 | velocity, key sensitivity | Touch Response |
 | voice numbers, style list, drum key map | Data List (see `DATALIST_TOC.md`) |
 | VST, plugins, software instruments, install apps on the keyboard | Not in the manuals; closest: [USB TO HOST]; USB Audio Interface; DAW; Yamaha Steinberg USB Driver |

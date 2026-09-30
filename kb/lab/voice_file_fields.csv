@@ -1,0 +1,47 @@
+order,message,bytes,panel_page,panel_parameter,file_to_panel,status,evidence
+1,Meta Time Signature,FF 58 04 04 02 18 08,,(file header: 4/4),constant in all 632 files,confirmed,library
+2,Meta Tempo,FF 51 03 07 A1 20,,(file header: 120 bpm),constant in all 632 files,confirmed,library
+3,Bank Select MSB,B0 00 mm,Voice Selection,Voice (base Voice),MSB column of voices.csv [DL p.3-12],confirmed,630/630 library files match voices.csv; SQ5 retarget loaded
+4,Bank Select LSB,B0 20 ll,Voice Selection,Voice (base Voice),LSB column of voices.csv,confirmed,as above
+5,Program Change,C0 pp,Voice Selection,Voice (base Voice),pp = PC# - 1,confirmed,as above
+6,NRPN 01 66 + Data Entry,B0 63 01 / B0 62 66 / B0 06 vv / B0 26 00,Sound,EG Release,panel = vv - 64,confirmed,SL3 shows -16 for 0x30
+7,CC73,B0 49 vv,Sound,EG Attack,panel = vv - 64,confirmed,SL3 shows -64 for 0x00
+8,NRPN 01 64 + Data Entry,B0 63 01 / B0 62 64 / B0 06 vv / B0 26 00,Sound,EG Decay,panel = vv - 64,confirmed,SL3 shows 48 for 0x70
+9,NRPN 01 08 + Data Entry,B0 63 01 / B0 62 08 / B0 06 vv / B0 26 00,Sound,Vibrato Speed,panel = vv - 64,confirmed,default only: SL0 shows 0 for 0x40
+10,NRPN 01 09 + Data Entry,B0 63 01 / B0 62 09 / B0 06 vv / B0 26 00,Sound,Vibrato Depth,panel = vv - 64,confirmed,SL3 shows -64 for 0x00
+11,NRPN 01 0A + Data Entry,B0 63 01 / B0 62 0A / B0 06 vv / B0 26 00,Sound,Vibrato Delay,panel = vv - 64,confirmed,default only: SL0 shows 0
+12,XG 08 00 1E,F0 08 43 10 4C 08 00 1E vv F7,Controller,Modulation Filter,panel = vv,confirmed,default only: 64
+13,XG 0A 00 40,F0 08 43 10 4C 0A 00 40 vv F7,Controller,Modulation Amplitude,panel = vv,likely,default only: 64 (XG MW AMPLITUDE CONTROL 08 00 1F is not in the files)
+14,XG 08 00 20,F0 08 43 10 4C 08 00 20 vv F7,Controller,Modulation LFO PMOD,panel = vv,confirmed,default only: 15
+15,XG 08 00 21,F0 08 43 10 4C 08 00 21 vv F7,Controller,Modulation LFO FMOD,panel = vv,confirmed,default only: 0
+16,XG 08 00 22,F0 08 43 10 4C 08 00 22 vv F7,Controller,Modulation LFO AMOD,panel = vv,confirmed,default only: 5
+17,XG 08 00 05,F0 08 43 10 4C 08 00 05 vv F7,Common,Mono/Poly,00 = Mono; 01 = Poly,confirmed,CFX Grand M/NM one-byte diff; SL3 shows Mono
+18,Yamaha 50 08 00 04,F0 09 43 73 01 50 08 00 04 vv F7,Common,Volume,panel = vv,confirmed,default only: 106 = 0x6A
+19,CC71,B0 47 vv,Sound,Filter Harmonic Content,panel = vv - 64,confirmed,SL3 shows 16 for 0x50
+20,CC74,B0 4A vv,Sound,Filter Brightness,panel = vv - 64,confirmed,SL3 shows 16 for 0x50
+21,CC5,B0 05 vv,Common,Portamento Time,panel = vv,confirmed,SL0 24 / SL3 0
+22,XG 08 00 0C,F0 08 43 10 4C 08 00 0C vv F7,Common,Touch Sense Depth,panel = vv,confirmed,SL0 46 / SL3 16
+23,XG 08 00 0D,F0 08 43 10 4C 08 00 0D vv F7,Common,Touch Sense Offset,panel = vv,confirmed,default only: 82
+24,Yamaha 50 08 00 05,F0 09 43 73 01 50 08 00 05 vv F7,Common,Part Octave Main/Layer,panel = vv - 64,confirmed,default only: 0 for 0x40
+25,Yamaha 50 08 03 06,F0 09 43 73 01 50 08 03 06 vv F7,Common,Part Octave Left,panel = vv - 64,confirmed,default only: 1 for 0x41
+26,XG 0A 00 02,F0 08 43 10 4C 0A 00 02 vv F7,Common,Mono Type (Normal/Legato),00 = Normal; Legato value untested,hypothesis,always 00 in library; panel shows (Normal)
+27,XG 0A 00 03,F0 08 43 10 4C 0A 00 03 vv F7,Common,Portamento Time type (Fixed Rate),00 = Fixed Rate,hypothesis,always 00 in library; panel shows (Fixed Rate)
+28,XG 08 00 76,F0 08 43 10 4C 08 00 76 vv F7,Effect/EQ,EQ Low Frequency,Table #3 EQ Frequency [DL p.45],confirmed,default only: 0x10 = 125 Hz
+29,XG 08 00 72,F0 08 43 10 4C 08 00 72 vv F7,Effect/EQ,EQ Low Gain,dB = vv - 64,confirmed,default only: 0 dB
+30,XG 08 00 77,F0 08 43 10 4C 08 00 77 vv F7,Effect/EQ,EQ High Frequency,Table #3 EQ Frequency [DL p.45],confirmed,default only: 0x2F = 4.5 kHz
+31,XG 08 00 73,F0 08 43 10 4C 08 00 73 vv F7,Effect/EQ,EQ High Gain,dB = vv - 64,confirmed,default only: 0 dB
+32,Yamaha 51 04 00 00,F0 0B 43 73 01 51 04 00 00 02 tt uu F7,Harmony,Harmony Type (category + type),encoding unknown,hypothesis,17 distinct values in library; SawLead = 02 04 00 shows 4-Way Close 1
+33,Yamaha 50 04 00 05,F0 09 43 73 01 50 04 00 05 vv F7,Harmony,Volume,panel = vv,confirmed,default only: 60 = 0x3C
+34,Yamaha 50 04 00 02/03/04,F0 09 43 73 01 50 04 00 0n vv F7,Harmony,Assign / Speed / Chord Note Only / Minimum Velocity (mapping unknown),unknown,hypothesis,near-constant in library (10 / 00 / 00)
+35,Yamaha 51 00 01 00,F0 11 43 73 01 51 00 01 00 08 .. F7,Controller,Center/Left Pedal function + part checkmarks,encoding unknown,hypothesis,9 distinct values; some files carry two of these
+36,CC91,B0 5B vv,Effect/EQ,Reverb Depth,panel = vv,confirmed,SL0 0 / SL3 16
+37,CC93,B0 5D vv,Effect/EQ,Chorus Depth,panel = vv,confirmed,default only: 0
+38,Yamaha 50 08 00 08,F0 09 43 73 01 50 08 00 08 vv F7,Effect/EQ,DSP On/Off,7F = On; 00 = Off,likely,7F shows On (SL0/SL3); Off (SL1) not yet seen on panel
+39,Yamaha 50 08 00 01,F0 09 43 73 01 50 08 00 01 vv F7,,(unknown),always 00,unknown,library
+40,XG 03 00 00 (2 bytes),F0 09 43 10 4C 03 00 00 mm ll F7,Effect/EQ,DSP Type,MSB/LSB from effect_types.csv (Variation/Insertion block) [DL p.28-32],confirmed,SL0 Hall4 (1/18) and SL3 Stereo Overdrive (74/8) shown on panel
+41,XG 03 00 0B,F0 08 43 10 4C 03 00 0B vv F7,Effect/EQ,DSP Depth (= effect parameter 10 Dry/Wet),panel = vv,confirmed,SL0 34 / SL3 100
+42,Yamaha 51 08 00 11,F0 0B 43 73 01 51 08 00 11 02 xx 00 F7,,(DSP-related panel ID; tracks DSP type),copy from a preset that uses the target DSP type,unknown,57 distinct values; not unique per type
+43,XG 03 00 02-0A and 20-25,F0 08 43 10 4C 03 00 aa vv F7,Effect/EQ > DSP Type > Detail,Detail parameters 1-9 (02-0A) and 11-16 (20-25),per effect_params.csv [DL p.33-44] and value tables [DL p.45],likely,present in every file; SL2 vs SL3 (Drive/Edge/Mid Gain changes) sound different; Detail display not yet screenshot
+44,XG 03 00 30-42 (2 bytes),F0 09 43 10 4C 03 00 aa v1 v2 F7,Effect/EQ > DSP Type > Detail,parameters for DSP types that need MSB (types 5-8 95-98 104) [DL p.64],unknown,present in 64 files; untested
+45,Yamaha 51 08 00 12,F0 0C 43 73 01 51 08 00 12 03 ff 00 xx F7,,(DSP-related panel ID; paired with row 42),copy from the same donor as row 42,unknown,111 distinct values; some files carry two
+46,Meta End of Track,FF 2F 00,,,,confirmed,library
