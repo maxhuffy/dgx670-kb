@@ -5,6 +5,7 @@ update the page file's markers + frontmatter. Stdlib only.
 Usage:
   python scripts/register.py figure   RM-005     # after writing kb/figures/RM-005.md
   python scripts/register.py faq      split-point-change   # after writing faq/split-point-change.md
+  python scripts/register.py external filter-envelope      # after writing kb/external/filter-envelope.md
 """
 import re
 import sys
@@ -79,8 +80,47 @@ def register_faq(slug):
     print(f"ok: faq/{slug} registered")
 
 
+EXTERNAL_STATUSES = ("found", "partial", "nothing-found")
+EXTERNAL_FIELDS = ("topic", "status", "researched", "manual_gap", "queries", "summary")
+
+
+def external_problems(body):
+    """Return what is wrong with an external-research entry (empty list = valid). Shared with check_kb.py."""
+    problems = [f"missing '{n}:' line" for n in EXTERNAL_FIELDS if not field(body, n)]
+    status = field(body, "status")
+    if status and status not in EXTERNAL_STATUSES:
+        problems.append(f"status must be one of {EXTERNAL_STATUSES}")
+    if field(body, "researched") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", field(body, "researched")):
+        problems.append("researched must be YYYY-MM-DD")
+    findings = re.findall(r"^\*\*\[E\d+\]\*\*.*$", body, re.M)
+    if status in ("found", "partial"):
+        if not findings:
+            problems.append("status found/partial needs '**[E1]** …' finding lines")
+        for line in findings:
+            if not re.search(r"https?://", line):
+                problems.append(f"finding without a URL: {line[:60]}")
+    if not re.search(r"^## Manual baseline", body, re.M):
+        problems.append("missing '## Manual baseline' section (what the manuals do/don't say, cited)")
+    return problems
+
+
+def register_external(slug):
+    f = KB / "external" / f"{slug}.md"
+    if not f.exists():
+        die(f"{f} does not exist")
+    body = f.read_text(encoding="utf-8")
+    problems = external_problems(body)
+    if problems:
+        die(f"{f.name}: " + "; ".join(problems))
+    cell = lambda n: field(body, n).replace("|", "/")
+    upsert_row(KB / "external" / "INDEX.md", slug,
+               f"| {cell('topic')} | [{slug}]({slug}.md) | {cell('status')} | {cell('researched')} | {cell('summary')} |")
+    print(f"ok: external/{slug} registered ({field(body, 'status')})")
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 3 or sys.argv[1] not in ("figure", "faq"):
+    kinds = {"figure": register_figure, "faq": register_faq, "external": register_external}
+    if len(sys.argv) != 3 or sys.argv[1] not in kinds:
         print(__doc__)
         sys.exit(2)
-    {"figure": register_figure, "faq": register_faq}[sys.argv[1]](sys.argv[2])
+    kinds[sys.argv[1]](sys.argv[2])

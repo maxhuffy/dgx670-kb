@@ -29,6 +29,8 @@ parallel `Grep` calls** (FAQ index, GLOSSARY, TERMS, MENU_PATHS, BUTTONS, TOC, a
    - `kb/datalist/INDEX.md` (briefs of all 18 Data List tables: voices, styles, songs, drum kits, effects,
      Parameter Chart = what is saved where, Direct Access Chart, MIDI…) → which CSV can answer
 4. **Backstop** — only if the maps found nothing: `Grep -i` `kb/pages` for distinctive words.
+5. **External tier** — if the manuals leave a gap, `Grep -i` `kb/external/INDEX.md` (include it in the step-1
+   batch). Use it only for the gap; see §6.
 
 ## 2. Read
 - Read the candidate page files (`kb/pages/OM/OM-058.md` etc.) **in full** — usually 1–4 pages is enough.
@@ -67,8 +69,20 @@ Sources: OM p.58 · RM p.24 · FIG RM-005-f1 · DL p.23
 - Undocumented: `**Not documented in the DGX-670 manuals.**` then `**Closest documented:**` + cited items
   (omit that part if nothing is close). Never fill the gap from general knowledge.
 - Conflicting pages (e.g. OM vs RM): show both, cited, and say which is more specific.
+- External research goes **after** the manual-backed answer, under `**External research (not from the manuals):**`,
+  each claim cited `[EXT <slug>#E<n>]` with its source type (forum/Reddit/official…). A `nothing-found` entry is
+  reported as "Nothing found online as of <date> [EXT <slug>]".
 
-## 6. Grow the knowledge base (then commit + push only kb/ and faq/)
+## 6. External research (online) — only when asked, or when a gap matters and nothing is cached
+1. Check `kb/external/INDEX.md` first. Reuse an entry; re-research only if it's `nothing-found` and old, or asked.
+2. Search in one batch of parallel `WebSearch` calls (DGX-670 name variants; Reddit; psrtutorial.com; Yamaha
+   Musicians Forum; YouTube; Yamaha support/FAQ; then sibling models on the same engine, labelled as such).
+   `WebFetch` only the most promising 1–3 pages, with a prompt asking for the specific facts.
+3. Write `kb/external/<slug>.md` exactly as in `kb/external/README.md` (manual baseline cited, one `**[En]**` per
+   claim with URL, source type, which model it's about, trust). Record negatives with the date.
+4. `python scripts/register.py external <slug>`, then commit `kb: external <slug>` and push.
+
+## 7. Grow the knowledge base (then commit + push only kb/ and faq/)
 - **Glossary gap**: the user's wording needed a term not in GLOSSARY → add a row (alphabetical), commit
   `kb: glossary <term>`.
 - **Verified FAQ**: only when the user confirms the answer is right / asks to save it. Write `faq/<slug>.md`:

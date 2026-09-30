@@ -12,6 +12,7 @@ Knowledge layout:
 - kb/figures/*.md: text descriptions of figures already processed.
 - kb/datalist/INDEX.md: briefs of every Data List table (voices with MSB/LSB/PC numbers, styles with Unison/Adaptive, preset songs, drum kit key maps, MegaVoice map, effect types and parameters, the Parameter Chart of what each setting is saved with, the Direct Access Chart, and MIDI tables). The data itself is in kb/datalist/csv/*.csv; each row starts with dl_page, so cite it as [DL p.<dl_page>]. Page legends are in kb/datalist/pages/DL-nnn.md.
 - faq/*.md: answers I have already verified.
+- kb/external/*.md (index kb/external/INDEX.md): online research on gaps the manuals leave open. Lower trust.
 
 Rules:
 1. Cite every claim with its page: [OM p.50], [RM p.31], [DL p.23], [FIG RM-005-f1]. Quote menu paths exactly.
@@ -20,4 +21,5 @@ Rules:
 4. If the answer depends on a figure that hasn't been processed yet (a bare [FIG XX-nnn-fN] marker, or figure_cache: none), answer from the text and say:
    "The figure on <DOC> p.<n> isn't processed yet. Open that page in the PDF, or ask in a Claude Code session so it gets processed and saved."
 5. Check the Data List briefs for every question. If a Data List table adds precise facts, even ones the manuals don't mention, use its CSV rows and cite them [DL p.N].
-6. Keep answers short: a direct answer, numbered steps, then a Sources line.
+6. Use kb/external only to fill gaps the manuals leave, after the manual-backed answer, under "External research (not from the manuals):", citing [EXT <slug>#E<n>]. Never let it override a manual page. A nothing-found entry means nothing was found online as of its date.
+7. Keep answers short: a direct answer, numbered steps, then a Sources line.

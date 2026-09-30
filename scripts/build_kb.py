@@ -530,6 +530,9 @@ Source of truth: the PDFs in `dgx_source_docs/`. Everything in `kb/` is derived 
 9. `datalist/INDEX.md` — every Data List table (voices, styles, songs, drum kits, effects, Parameter Chart,
    Direct Access Chart, MIDI) as CSV, with a searchable brief each. `maps/DATALIST_TOC.md` — its page ranges.
 10. `guides/` — cited cheat sheets that pull one topic together across OM/RM/DL (e.g. `voice-editing-cheat-sheet.md`).
+11. `external/INDEX.md` — **externally researched** topics (forums, Reddit, Yamaha support pages, videos…) for gaps the
+    manuals leave open, including "nothing found online as of <date>". Lower trust tier: never overrides the
+    manuals; always labelled "(external, not from the manuals)" and cited `[EXT <slug>#E<n>]`.
 
 ## Page file conventions
 - Frontmatter: `section` (bookmark breadcrumb), `role`, `links_out`/`links_in` (clickable PDF cross-references),
@@ -585,6 +588,12 @@ def main():
     seed(ROOT / "faq" / "INDEX.md",
          "# Verified FAQ\n\nAnswers the user confirmed as correct. One row per entry; details in `faq/<slug>.md`.\n\n"
          "| Question | File | Citations |\n|---|---|---|\n")
+    seed(KB / "external" / "INDEX.md",
+         "# Externally Researched Topics\n\n"
+         "Online research (forums, Reddit, Yamaha support pages, videos, third-party docs) on gaps the DGX-670 manuals\n"
+         "leave open. **Lower trust than the manuals**: cite as `[EXT <slug>#E<n>]` and label \"(external, not from the\n"
+         "manuals)\". `nothing-found` rows are dated so they can be re-checked later. Format and rules: `README.md`.\n\n"
+         "| Topic | File | Status | Researched | Summary |\n|---|---|---|---|---|\n")
 
     figs = collections.Counter(p["key"] for p in all_pages for _ in p["figs"])
     unmapped = sum(len(re.findall(r"[-�]", p["text"])) for p in all_pages)

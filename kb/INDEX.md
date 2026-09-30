@@ -14,6 +14,9 @@ Source of truth: the PDFs in `dgx_source_docs/`. Everything in `kb/` is derived 
 9. `datalist/INDEX.md` — every Data List table (voices, styles, songs, drum kits, effects, Parameter Chart,
    Direct Access Chart, MIDI) as CSV, with a searchable brief each. `maps/DATALIST_TOC.md` — its page ranges.
 10. `guides/` — cited cheat sheets that pull one topic together across OM/RM/DL (e.g. `voice-editing-cheat-sheet.md`).
+11. `external/INDEX.md` — **externally researched** topics (forums, Reddit, Yamaha support pages, videos…) for gaps the
+    manuals leave open, including "nothing found online as of <date>". Lower trust tier: never overrides the
+    manuals; always labelled "(external, not from the manuals)" and cited `[EXT <slug>#E<n>]`.
 
 ## Page file conventions
 - Frontmatter: `section` (bookmark breadcrumb), `role`, `links_out`/`links_in` (clickable PDF cross-references),

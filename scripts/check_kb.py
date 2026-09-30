@@ -8,7 +8,7 @@ import re
 import sys
 
 from kbcommon import KB, ROOT, cached_figure_titles
-from register import ROW_KEY_RE
+from register import ROW_KEY_RE, external_problems
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -74,12 +74,13 @@ for doc, ref in REFERENCE_FIGURES.items():
 
 # Cache indexes <-> files
 for folder, pattern in ((KB / "figures", "[A-Z][A-Z]-[0-9][0-9][0-9].md"),
-                        (ROOT / "faq", "*.md")):
+                        (ROOT / "faq", "*.md"),
+                        (KB / "external", "*.md")):
     index = folder / "INDEX.md"
     if not index.exists():
         fail(f"missing {index.relative_to(ROOT)}")
         continue
-    files = {p.stem for p in folder.glob(pattern) if p.name != "INDEX.md"}
+    files = {p.stem for p in folder.glob(pattern) if p.name not in ("INDEX.md", "README.md")}
     rows = index_keys(index)
     for k in sorted(files - rows):
         fail(f"{folder.name}/{k}.md is not in {folder.name}/INDEX.md (run scripts/register.py)")
@@ -89,6 +90,11 @@ for folder, pattern in ((KB / "figures", "[A-Z][A-Z]-[0-9][0-9][0-9].md"),
 for f in sorted((ROOT / "faq").glob("*.md")):
     if f.name != "INDEX.md" and not re.search(r"\[(OM|RM|DL) p\.\d+", f.read_text(encoding="utf-8")):
         fail(f"faq/{f.name}: no citation")
+
+for f in sorted((KB / "external").glob("*.md")):
+    if f.name not in ("INDEX.md", "README.md"):
+        for p in external_problems(f.read_text(encoding="utf-8")):
+            fail(f"external/{f.name}: {p}")
 
 for name in ("INDEX.md", "maps/TOC.md", "maps/TERMS.md", "maps/BUTTONS.md", "maps/MENU_PATHS.md",
              "maps/DATALIST_TOC.md", "maps/GLOSSARY.md", "datalist/INDEX.md", "datalist/CHECKS.md",

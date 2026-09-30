@@ -2,6 +2,8 @@
   "permissions": {
     "allow": [
       "Read(dgx_source_docs/**)",
+      "WebSearch",
+      "WebFetch",
       "Write(kb/**)",
       "Edit(kb/**)",
       "Write(faq/**)",
