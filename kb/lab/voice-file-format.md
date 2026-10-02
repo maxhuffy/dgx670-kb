@@ -96,6 +96,14 @@ saved the clone it also wrote the Left Pedal message (Soft, all three parts), wh
 page shows for SL0. The file grows to 689 bytes as a result. Status: likely (layout fits both messages and the
 display; only two function codes seen). Evidence: SL0 Copy CHANGD vs SL0; settings_screenshots/sl0_controller.png.
 
+**[L17]** DSP types that need MSB parameters (e.g. V Distortion Delay 98/1 in BluesGuitar) store parameters 1–10 as
+2-byte values at XG insertion addresses `30, 32, … 42` (parameter n at 0x30 + 2·(n − 1)), as plain 16-bit big-endian
+numbers: bytes above 7F occur (e.g. `09 C4` = 2500 = 250.0 ms Lch Delay Time in 0.1 ms steps, range 1–16383
+[DL p.37]). Parameters 11–16 stay single bytes at `20–25`. The Yamaha-specific `51 08 00 12` messages can repeat, each
+`03 pp hh ll` = a parameter index and a 16-bit value (BluesGuitar: 05 → 1500, 06 → 3000, 07 → 3000), with `51 08 00 11`
+holding one more value; their role is unknown. Status: likely (2-byte layout fits the Data List ranges);
+hypothesis (51 08 00 11/12 meaning). Evidence: BluesGuitar.T245.clv decode.
+
 **[L16]** Files saved by the keyboard carry the date 2019-12-31 (the instrument does not stamp the real date).
 Status: confirmed (all preset copies and the user's clone). Evidence: file listings.
 
@@ -114,6 +122,18 @@ Status: confirmed (all preset copies and the user's clone). Evidence: file listi
 - 2026-10-01, follow-up checks: SL1 Effect/EQ shows DSP Off [L14]; SL3 DSP Detail shows all ten values as written
   [L9]; user's clone "SL0 Copy CHANGD" (Mono + Legato) settles Mono Type [L13] and shows the pedal message layout
   [L15].
+
+- 2026-10-01, batch 2 result: all six "~fine"; favourites S3B (Drive 90), S3C (LPF 5.0 kHz), S3E (Edge 110). Shared
+  problem: the target riff sounds more like a crunchy, clipped electric guitar than a synth. User also liked the
+  guitar Voices BluesGuitar, CrunchGuitar and S.Art HeavyRockGuitar, but their tails (sound after key release) were
+  too long. Decode: tails = Reverb Depth 19–25 plus a delay inside the DSP (BluesGuitar VDistHd+Dly 98/1, CrunchGuitar
+  Regular VDistH+TDly1 103/0); the S.Art guitars use Stereo Amp Simulators (StAmpCrunch 75/30 Tube; StAmpSim4 75/24
+  Combo) with no delay.
+- 2026-10-01, batch 3 (`generated_voices/batch3/`, recipe `generated_voices/batch3_recipe.py`, not yet tested):
+  G1–G6 = SL3 synth settings, Reverb/Chorus 0, DSP spliced from a guitar Voice (Stereo Amp Simulator Tube/Stack/
+  Combo; V Dist Tempo Delay with Delay Mix 0 as Vintage Tube + Stack, Dist2 + Combo; G5 adds EG Decay −16);
+  B1–B5 = BluesGuitar, CrunchGuitar (Regular and S.Art), HeavyRockGuitar with Reverb/Chorus 0 and Delay Mix 0
+  (B4: S.Art Crunch with amp Drive 50).
 
 ## Open questions
 - Retarget display [L11]: does SQ5 show SquareLead as its Voice?
