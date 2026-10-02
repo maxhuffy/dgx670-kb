@@ -27,9 +27,9 @@ order,message,bytes,panel_page,panel_parameter,file_to_panel,status,evidence
 26,XG 0A 00 02,F0 08 43 10 4C 0A 00 02 vv F7,Common,Mono Type (Normal/Legato),00 = Normal; 01 = Legato,confirmed,user clone of SL0 with Mono + Legato (2026-10-01) differs here (00 -> 01) and in Mono/Poly
 27,XG 0A 00 03,F0 08 43 10 4C 0A 00 03 vv F7,Common,Portamento Time type (Fixed Rate),00 = Fixed Rate,hypothesis,always 00 in library; panel shows (Fixed Rate)
 28,XG 08 00 76,F0 08 43 10 4C 08 00 76 vv F7,Effect/EQ,EQ Low Frequency,Table #3 EQ Frequency [DL p.45],confirmed,default only: 0x10 = 125 Hz
-29,XG 08 00 72,F0 08 43 10 4C 08 00 72 vv F7,Effect/EQ,EQ Low Gain,dB = vv - 64,confirmed,default only: 0 dB
+29,XG 08 00 72,F0 08 43 10 4C 08 00 72 vv F7,Effect/EQ,EQ Low Gain,00-7F = -12...+12 dB [DL p.66] so dB ~ (vv - 64) x 12/64; 40 = 0 dB,likely,0 dB seen at 0x40; user-saved G4 MODI 2 holds 0x76 (~ +10 dB); panel display of non-zero gains not yet checked
 30,XG 08 00 77,F0 08 43 10 4C 08 00 77 vv F7,Effect/EQ,EQ High Frequency,Table #3 EQ Frequency [DL p.45],confirmed,default only: 0x2F = 4.5 kHz
-31,XG 08 00 73,F0 08 43 10 4C 08 00 73 vv F7,Effect/EQ,EQ High Gain,dB = vv - 64,confirmed,default only: 0 dB
+31,XG 08 00 73,F0 08 43 10 4C 08 00 73 vv F7,Effect/EQ,EQ High Gain,00-7F = -12...+12 dB [DL p.66] so dB ~ (vv - 64) x 12/64; 40 = 0 dB,likely,0 dB seen at 0x40; user-saved G4 MODI 2 holds 0x00 (-12 dB); panel display of non-zero gains not yet checked
 32,Yamaha 51 04 00 00,F0 0B 43 73 01 51 04 00 00 02 tt uu F7,Harmony,Harmony Type (category + type),encoding unknown,hypothesis,17 distinct values in library; SawLead = 02 04 00 shows 4-Way Close 1
 33,Yamaha 50 04 00 05,F0 09 43 73 01 50 04 00 05 vv F7,Harmony,Volume,panel = vv,confirmed,default only: 60 = 0x3C
 34,Yamaha 50 04 00 02/03/04,F0 09 43 73 01 50 04 00 0n vv F7,Harmony,Assign / Speed / Chord Note Only / Minimum Velocity (mapping unknown),unknown,hypothesis,near-constant in library (10 / 00 / 00)

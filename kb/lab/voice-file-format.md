@@ -51,7 +51,8 @@ NM vs M files (only Mono/Poly changed on the panel) differ in exactly this one b
 - Part Octave (Main/Layer and Left): panel = file − 64.
 - Controller page (Modulation Filter/Amplitude, LFO PMOD/FMOD/AMOD): panel = file value.
 - Effect/EQ page: Reverb/Chorus Depth = file value; DSP Depth = insertion parameter 10 (Dry/Wet) = file value;
-  EQ frequencies via Table #3 [DL p.45]; EQ gains dB = file − 64.
+  EQ frequencies via Table #3 [DL p.45]; EQ gains: 00–7F spans −12…+12 dB [DL p.66], i.e. dB ≈ (file − 64) × 12/64
+  (corrected 2026-10-02: an earlier "dB = file − 64" was only ever checked at 0 dB; DSP Detail gains differ, see [L9]).
 Status: confirmed for every field changed in SL3 (Touch Sense Depth, Mono, Portamento, Attack, Decay, Release,
 Vibrato Depth, Brightness, Harmonic Content, Reverb Depth, DSP Type, DSP Depth); defaults-only for the rest.
 Evidence: settings_screenshots/ (10 images, 2026-09-30).
@@ -135,7 +136,21 @@ Status: confirmed (all preset copies and the user's clone). Evidence: file listi
   B1–B5 = BluesGuitar, CrunchGuitar (Regular and S.Art), HeavyRockGuitar with Reverb/Chorus 0 and Delay Mix 0
   (B4: S.Art Crunch with amp Drive 50).
 
+- 2026-10-02, batch 3 result: best were G4 VTubeStack and B4 CrunchSA Hot; user unsure whether it is getting closer.
+  User re-saved edited copies on the keyboard (`generated_voices/batch3/`):
+  - G4 MODI: Brightness 16 → 11; Overdrive 70 → 80 %; Speaker Stack → Twin; Presence 8 → 20; Output 82 → 90 %;
+    DSP Depth (Dry/Wet) 127 → 75 (D<W11); Reverb 0 → 2, Chorus 0 → 2; delay re-enabled lightly (Delay Mix 0 → 7,
+    Feedback Level +26 → +63, Delay Time 11 → 8); EQ frequencies moved with gains still 0 dB.
+  - G4 MODI 2: as MODI plus Volume 106 → 74, Touch Sense Offset 82 → 97, Overdrive 100 %, Presence 17, Dry/Wet 71
+    (D<W7), EQ Low 2.0 kHz ≈ +10 dB, EQ High 500 Hz −12 dB (a strong low-mid emphasis with the top cut).
+  - B4 MOD: Attack −18, Decay −28, Release −10, Vibrato Speed +53 / Depth +3 / Delay −22, Harmonic Content +42,
+    Brightness −64, amp Drive 50 → 101, LPF 4.5 → 5.0 kHz, Edge 0 → 127.
+  - Direction across all three: more drive, sharper clipping, darker top end.
+  - Keyboard-saved oddities: Harmony Volume byte `FF` and a pedal message with `7F FF` in G4 MODI 2 (bytes above 7F in
+    Yamaha-specific fields); the Harmony Type message was dropped. Meaning unknown.
+
 ## Open questions
+- Voice EQ gain display: does G4 MODI 2 show about +10 dB (Low) and −12 dB (High)? Confirms the DL p.66 scale.
 - Retarget display [L11]: does SQ5 show SquareLead as its Voice?
 - Portamento Time type (`0A 00 03`, 00 = Fixed Rate): the other option's value is untested.
 - DSP type swap without a donor [L10]; Harmony and pedal encodings; the `T<nnn>` suffix; 2-byte DSP parameters
