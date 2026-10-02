@@ -7,4 +7,4 @@ unknown). Format and rules: `README.md`.
 
 | Topic | File | Status | Tested | Summary |
 |---|---|---|---|---|
-| Internal format of DGX-670 Voice (Voice Set) files, panel-value mapping, and generating edited Voices on a computer | [voice-file-format](voice-file-format.md) · [fields CSV](voice_file_fields.csv) | partial | 2026-09-30 | A Voice file is a ~670-byte Standard MIDI File of XG parameter messages (part 0, insertion effect 0) plus ~12 Yamaha-specific messages; no checksum, no encryption, name = filename. Files generated on a PC load and play; panel values map to file values by simple rules (confirmed from screenshots). |
+| Internal format of DGX-670 Voice (Voice Set) files, panel-value mapping, and generating edited Voices on a computer | [voice-file-format](voice-file-format.md) · [fields CSV](voice_file_fields.csv) | partial | 2026-10-01 | A Voice file is a ~670-byte Standard MIDI File of XG parameter messages (part 0, insertion effect 0) plus ~12 Yamaha-specific messages; no checksum, no encryption, name = filename. Files generated on a PC load and play; panel values map to file values by simple rules (confirmed from screenshots). |

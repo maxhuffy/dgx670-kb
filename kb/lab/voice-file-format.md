@@ -1,8 +1,8 @@
 # DGX-670 Voice files (.vce and related): internal format, and generating new Voices on a PC
 topic: Internal format of DGX-670 Voice (Voice Set) files, panel-value mapping, and generating edited Voices on a computer
 status: partial
-tested: 2026-09-30
-evidence: initial_dgx_voices_saved_to_usb/ (all 630 preset Voices + kits copied from the Preset tab, plus CFX Grand M/NM test pair in NewFolder/); settings_screenshots/ (Voice Set pages of SL0 and SL3); generated_voices/batch1, batch2 and tools/ (vce.py decoder, gen.py generator)
+tested: 2026-10-01
+evidence: initial_dgx_voices_saved_to_usb/ (all 630 preset Voices + kits copied from the Preset tab, plus CFX Grand M/NM test pair in NewFolder/); settings_screenshots/ (Voice Set pages of SL0 and SL3, SL3 DSP Detail); generated_voices/batch1, batch2 and tools/ (vce.py decoder, gen.py generator)
 summary: A Voice file is a ~670-byte Standard MIDI File of XG parameter messages (part 0, insertion effect 0) plus ~12 Yamaha-specific messages; no checksum, no encryption, name = filename. Files generated on a PC load and play; panel values map to file values by simple rules (confirmed from screenshots). Field map: voice_file_fields.csv.
 
 ## Manual baseline
@@ -61,8 +61,12 @@ Evidence: settings_screenshots/ (10 images, 2026-09-30).
 **[L9]** The Voice file carries the DSP **Detail** values (insertion parameters 1–16) even though the Parameter Chart
 has no Detail row [DL p.47]. Parameter names/ranges come from `effect_params.csv` (e.g. Stereo Distortion list:
 Drive, EQ Low Freq/Gain, LPF Cutoff, Output Level, EQ Mid Freq/Gain/Width, Dry/Wet, Edge [DL p.37]). Status: likely:
-present in every file, and variants differing only in Drive/Edge/Mid Gain sound different; the Detail display
-itself has not been checked yet.
+present in every file, and variants differing only in Drive/Edge/Mid Gain sound different. **Update 2026-10-01:
+confirmed.** SL3's Detail display shows all ten Stereo Overdrive values exactly as written: Drive 70, EQ Low 315 Hz /
+0 dB, LPF 7.0 kHz, Output Level 105, EQ Mid 1.0 kHz / +8 dB / Width 1.0, Dry/Wet D<W36, Edge 80. Conversions:
+plain 0–127 parameters = file value; frequencies via Table #3 [DL p.45]; gains dB = file − 64; EQ Mid Width =
+file ÷ 10; Dry/Wet 64 = D=W, above 64 = D<W(file − 64), below 64 = D(64 − file)>W. Status: confirmed.
+Evidence: settings_screenshots/sl3_effect_eq_details_1.png, _2.png.
 
 **[L10]** Two Yamaha-specific fields (`51 08 00 11` and `51 08 00 12`) track the DSP type but are not a unique ID per
 type. Safe method: when changing the DSP type, copy the whole DSP block (XG `03 00 00` through `51 08 00 12`) from a
@@ -77,6 +81,23 @@ was not checked.
 **[L12]** Generated files load from the USB1 tab and play; no Save on the keyboard is needed to audition them.
 Status: confirmed (batch 1, all six files).
 
+**[L13]** Mono Type is XG `0A 00 02` (Portamento Mono Legato): 00 = Normal, 01 = Legato. Status: confirmed. Evidence:
+the user's clone of SL0 saved with Mono + Legato ("SL0 Copy CHANGD", 2026-10-01) differs from SL0 in exactly Mono/Poly
+(01 → 00) and this byte (00 → 01), apart from the pedal message in [L15].
+
+**[L14]** DSP On/Off is the Yamaha-specific `50 08 00 08`: 7F = On, 00 = Off. Status: confirmed. Evidence: SL0/SL3
+(7F) show On; SL1 Dry (00) shows Off (2026-10-01).
+
+**[L15]** Pedal settings are Yamaha-specific `51 00 01 00 08 1p ff 00 mm …`: p = 1 Center Pedal, p = 0 Left Pedal;
+ff = function (05 = Modulation, 02 = Soft, one example each); mm = part checkmarks (bits 1 = Main, 2 = Layer,
+4 = Left). SawLead's preset file has only the Center Pedal message (Modulation, Main + Layer); when the keyboard
+saved the clone it also wrote the Left Pedal message (Soft, all three parts), which matches what the Controller
+page shows for SL0. The file grows to 689 bytes as a result. Status: likely (layout fits both messages and the
+display; only two function codes seen). Evidence: SL0 Copy CHANGD vs SL0; settings_screenshots/sl0_controller.png.
+
+**[L16]** Files saved by the keyboard carry the date 2019-12-31 (the instrument does not stamp the real date).
+Status: confirmed (all preset copies and the user's clone). Evidence: file listings.
+
 ## Experiment log
 - 2026-09-30, CFX Grand NM/M (user-made): one-byte difference = Mono/Poly [L6].
 - 2026-09-30, batch 1 (SawLead template, `generated_voices/batch1/`): SL0 Copy (byte-identical control), SL1 Dry
@@ -89,11 +110,12 @@ Status: confirmed (batch 1, all six files).
 - 2026-09-30, batch 2 (`generated_voices/batch2/`, not yet tested): SL3 + Reverb 6, each with one change: Drive 90;
   LPF 5.0 kHz; Mid 800 Hz +10 dB width 0.5; Edge 110; Dry/Wet 127.
 
+- 2026-10-01, follow-up checks: SL1 Effect/EQ shows DSP Off [L14]; SL3 DSP Detail shows all ten values as written
+  [L9]; user's clone "SL0 Copy CHANGD" (Mono + Legato) settles Mono Type [L13] and shows the pedal message layout
+  [L15].
+
 ## Open questions
-- DSP On/Off field [voice_file_fields.csv row 38]: screenshot SL1 Dry's Effect/EQ page (should show Off).
-- DSP Detail values [L9]: screenshot SL3's Effect/EQ → DSP Type → Detail parameters (expected: Drive 70, EQ Low
-  315 Hz / 0 dB, LPF 7.0 kHz, Output 105, Mid 1.0 kHz / +8 dB / width 1.0, Dry/Wet 100, Edge 80).
-- Mono Type Legato: save any Voice with Mono + Mono Type Legato and diff it (expected field: XG `0A 00 02`).
 - Retarget display [L11]: does SQ5 show SquareLead as its Voice?
+- Portamento Time type (`0A 00 03`, 00 = Fixed Rate): the other option's value is untested.
 - DSP type swap without a donor [L10]; Harmony and pedal encodings; the `T<nnn>` suffix; 2-byte DSP parameters
   (addresses 30–42) used by types that need MSB, e.g. V Distortion.

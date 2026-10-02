@@ -24,7 +24,7 @@ order,message,bytes,panel_page,panel_parameter,file_to_panel,status,evidence
 23,XG 08 00 0D,F0 08 43 10 4C 08 00 0D vv F7,Common,Touch Sense Offset,panel = vv,confirmed,default only: 82
 24,Yamaha 50 08 00 05,F0 09 43 73 01 50 08 00 05 vv F7,Common,Part Octave Main/Layer,panel = vv - 64,confirmed,default only: 0 for 0x40
 25,Yamaha 50 08 03 06,F0 09 43 73 01 50 08 03 06 vv F7,Common,Part Octave Left,panel = vv - 64,confirmed,default only: 1 for 0x41
-26,XG 0A 00 02,F0 08 43 10 4C 0A 00 02 vv F7,Common,Mono Type (Normal/Legato),00 = Normal; Legato value untested,hypothesis,always 00 in library; panel shows (Normal)
+26,XG 0A 00 02,F0 08 43 10 4C 0A 00 02 vv F7,Common,Mono Type (Normal/Legato),00 = Normal; 01 = Legato,confirmed,user clone of SL0 with Mono + Legato (2026-10-01) differs here (00 -> 01) and in Mono/Poly
 27,XG 0A 00 03,F0 08 43 10 4C 0A 00 03 vv F7,Common,Portamento Time type (Fixed Rate),00 = Fixed Rate,hypothesis,always 00 in library; panel shows (Fixed Rate)
 28,XG 08 00 76,F0 08 43 10 4C 08 00 76 vv F7,Effect/EQ,EQ Low Frequency,Table #3 EQ Frequency [DL p.45],confirmed,default only: 0x10 = 125 Hz
 29,XG 08 00 72,F0 08 43 10 4C 08 00 72 vv F7,Effect/EQ,EQ Low Gain,dB = vv - 64,confirmed,default only: 0 dB
@@ -33,15 +33,15 @@ order,message,bytes,panel_page,panel_parameter,file_to_panel,status,evidence
 32,Yamaha 51 04 00 00,F0 0B 43 73 01 51 04 00 00 02 tt uu F7,Harmony,Harmony Type (category + type),encoding unknown,hypothesis,17 distinct values in library; SawLead = 02 04 00 shows 4-Way Close 1
 33,Yamaha 50 04 00 05,F0 09 43 73 01 50 04 00 05 vv F7,Harmony,Volume,panel = vv,confirmed,default only: 60 = 0x3C
 34,Yamaha 50 04 00 02/03/04,F0 09 43 73 01 50 04 00 0n vv F7,Harmony,Assign / Speed / Chord Note Only / Minimum Velocity (mapping unknown),unknown,hypothesis,near-constant in library (10 / 00 / 00)
-35,Yamaha 51 00 01 00,F0 11 43 73 01 51 00 01 00 08 .. F7,Controller,Center/Left Pedal function + part checkmarks,encoding unknown,hypothesis,9 distinct values; some files carry two of these
+35,Yamaha 51 00 01 00,F0 11 43 73 01 51 00 01 00 08 1p ff 00 mm .. .. .. .. F7,Controller,Center Pedal (p=1) / Left Pedal (p=0): function ff + part checkmarks mm,mm bits: 1 = Main; 2 = Layer; 4 = Left (fits both pedals); ff codes: 05 = Modulation; 02 = Soft (one example each),likely,SL0 panel: Center = Modulation with Main+Layer (08 11 05 00 03); Left = Soft with all three (08 10 02 00 07 00 40 40 00). Preset files may omit the Left Pedal message; a panel Save writes both
 36,CC91,B0 5B vv,Effect/EQ,Reverb Depth,panel = vv,confirmed,SL0 0 / SL3 16
 37,CC93,B0 5D vv,Effect/EQ,Chorus Depth,panel = vv,confirmed,default only: 0
-38,Yamaha 50 08 00 08,F0 09 43 73 01 50 08 00 08 vv F7,Effect/EQ,DSP On/Off,7F = On; 00 = Off,likely,7F shows On (SL0/SL3); Off (SL1) not yet seen on panel
+38,Yamaha 50 08 00 08,F0 09 43 73 01 50 08 00 08 vv F7,Effect/EQ,DSP On/Off,7F = On; 00 = Off,confirmed,7F shows On (SL0/SL3); 00 shows Off (SL1; 2026-10-01)
 39,Yamaha 50 08 00 01,F0 09 43 73 01 50 08 00 01 vv F7,,(unknown),always 00,unknown,library
 40,XG 03 00 00 (2 bytes),F0 09 43 10 4C 03 00 00 mm ll F7,Effect/EQ,DSP Type,MSB/LSB from effect_types.csv (Variation/Insertion block) [DL p.28-32],confirmed,SL0 Hall4 (1/18) and SL3 Stereo Overdrive (74/8) shown on panel
 41,XG 03 00 0B,F0 08 43 10 4C 03 00 0B vv F7,Effect/EQ,DSP Depth (= effect parameter 10 Dry/Wet),panel = vv,confirmed,SL0 34 / SL3 100
 42,Yamaha 51 08 00 11,F0 0B 43 73 01 51 08 00 11 02 xx 00 F7,,(DSP-related panel ID; tracks DSP type),copy from a preset that uses the target DSP type,unknown,57 distinct values; not unique per type
-43,XG 03 00 02-0A and 20-25,F0 08 43 10 4C 03 00 aa vv F7,Effect/EQ > DSP Type > Detail,Detail parameters 1-9 (02-0A) and 11-16 (20-25),per effect_params.csv [DL p.33-44] and value tables [DL p.45],likely,present in every file; SL2 vs SL3 (Drive/Edge/Mid Gain changes) sound different; Detail display not yet screenshot
-44,XG 03 00 30-42 (2 bytes),F0 09 43 10 4C 03 00 aa v1 v2 F7,Effect/EQ > DSP Type > Detail,parameters for DSP types that need MSB (types 5-8 95-98 104) [DL p.64],unknown,present in 64 files; untested
+43,XG 03 00 02-0A and 20-25,F0 08 43 10 4C 03 00 aa vv F7,Effect/EQ > DSP Type > Detail,Detail parameters 1-9 (02-0A) and 11-16 (20-25),per effect_params.csv [DL p.33-44]: plain 0-127 = value; frequencies via Table #3 [DL p.45]; gains dB = v - 64; EQ Mid Width = v / 10; Dry/Wet 64 = D=W / v>64 = D<W(v-64) / v<64 = D(64-v)>W,confirmed,SL3 Detail display (2026-10-01) shows all 10 Stereo Overdrive values exactly as written (Drive 70 / 315 Hz / 0 dB / 7.0 kHz / 105 / 1.0 kHz / +8 dB / 1.0 / D<W36 / Edge 80)
+44,XG 03 00 30-42 (2 bytes),F0 09 43 10 4C 03 00 aa v1 v2 F7,Effect/EQ > DSP Type > Detail,Detail parameters for DSP types that need MSB (types 5-8 95-98 104) [DL p.64],encoding unknown (values above 7F seen),unknown,present in 64 files; untested
 45,Yamaha 51 08 00 12,F0 0C 43 73 01 51 08 00 12 03 ff 00 xx F7,,(DSP-related panel ID; paired with row 42),copy from the same donor as row 42,unknown,111 distinct values; some files carry two
 46,Meta End of Track,FF 2F 00,,,,confirmed,library
