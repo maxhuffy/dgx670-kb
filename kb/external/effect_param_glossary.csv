@@ -1,0 +1,195 @@
+dgx_parameter,dgx_parameter_lists,dl_pages,match,source,source_term,source_pdf_page,source_effect_types,definition
+AM Depth,TEMPO TREMOLO; TREMOLO; VIBE VIBRATE,41; 42,exact,MU128,AM Depth,22,TREMOLO,Depth of volume modulation
+AMP Type,AMP SIMULATOR2,38,exact,MU128,AMP Type,22,AMP SIMULATOR,Select the type of amp to be simulated
+Ambience,AMBIENCE CHORUS; AMBIENCE FLANGER; AMBIENCE SYMPHONIC,35; 36,none,,,,,
+Amp Type,AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AMP SIMULATOR1; STEREO AMP SIMULATOR,38; 41,exact,MU128,AMP Type,22,AMP SIMULATOR,Select the type of amp to be simulated
+Analog Feel,V FLANGER,35,exact,SPM,Analog Feel,67,,Adds the characteristics of an analog flanger to the sound.
+Attack,COMP DISTORTION; COMPRESSOR; NOISE GATE,38; 42,exact,MU128,Attack,22,COMPRESSOR type NOISE GATE,Time until the compressor effect begins to apply Time until the gate begins to open
+Attack Time,DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD,36; 43,exact,SPM,Attack Time,67,,"[Dynamic Flanger, Dynamic Phaser, Dynamic Ring Modulator, Dynamic Filter] Determines the attack time of the envelope follower."
+Bass,BRITISH COMBO; BRITISH LEGEND,37,exact,SPM,Bass,67,,Determines the sound quality at the low frequencies.
+Bit Assign,LO FI,43,exact,MU128,Bit Assign,22,LO-FI,Adjust the word length of the audio data
+Brilliant,BRITISH COMBO,37,exact,SPM,Brilliant,67,,Determines the volume of the sound for which low frequencies are cut.
+Cch Delay,DELAY LCR,33,exact,MU128,Cch Delay,22,"DELAY L,C,R",Length of the center channel delay
+Cch Level,DELAY LCR,33,exact,MU128,Cch Level,22,"DELAY L,C,R",Volume of the center channel
+Coarse,RING MODULATOR,44,none,,,,,
+Comp Attack,COMP DIST DELAY; COMP DIST TEMPO DELAY,38; 39,exact,SPM,Comp Attack,68,,Determines the amount of time that elapses between the playing of a key and the start of the compressor effect.
+Comp Level,SMALL STEREO DIST,37,exact,SPM,Comp Level,68,,Determines the output level of the compressor effect.
+Comp Ratio,COMP DIST DELAY; COMP DIST TEMPO DELAY,38; 39,exact,SPM,Comp Ratio,68,,Determines the ratio of the compressor.
+Comp Release,COMP DIST DELAY; COMP DIST TEMPO DELAY,38; 39,exact,SPM,Comp Release,68,,Determines the amount of time that elapses between the release of a note and the end of the compressor effect.
+Comp SW,SMALL STEREO DIST,37,exact,SPM,Comp SW,68,,Turns the compressor on or off.
+Comp Sustain,MULTI FX; SMALL STEREO DIST,36; 37,exact,SPM,Comp Sustain,68,,Determines the amount of time of the compressor sustain.
+Comp Threshold,COMP DIST DELAY; COMP DIST TEMPO DELAY,38; 39,exact,SPM,Comp Threshold,68,,Determines the minimum input level at which the compressor effect is applied.
+Connect Mode,AMBIENCE CHORUS; AMBIENCE FLANGER; AMBIENCE SYMPHONIC,35; 36,none,,,,,
+Control,LO FI,43,exact,SPM,Control,68,,Determines the Cutoff Frequency of the Filter.
+Crossover Frequency,2WAY ROTARY SPEAKER; AMP 2WAY ROTARY SP; DIST 2WAY ROTARY SP,40; 41,exact,MU128,Crossover Frequency,22,2WAY ROTARY SPEAKER,Crossover frequency between the high-range and low-range speakers
+Cut,BRITISH COMBO,37,exact,SPM,Cut,68,,Cuts the high frequencies.
+Cutoff Frequency,AUTO WAH; AUTO WAH DISTORTION; PEDAL WAH1; PEDAL WAH2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TOUCH WAH1; TOUCH WAH2,39; 40,exact,SPM,Cutoff Frequency,68,,Determines the Cutoff Frequency of the Filter for the effect sound.
+Delay 2 Level,ECHO,34,exact,MU128,Delay2 Level,22,ECHO,Volume of second delay
+Delay Ctrl,MULTI FX,36,none,,,,,
+Delay Feedback Level,COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; DISTORTION DELAY; V DIST TEMPO DELAY; V DISTORTION DELAY; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,37; 38; 39; 40,alias,MU128,Feedback Level,22,"REVERB type DELAY type,EARLY REF type,PITCH CHANGE type KARAOKE type CHORUS type, FLANGER type PHASER type",Feedback amount of initial delay Feedback amount Setting for repeated reflections Level at which delay output is again returned to the input (negative values invert the phase) Level at which phaser output is again returned to the input (negative values insert the phase)
+Delay Feedback Time,DISTORTION DELAY; V DISTORTION DELAY,37; 38,alias,MU128,Feedback Delay,22,"DELAY L,C,R",Length of feedback delay
+Delay Mix,COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; DISTORTION DELAY; V DIST TEMPO DELAY; V DISTORTION DELAY; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,37; 38; 39; 40,exact,MU128,Delay Mix,22,"DIST+DELAY,OVERDRIVE+DELAY, COMP+DIST+DELAY,COMP+ODRV+DELAY, WAH+DIST+DELAY,WAH+ODRV+DELAY",Mixing amount of delay sound
+Delay Offset,AMBIENCE CHORUS; AMBIENCE FLANGER; AMBIENCE SYMPHONIC; CHORUS; FLANGER; SYMPHONIC; TEMPO FLANGER; V FLANGER,35; 36,exact,MU128,Delay Offset,22,CHORUS type,Offset value of delay modulation
+Delay SW,MULTI FX,36,exact,SPM,Delay SW,69,,Determines the delay type or modulation type.
+Delay Time,AMBIENCE; COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; KARAOKE; MULTI FX; TEMPO DELAY; V DIST TEMPO DELAY; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,34; 36; 37; 38; 39; 40; 43,exact,MU128,Delay Time,22,"KARAOKE1,2,3 AMBIENCE",Spacing of reflections for karaoke echo Delay length
+Delay Time L>R,TEMPO CROSS DELAY,34,exact,SPM,Delay Time L>R,69,,Determines the amount of time between the moment the sound is input from the L channel and the moment the sound is output to the R channel.
+Delay Time Offset,DYNAMIC FLANGER,36,alias,SPM,Delay Time Offset R,69,,Determines the delay time for the R channel as offset.
+Delay Time R>L,TEMPO CROSS DELAY,34,exact,SPM,Delay Time R>L,69,,Determines the amount of time between the moment the sound is input from the R channel and the moment the sound is output to the L channel.
+Density,EARLY REFLECTION; GATE REVERB; KARAOKE; REVERB1; REVERB3,33; 34,exact,MU128,Density,22,"REVERB type, EARLY REF type",Density of reflections. Higher values produce closer spacing
+Depth,PEDAL WAH1; PEDAL WAH2; REVERB3,33; 40,exact,MU128,Depth,22,REVERB type,Depth of the simulated room
+Detune,ENSEMBLE DETUNE,35,exact,MU128,Detune,22,ENSEMBLE DETUNE,Amount of pitch shift
+Device,V DIST TEMPO DELAY; V DISTORTION; V DISTORTION DELAY,37,exact,SPM,Device,69,,Selects the device for changing how to distort the sound.
+Diffusion,EARLY REFLECTION; GATE REVERB; PHASER1; REVERB1; REVERB2; REVERB3,33; 34; 36,exact,MU128,Diffusion,22,"REVERB type, EARLY REF type, PHASER",Control the spaciousness
+Direction,DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD,36; 43,exact,SPM,Direction,69,,"For Flanger, Phaser, Wah and Filter effects, this parameter determines the direction of the modulation controlled by the envelope follower."
+Dist Drive,COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; DISTORTION DELAY; MULTI FX; SMALL STEREO DIST; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,36; 37; 38; 39; 40,exact,SPM,Dist Drive,69,,Controls the amount of the distortion.
+Dist EQ,MULTI FX; SMALL STEREO DIST,36; 37,exact,SPM,Dist EQ,69,,Switches the EQ type for adjusting the quality of the distorted sound.
+Dist EQ Low Gain,AUTO WAH DISTORTION; COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; DISTORTION DELAY; PEDAL WAH2; TEMPO AUTO WAH2; TOUCH WAH2; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,38; 39; 40,alias,MU128,EQ Low Gain,22,All types,Gain amount by which the EQ will boost/cut the low range
+Dist EQ Mid Gain,AUTO WAH DISTORTION; COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; DISTORTION DELAY; PEDAL WAH2; TEMPO AUTO WAH2; TOUCH WAH2; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,38; 39; 40,alias,MU128,EQ Mid Gain,22,All types,Gain amount by which the EQ will boost/cut the mid range
+Dist Output Level,COMP DIST DELAY; COMP DIST TEMPO DELAY; DIST TEMPO DELAY; DISTORTION DELAY; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,38; 39; 40,alias,MU128,Output Level,23,All types,Output level
+Dist Presence,MULTI FX; SMALL STEREO DIST,36; 37,alias,SPM,Presence,78,,For Amp Simulator effects this parameter controls high frequencies.
+Dist SW,MULTI FX,36,exact,SPM,Dist SW,70,,Switches the distortion types.
+Dist Tone,MULTI FX; SMALL STEREO DIST,36; 37,exact,SPM,Dist Tone,70,,Adjusts the distortion tone level.
+Dist Type,SMALL STEREO DIST,37,exact,SPM,Dist Type,70,,Determines the distortion type.
+Drive,AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AMP SIMULATOR1; AMP SIMULATOR2; AUTO WAH; AUTO WAH DISTORTION; COMP DISTORTION; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DISTORTION; HARMONIC ENHANCER; PEDAL WAH1; PEDAL WAH2; STEREO AMP SIMULATOR; STEREO DISTORTION; TALKING MODULATION; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TOUCH WAH1; TOUCH WAH2,37; 38; 39; 40; 41; 42; 43,exact,MU128,Drive,22,DISTORTION type HARMONIC ENHANCER* TALKING MODULATION,Depth of distortion Depth at which the exciter effect is applied Depth at which the exciter effect is applied
+Drive High,2WAY ROTARY SPEAKER; AMP 2WAY ROTARY SP; DIST 2WAY ROTARY SP; ROTARY SPEAKER1,40; 41,exact,MU128,Drive High,22,2WAY ROTARY SPEAKER,Depth of modulation caused by rotation of the low-range speaker
+Drive Low,2WAY ROTARY SPEAKER; AMP 2WAY ROTARY SP; DIST 2WAY ROTARY SP; ROTARY SPEAKER1,40; 41,exact,MU128,Drive Low,22,2WAY ROTARY SPEAKER,Depth of modulation caused by rotation of the high-range speaker
+Dry/Wet,AMBIENCE; AMBIENCE CHORUS; AMBIENCE FLANGER; AMBIENCE SYMPHONIC; AMP ROTARY SPEAKER; AMP SIMULATOR1; AMP SIMULATOR2; AUTO WAH; AUTO WAH DISTORTION; CHORUS; COMP DIST DELAY; COMP DIST TEMPO DELAY; COMP DISTORTION; CROSS DELAY; DELAY LCR; DELAY LR; DIST ROTARY SPEAKER; DIST TEMPO DELAY; DISTORTION; DISTORTION DELAY; DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD; EARLY REFLECTION; ECHO; ENSEMBLE DETUNE; FLANGER; GATE REVERB; KARAOKE; LO FI; PEDAL WAH1; PEDAL WAH2; PHASER1; PHASER2; PITCH CHANGE1; PITCH CHANGE2; REVERB1; REVERB3; RING MODULATOR; ROTARY SPEAKER2; STEREO AMP SIMULATOR; STEREO DISTORTION; SYMPHONIC; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO CROSS DELAY; TEMPO DELAY; TEMPO FLANGER; TEMPO PHASER; TOUCH WAH1; TOUCH WAH2; V DIST TEMPO DELAY; V DISTORTION; V DISTORTION DELAY; V FLANGER; VIBE VIBRATE; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44,exact,MU128,Dry/Wet,22,All types,Balance between dry sound and effect sound
+Dyna Level Offset,DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD,36; 43,exact,SPM,Dyna Level Offset,70,,Determines the offset value added to the output of the envelope follower.
+Dyna Threshold Level,DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD,36; 43,exact,SPM,Dyna Threshold Level,70,,Determines the minimum level at which the envelope follower starts.
+EQ High Frequency,2BAND EQ; 2WAY ROTARY SPEAKER; 3BAND EQ; AMBIENCE; AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AUTO PAN1; AUTO PAN2; AUTO WAH; AUTO WAH DISTORTION; CHORUS; CROSS DELAY; DELAY LCR; DELAY LR; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD; ECHO; ENSEMBLE DETUNE; FLANGER; PEDAL WAH1; PEDAL WAH2; PHASER1; PHASER2; REAL REVERB; RING MODULATOR; ROTARY SPEAKER1; ROTARY SPEAKER2; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO CROSS DELAY; TEMPO DELAY; TEMPO FLANGER; TEMPO PHASER; TEMPO TREMOLO; TOUCH WAH1; TOUCH WAH2; TREMOLO; V FLANGER; VIBE VIBRATE,33; 34; 35; 36; 39; 40; 41; 42; 43; 44,exact,MU128,EQ High Frequency,22,All types,Frequency at which the EQ will boost/cut the high range
+EQ High Gain,2BAND EQ; 2WAY ROTARY SPEAKER; 3BAND EQ; AMBIENCE; AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AUTO PAN1; AUTO PAN2; AUTO WAH; AUTO WAH DISTORTION; CHORUS; CROSS DELAY; DELAY LCR; DELAY LR; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD; ECHO; ENSEMBLE DETUNE; FLANGER; PEDAL WAH1; PEDAL WAH2; PHASER1; PHASER2; REAL REVERB; RING MODULATOR; ROTARY SPEAKER1; ROTARY SPEAKER2; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO CROSS DELAY; TEMPO DELAY; TEMPO FLANGER; TEMPO PHASER; TEMPO TREMOLO; TOUCH WAH1; TOUCH WAH2; TREMOLO; V FLANGER; VIBE VIBRATE,33; 34; 35; 36; 39; 40; 41; 42; 43; 44,exact,MU128,EQ High Gain,22,All types,Gain amount by which the EQ will boost/cut the high range
+EQ Low Frequency,2BAND EQ; 2WAY ROTARY SPEAKER; 3BAND EQ; AMBIENCE; AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AUTO PAN1; AUTO PAN2; AUTO WAH; AUTO WAH DISTORTION; CHORUS; COMP DISTORTION; CROSS DELAY; DELAY LCR; DELAY LR; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DISTORTION; DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD; ECHO; ENSEMBLE DETUNE; FLANGER; PEDAL WAH1; PEDAL WAH2; PHASER1; PHASER2; REAL REVERB; RING MODULATOR; ROTARY SPEAKER1; ROTARY SPEAKER2; STEREO DISTORTION; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO CROSS DELAY; TEMPO DELAY; TEMPO FLANGER; TEMPO PHASER; TEMPO TREMOLO; TOUCH WAH1; TOUCH WAH2; TREMOLO; V FLANGER; VIBE VIBRATE,33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44,exact,MU128,EQ Low Frequency,22,All types,Frequency at which the EQ will boost/cut the low range
+EQ Low Gain,2BAND EQ; 2WAY ROTARY SPEAKER; 3BAND EQ; AMBIENCE; AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AUTO PAN1; AUTO PAN2; AUTO WAH; AUTO WAH DISTORTION; CHORUS; COMP DISTORTION; CROSS DELAY; DELAY LCR; DELAY LR; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DISTORTION; DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD; ECHO; ENSEMBLE DETUNE; FLANGER; PEDAL WAH1; PEDAL WAH2; PHASER1; PHASER2; REAL REVERB; RING MODULATOR; ROTARY SPEAKER1; ROTARY SPEAKER2; STEREO DISTORTION; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO CROSS DELAY; TEMPO DELAY; TEMPO FLANGER; TEMPO PHASER; TEMPO TREMOLO; TOUCH WAH1; TOUCH WAH2; TREMOLO; V FLANGER; VIBE VIBRATE,33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44,exact,MU128,EQ Low Gain,22,All types,Gain amount by which the EQ will boost/cut the low range
+EQ Mid Frequency,3BAND EQ; AUTO PAN1; AUTO PAN2; CHORUS; COMP DISTORTION; DISTORTION; FLANGER; ROTARY SPEAKER2; STEREO DISTORTION; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO FLANGER; TEMPO TREMOLO; TREMOLO; V FLANGER; VIBE VIBRATE,35; 37; 38; 40; 41; 42,exact,MU128,EQ Mid Frequency,22,All types,Frequency at which the EQ will boost/cut the mid range
+EQ Mid Gain,3BAND EQ; AUTO PAN1; AUTO PAN2; CHORUS; COMP DISTORTION; DISTORTION; FLANGER; ROTARY SPEAKER2; STEREO DISTORTION; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO FLANGER; TEMPO TREMOLO; TREMOLO; V FLANGER; VIBE VIBRATE,35; 37; 38; 40; 41; 42,exact,MU128,EQ Mid Gain,22,All types,Gain amount by which the EQ will boost/cut the mid range
+EQ Mid Width,3BAND EQ; AUTO PAN1; AUTO PAN2; CHORUS; COMP DISTORTION; DISTORTION; FLANGER; ROTARY SPEAKER2; STEREO DISTORTION; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO FLANGER; TEMPO TREMOLO; TREMOLO; V FLANGER; VIBE VIBRATE,35; 37; 38; 40; 41; 42,exact,MU128,EQ Mid Width,22,All types,Width of the area boosted/cut by the mid-range EQ
+ER/Reverb Balance,REVERB1; REVERB3,33,alias,MU128,Er/Rev Balance,22,REVERB type,Level balance between the early reflections and the reverberation
+Edge (Clip Curve),AMP SIMULATOR1; COMP DISTORTION; DISTORTION; STEREO AMP SIMULATOR; STEREO DISTORTION,37; 38,exact,MU128,Edge(Clip Curve),22,DISTORTION type,"Curve of distortion characteristics (sharp(127) distorts suddenly, mild(0) distorts gradually)"
+Emphasis,LO FI,43,exact,MU128,Emphasis,22,LO-FI,Modify the character of the high range
+F/R Depth,AUTO PAN1; AUTO PAN2; TEMPO AUTO PAN1; TEMPO AUTO PAN2,41,exact,MU128,F/R Depth,22,AUTO PAN,"Depth of front/back panning (valid when PAN Direction=Lturn,Rturn)"
+Feedback Delay 1,DELAY LR,34,exact,MU128,Feedback Delay 1,22,"DELAY L,R",Length of feedback delay 1
+Feedback Delay 2,DELAY LR,34,exact,MU128,Feedback Delay 2,22,"DELAY L,R",Length of feedback delay 2
+Feedback Delay Time,DELAY LCR,33,alias,MU128,Feedback Delay,22,"DELAY L,C,R",Length of feedback delay
+Feedback High Damp,CROSS DELAY; DELAY LCR; DELAY LR; ECHO; TEMPO CROSS DELAY; V DIST TEMPO DELAY; V DISTORTION DELAY; V FLANGER,33; 34; 35; 37,exact,SPM,Feedback High Damp,71,,Determines the amount of decay of the high frequencies in the feedback sound.
+Feedback High Dump,TEMPO DELAY,34,alias,MU128,High Damp,22,"REVERB type,DELAY type,EARLY REF type",Attenuation of the high frequency range (lower values will cause the high range to decay more rapidly)
+Feedback Level,AMBIENCE CHORUS; AMBIENCE FLANGER; CHORUS; CROSS DELAY; DELAY LCR; DELAY LR; DYNAMIC FLANGER; DYNAMIC PHASER; EARLY REFLECTION; FLANGER; GATE REVERB; KARAOKE; PHASER1; PHASER2; PITCH CHANGE1; PITCH CHANGE2; REVERB1; REVERB3; TEMPO CROSS DELAY; TEMPO DELAY; TEMPO FLANGER; TEMPO PHASER; V FLANGER,33; 34; 35; 36; 43,exact,MU128,Feedback Level,22,"REVERB type DELAY type,EARLY REF type,PITCH CHANGE type KARAOKE type CHORUS type, FLANGER type PHASER type",Feedback amount of initial delay Feedback amount Setting for repeated reflections Level at which delay output is again returned to the input (negative values invert the phase) Level at which phaser output is again returned to the input (negative values insert the phase)
+Filter Type,DYNAMIC FILTER; LO FI,43,exact,MU128,Filter Type,22,LO-FI,Select the type of tonal effect
+Fine 1,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Fine 1,22,PITCH CHANGE type,Fine adjustment to pitch of first sound
+Fine 2,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Fine 2,22,PITCH CHANGE type,Fine adjustment to pitch of second sound
+HPF Cutoff Frequency,DYNAMIC RING MOD; EARLY REFLECTION; GATE REVERB; HARMONIC ENHANCER; KARAOKE; REVERB1; REVERB2; REVERB3; RING MODULATOR,33; 34; 42; 43; 44,exact,SPM,HPF Cutoff Frequency,73,,"Determines a specific value, depending on the selected Effect type."
+Height,REVERB3,33,exact,MU128,Height,22,REVERB type,Height of simulated room
+High Adjust,VOICE CANCELAR,43,exact,MU128,High Adjust,22,VOICE CANCELAR,Adjust the upper limit of the mid-frequency range that will be attenuated
+High Damp,EARLY REFLECTION; GATE REVERB; REVERB1; REVERB2; REVERB3,33; 34,exact,MU128,High Damp,22,"REVERB type,DELAY type,EARLY REF type",Attenuation of the high frequency range (lower values will cause the high range to decay more rapidly)
+High Damp Frequency,REAL REVERB,33,exact,SPM,High Damp Frequency,72,,Determines the characteristic of the high frequencies.
+High Gain Offset,MULTI BAND COMP,42,none,,,,,
+High Level,ISOLATOR,44,exact,SPM,High Level,72,,Determines the level of the high frequencies.
+High Mute,ISOLATOR,44,exact,SPM,High Mute,72,,Switches the mute status of the high frequencies.
+High Ratio,REAL REVERB,33,exact,SPM,High Ratio,72,,"Determines a specific value, depending on the selected Effect type."
+Horn,ROTARY SPEAKER1,40,none,,,,,
+Horn Speed Fast,ROTARY SPEAKER1,40,exact,SPM,Horn Speed Fast,73,,Determines the speed of the horn when the slow/fast switch is set to Fast.
+Horn Speed Slow,ROTARY SPEAKER1,40,exact,SPM,Horn Speed Slow,73,,Determines the speed of the horn when the slow/fast switch is set to Slow.
+Initial Delay,PITCH CHANGE2,43,exact,MU128,Initial Delay,22,REVERB type EARLY REF type PITCH CHANGE type,Delay time until the early reflections Delay length until ER (GateReverb) sounds Delay length
+Initial Delay Time,EARLY REFLECTION; GATE REVERB; PITCH CHANGE1; REAL REVERB; REVERB1; REVERB2; REVERB3,33; 34; 43,alias,MU128,Initial Delay,22,REVERB type EARLY REF type PITCH CHANGE type,Delay time until the early reflections Delay length until ER (GateReverb) sounds Delay length
+Input Mode,3BAND EQ; AUTO PAN2; CHORUS; LO FI; TEMPO AUTO PAN2; TEMPO TREMOLO; TREMOLO; VIBE VIBRATE,35; 41; 42; 43,exact,MU128,Input Mode,22,All types,Mono/stereo switch for input
+Input Select,CROSS DELAY; TEMPO CROSS DELAY,34,exact,MU128,Input Select,22,CROSS DELAY,Input select
+L->R Delay Time,CROSS DELAY,34,alias,MU128,L->R Delay,22,CROSS DELAY,Delay time from left (input) to right (output)
+L/R Depth,AUTO PAN1; AUTO PAN2; TEMPO AUTO PAN1; TEMPO AUTO PAN2,41,exact,MU128,L/R Depth,22,AUTO PAN,Depth of left/right panning
+L/R Diffusion,COMP DIST TEMPO DELAY; DIST TEMPO DELAY; TEMPO DELAY; V DIST TEMPO DELAY; WAH DIST TEMPO DELAY,34; 37; 38; 39; 40,exact,SPM,L/R Diffusion,74,,Determines the spread of the sound.
+LFO AMod Depth,AMBIENCE CHORUS,35,alias,MU128,AM Depth,22,TREMOLO,Depth of volume modulation
+LFO Depth,AMBIENCE FLANGER; AMBIENCE SYMPHONIC; AMP ROTARY SPEAKER; AUTO WAH; AUTO WAH DISTORTION; CHORUS; DIST ROTARY SPEAKER; FLANGER; PHASER1; PHASER2; RING MODULATOR; ROTARY SPEAKER2; SYMPHONIC; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO FLANGER; TEMPO PHASER; V FLANGER,35; 36; 39; 40; 41; 44,exact,MU128,LFO Depth,22,"CHORUS type,FLANGER type,SYMPHONIC ROTARY SPEAKER PHASER type WAH type",Depth of delay modulation Depth of modulation caused by speaker rotation Depth of phase modulation Depth at which the wah filter will be controlled
+LFO Frequency,AMBIENCE CHORUS; AMBIENCE FLANGER; AMBIENCE SYMPHONIC; AMP ROTARY SPEAKER; AUTO PAN1; AUTO PAN2; AUTO WAH; AUTO WAH DISTORTION; CHORUS; DIST ROTARY SPEAKER; FLANGER; PHASER1; PHASER2; RING MODULATOR; ROTARY SPEAKER2; SYMPHONIC; TEMPO AUTO PAN1; TEMPO AUTO PAN2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TEMPO FLANGER; TEMPO PHASER; TEMPO TREMOLO; TREMOLO; V FLANGER,35; 36; 39; 40; 41; 42; 44,exact,MU128,LFO Frequency,22,"MU128 EFFECT * The Harmonic Enhancer produces the same effect as its MU series predecessor. CHORUS type,FLANGER type,SYMPHONIC ROTARY SPEAKER TREMOLO AUTO PAN P",Frequency of delay modulation Frequency at which the speaker will rotate Modulation frequency Autopan frequency Phase modulation frequency Frequency at which wah filter will be controlled
+LFO PMod Depth,AMBIENCE CHORUS,35,alias,MU128,PM Depth,23,TREMOLO,Depth of delay modulation
+LFO Phase Difference,AMBIENCE FLANGER; FLANGER; PHASER2; TEMPO FLANGER; TEMPO PHASER; TEMPO TREMOLO; TREMOLO; VIBE VIBRATE,35; 36; 41; 42,exact,MU128,LFO Phase Difference,23,"PHASER type,FLANGER type",L/R phase difference for modulation waveform (0 deg (=64) is no phase difference)
+LFO Speed,MULTI FX,36,exact,SPM,LFO Speed,74,,"Determines a specific value, depending on the selected Effect type."
+LFO Wave,AUTO PAN2; RING MODULATOR; TEMPO AUTO PAN2; V FLANGER,35; 41; 44,exact,SPM,LFO Wave,74,,"Determines a specific value, depending on the selected Effect type."
+LPF Cutoff,AMP SIMULATOR2; COMP DISTORTION,38,exact,MU128,LPF Cutoff,23,All types,Frequency at which the low pass filter will cut the high frequency range
+LPF Cutoff Frequency,AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AMP SIMULATOR1; AUTO WAH DISTORTION; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DISTORTION; DYNAMIC RING MOD; EARLY REFLECTION; GATE REVERB; KARAOKE; LO FI; PEDAL WAH2; REVERB1; REVERB2; REVERB3; RING MODULATOR; STEREO AMP SIMULATOR; STEREO DISTORTION; TEMPO AUTO WAH2; TOUCH WAH2,33; 34; 37; 38; 39; 40; 41; 43; 44,exact,SPM,LPF Cutoff Frequency,75,,Determines the Cutoff Frequency of the Low-Pass Filter.
+LPF Resonance,LO FI,43,exact,MU128,LPF Resonance,23,LO-FI,Add character to the low pass filter of the input
+Lag,COMP DIST TEMPO DELAY; DIST TEMPO DELAY; TEMPO CROSS DELAY; TEMPO DELAY; V DIST TEMPO DELAY; WAH DIST TEMPO DELAY,34; 37; 38; 39; 40,exact,SPM,Lag,74,,Determines the lag time that is additionally applied to the delayed sound specified via a note length.
+Lch Delay,DELAY LCR,33,exact,MU128,Lch Delay,22,DELAY type,Length of left channel delay
+Lch Delay 1 Time,ECHO,34,alias,MU128,Lch Delay1,22,ECHO,Length of first left channel delay
+Lch Delay 2 Time,ECHO,34,alias,MU128,Lch Delay2,22,ECHO,Length of second left channel delay
+Lch Delay Time,DELAY LR; DISTORTION DELAY; V DISTORTION DELAY,34; 37; 38,alias,MU128,Lch Delay,22,DELAY type,Length of left channel delay
+Lch Feedback Level,ECHO,34,exact,MU128,Lch Feedback Level,22,ECHO,Amount of left channel feedback
+Lch Initial Delay Time,ENSEMBLE DETUNE,35,alias,MU128,Lch Init Delay,22,ENSEMBLE DETUNE,Length of left channel delay
+Liveness,EARLY REFLECTION; GATE REVERB,34,exact,MU128,Liveness,23,EARLY REF type,ER decay. Lower values cause faster decay.
+Low Adjust,VOICE CANCELAR,43,exact,MU128,Low Adjust,23,VOICE CANCEL,Adjust the lower frequency limit of the mid-range that will be attenuated
+Low Gain Offset,MULTI BAND COMP,42,none,,,,,
+Low Level,ISOLATOR,44,exact,SPM,Low Level,74,,Determines the output level for the low frequencies.
+Low Mute,ISOLATOR,44,exact,SPM,Low Mute,74,,Switches the mute status of the low frequencies.
+Low/High Balance,2WAY ROTARY SPEAKER; AMP 2WAY ROTARY SP; DIST 2WAY ROTARY SP; ROTARY SPEAKER1,40; 41,alias,MU128,Low/High,23,2WAY ROTARY SPEAKER,Volume balance between the high-range and low-range speakers
+Master Volume,BRITISH LEGEND,37,exact,SPM,Master Volume,75,,Determines the gain level of the power amplifier.
+Mic L-R Angle,2WAY ROTARY SPEAKER; AMP 2WAY ROTARY SP; DIST 2WAY ROTARY SP; ROTARY SPEAKER1,40; 41,exact,MU128,Mic L-R Angle,23,2WAY ROTARY SPEAKER,L/R angle of the mic that picks up the output
+Mic Position,BRITISH COMBO; BRITISH LEGEND,37,exact,SPM,Mic Position,75,,Determines the relative position of the microphone to the speaker.
+Mid Gain Offset,MULTI BAND COMP,42,none,,,,,
+Mid Level,ISOLATOR,44,exact,SPM,Mid Level,75,,Determines the output level for the mid frequencies.
+Mid Mute,ISOLATOR,44,exact,SPM,Mid Mute,75,,Switches the mute status of the mid frequencies.
+Middle,BRITISH LEGEND,37,none,,,,,
+Mix Level,HARMONIC ENHANCER,42,exact,MU128,Mix Level,23,HARMONIC ENHANCER*,Level of the effect sound that is mixed into the dry sound
+Mode,BRITISH COMBO,37,exact,SPM,Mode,76,,"For VCM Phaser Mono and VCM Phaser Stereo, this parameter determines the phaser type, or more specifically, the factor for forming the phaser effect."
+Modulation Phase,V FLANGER,35,exact,SPM,Modulation Phase,76,,Determines the L/R phase difference of the modulated wave.
+Move Speed,TALKING MODULATION,43,exact,MU128,Move Speed,23,TALKING MODULATOR,Time over which the sound specified by Vowel is reached
+Normal,BRITISH COMBO,37,exact,SPM,Normal,68,,: The delay effect is always applied to the sound.
+Offset,AUTO WAH; AUTO WAH DISTORTION; PEDAL WAH1; PEDAL WAH2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TOUCH WAH1; TOUCH WAH2; WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,39; 40,none,,,,,
+On/Off SW,ISOLATOR,44,none,,,,,
+Osc Frequency,RING MODULATOR,44,alias,SPM,OSC Frequency Coarse,77,,Determines the frequency at which the sine wave modulates the amplitude of the input wave.
+Osc Frequency Fine,RING MODULATOR,44,exact,SPM,OSC Frequency Fine,77,,Fine-tunes the frequency at which the sine wave modulates the amplitude of the input wave.
+Output,BRITISH COMBO; BRITISH LEGEND; MULTI FX; SMALL STEREO DIST,36; 37,exact,SPM,Output,77,,Determines the level of the signal output from the effect block.
+Output Gain,LO FI,43,exact,MU128,Output Gain,23,LO-FI,Output gain
+Output Level,AMP 2WAY ROTARY SP; AMP ROTARY SPEAKER; AMP SIMULATOR1; AMP SIMULATOR2; AUTO WAH DISTORTION; COMP DISTORTION; COMPRESSOR; DIST 2WAY ROTARY SP; DIST ROTARY SPEAKER; DISTORTION; NOISE GATE; PEDAL WAH2; STEREO AMP SIMULATOR; STEREO DISTORTION; TALKING MODULATION; TEMPO AUTO WAH2; TOUCH WAH2; V DIST TEMPO DELAY; V DISTORTION; V DISTORTION DELAY,37; 38; 39; 40; 41; 42; 43,exact,MU128,Output Level,23,All types,Output level
+Output Level 1,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Output Level 1,23,PITCH CHANGE type,Output level for first unit
+Output Level 2,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Output Level 2,23,PITCH CHANGE type,Output level for second unit
+Output Phase,AMBIENCE,43,exact,MU128,Output Phase,23,AMBIENCE,Swap phase of the effect sound between L/R
+Overdrive,V DIST TEMPO DELAY; V DISTORTION; V DISTORTION DELAY,37,exact,SPM,Overdrive,77,,Determines the degree and character of the distortion effect.
+PM Depth,TEMPO TREMOLO; TREMOLO; VIBE VIBRATE,41; 42,exact,MU128,PM Depth,23,TREMOLO,Depth of delay modulation
+Pan 1,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Pan 1,23,PITCH CHANGE type,Pan of first unit
+Pan 2,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Pan 2,23,PITCH CHANGE type,Pan of second unit
+Pan Direction,AUTO PAN1; AUTO PAN2; TEMPO AUTO PAN1; TEMPO AUTO PAN2,41,exact,MU128,PAN Direction,23,AUTO PAN,"Autopan type (L<->R is sine wave, L/R is square wave)"
+Pedal Control,PEDAL WAH1; PEDAL WAH2,40,exact,SPM,Pedal Control,77,,Determines the Cutoff Frequency of the wah filter.
+Phase Shift Offset,PHASER1; PHASER2; TEMPO PHASER,36,exact,MU128,Phase Shift Offset,23,PHASER type,Offset value for phase modulation
+Phaser SW,MULTI FX,36,exact,SPM,Phaser SW,77,,Determines the Phaser type
+Pitch,PITCH CHANGE1; PITCH CHANGE2,43,exact,MU128,Pitch,23,PITCH CHANGE type,Pitch setting in semitones
+Preamp,BRITISH LEGEND,37,exact,SPM,Preamp,77,,Determines the gain level of the pre-amplifier.
+Presence,BRITISH LEGEND; V DIST TEMPO DELAY; V DISTORTION; V DISTORTION DELAY,37,exact,SPM,Presence,78,,For Amp Simulator effects this parameter controls high frequencies.
+R->L Delay Time,CROSS DELAY,34,alias,MU128,R->L Delay,23,CROSS DELAY,Delay time from right (input) to left (output)
+Ratio,COMP DISTORTION; COMPRESSOR,38; 42,exact,MU128,Ratio,23,COMPRESSOR type,Compression ratio of the compressor
+Rch Delay,DELAY LCR,33,exact,MU128,Rch Delay,23,DELAY type,Length of right channel delay
+Rch Delay 1 Time,ECHO,34,alias,MU128,Rch Delay1,23,ECHO,Length of first right channel delay
+Rch Delay 2 Time,ECHO,34,alias,MU128,Rch Delay2,23,ECHO,Length of second right channel delay
+Rch Delay Time,DELAY LR; DISTORTION DELAY; V DISTORTION DELAY,34; 37; 38,alias,MU128,Rch Delay,23,DELAY type,Length of right channel delay
+Rch Feedback Level,ECHO,34,exact,MU128,Rch Feedback Level,23,ECHO,Amount of right channel feedback
+Rch Initial Delay Time,ENSEMBLE DETUNE,35,alias,MU128,Rch Init Delay,23,ENSEMBLE DETUNE,Length of right channel delay
+Release,COMP DISTORTION; COMPRESSOR; NOISE GATE; TOUCH WAH2,38; 39; 42,exact,MU128,Release,23,"COMPRESSOR type NOISE GATE TOUCH WAH2, TOUCH WAH+ODRV",Time until the sound is released from the compressor effect Time until the gate closes Time until the center frequency of the wah filter returns to normal
+Release Curve,DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD,36; 43,exact,SPM,Release Curve,78,,Determines the release curve of the envelope follower.
+Release Time,DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD,36; 43,exact,SPM,Release Time,78,,"For Dynamic Flanger, Dynamic Phaser, Dynamic Ring Modulator, and Dynamic Filter, this parameter determines the release time of the envelope follower."
+Resonance,AUTO WAH; AUTO WAH DISTORTION; DYNAMIC FILTER; PEDAL WAH1; PEDAL WAH2; TEMPO AUTO WAH1; TEMPO AUTO WAH2; TOUCH WAH1; TOUCH WAH2,39; 40; 43,exact,MU128,Resonance,23,WAH type,Bandwidth of the wah filter
+Reverb Delay Time,REVERB1; REVERB3,33,alias,SPM,Reverb Delay,78,,Determines the delay time from the early reflections until the reverberations.
+Reverb Time,REAL REVERB; REVERB1; REVERB2; REVERB3,33,exact,MU128,Reverb Time,23,REVERB type,Length of reverb
+Room Size,EARLY REFLECTION; GATE REVERB,34,exact,MU128,Room Size,23,EARLY REF type,Size of room. Increasing this value will lengthen ER.
+Rotor SW,VIBE VIBRATE,42,none,,,,,
+Rotor Speed,2WAY ROTARY SPEAKER; AMP 2WAY ROTARY SP; DIST 2WAY ROTARY SP; VIBE VIBRATE,40; 41; 42,exact,MU128,Rotor Speed,23,2WAY ROTARY SPEAKER,Frequency at which the speaker rotates
+Sampling Frequency,LO FI,43,alias,MU128,Sampling Freq Control,23,LO-FI,Sampling frequency control
+Sensitivity,BRITISH LEGEND; DYNAMIC FILTER; DYNAMIC FLANGER; DYNAMIC PHASER; DYNAMIC RING MOD; TOUCH WAH1; TOUCH WAH2,36; 37; 39; 43,exact,SPM,Sensitivity,79,,"Determines a specific value, depending on the selected Effect type."
+Slow-Fast Time of,ROTARY SPEAKER1,40,alias,SPM,Slow-Fast Time of Rotor,79,,Determines how long it takes for the rotation speed of the rotor to change from the current speed (slow or fast) to another one (fast or slow) when the rotation speed is switched.
+Speaker Air,BRITISH COMBO; BRITISH LEGEND,37,exact,SPM,Speaker Air,79,,Determines the characteristic of the speaker cabinet.
+Speaker Type,BRITISH COMBO; BRITISH LEGEND; MULTI FX; SMALL STEREO DIST; V DIST TEMPO DELAY; V DISTORTION; V DISTORTION DELAY,36; 37,exact,SPM-old,Speaker Type,65,,Selects the type of speaker simulation.
+Speed Control,ROTARY SPEAKER1,40,exact,SPM,Speed Control,80,,Switches the rotary speed.
+Stage,DYNAMIC PHASER; PHASER1; PHASER2; TEMPO PHASER,36,exact,MU128,Stage,23,PHASER type,Number of steps for the phase shifter
+Threshold,COMP DISTORTION; COMPRESSOR; NOISE GATE,38; 42,exact,MU128,Threshold,23,COMPRESSOR type NOISE GATE,Input level at which compression will begin Input level at which the gate will begin to open
+Threshold Offset,MULTI BAND COMP,42,none,,,,,
+Time,DELAY LR,34,none,,,,,
+Treble,BRITISH COMBO; BRITISH LEGEND,37,exact,SPM,Treble,80,,Determines the gain of the high frequencies.
+Type,EARLY REFLECTION; GATE REVERB; MULTI BAND COMP,34; 42,exact,MU128,Type,23,EARLY REF type,Type selection
+Vowel,TALKING MODULATION,43,exact,MU128,Vowel,23,TALKING MODULATOR,Vowel selection
+Wah Cutoff Frequency,WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,39; 40,alias,MU128,Cutoff Frequency Offset,22,WAH type,Frequency offset value that will control the wah filter
+Wah Pedal,MULTI FX,36,exact,SPM,Wah Pedal,81,,Determines the position of the wah pedal.
+Wah Release,WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,39; 40,exact,MU128,Wah Release,23,"WAH+DIST+DELAY,WAH+ODRV+DELAY",Time until the center frequency of the wah filter returns to normal
+Wah Resonance,WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,39; 40,alias,MU128,Resonance,23,WAH type,Bandwidth of the wah filter
+Wah SW,MULTI FX,36,exact,SPM,Wah SW,81,,Determines the type of the wah effect.
+Wah Sensitivity,WAH DIST TEMPO DELAY; WAH DISTORTION DELAY,39; 40,alias,SPM,Sensitivity,79,,"Determines a specific value, depending on the selected Effect type."
+Wall Vary,REVERB3,33,exact,MU128,Wall Vary,23,REVERB type,Condition of the walls of the simulated room (higher values produce more random reflections)
+Width,REVERB3,33,exact,MU128,Width,23,REVERB type,Width of the simulated room
+Woofer,ROTARY SPEAKER1,40,none,,,,,
+Woofer Speed Fast,ROTARY SPEAKER1,40,alias,SPM,Rotor Fast,78,,Determines the frequency of the rotor (lower range) when the Speed Control is set to Fast.
+Woofer Speed Slow,ROTARY SPEAKER1,40,alias,SPM,Rotor Slow,78,,Determines the frequency of the rotor (lower range) when the Speed Control is set to Slow.
+Word Length,LO FI,43,exact,MU128,Word Length,23,* The Harmonic Enhancer produces the same effect as its MU series predecessor. LO-FI,Specify the roughness of the sound

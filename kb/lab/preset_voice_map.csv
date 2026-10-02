@@ -1,0 +1,631 @@
+voice_name,section,category,voice_type,msb,lsb,pc,preset_file,dsp_on,dsp_type,dsp_category,dsp_algorithm,dsp_msb,dsp_lsb,dsp_depth,reverb_depth,chorus_depth,mono_poly,volume
+80sBrass,Main,Brass & Woodwind,Regular,0,113,63,Brass & Woodwind/80sBrass.T272.vce,on,Symphonic1,Modulation,SYMPHONIC,68,16,42,6,0,poly,92
+AccentFalls SW,Main,Brass & Woodwind,S.Art!,8,38,57,Brass & Woodwind/AccentFalls SW.T257.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,98
+AlpBass,Main,Brass & Woodwind,Regular,0,113,34,Brass & Woodwind/AlpBass.T344.vce,on,Stage1,Reverb,REVERB1,3,16,10,0,0,poly,92
+AltoSax,Main,Brass & Woodwind,Sweet!,0,114,66,Brass & Woodwind/AltoSax.T258.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,17,21,0,poly,90
+AnalogBrass,Main,Brass & Woodwind,Regular,0,112,64,Brass & Woodwind/AnalogBrass.T272.vce,on,Chorus2,Modulation,CHORUS,66,8,28,13,0,poly,117
+Bagpipe,Main,Brass & Woodwind,Regular,0,112,110,Brass & Woodwind/Bagpipe.T412.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,36,25,0,poly,108
+BalladPanFlute,Main,Brass & Woodwind,Sweet!,0,113,76,Brass & Woodwind/BalladPanFlute.T353.swv,on,CrossDelay1,Delay,CROSS DELAY,8,0,26,30,0,poly,108
+BalladSection,Main,Brass & Woodwind,Regular,0,119,67,Brass & Woodwind/BalladSection.T259.vce,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,19,24,0,poly,108
+BaritoneHit,Main,Brass & Woodwind,Regular,0,114,59,Brass & Woodwind/BaritoneHit.T344.vce,on,Stage1,Reverb,REVERB1,3,16,10,0,0,poly,104
+BaritoneHorn,Main,Brass & Woodwind,Regular,0,113,59,Brass & Woodwind/BaritoneHorn.T344.vce,on,Stage1,Reverb,REVERB1,3,16,24,0,0,poly,104
+BaritoneSax,Main,Brass & Woodwind,Regular,0,112,68,Brass & Woodwind/BaritoneSax.T349.vce,off,HmEnhance1,Legacy,HARMONIC ENHANCER,81,16,127,12,0,poly,126
+BigBandBrass SW,Main,Brass & Woodwind,S.Art!,8,37,57,Brass & Woodwind/BigBandBrass SW.T257.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,95
+BigBandHorns1,Main,Brass & Woodwind,Live!,0,110,67,Brass & Woodwind/BigBandHorns1.T261.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,40,17,0,poly,120
+BigBandHorns2,Main,Brass & Woodwind,Live!,0,109,67,Brass & Woodwind/BigBandHorns2.T261.liv,off,3BandEQ,EQ & Comp,3BAND EQ,76,0,40,17,0,poly,110
+BigBandOctave,Main,Brass & Woodwind,Live!,0,108,67,Brass & Woodwind/BigBandOctave.T261.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,40,17,0,poly,110
+BigBandTrumpet,Main,Brass & Woodwind,S.Art!,8,37,65,Brass & Woodwind/BigBandTrumpet.T256.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,34,20,0,poly,118
+Brass f,Main,Brass & Woodwind,Live!,0,108,62,Brass & Woodwind/Brass f.T257.liv,off,Chorus6,Legacy,CHORUS,65,0,50,17,0,poly,100
+Brass mf,Main,Brass & Woodwind,Live!,0,110,62,Brass & Woodwind/Brass mf.T257.liv,off,Chorus6,Legacy,CHORUS,65,0,50,17,0,poly,104
+Brass p,Main,Brass & Woodwind,Live!,0,111,62,Brass & Woodwind/Brass p.T257.liv,off,Chorus6,Legacy,CHORUS,65,0,50,17,0,poly,100
+BrassFalls f SW,Main,Brass & Woodwind,S.Art!,8,34,57,Brass & Woodwind/BrassFalls f SW.T257.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,28,17,0,poly,93
+BrassFalls mf SW,Main,Brass & Woodwind,S.Art!,8,35,57,Brass & Woodwind/BrassFalls mf SW.T257.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,28,17,0,poly,87
+BrassShake SW,Main,Brass & Woodwind,S.Art!,8,32,57,Brass & Woodwind/BrassShake SW.T257.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,102
+BrightTrumpet,Main,Brass & Woodwind,S.Art!,8,32,65,Brass & Woodwind/BrightTrumpet.T256.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,21,0,poly,112
+Clarinet&Flutes,Main,Brass & Woodwind,Regular,104,1,72,Brass & Woodwind/Clarinet&Flutes.T261.vce,off,Hall5,Reverb,REVERB1,1,1,40,32,0,poly,88
+Clarinet&Oboe,Main,Brass & Woodwind,Regular,104,1,69,Brass & Woodwind/Clarinet&Oboe.T261.vce,off,Hall5,Reverb,REVERB1,1,1,40,32,0,poly,85
+Cornet,Main,Brass & Woodwind,Sweet!,0,119,57,Brass & Woodwind/Cornet.T256.swv,off,TempoDelay2,Delay,TEMPO DELAY,21,16,24,25,0,poly,90
+DynamicBrass,Main,Brass & Woodwind,Live!,0,127,62,Brass & Woodwind/DynamicBrass.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,100
+EnglishHorn,Main,Brass & Woodwind,Regular,0,112,70,Brass & Woodwind/EnglishHorn.T351.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,32,0,poly,102
+FastPWM Brass,Main,Brass & Woodwind,Regular,104,6,63,Brass & Woodwind/FastPWM Brass.T272.vce,on,Symphonic1,Modulation,SYMPHONIC,68,16,10,7,12,poly,75
+FatSynthBrass,Main,Brass & Woodwind,Regular,0,116,64,Brass & Woodwind/FatSynthBrass.T272.vce,on,ChorusLite,Legacy,CHORUS,65,17,38,12,0,poly,90
+Flugelhorn,Main,Brass & Woodwind,Sweet!,0,118,57,Brass & Woodwind/Flugelhorn.T341.swv,off,TempoDelay2,Delay,TEMPO DELAY,21,16,24,20,0,poly,100
+FluteSection,Main,Brass & Woodwind,Regular,104,1,74,Brass & Woodwind/FluteSection.T260.vce,on,CrossDelay1,Delay,CROSS DELAY,8,0,33,32,0,poly,86
+Flutes&Oboes,Main,Brass & Woodwind,Regular,104,2,74,Brass & Woodwind/Flutes&Oboes.T261.vce,off,Hall5,Reverb,REVERB1,1,1,40,32,0,poly,76
+FrenchHorns,Main,Brass & Woodwind,Live!,0,112,61,Brass & Woodwind/FrenchHorns.T343.liv,on,2BandEQ,Legacy,2BAND EQ,77,0,20,32,0,poly,77
+FunkyAnalog,Main,Brass & Woodwind,Regular,0,115,63,Brass & Woodwind/FunkyAnalog.T272.vce,on,Phaser1,Modulation,PHASER1,72,0,64,8,0,poly,94
+GermanClarinet,Main,Brass & Woodwind,Regular,104,2,72,Brass & Woodwind/GermanClarinet.T346.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,26,22,0,poly,92
+GoldenTrumpet,Main,Brass & Woodwind,S.Art!,8,34,65,Brass & Woodwind/GoldenTrumpet.T256.sar,off,TempoDelay2,Delay,TEMPO DELAY,21,16,27,22,0,poly,114
+JazzFlute,Main,Brass & Woodwind,Sweet!,0,114,74,Brass & Woodwind/JazzFlute.T260.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,25,0,poly,104
+Moonlight,Main,Brass & Woodwind,Regular,0,115,72,Brass & Woodwind/Moonlight.T261.vce,off,3BandEQ,EQ & Comp,3BAND EQ,76,0,30,24,0,poly,92
+MutedTrumpet,Main,Brass & Woodwind,Sweet!,0,114,60,Brass & Woodwind/MutedTrumpet.T340.swv,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,34,20,0,poly,110
+OberBrass,Main,Brass & Woodwind,Regular,0,113,64,Brass & Woodwind/OberBrass.T272.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,12,7,20,poly,110
+Ocarina,Main,Brass & Woodwind,Regular,0,112,80,Brass & Woodwind/Ocarina.T357.vce,off,CrossDelay1,Delay,CROSS DELAY,8,0,22,19,0,poly,105
+OrchWoodwind,Main,Brass & Woodwind,Regular,104,1,71,Brass & Woodwind/OrchWoodwind.T261.vce,off,Hall5,Reverb,REVERB1,1,1,40,32,0,poly,86
+OrchestralBassoon,Main,Brass & Woodwind,Sweet!,104,0,71,Brass & Woodwind/OrchestralBassoon.T352.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,15,22,0,poly,108
+OrchestralClarinet,Main,Brass & Woodwind,Live!,104,0,72,Brass & Woodwind/OrchestralClarinet.T346.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,26,32,0,poly,80
+OrchestralFlute,Main,Brass & Woodwind,Sweet!,104,0,74,Brass & Woodwind/OrchestralFlute.T260.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,32,0,poly,88
+OrchestralOboe,Main,Brass & Woodwind,Sweet!,104,0,69,Brass & Woodwind/OrchestralOboe.T350.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,32,0,poly,98
+Piccolo,Main,Brass & Woodwind,Regular,0,112,73,Brass & Woodwind/Piccolo.T354.vce,on,TempoDelay1,Delay,TEMPO DELAY,21,0,20,27,0,poly,100
+PowerBrass,Main,Brass & Woodwind,Live!,0,121,63,Brass & Woodwind/PowerBrass.T257.liv,off,3BandEQ,EQ & Comp,3BAND EQ,76,0,30,17,0,poly,110
+Recorder,Main,Brass & Woodwind,Regular,0,112,75,Brass & Woodwind/Recorder.T356.vce,on,CrossDelay1,Delay,CROSS DELAY,8,0,22,19,0,poly,108
+RockSax SW,Main,Brass & Woodwind,S.Art!,8,33,83,Brass & Woodwind/RockSax SW.T348.sar,on,Dist+Delay1,Legacy,DISTORTION DELAY,95,16,12,21,0,poly,84
+SaxAppeal,Main,Brass & Woodwind,Live!,0,123,67,Brass & Woodwind/SaxAppeal.T259.liv,off,3BandEQ,EQ & Comp,3BAND EQ,76,0,40,17,0,poly,94
+SaxSection,Main,Brass & Woodwind,Live!,0,116,67,Brass & Woodwind/SaxSection.T259.liv,off,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,14,16,0,poly,108
+SaxSectionHard,Main,Brass & Woodwind,Live!,0,122,67,Brass & Woodwind/SaxSectionHard.T259.liv,off,3BandEQ,EQ & Comp,3BAND EQ,76,0,32,16,0,poly,106
+SaxSectionSoft,Main,Brass & Woodwind,Live!,0,121,67,Brass & Woodwind/SaxSectionSoft.T259.liv,off,2BandEQ,Legacy,2BAND EQ,77,0,80,17,0,poly,115
+Saxophone,Main,Brass & Woodwind,S.Art!,8,32,83,Brass & Woodwind/Saxophone.T348.sar,off,3BandEQ,EQ & Comp,3BAND EQ,76,0,20,21,0,poly,116
+Shakuhachi,Main,Brass & Woodwind,Regular,0,112,78,Brass & Woodwind/Shakuhachi.T355.vce,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,12,25,0,poly,100
+SilverTrumpet,Main,Brass & Woodwind,S.Art!,8,33,65,Brass & Woodwind/SilverTrumpet.T256.sar,off,TempoDelay2,Delay,TEMPO DELAY,21,16,27,21,0,poly,114
+SlowPWM Brass,Main,Brass & Woodwind,Regular,104,2,63,Brass & Woodwind/SlowPWM Brass.T272.vce,on,Chorus2,Modulation,CHORUS,66,8,10,9,0,poly,82
+SmoothBrass,Main,Brass & Woodwind,S.Art!,8,36,57,Brass & Woodwind/SmoothBrass.T257.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,100
+SoftAnalog,Main,Brass & Woodwind,Regular,0,114,64,Brass & Woodwind/SoftAnalog.T272.vce,on,Symphonic1,Modulation,SYMPHONIC,68,16,30,17,0,poly,102
+SoftHorns,Main,Brass & Woodwind,Live!,0,117,61,Brass & Woodwind/SoftHorns.T343.liv,off,2BandEQ,Legacy,2BAND EQ,77,0,20,17,0,poly,116
+SoftTrombones,Main,Brass & Woodwind,Live!,0,118,61,Brass & Woodwind/SoftTrombones.T345.liv,off,EQ Telephone,EQ & Comp,3BAND EQ,76,17,70,17,0,poly,108
+SoftVelocityBrass,Main,Brass & Woodwind,Regular,0,120,63,Brass & Woodwind/SoftVelocityBrass.T272.vce,off,Chorus6,Legacy,CHORUS,65,0,32,17,0,poly,90
+SopranoSax,Main,Brass & Woodwind,Sweet!,0,113,65,Brass & Woodwind/SopranoSax.T347.swv,on,TempoDelay1,Delay,TEMPO DELAY,21,0,13,21,0,poly,112
+SweetTrombone,Main,Brass & Woodwind,Sweet!,0,117,58,Brass & Woodwind/SweetTrombone.T342.swv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,21,0,poly,106
+SymphonyBrass,Main,Brass & Woodwind,Live!,0,119,61,Brass & Woodwind/SymphonyBrass.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,34,32,0,poly,104
+SymphonyHorns,Main,Brass & Woodwind,Live!,0,115,61,Brass & Woodwind/SymphonyHorns.T343.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,32,0,poly,105
+SynthBrassProfit,Main,Brass & Woodwind,Regular,104,1,63,Brass & Woodwind/SynthBrassProfit.T272.vce,on,Echo,Delay,ECHO,7,0,18,6,16,poly,76
+SynthBrassThin,Main,Brass & Woodwind,Regular,104,0,63,Brass & Woodwind/SynthBrassThin.T272.vce,on,Chorus2,Modulation,CHORUS,66,8,31,4,0,poly,76
+TrumpetFall SW,Main,Brass & Woodwind,S.Art!,8,38,65,Brass & Woodwind/TrumpetFall SW.T256.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,34,20,0,poly,113
+TrumpetShake SW,Main,Brass & Woodwind,S.Art!,8,35,65,Brass & Woodwind/TrumpetShake SW.T256.sar,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,27,20,0,poly,111
+Tuba,Main,Brass & Woodwind,Regular,104,0,59,Brass & Woodwind/Tuba.T344.vce,on,2BandEQ,Legacy,2BAND EQ,77,0,66,5,0,poly,88
+Whistle,Main,Brass & Woodwind,Regular,0,112,79,Brass & Woodwind/Whistle.T416.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,24,0,mono,110
+12StringGuitar,Main,Guitar & Bass,Live!,0,113,26,Guitar & Bass/12StringGuitar.T243.liv,on,Chorus6,Legacy,CHORUS,65,0,18,19,0,poly,127
+70sSolidGuitar,Main,Guitar & Bass,S.Art!,8,38,4,Guitar & Bass/70sSolidGuitar.T244.sar,on,Cmp+OD+TDly3,Legacy,COMP DIST TEMPO DELAY,101,17,127,24,0,poly,82
+AcousticBass,Main,Guitar & Bass,Regular,0,112,33,Guitar & Bass/AcousticBass.T337.vce,on,AcousticRoom,Reverb,REVERB1,2,20,28,0,0,poly,102
+Banjo,Main,Guitar & Bass,Regular,104,0,106,Guitar & Bass/Banjo.T378.vce,off,HmEnhance1,Legacy,HARMONIC ENHANCER,81,16,30,12,0,poly,104
+BluesGuitar,Main,Guitar & Bass,Cool!,0,117,30,Guitar & Bass/BluesGuitar.T245.clv,on,VDistHd+Dly,Distortion,V DISTORTION DELAY,98,1,33,21,8,poly,112
+CleanElectric SW,Main,Guitar & Bass,S.Art!,8,35,4,Guitar & Bass/CleanElectric SW.T244.sar,on,BCmbClassic,Distortion,BRITISH COMBO,97,32,30,19,20,poly,80
+CleanSolid,Main,Guitar & Bass,S.Art!,8,34,4,Guitar & Bass/CleanSolid.T244.sar,on,PitchChange2,Legacy,PITCH CHANGE1,80,0,28,19,0,poly,98
+ClubBass,Main,Guitar & Bass,Regular,104,2,39,Guitar & Bass/ClubBass.T248.vce,on,CompMelody,EQ & Comp,MULTI BAND COMP,105,16,127,0,0,poly,70
+Competitor,Main,Guitar & Bass,Regular,104,4,39,Guitar & Bass/Competitor.T248.vce,off,RingMod,Legacy,RING MODULATOR,113,0,30,0,12,mono,80
+ConcertGuitar,Main,Guitar & Bass,S.Art!,8,32,1,Guitar & Bass/ConcertGuitar.T242.sar,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,16,0,poly,112
+CrunchGuitar,Main,Guitar & Bass,Regular,0,113,31,Guitar & Bass/CrunchGuitar.T245.vce,on,VDistH+TDly1,Legacy,V DIST TEMPO DELAY,103,0,90,25,20,poly,110
+CrunchGuitar,Main,Guitar & Bass,S.Art!,8,33,6,Guitar & Bass/CrunchGuitar.T333.sar,on,StAmpCrunch,Distortion,STEREO AMP SIMULATOR,75,30,127,19,0,poly,86
+DarkBass,Main,Guitar & Bass,Regular,104,1,40,Guitar & Bass/DarkBass.T248.vce,off,GtTremolo1,Legacy,AUTO PAN1,71,20,32,0,0,poly,70
+DeepPoint,Main,Guitar & Bass,Regular,104,3,39,Guitar & Bass/DeepPoint.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,20,0,0,poly,84
+DynamicNylonGt,Main,Guitar & Bass,Live!,0,116,25,Guitar & Bass/DynamicNylonGt.T242.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,24,0,poly,113
+DynamicSteelGt,Main,Guitar & Bass,Live!,0,116,26,Guitar & Bass/DynamicSteelGt.T243.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,17,0,poly,112
+ElectricBass,Main,Guitar & Bass,Cool!,0,114,34,Guitar & Bass/ElectricBass.T247.clv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,16,0,0,poly,100
+FatPulse,Main,Guitar & Bass,Regular,104,2,40,Guitar & Bass/FatPulse.T248.vce,on,CompHeavy,EQ & Comp,COMPRESSOR,83,17,40,0,0,poly,68
+Feedbacker SW,Main,Guitar & Bass,S.Art!,8,33,5,Guitar & Bass/Feedbacker SW.T245.sar,on,StAmpSim4,Legacy,STEREO AMP SIMULATOR,75,24,127,26,0,poly,76
+FlamencoGuitar,Main,Guitar & Bass,S.Art!,8,33,1,Guitar & Bass/FlamencoGuitar.T330.sar,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,20,0,poly,100
+FolkGtHarm SW,Main,Guitar & Bass,S.Art!,8,33,2,Guitar & Bass/FolkGtHarm SW.T243.sar,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,17,0,poly,120
+FretlessBass,Main,Guitar & Bass,Cool!,0,112,36,Guitar & Bass/FretlessBass.T334.clv,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,40,4,0,poly,74
+GuitarHero,Main,Guitar & Bass,S.Art!,8,32,6,Guitar & Bass/GuitarHero.T245.sar,on,Cmp+OD+TDly6,Legacy,COMP DIST TEMPO DELAY,101,20,125,22,0,poly,105
+HalfDrive,Main,Guitar & Bass,S.Art!,8,37,4,Guitar & Bass/HalfDrive.T333.sar,on,StAmpSim3,Legacy,STEREO AMP SIMULATOR,75,8,116,20,0,poly,72
+HardFlamenco,Main,Guitar & Bass,Live!,0,118,25,Guitar & Bass/HardFlamenco.T330.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,23,24,0,poly,100
+HeavyRockGuitar,Main,Guitar & Bass,S.Art!,8,32,5,Guitar & Bass/HeavyRockGuitar.T245.sar,on,StAmpSim4,Legacy,STEREO AMP SIMULATOR,75,24,127,25,0,poly,74
+JazzGtSmooth SW,Main,Guitar & Bass,S.Art!,8,35,7,Guitar & Bass/JazzGtSmooth SW.T332.sar,off,VDistJzCln,Legacy,V DISTORTION,98,27,127,19,0,poly,80
+JazzGuitarClean,Main,Guitar & Bass,S.Art!,8,32,7,Guitar & Bass/JazzGuitarClean.T332.sar,on,VDistJzCln,Legacy,V DISTORTION,98,27,127,19,0,poly,92
+KickBass,Main,Guitar & Bass,Regular,104,1,39,Guitar & Bass/KickBass.T248.vce,off,TempoPhaser2,Legacy,TEMPO PHASER,108,16,32,0,0,poly,68
+LoBass,Main,Guitar & Bass,Regular,104,0,40,Guitar & Bass/LoBass.T248.vce,off,StDistortion,Legacy,STEREO DISTORTION,73,8,16,0,0,poly,78
+Mandolin,Main,Guitar & Bass,Sweet!,0,114,26,Guitar & Bass/Mandolin.T331.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,28,0,poly,120
+MoonBass,Main,Guitar & Bass,Regular,104,0,39,Guitar & Bass/MoonBass.T248.vce,off,Flanger2,Legacy,FLANGER,67,16,28,0,0,poly,68
+NylonGuitar SW,Main,Guitar & Bass,S.Art!,8,34,1,Guitar & Bass/NylonGuitar SW.T242.sar,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,24,0,poly,113
+NylonGuitarSlide,Main,Guitar & Bass,Live!,0,117,25,Guitar & Bass/NylonGuitarSlide.T242.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,24,0,poly,103
+PedalSteel,Main,Guitar & Bass,S.Art!,8,36,4,Guitar & Bass/PedalSteel.T329.sar,on,Cmp+OD+TDly5,Legacy,COMP DIST TEMPO DELAY,101,19,60,26,12,poly,88
+PickDynoBass,Main,Guitar & Bass,Cool!,0,113,35,Guitar & Bass/PickDynoBass.T247.clv,off,Echo,Delay,ECHO,7,0,18,0,0,poly,77
+RockLegend,Main,Guitar & Bass,S.Art!,8,34,6,Guitar & Bass/RockLegend.T245.sar,on,VDistH+TDly2,Legacy,V DIST TEMPO DELAY,103,17,127,19,0,poly,63
+SemiAcoustic,Main,Guitar & Bass,S.Art!,8,33,7,Guitar & Bass/SemiAcoustic.T332.sar,on,VDistFusion,Legacy,V DIST TEMPO DELAY,103,19,127,19,0,poly,94
+Shamisen,Main,Guitar & Bass,Regular,0,112,107,Guitar & Bass/Shamisen.T381.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,19,19,0,poly,112
+SingleCoilClean,Main,Guitar & Bass,S.Art!,8,39,4,Guitar & Bass/SingleCoilClean.T244.sar,on,Cmp+OD+TDly4,Legacy,COMP DIST TEMPO DELAY,101,18,127,19,20,poly,60
+Sitar,Main,Guitar & Bass,Regular,104,0,105,Guitar & Bass/Sitar.T379.vce,on,Hall3,Reverb,REVERB1,1,17,30,0,0,poly,85
+SlapBass,Main,Guitar & Bass,Regular,0,112,37,Guitar & Bass/SlapBass.T247.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,22,5,0,poly,90
+SlideJazzGuitar,Main,Guitar & Bass,Cool!,104,0,27,Guitar & Bass/SlideJazzGuitar.T332.clv,on,VDistJzCln,Legacy,V DISTORTION,98,27,127,19,14,poly,90
+SteelGuitar,Main,Guitar & Bass,S.Art!,8,32,2,Guitar & Bass/SteelGuitar.T243.sar,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,17,0,poly,119
+TightBass,Main,Guitar & Bass,Regular,104,3,40,Guitar & Bass/TightBass.T248.vce,off,GtTremolo1,Legacy,AUTO PAN1,71,20,127,0,0,poly,86
+VintageAmp,Main,Guitar & Bass,S.Art!,8,40,4,Guitar & Bass/VintageAmp.T244.sar,on,VDistSolid,Legacy,V DISTORTION,98,25,127,19,0,poly,96
+VintageFlat,Main,Guitar & Bass,Cool!,104,2,34,Guitar & Bass/VintageFlat.T247.clv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,30,0,0,poly,90
+VintageMute,Main,Guitar & Bass,Cool!,104,3,34,Guitar & Bass/VintageMute.T247.clv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,30,0,0,poly,90
+VintagePick,Main,Guitar & Bass,Regular,104,1,35,Guitar & Bass/VintagePick.T247.vce,on,CompBass,EQ & Comp,MULTI BAND COMP,105,17,30,0,0,poly,80
+VintagePickMute,Main,Guitar & Bass,Cool!,104,0,35,Guitar & Bass/VintagePickMute.T247.clv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,30,0,0,poly,86
+VintageRound,Main,Guitar & Bass,Cool!,104,1,34,Guitar & Bass/VintageRound.T247.clv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,30,0,0,poly,86
+WarmElectric SW,Main,Guitar & Bass,S.Art!,8,32,4,Guitar & Bass/WarmElectric SW.T244.sar,on,Echo,Delay,ECHO,7,0,30,20,0,poly,95
+WarmSolid,Main,Guitar & Bass,S.Art!,8,33,4,Guitar & Bass/WarmSolid.T244.sar,on,Echo,Delay,ECHO,7,0,28,19,14,poly,96
+WazzoSaw,Main,Guitar & Bass,Regular,104,3,81,Guitar & Bass/WazzoSaw.T248.vce,on,DynFilter,Legacy,DYNAMIC FILTER,109,0,30,0,0,mono,94
+ClassicalGuitar,Legacy,A.Guitar,Live!,0,115,25,Legacy/A.Guitar/ClassicalGuitar.T242.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,24,0,poly,94
+NylonMute,Legacy,A.Guitar,Live!,0,119,25,Legacy/A.Guitar/NylonMute.T242.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,21,0,poly,102
+SteelGuitar,Legacy,A.Guitar,Live!,0,117,26,Legacy/A.Guitar/SteelGuitar.T243.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,24,0,poly,111
+SteelGuitarSlide,Legacy,A.Guitar,Live!,0,118,26,Legacy/A.Guitar/SteelGuitarSlide.T243.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,17,0,poly,112
+SteelMute,Legacy,A.Guitar,Live!,0,120,26,Legacy/A.Guitar/SteelMute.T243.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,24,19,0,poly,120
+Accordion,Legacy,Accordion,Regular,0,116,22,Legacy/Accordion/Accordion.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,27,0,poly,118
+MusetteAccordion,Legacy,Accordion,Regular,0,112,22,Legacy/Accordion/MusetteAccordion.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,27,0,poly,110
+TuttiAccordion,Legacy,Accordion,Regular,0,113,22,Legacy/Accordion/TuttiAccordion.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,22,0,poly,120
+BalladBass,Legacy,Bass,Regular,104,7,40,Legacy/Bass/BalladBass.T248.vce,on,Room3,Legacy,REVERB1,2,18,24,0,0,poly,80
+Bass&Cymbal,Legacy,Bass,Regular,0,114,33,Legacy/Bass/Bass&Cymbal.T337.vce,on,AcousticRoom,Reverb,REVERB1,2,20,25,0,0,poly,82
+BigDrone,Legacy,Bass,Regular,0,118,39,Legacy/Bass/BigDrone.T248.vce,on,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,40,0,0,poly,76
+DrySynthBass,Legacy,Bass,Regular,0,116,40,Legacy/Bass/DrySynthBass.T248.vce,on,ChorusLite,Legacy,CHORUS,65,17,38,0,0,mono,70
+FunkBass,Legacy,Bass,Regular,0,112,38,Legacy/Bass/FunkBass.T247.vce,off,ClaviTcWah,Legacy,TOUCH WAH2,82,18,50,4,0,poly,96
+FusionBass,Legacy,Bass,Regular,0,113,37,Legacy/Bass/FusionBass.T247.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,20,0,0,poly,88
+HalfMute,Legacy,Bass,Cool!,0,115,34,Legacy/Bass/HalfMute.T247.clv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,30,0,0,poly,90
+HardBass,Legacy,Bass,Regular,0,114,39,Legacy/Bass/HardBass.T248.vce,on,Phaser1,Modulation,PHASER1,72,0,40,0,0,poly,70
+HouseBass,Legacy,Bass,Regular,0,116,39,Legacy/Bass/HouseBass.T248.vce,off,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,32,0,0,poly,66
+MiniSub,Legacy,Bass,Regular,104,6,40,Legacy/Bass/MiniSub.T248.vce,on,Flanger4,Legacy,FLANGER,67,1,56,0,0,poly,60
+PercPunch,Legacy,Bass,Regular,104,8,39,Legacy/Bass/PercPunch.T248.vce,off,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,26,0,0,poly,70
+PickBass,Legacy,Bass,Regular,0,112,35,Legacy/Bass/PickBass.T247.vce,off,Echo,Delay,ECHO,7,0,16,0,0,poly,80
+PunchyBass,Legacy,Bass,Regular,0,117,39,Legacy/Bass/PunchyBass.T248.vce,on,Compressor,Legacy,COMPRESSOR,83,0,36,0,0,poly,68
+ResonanceBass,Legacy,Bass,Regular,0,112,39,Legacy/Bass/ResonanceBass.T248.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,40,0,0,mono,62
+RockBass,Legacy,Bass,Regular,0,114,35,Legacy/Bass/RockBass.T247.vce,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,127,0,0,poly,86
+SquareBass,Legacy,Bass,Regular,104,4,40,Legacy/Bass/SquareBass.T248.vce,off,TempoPhaser1,Modulation,TEMPO PHASER,108,0,64,0,0,mono,60
+SubBass,Legacy,Bass,Regular,0,114,40,Legacy/Bass/SubBass.T248.vce,on,Flanger4,Legacy,FLANGER,67,1,40,0,0,mono,75
+SuperFretless,Legacy,Bass,Regular,0,113,36,Legacy/Bass/SuperFretless.T334.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,50,11,0,mono,74
+TB Bass,Legacy,Bass,Regular,0,117,40,Legacy/Bass/TB Bass.T248.vce,off,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,25,0,0,mono,54
+VelocityMaster,Legacy,Bass,Regular,104,17,82,Legacy/Bass/VelocityMaster.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,24,0,0,poly,80
+AccentBrass,Legacy,Brass,Live!,0,109,62,Legacy/Brass/AccentBrass.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,100
+BrassBand,Legacy,Brass,Live!,0,123,57,Legacy/Brass/BrassBand.T257.liv,off,HmEnhance1,Legacy,HARMONIC ENHANCER,81,16,38,20,0,poly,100
+BrassCombo,Legacy,Brass,Regular,0,115,67,Legacy/Brass/BrassCombo.T257.vce,off,Chorus6,Legacy,CHORUS,65,0,50,17,0,poly,112
+BrassDynamics,Legacy,Brass,Live!,0,106,62,Legacy/Brass/BrassDynamics.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,103
+BrassSection,Legacy,Brass,Regular,0,112,62,Legacy/Brass/BrassSection.T257.vce,off,Chorus6,Legacy,CHORUS,65,0,40,17,0,poly,106
+GoldenTrumpet,Legacy,Brass,Sweet!,0,122,57,Legacy/Brass/GoldenTrumpet.T256.swv,off,TempoDelay2,Delay,TEMPO DELAY,21,16,27,22,0,poly,112
+HyperBrass,Legacy,Brass,Live!,0,118,63,Legacy/Brass/HyperBrass.T257.liv,off,Chorus6,Legacy,CHORUS,65,0,34,17,0,poly,115
+MellowTrumpet,Legacy,Brass,Sweet!,0,120,57,Legacy/Brass/MellowTrumpet.T256.swv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,20,0,poly,116
+MutedTrumpet,Legacy,Brass,Regular,0,112,60,Legacy/Brass/MutedTrumpet.T340.vce,on,3BandEQ,EQ & Comp,3BAND EQ,76,0,34,25,0,poly,100
+OberHorns,Legacy,Brass,Regular,0,115,64,Legacy/Brass/OberHorns.T272.vce,on,Symphonic1,Modulation,SYMPHONIC,68,16,48,15,24,poly,84
+OctaveBrass,Legacy,Brass,Live!,0,116,63,Legacy/Brass/OctaveBrass.T257.liv,off,EQ Disco,Legacy,3BAND EQ,76,16,30,17,0,poly,116
+PopBrass,Legacy,Brass,Live!,0,117,63,Legacy/Brass/PopBrass.T257.liv,off,2BandEQ,Legacy,2BAND EQ,77,0,40,17,0,poly,118
+Sforzando,Legacy,Brass,Live!,0,105,62,Legacy/Brass/Sforzando.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,50,17,0,poly,92
+SforzandoFall,Legacy,Brass,Live!,0,107,62,Legacy/Brass/SforzandoFall.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,28,17,0,poly,96
+SilverTrumpet,Legacy,Brass,Sweet!,0,121,57,Legacy/Brass/SilverTrumpet.T256.swv,off,TempoDelay2,Delay,TEMPO DELAY,21,16,27,21,0,poly,112
+SmallBrass,Legacy,Brass,Live!,0,120,61,Legacy/Brass/SmallBrass.T257.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,94
+SmoothTrombone,Legacy,Brass,Regular,0,118,58,Legacy/Brass/SmoothTrombone.T342.vce,off,St3BandEQ,Legacy,3BAND EQ,76,18,40,17,0,poly,108
+SoftBrass,Legacy,Brass,Regular,0,123,62,Legacy/Brass/SoftBrass.T257.vce,off,Chorus6,Legacy,CHORUS,65,0,30,21,0,poly,102
+SoloTrombone,Legacy,Brass,Regular,0,112,58,Legacy/Brass/SoloTrombone.T342.vce,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,44,24,0,poly,108
+TechnoBrass,Legacy,Brass,Regular,0,114,63,Legacy/Brass/TechnoBrass.T272.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,30,7,17,poly,90
+TromboneSection,Legacy,Brass,Regular,0,113,58,Legacy/Brass/TromboneSection.T345.vce,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,107
+Trumpet,Legacy,Brass,Sweet!,0,115,57,Legacy/Brass/Trumpet.T256.swv,off,TempoDelay2,Delay,TEMPO DELAY,21,16,24,21,0,poly,108
+Tuba2,Legacy,Brass,Regular,0,112,59,Legacy/Brass/Tuba2.T344.vce,on,Room4,Legacy,REVERB1,2,19,24,0,0,poly,104
+AirChoir,Legacy,Choir,Regular,0,112,55,Legacy/Choir/AirChoir.T253.vce,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,35,0,poly,118
+Choir,Legacy,Choir,Regular,0,112,53,Legacy/Choir/Choir.T253.vce,on,AtmoHall,Legacy,REVERB1,1,23,40,0,0,poly,124
+UuhChoir,Legacy,Choir,Regular,0,115,53,Legacy/Choir/UuhChoir.T253.vce,on,HmEnhance1,Legacy,HARMONIC ENHANCER,81,16,40,34,0,poly,104
+RockKit,Legacy,DrumKit,Drums,127,0,17,Legacy/DrumKit/RockKit.T267.drm,off,DrumsRoom,Reverb,REVERB1,2,21,36,11,0,poly,89
+StandardKit1,Legacy,DrumKit,Live!Drums,127,0,1,Legacy/DrumKit/StandardKit1.T373.ldr,off,DrumsRoom,Reverb,REVERB1,2,21,44,8,0,poly,89
+StandardKit2,Legacy,DrumKit,Live!Drums,127,0,2,Legacy/DrumKit/StandardKit2.T373.ldr,off,DrumsRoom,Reverb,REVERB1,2,21,44,8,0,poly,89
+60sCleanGuitar,Legacy,E.Guitar,Regular,0,117,28,Legacy/E.Guitar/60sCleanGuitar.T244.vce,on,Echo,Delay,ECHO,7,0,32,19,20,poly,96
+AlohaGuitar,Legacy,E.Guitar,Regular,0,118,27,Legacy/E.Guitar/AlohaGuitar.T329.vce,on,TempoDelay1,Delay,TEMPO DELAY,21,0,30,32,0,poly,96
+BalladSolid,Legacy,E.Guitar,Cool!,0,109,28,Legacy/E.Guitar/BalladSolid.T244.clv,on,Cmp+OD+TDly3,Legacy,COMP DIST TEMPO DELAY,101,17,98,16,12,poly,74
+ChorusSolid,Legacy,E.Guitar,Cool!,0,107,28,Legacy/E.Guitar/ChorusSolid.T244.clv,on,PitchChange2,Legacy,PITCH CHANGE1,80,0,50,17,0,poly,100
+CleanGuitar,Legacy,E.Guitar,Cool!,0,112,28,Legacy/E.Guitar/CleanGuitar.T244.clv,on,Echo,Delay,ECHO,7,0,28,21,46,poly,90
+DynamicMute,Legacy,E.Guitar,Cool!,0,118,29,Legacy/E.Guitar/DynamicMute.T244.clv,on,Echo,Delay,ECHO,7,0,32,16,12,poly,96
+Electric12String,Legacy,E.Guitar,Regular,0,119,28,Legacy/E.Guitar/Electric12String.T244.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,36,22,0,poly,105
+ElectricGuitar,Legacy,E.Guitar,Cool!,0,114,29,Legacy/E.Guitar/ElectricGuitar.T244.clv,on,Echo,Delay,ECHO,7,0,28,19,20,poly,106
+FeedbackGuitar,Legacy,E.Guitar,Regular,0,113,30,Legacy/E.Guitar/FeedbackGuitar.T245.vce,on,VDistH+TDly1,Legacy,V DIST TEMPO DELAY,103,0,116,28,10,poly,122
+FunkGuitar,Legacy,E.Guitar,Cool!,0,116,29,Legacy/E.Guitar/FunkGuitar.T244.clv,on,Echo,Delay,ECHO,7,0,22,15,30,poly,92
+HeavyStack,Legacy,E.Guitar,Regular,0,114,31,Legacy/E.Guitar/HeavyStack.T245.vce,on,VDistHd+Dly,Distortion,V DISTORTION DELAY,98,1,64,25,40,poly,115
+JazzGuitar,Legacy,E.Guitar,Cool!,0,115,27,Legacy/E.Guitar/JazzGuitar.T332.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,10,21,0,poly,112
+MutedGuitar,Legacy,E.Guitar,Cool!,0,119,29,Legacy/E.Guitar/MutedGuitar.T244.clv,on,Echo,Delay,ECHO,7,0,30,16,0,poly,104
+OctaveGuitar,Legacy,E.Guitar,Regular,0,113,27,Legacy/E.Guitar/OctaveGuitar.T332.vce,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,44,20,0,poly,94
+PedalSteel,Legacy,E.Guitar,Regular,0,115,28,Legacy/E.Guitar/PedalSteel.T329.vce,on,Cmp+OD+TDly5,Legacy,COMP DIST TEMPO DELAY,101,19,50,32,10,poly,80
+PowerLead,Legacy,E.Guitar,Cool!,0,115,31,Legacy/E.Guitar/PowerLead.T245.clv,on,VDistH+TDly1,Legacy,V DIST TEMPO DELAY,103,0,80,21,10,poly,102
+SlapSolid,Legacy,E.Guitar,Cool!,0,108,28,Legacy/E.Guitar/SlapSolid.T244.clv,on,Echo,Delay,ECHO,7,0,28,15,0,poly,92
+Slapback,Legacy,E.Guitar,Cool!,104,0,28,Legacy/E.Guitar/Slapback.T244.clv,on,VDistRockbly,Legacy,V DIST TEMPO DELAY,103,18,127,19,0,poly,86
+SlideSolid,Legacy,E.Guitar,Cool!,0,110,28,Legacy/E.Guitar/SlideSolid.T244.clv,on,Echo,Delay,ECHO,7,0,30,16,12,poly,92
+SmoothLead,Legacy,E.Guitar,Regular,0,119,27,Legacy/E.Guitar/SmoothLead.T333.vce,on,StOverdrive,Legacy,STEREO DISTORTION,74,8,100,12,0,poly,122
+VintageAmp,Legacy,E.Guitar,Regular,0,115,30,Legacy/E.Guitar/VintageAmp.T333.vce,on,StAmpSim2,Legacy,STEREO AMP SIMULATOR,75,21,94,19,0,poly,90
+VintageLead,Legacy,E.Guitar,Cool!,0,125,28,Legacy/E.Guitar/VintageLead.T333.clv,on,StAmpSim3,Legacy,STEREO AMP SIMULATOR,75,8,80,28,0,poly,107
+VintageMuteEcho,Legacy,E.Guitar,Regular,0,115,29,Legacy/E.Guitar/VintageMuteEcho.T244.vce,on,Echo,Delay,ECHO,7,0,28,19,0,poly,108
+VintageOpen,Legacy,E.Guitar,Regular,0,123,28,Legacy/E.Guitar/VintageOpen.T244.vce,on,Echo,Delay,ECHO,7,0,32,19,30,poly,80
+VintageStrum,Legacy,E.Guitar,Regular,0,126,28,Legacy/E.Guitar/VintageStrum.T244.vce,on,GtTremolo2,Legacy,TREMOLO,70,19,60,23,0,poly,109
+WahGuitar,Legacy,E.Guitar,Regular,0,122,28,Legacy/E.Guitar/WahGuitar.T244.vce,on,AutoWah1,Modulation,AUTO WAH,78,16,120,15,46,poly,70
+DX Modern,Legacy,E.Piano,Regular,0,112,6,Legacy/E.Piano/DX Modern.T232.vce,on,Symphonic1,Modulation,SYMPHONIC,68,16,48,20,0,poly,107
+HyperTines,Legacy,E.Piano,Regular,0,113,6,Legacy/E.Piano/HyperTines.T327.vce,on,EP Phaser3,Legacy,PHASER1,72,16,44,20,0,poly,105
+ModernEP,Legacy,E.Piano,Regular,0,115,6,Legacy/E.Piano/ModernEP.T327.vce,on,Chorus3,Legacy,CHORUS,66,16,34,20,0,poly,116
+StereoClavi,Legacy,E.Piano,Regular,0,114,8,Legacy/E.Piano/StereoClavi.T233.vce,off,Phaser1,Modulation,PHASER1,72,0,127,6,0,poly,65
+AllBarsOutFast,Legacy,Organ,Cool!,104,0,19,Legacy/Organ/AllBarsOutFast.T235.clv,on,St3BandEQ,Legacy,3BAND EQ,76,18,127,16,0,poly,88
+AllBarsOutSlow,Legacy,Organ,Cool!,104,1,19,Legacy/Organ/AllBarsOutSlow.T235.clv,on,St3BandEQ,Legacy,3BAND EQ,76,18,127,16,0,poly,90
+AllBarsPhase,Legacy,Organ,Cool!,104,2,19,Legacy/Organ/AllBarsPhase.T235.clv,on,Phaser2,Legacy,PHASER2,72,8,50,19,0,poly,89
+JazzFast,Legacy,Organ,Cool!,0,127,18,Legacy/Organ/JazzFast.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,12,0,poly,88
+JazzSlow,Legacy,Organ,Cool!,0,126,18,Legacy/Organ/JazzSlow.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,12,0,poly,88
+Kinura8',Legacy,Organ,Regular,0,123,17,Legacy/Organ/Kinura8'.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,70
+MellowDrawbar,Legacy,Organ,Regular,0,115,18,Legacy/Organ/MellowDrawbar.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,20,0,poly,122
+PercOrgan,Legacy,Organ,Regular,0,119,18,Legacy/Organ/PercOrgan.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,12,0,poly,80
+RotarySwitch,Legacy,Organ,Cool!,0,110,18,Legacy/Organ/RotarySwitch.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,12,0,poly,78
+Trumpet16'&8',Legacy,Organ,Regular,0,124,18,Legacy/Organ/Trumpet16'&8'.T238.vce,off,Hall1,Reverb,REVERB1,1,0,30,32,0,poly,80
+Trumpet8',Legacy,Organ,Regular,0,124,17,Legacy/Organ/Trumpet8'.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,74
+WhiterBarsFast,Legacy,Organ,Cool!,104,0,18,Legacy/Organ/WhiterBarsFast.T235.clv,on,VDistClsSft,Legacy,V DISTORTION,98,20,24,16,0,poly,92
+WhiterBarsSlow,Legacy,Organ,Cool!,104,1,18,Legacy/Organ/WhiterBarsSlow.T235.clv,on,VDistClsSft,Legacy,V DISTORTION,98,20,24,16,0,poly,91
+80sPad,Legacy,Pad,Regular,104,1,52,Legacy/Pad/80sPad.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,24,20,24,poly,90
+AmbientPad,Legacy,Pad,Regular,104,0,89,Legacy/Pad/AmbientPad.T273.vce,on,Hall5,Reverb,REVERB1,1,1,64,0,16,poly,77
+AnalogSwell,Legacy,Pad,Regular,0,119,96,Legacy/Pad/AnalogSwell.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,24,26,41,poly,90
+BigOctavePad,Legacy,Pad,Regular,0,115,91,Legacy/Pad/BigOctavePad.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,45,25,33,poly,90
+BrightOber,Legacy,Pad,Regular,0,113,96,Legacy/Pad/BrightOber.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,58,40,48,poly,82
+BrightPadClassic,Legacy,Pad,Regular,104,3,91,Legacy/Pad/BrightPadClassic.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,28,30,0,poly,65
+BrightPopPad,Legacy,Pad,Regular,104,3,51,Legacy/Pad/BrightPopPad.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,34,30,22,poly,88
+BrightSawPad,Legacy,Pad,Regular,0,113,91,Legacy/Pad/BrightSawPad.T273.vce,on,Symphonic2,Legacy,SYMPHONIC,68,0,64,36,16,poly,82
+CyberPad,Legacy,Pad,Regular,0,113,100,Legacy/Pad/CyberPad.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,30,15,0,poly,108
+DarkAngelPad,Legacy,Pad,Regular,0,121,90,Legacy/Pad/DarkAngelPad.T273.vce,on,HmEnhance1,Legacy,HARMONIC ENHANCER,81,16,45,40,40,poly,90
+DarkLight,Legacy,Pad,Regular,104,3,90,Legacy/Pad/DarkLight.T273.vce,on,PitchChange2,Legacy,PITCH CHANGE1,80,0,42,21,16,poly,98
+DarkPad,Legacy,Pad,Regular,0,118,96,Legacy/Pad/DarkPad.T273.vce,on,Celeste2,Legacy,CHORUS,66,2,59,32,44,poly,66
+EarlyDigital,Legacy,Pad,Regular,104,0,94,Legacy/Pad/EarlyDigital.T273.vce,on,ChorusLite,Legacy,CHORUS,65,17,50,20,16,poly,67
+GloriousPhase,Legacy,Pad,Regular,0,114,91,Legacy/Pad/GloriousPhase.T273.vce,on,Phaser3,Legacy,PHASER2,72,19,77,30,32,poly,75
+GoldenAge,Legacy,Pad,Regular,0,115,89,Legacy/Pad/GoldenAge.T273.vce,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,36,20,0,poly,99
+HahPad,Legacy,Pad,Regular,0,116,95,Legacy/Pad/HahPad.T273.vce,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,64,40,18,poly,80
+Insomnia,Legacy,Pad,Regular,0,113,95,Legacy/Pad/Insomnia.T273.vce,on,Hall4,Reverb,REVERB1,1,18,40,0,18,poly,73
+LitePad,Legacy,Pad,Regular,0,122,90,Legacy/Pad/LitePad.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,64,40,32,poly,96
+MediumTunePad,Legacy,Pad,Regular,104,0,51,Legacy/Pad/MediumTunePad.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,32,25,16,poly,76
+MellowPad,Legacy,Pad,Regular,0,117,96,Legacy/Pad/MellowPad.T273.vce,on,ChorusLite,Legacy,CHORUS,65,17,64,40,40,poly,56
+Millennium,Legacy,Pad,Regular,0,117,89,Legacy/Pad/Millennium.T273.vce,on,Hall4,Reverb,REVERB1,1,18,40,0,0,poly,119
+NeoWarmPad,Legacy,Pad,Regular,0,115,90,Legacy/Pad/NeoWarmPad.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,32,18,46,poly,111
+OberSweep,Legacy,Pad,Regular,0,115,96,Legacy/Pad/OberSweep.T273.vce,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,58,40,64,poly,64
+OctaveStrings,Legacy,Pad,Regular,104,4,51,Legacy/Pad/OctaveStrings.T273.vce,on,TempoPhaser2,Legacy,TEMPO PHASER,108,16,28,26,16,poly,86
+PercPad,Legacy,Pad,Regular,104,0,102,Legacy/Pad/PercPad.T273.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,36,13,0,poly,80
+PopPad,Legacy,Pad,Regular,0,112,91,Legacy/Pad/PopPad.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,64,40,32,poly,88
+Skydiver,Legacy,Pad,Regular,0,112,102,Legacy/Pad/Skydiver.T273.vce,on,Flanger4,Legacy,FLANGER,67,1,48,40,24,poly,74
+Solaris,Legacy,Pad,Regular,0,114,95,Legacy/Pad/Solaris.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,32,26,14,poly,85
+Sunbeam,Legacy,Pad,Regular,0,123,89,Legacy/Pad/Sunbeam.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,44,30,30,poly,95
+Trance,Legacy,Pad,Regular,104,0,96,Legacy/Pad/Trance.T273.vce,on,Hall5,Reverb,REVERB1,1,1,64,0,32,poly,74
+Wave2001,Legacy,Pad,Regular,0,112,96,Legacy/Pad/Wave2001.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,40,12,18,poly,114
+AmbientPiano,Legacy,Piano,Live!,104,3,1,Legacy/Piano/AmbientPiano.T228.liv,on,TempoDelay1,Delay,TEMPO DELAY,21,0,30,20,0,poly,100
+BrightPiano,Legacy,Piano,Live!,0,112,2,Legacy/Piano/BrightPiano.T228.liv,off,Chorus1,Modulation,CHORUS,66,17,36,20,0,poly,112
+CocktailPiano,Legacy,Piano,Live!,104,0,4,Legacy/Piano/CocktailPiano.T228.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,22,20,0,poly,94
+ConcertGrand,Legacy,Piano,Live!,0,115,1,Legacy/Piano/ConcertGrand.T228.liv,off,AcousticRoom,Reverb,REVERB1,2,20,25,10,0,poly,100
+GrandPiano,Legacy,Piano,Live!,0,113,1,Legacy/Piano/GrandPiano.T228.liv,off,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,36,20,0,poly,100
+Harpsichord,Legacy,Piano,Live!,0,112,7,Legacy/Piano/Harpsichord.T234.liv,on,Stage2,Legacy,REVERB1,3,17,30,0,0,poly,100
+MIDI Grand,Legacy,Piano,Regular,0,112,3,Legacy/Piano/MIDI Grand.T230.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,20,25,0,poly,100
+PopGrand,Legacy,Piano,Live!,104,5,1,Legacy/Piano/PopGrand.T228.liv,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,12,16,0,poly,100
+RockPiano,Legacy,Piano,Live!,104,4,1,Legacy/Piano/RockPiano.T228.liv,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,10,0,poly,110
+DynamicStrings,Legacy,Strings,Live!,0,124,49,Legacy/Strings/DynamicStrings.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,26,32,0,poly,85
+Fiddle,Legacy,Strings,Regular,0,112,111,Legacy/Strings/Fiddle.T249.vce,on,RoomL,Legacy,REVERB1,2,7,27,0,0,poly,71
+Orchestra&Flute,Legacy,Strings,Regular,0,119,50,Legacy/Strings/Orchestra&Flute.T251.vce,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,110
+Orchestra&Horns,Legacy,Strings,Regular,0,118,50,Legacy/Strings/Orchestra&Horns.T251.vce,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,111
+Orchestra&Oboe,Legacy,Strings,Regular,0,121,50,Legacy/Strings/Orchestra&Oboe.T251.vce,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,110
+Pizzicato,Legacy,Strings,Regular,0,112,46,Legacy/Strings/Pizzicato.T250.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,26,26,0,poly,104
+SoloViolin,Legacy,Strings,Regular,0,112,41,Legacy/Strings/SoloViolin.T249.vce,off,Hall5,Reverb,REVERB1,1,1,36,28,0,poly,85
+Spiccato,Legacy,Strings,Live!,0,120,49,Legacy/Strings/Spiccato.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,26,32,0,poly,83
+StringFalls,Legacy,Strings,Live!,0,121,49,Legacy/Strings/StringFalls.T250.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,24,15,0,poly,100
+Strings,Legacy,Strings,Regular,0,112,49,Legacy/Strings/Strings.T250.vce,off,AtmoHall,Legacy,REVERB1,1,23,36,26,0,poly,100
+SymphonicUnison,Legacy,Strings,Regular,104,0,50,Legacy/Strings/SymphonicUnison.T251.vce,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,39,0,poly,80
+TheatreOrchestra,Legacy,Strings,Regular,104,1,50,Legacy/Strings/TheatreOrchestra.T251.vce,on,2BandEQ,Legacy,2BAND EQ,77,0,18,32,0,poly,84
+Adrenaline,Legacy,Synth,Regular,0,113,85,Legacy/Synth/Adrenaline.T270.vce,on,TempoPhaser2,Legacy,TEMPO PHASER,108,16,25,9,0,mono,100
+AeroLead,Legacy,Synth,Regular,0,112,84,Legacy/Synth/AeroLead.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,34,17,32,mono,98
+Aerosphere,Legacy,Synth,Regular,104,1,95,Legacy/Synth/Aerosphere.T275.vce,on,ChorusFast,Legacy,CHORUS,65,16,38,45,0,poly,62
+AnaDayz,Legacy,Synth,Regular,104,3,52,Legacy/Synth/AnaDayz.T275.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,28,20,32,poly,92
+Analogon,Legacy,Synth,Regular,0,115,82,Legacy/Synth/Analogon.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,18,12,20,poly,105
+Attack,Legacy,Synth,Regular,104,4,82,Legacy/Synth/Attack.T270.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,24,9,0,poly,116
+AttackSaw,Legacy,Synth,Regular,0,126,82,Legacy/Synth/AttackSaw.T248.vce,on,TempoEcho,Delay,TEMPO DELAY,21,8,21,21,0,mono,72
+Bellsphere,Legacy,Synth,Regular,104,5,89,Legacy/Synth/Bellsphere.T275.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,54,0,24,poly,64
+BigLead,Legacy,Synth,Regular,0,113,82,Legacy/Synth/BigLead.T248.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,24,15,12,poly,102
+Blaster,Legacy,Synth,Regular,0,114,82,Legacy/Synth/Blaster.T248.vce,on,TempoDelay1,Delay,TEMPO DELAY,21,0,32,17,40,poly,93
+BleepLead,Legacy,Synth,Regular,104,0,85,Legacy/Synth/BleepLead.T248.vce,on,Phaser3,Legacy,PHASER2,72,19,64,15,0,poly,60
+BrassyLead,Legacy,Synth,Regular,104,5,63,Legacy/Synth/BrassyLead.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,23,7,0,poly,75
+BrightPadTrance,Legacy,Synth,Regular,104,4,91,Legacy/Synth/BrightPadTrance.T275.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,48,40,16,poly,84
+Bubblespace,Legacy,Synth,Regular,0,113,102,Legacy/Synth/Bubblespace.T275.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,48,45,40,poly,82
+ChillinChords,Legacy,Synth,Regular,104,6,52,Legacy/Synth/ChillinChords.T275.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,36,34,22,poly,96
+ChorusSawLead,Legacy,Synth,Regular,104,10,82,Legacy/Synth/ChorusSawLead.T248.vce,on,ChorusFast,Legacy,CHORUS,65,16,31,3,0,poly,90
+Fargo,Legacy,Synth,Regular,0,119,82,Legacy/Synth/Fargo.T248.vce,on,TempoEcho,Delay,TEMPO DELAY,21,8,34,19,40,poly,110
+FireWire,Legacy,Synth,Regular,0,116,82,Legacy/Synth/FireWire.T248.vce,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,30,25,0,poly,123
+FlangeFilter,Legacy,Synth,Regular,104,2,82,Legacy/Synth/FlangeFilter.T248.vce,on,VFlanger,Modulation,V FLANGER,104,0,64,7,0,poly,72
+FusionLead,Legacy,Synth,Regular,104,15,82,Legacy/Synth/FusionLead.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,20,9,0,mono,70
+HipLead,Legacy,Synth,Regular,0,113,81,Legacy/Synth/HipLead.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,24,20,12,mono,114
+HipaStrings,Legacy,Synth,Regular,0,114,96,Legacy/Synth/HipaStrings.T275.vce,on,TempoPhaser2,Legacy,TEMPO PHASER,108,16,40,40,42,poly,68
+HopLead,Legacy,Synth,Regular,0,117,81,Legacy/Synth/HopLead.T248.vce,on,TempoDelay1,Delay,TEMPO DELAY,21,0,24,6,0,mono,110
+Impact,Legacy,Synth,Regular,0,113,88,Legacy/Synth/Impact.T270.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,20,17,0,poly,67
+NiceBell,Legacy,Synth,Regular,104,9,89,Legacy/Synth/NiceBell.T270.vce,on,ChorusLite,Legacy,CHORUS,65,17,64,30,0,poly,70
+Nomad,Legacy,Synth,Regular,104,1,105,Legacy/Synth/Nomad.T270.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,24,34,24,poly,86
+OrbitSine,Legacy,Synth,Regular,0,126,81,Legacy/Synth/OrbitSine.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,28,12,0,poly,96
+PWM Percussion,Legacy,Synth,Regular,104,6,82,Legacy/Synth/PWM Percussion.T270.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,24,4,0,poly,82
+PanLead,Legacy,Synth,Regular,0,122,81,Legacy/Synth/PanLead.T248.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,32,35,32,poly,75
+PercSquare,Legacy,Synth,Regular,0,123,81,Legacy/Synth/PercSquare.T270.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,19,15,0,mono,72
+Portatone,Legacy,Synth,Regular,0,112,85,Legacy/Synth/Portatone.T248.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,26,9,52,mono,95
+ResonantClavi,Legacy,Synth,Regular,104,2,91,Legacy/Synth/ResonantClavi.T270.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,20,3,0,poly,98
+S&H Groove,Legacy,Synth,Regular,0,115,102,Legacy/Synth/S&H Groove.T275.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,42,43,64,poly,127
+SawLead,Legacy,Synth,Regular,0,112,82,Legacy/Synth/SawLead.T248.vce,on,Hall4,Reverb,REVERB1,1,18,34,0,0,poly,106
+Sirius,Legacy,Synth,Regular,0,114,102,Legacy/Synth/Sirius.T275.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,48,44,52,poly,116
+SoftEnsemble,Legacy,Synth,Regular,104,1,51,Legacy/Synth/SoftEnsemble.T275.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,32,24,0,poly,82
+SoftMini,Legacy,Synth,Regular,0,124,81,Legacy/Synth/SoftMini.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,22,15,0,mono,90
+SoftSaw,Legacy,Synth,Regular,104,16,82,Legacy/Synth/SoftSaw.T248.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,22,9,0,mono,80
+SquareLead,Legacy,Synth,Regular,0,112,81,Legacy/Synth/SquareLead.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,24,20,30,mono,92
+StackBell,Legacy,Synth,Regular,104,8,89,Legacy/Synth/StackBell.T270.vce,on,ChorusLite,Legacy,CHORUS,65,17,43,26,50,poly,74
+Stardust,Legacy,Synth,Regular,0,112,99,Legacy/Synth/Stardust.T270.vce,on,TempoDelay1,Delay,TEMPO DELAY,21,0,40,19,0,poly,86
+StringBells,Legacy,Synth,Regular,0,124,89,Legacy/Synth/StringBells.T270.vce,on,ChorusLite,Legacy,CHORUS,65,17,40,32,31,poly,76
+SubLead,Legacy,Synth,Regular,104,0,81,Legacy/Synth/SubLead.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,18,9,0,mono,80
+SunBell,Legacy,Synth,Regular,0,113,99,Legacy/Synth/SunBell.T270.vce,on,TempoDelay1,Delay,TEMPO DELAY,21,0,38,19,70,poly,90
+TalkModLead,Legacy,Synth,Regular,104,0,88,Legacy/Synth/TalkModLead.T248.vce,on,TempoPhaser2,Legacy,TEMPO PHASER,108,16,64,7,0,poly,100
+TechGlide,Legacy,Synth,Regular,104,14,82,Legacy/Synth/TechGlide.T275.vce,on,Cmp+OD+TDly2,Legacy,COMP DIST TEMPO DELAY,101,16,30,3,0,mono,68
+TechLead,Legacy,Synth,Regular,0,117,85,Legacy/Synth/TechLead.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,32,22,0,mono,65
+Tekkline,Legacy,Synth,Regular,0,116,85,Legacy/Synth/Tekkline.T248.vce,on,ChorusFast,Legacy,CHORUS,65,16,28,3,0,poly,74
+TranceLead,Legacy,Synth,Regular,0,121,81,Legacy/Synth/TranceLead.T248.vce,on,ChorusFast,Legacy,CHORUS,65,16,32,36,0,poly,60
+VinylLead,Legacy,Synth,Regular,0,115,81,Legacy/Synth/VinylLead.T248.vce,on,Flanger2,Legacy,FLANGER,67,16,40,19,0,mono,100
+Warp,Legacy,Synth,Regular,0,117,82,Legacy/Synth/Warp.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,32,12,0,mono,100
+Xtune,Legacy,Synth,Regular,104,1,88,Legacy/Synth/Xtune.T270.vce,on,ChorusFast,Legacy,CHORUS,65,16,48,6,0,poly,46
+BalladTenor,Legacy,Woodwind,Sweet!,0,126,67,Legacy/Woodwind/BalladTenor.T348.swv,off,TempoDelay2,Delay,TEMPO DELAY,21,16,26,24,0,poly,118
+Bassoon,Legacy,Woodwind,Regular,0,112,71,Legacy/Woodwind/Bassoon.T352.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,25,0,poly,118
+BigBandSax,Legacy,Woodwind,S.Art!,8,35,83,Legacy/Woodwind/BigBandSax.T348.sar,on,3BandEQ,EQ & Comp,3BAND EQ,76,0,20,20,0,poly,112
+BreathyTenorSax,Legacy,Woodwind,Sweet!,0,117,67,Legacy/Woodwind/BreathyTenorSax.T348.swv,off,2BandEQ,Legacy,2BAND EQ,77,0,20,22,0,poly,118
+ClassicalFlute,Legacy,Woodwind,Sweet!,0,115,74,Legacy/Woodwind/ClassicalFlute.T260.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,32,32,0,poly,102
+ClassicalOboe,Legacy,Woodwind,Sweet!,0,113,69,Legacy/Woodwind/ClassicalOboe.T350.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,32,0,poly,90
+DoubleReeds,Legacy,Woodwind,Regular,104,2,69,Legacy/Woodwind/DoubleReeds.T261.vce,off,Hall5,Reverb,REVERB1,1,1,40,32,0,poly,95
+FluteEnsemble,Legacy,Woodwind,Regular,0,116,74,Legacy/Woodwind/FluteEnsemble.T261.vce,off,Hall5,Reverb,REVERB1,1,1,40,30,0,poly,108
+GrowlSax,Legacy,Woodwind,Sweet!,0,111,67,Legacy/Woodwind/GrowlSax.T348.swv,on,Dist+Delay1,Legacy,DISTORTION DELAY,95,16,12,21,0,poly,90
+JazzClarinet,Legacy,Woodwind,Sweet!,0,114,72,Legacy/Woodwind/JazzClarinet.T346.swv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,14,25,0,poly,85
+PopTenor,Legacy,Woodwind,Sweet!,0,127,67,Legacy/Woodwind/PopTenor.T348.swv,on,Dist+Delay1,Legacy,DISTORTION DELAY,95,16,20,20,0,poly,94
+SaxStack,Legacy,Woodwind,Regular,0,124,67,Legacy/Woodwind/SaxStack.T259.vce,on,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,20,20,0,poly,110
+SaxyMood,Legacy,Woodwind,Regular,0,120,67,Legacy/Woodwind/SaxyMood.T259.vce,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,32,17,0,poly,108
+SopranoSax,Legacy,Woodwind,Regular,0,112,65,Legacy/Woodwind/SopranoSax.T347.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,25,0,poly,126
+SweetTenorSax,Legacy,Woodwind,Sweet!,0,125,67,Legacy/Woodwind/SweetTenorSax.T348.swv,on,3BandEQ,EQ & Comp,3BAND EQ,76,0,36,16,0,poly,103
+TenorSax,Legacy,Woodwind,Regular,0,112,67,Legacy/Woodwind/TenorSax.T348.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,20,0,poly,120
+WoodwindsEns,Legacy,Woodwind,Regular,0,113,67,Legacy/Woodwind/WoodwindsEns.T261.vce,off,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,36,25,0,poly,114
+12StringGuitar,MegaVoice,A.Guitar,MegaVoice,8,1,3,MegaVoice/A.Guitar/12StringGuitar.T243.mgv,on,Chorus3,Legacy,CHORUS,66,16,15,21,0,poly,60
+HiStringGuitar,MegaVoice,A.Guitar,MegaVoice,8,0,3,MegaVoice/A.Guitar/HiStringGuitar.T243.mgv,on,TempoDelay1,Delay,TEMPO DELAY,21,0,30,21,0,poly,60
+NylonGuitar,MegaVoice,A.Guitar,MegaVoice,8,0,1,MegaVoice/A.Guitar/NylonGuitar.T242.mgv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,21,0,poly,70
+SteelGuitar,MegaVoice,A.Guitar,MegaVoice,8,0,2,MegaVoice/A.Guitar/SteelGuitar.T243.mgv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,26,21,0,poly,71
+AcousticBass,MegaVoice,Bass,MegaVoice,8,0,17,MegaVoice/Bass/AcousticBass.T337.mgv,on,AcousticRoom,Reverb,REVERB1,2,20,19,0,0,poly,46
+ElectricBass,MegaVoice,Bass,MegaVoice,8,0,18,MegaVoice/Bass/ElectricBass.T247.mgv,off,CompBass,EQ & Comp,MULTI BAND COMP,105,17,16,0,0,poly,46
+FretlessBass,MegaVoice,Bass,MegaVoice,8,0,20,MegaVoice/Bass/FretlessBass.T334.mgv,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,30,7,0,poly,46
+PickBass,MegaVoice,Bass,MegaVoice,8,0,19,MegaVoice/Bass/PickBass.T247.mgv,off,Echo,Delay,ECHO,7,0,16,0,0,poly,56
+VintageFlat,MegaVoice,Bass,MegaVoice,8,2,18,MegaVoice/Bass/VintageFlat.T247.mgv,off,Hall3,Reverb,REVERB1,1,17,30,0,0,poly,50
+VintagePick,MegaVoice,Bass,MegaVoice,8,1,19,MegaVoice/Bass/VintagePick.T247.mgv,off,Hall3,Reverb,REVERB1,1,17,30,0,0,poly,60
+VintageRound,MegaVoice,Bass,MegaVoice,8,1,18,MegaVoice/Bass/VintageRound.T247.mgv,off,Hall3,Reverb,REVERB1,1,17,30,0,0,poly,50
+Brass,MegaVoice,Brass,MegaVoice,8,0,57,MegaVoice/Brass/Brass.T257.mgv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,30,17,0,poly,70
+Trumpet,MegaVoice,Brass,MegaVoice,8,0,65,MegaVoice/Brass/Trumpet.T256.mgv,off,HmEnhance1,Legacy,HARMONIC ENHANCER,81,16,127,25,0,poly,70
+CleanGuitar,MegaVoice,E.Guitar,MegaVoice,8,0,4,MegaVoice/E.Guitar/CleanGuitar.T244.mgv,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,23,22,0,poly,62
+DistortionGuitar,MegaVoice,E.Guitar,MegaVoice,8,0,6,MegaVoice/E.Guitar/DistortionGuitar.T245.mgv,on,VDistS+Dly,Legacy,V DISTORTION DELAY,98,3,127,38,62,poly,38
+JazzGuitar,MegaVoice,E.Guitar,MegaVoice,8,0,7,MegaVoice/E.Guitar/JazzGuitar.T332.mgv,on,Hall3,Reverb,REVERB1,1,17,30,0,0,poly,70
+OverdriveGuitar,MegaVoice,E.Guitar,MegaVoice,8,0,5,MegaVoice/E.Guitar/OverdriveGuitar.T333.mgv,on,VDistS+TDly1,Legacy,V DIST TEMPO DELAY,103,1,110,25,36,poly,50
+SingleCoilGuitar,MegaVoice,E.Guitar,MegaVoice,8,3,4,MegaVoice/E.Guitar/SingleCoilGuitar.T244.mgv,on,Hall3,Reverb,REVERB1,1,17,30,0,0,poly,70
+SolidGuitar1,MegaVoice,E.Guitar,MegaVoice,8,1,4,MegaVoice/E.Guitar/SolidGuitar1.T244.mgv,on,Echo,Delay,ECHO,7,0,28,19,14,poly,54
+SolidGuitar2,MegaVoice,E.Guitar,MegaVoice,8,2,4,MegaVoice/E.Guitar/SolidGuitar2.T244.mgv,on,Echo,Delay,ECHO,7,0,28,19,14,poly,50
+LargeStrings,MegaVoice,Strings,MegaVoice,8,0,50,MegaVoice/Strings/LargeStrings.T250.mgv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,22,26,0,poly,70
+SmallStrings,MegaVoice,Strings,MegaVoice,8,0,49,MegaVoice/Strings/SmallStrings.T250.mgv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,28,26,0,poly,70
+TenorSax,MegaVoice,Woodwind,MegaVoice,8,0,83,MegaVoice/Woodwind/TenorSax.T348.mgv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,25,20,0,poly,70
+AccordionBass,Main,Organ & Accordion,Regular,0,121,22,Organ & Accordion/AccordionBass.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,90
+AccordionClarinet,Main,Organ & Accordion,Regular,104,1,22,Organ & Accordion/AccordionClarinet.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,27,0,poly,105
+AllBarsOut SW,Main,Organ & Accordion,S.Art!,8,32,31,Organ & Accordion/AllBarsOut SW.T235.sar,on,St3BandEQ,Legacy,3BAND EQ,76,18,127,18,0,poly,96
+BallroomOrgan,Main,Organ & Accordion,Regular,0,115,4,Organ & Accordion/BallroomOrgan.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,86
+Bandoneon,Main,Organ & Accordion,Regular,0,113,24,Organ & Accordion/Bandoneon.T328.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,100
+BluesHarp,Main,Organ & Accordion,Regular,0,114,23,Organ & Accordion/BluesHarp.T240.vce,on,StAmpSim3,Legacy,STEREO AMP SIMULATOR,75,8,40,24,0,poly,100
+CajunAccBass,Main,Organ & Accordion,Regular,104,6,22,Organ & Accordion/CajunAccBass.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,105
+CajunAccordion,Main,Organ & Accordion,Regular,104,3,22,Organ & Accordion/CajunAccordion.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,105
+Cassotto,Main,Organ & Accordion,Regular,104,0,22,Organ & Accordion/Cassotto.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,108
+ChapelOrgan1,Main,Organ & Accordion,Regular,0,113,20,Organ & Accordion/ChapelOrgan1.T237.vce,on,Hall5,Reverb,REVERB1,1,1,46,60,0,poly,66
+ChapelOrgan2,Main,Organ & Accordion,Regular,0,115,20,Organ & Accordion/ChapelOrgan2.T237.vce,on,Hall5,Reverb,REVERB1,1,1,46,60,0,poly,66
+ClassicBars SW,Main,Organ & Accordion,S.Art!,8,34,30,Organ & Accordion/ClassicBars SW.T235.sar,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,16,0,poly,91
+ClassicJazz,Main,Organ & Accordion,Cool!,0,117,17,Organ & Accordion/ClassicJazz.T235.clv,on,BCmbClassic,Distortion,BRITISH COMBO,97,32,20,9,0,poly,110
+CurvedBars,Main,Organ & Accordion,Cool!,0,121,17,Organ & Accordion/CurvedBars.T235.clv,on,St3BandEQ,Legacy,3BAND EQ,76,18,127,18,0,poly,104
+EuroOrgan,Main,Organ & Accordion,Regular,0,118,17,Organ & Accordion/EuroOrgan.T238.vce,on,DualRotSp2,Legacy,ROTARY SPEAKER1,99,1,127,17,0,poly,122
+EvenBars,Main,Organ & Accordion,Cool!,0,111,17,Organ & Accordion/EvenBars.T235.clv,on,St3BandEQ,Legacy,3BAND EQ,76,18,127,18,0,poly,100
+FrenchMusette,Main,Organ & Accordion,Regular,0,119,22,Organ & Accordion/FrenchMusette.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,110
+FullOrgan,Main,Organ & Accordion,Regular,0,112,20,Organ & Accordion/FullOrgan.T237.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,46,60,0,poly,90
+FullRegister,Main,Organ & Accordion,Regular,104,2,22,Organ & Accordion/FullRegister.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,100
+FullRegisterBass,Main,Organ & Accordion,Regular,104,5,22,Organ & Accordion/FullRegisterBass.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,98
+FullRocker,Main,Organ & Accordion,Cool!,0,115,19,Organ & Accordion/FullRocker.T235.clv,on,BLegndClean,Distortion,BRITISH LEGEND,98,35,127,13,0,poly,78
+FullTheatre,Main,Organ & Accordion,Regular,0,127,19,Organ & Accordion/FullTheatre.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,72
+Harmonica,Main,Organ & Accordion,Sweet!,0,112,23,Organ & Accordion/Harmonica.T240.swv,off,TempoAutoWah,Modulation,TEMPO AUTO WAH1,79,0,100,24,0,poly,98
+HoldItFast,Main,Organ & Accordion,Cool!,0,111,18,Organ & Accordion/HoldItFast.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,12,0,poly,94
+HollowBars,Main,Organ & Accordion,Cool!,0,127,17,Organ & Accordion/HollowBars.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,50,21,0,poly,78
+HymnOrgan,Main,Organ & Accordion,Regular,0,114,20,Organ & Accordion/HymnOrgan.T237.vce,on,Hall5,Reverb,REVERB1,1,1,46,60,0,poly,64
+JazzAccordion,Main,Organ & Accordion,Regular,0,120,22,Organ & Accordion/JazzAccordion.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,110
+JazzRotary SW,Main,Organ & Accordion,S.Art!,8,32,114,Organ & Accordion/JazzRotary SW.T235.sar,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,12,0,poly,88
+MasterAccordion,Main,Organ & Accordion,Regular,0,118,22,Organ & Accordion/MasterAccordion.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,110
+MasterBass,Main,Organ & Accordion,Regular,0,122,22,Organ & Accordion/MasterBass.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,102
+MusetteBass,Main,Organ & Accordion,Regular,0,123,22,Organ & Accordion/MusetteBass.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,98
+OrganAGoGo,Main,Organ & Accordion,Cool!,104,0,17,Organ & Accordion/OrganAGoGo.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,6,20,0,poly,88
+OrganAccomp1,Main,Organ & Accordion,Regular,0,108,18,Organ & Accordion/OrganAccomp1.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,20,0,poly,96
+OrganAccomp2,Main,Organ & Accordion,Regular,0,107,18,Organ & Accordion/OrganAccomp2.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,20,0,poly,96
+OrganAccomp3,Main,Organ & Accordion,Regular,0,106,18,Organ & Accordion/OrganAccomp3.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,20,0,poly,96
+OrganAccomp4,Main,Organ & Accordion,Regular,0,105,18,Organ & Accordion/OrganAccomp4.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,20,0,poly,96
+OrganAccomp5,Main,Organ & Accordion,Regular,0,104,18,Organ & Accordion/OrganAccomp5.T235.vce,on,DualRotWarm,Modulation,ROTARY SPEAKER1,99,17,127,20,0,poly,96
+ProgRockOrgan SW,Main,Organ & Accordion,S.Art!,8,33,30,Organ & Accordion/ProgRockOrgan SW.T235.sar,on,StAmpCrunch,Distortion,STEREO AMP SIMULATOR,75,30,70,16,0,poly,75
+R&B TremoloOrgan,Main,Organ & Accordion,Cool!,0,111,19,Organ & Accordion/R&B TremoloOrgan.T235.clv,on,DistHard2,Legacy,AMP SIMULATOR1,75,22,50,17,0,poly,90
+RockRotary SW,Main,Organ & Accordion,S.Art!,8,33,114,Organ & Accordion/RockRotary SW.T235.sar,on,BCmbTopBst,Distortion,BRITISH COMBO,97,33,66,16,0,poly,100
+RotaryOrgan,Main,Organ & Accordion,Cool!,0,117,19,Organ & Accordion/RotaryOrgan.T235.clv,on,StAmpClean,Legacy,STEREO AMP SIMULATOR,75,27,40,22,0,poly,86
+ScannerJazz,Main,Organ & Accordion,Cool!,0,118,19,Organ & Accordion/ScannerJazz.T235.clv,on,BCmbClassic,Distortion,BRITISH COMBO,97,32,127,10,0,poly,85
+Steirische,Main,Organ & Accordion,Regular,0,117,22,Organ & Accordion/Steirische.T241.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,112
+SweetTheatre,Main,Organ & Accordion,Regular,0,126,19,Organ & Accordion/SweetTheatre.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,84
+TangoAccordion,Main,Organ & Accordion,Regular,0,114,24,Organ & Accordion/TangoAccordion.T328.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,90
+TangoBass,Main,Organ & Accordion,Regular,0,115,24,Organ & Accordion/TangoBass.T328.vce,off,Tremolo3,Legacy,TREMOLO,70,0,127,19,0,poly,88
+Tibia16'&4',Main,Organ & Accordion,Regular,104,8,17,Organ & Accordion/Tibia16'&4'.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,75
+Tibia8'&4',Main,Organ & Accordion,Regular,104,9,17,Organ & Accordion/Tibia8'&4'.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,50
+Tibia8',Main,Organ & Accordion,Regular,104,6,18,Organ & Accordion/Tibia8'.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,60
+TibiaChorus,Main,Organ & Accordion,Regular,104,5,18,Organ & Accordion/TibiaChorus.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,76
+Trumpet&Kinura,Main,Organ & Accordion,Regular,0,125,18,Organ & Accordion/Trumpet&Kinura.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,55
+TwoChannels,Main,Organ & Accordion,Cool!,0,109,18,Organ & Accordion/TwoChannels.T235.clv,on,2BandEQ,Legacy,2BAND EQ,77,0,127,21,0,poly,83
+Vox&Tibia,Main,Organ & Accordion,Regular,104,10,17,Organ & Accordion/Vox&Tibia.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,75
+VoxHumana8',Main,Organ & Accordion,Regular,104,7,18,Organ & Accordion/VoxHumana8'.T238.vce,off,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,66
+WhiterBars SW,Main,Organ & Accordion,S.Art!,8,32,30,Organ & Accordion/WhiterBars SW.T235.sar,on,VDistClsSft,Legacy,V DISTORTION,98,20,24,18,0,poly,90
+AcousticKit,Main,Perc. & Drums,Live!Drums,127,0,90,Perc. & Drums/AcousticKit.T373.ldr,off,DrumsRoom,Reverb,REVERB1,2,21,30,8,0,poly,100
+AnalogKit,Main,Perc. & Drums,Drums,127,0,26,Perc. & Drums/AnalogKit.T374.drm,off,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,20,12,0,poly,94
+AnalogT8Kit,Main,Perc. & Drums,Drums,127,0,59,Perc. & Drums/AnalogT8Kit.T374.drm,off,StAmpSim4,Legacy,STEREO AMP SIMULATOR,75,24,20,2,0,poly,88
+AnalogT9Kit,Main,Perc. & Drums,Drums,127,0,60,Perc. & Drums/AnalogT9Kit.T374.drm,on,CompHeavy,EQ & Comp,COMPRESSOR,83,17,127,0,0,poly,94
+ArabicKit,Main,Perc. & Drums,SFX,126,0,36,Perc. & Drums/ArabicKit.T382.sfx,off,RoomM,Legacy,REVERB1,2,6,40,8,0,poly,89
+BreakKit,Main,Perc. & Drums,Drums,127,0,58,Perc. & Drums/BreakKit.T374.drm,off,LoopFX1,Misc,LO FI,94,16,90,0,0,poly,84
+BrushKit,Main,Perc. & Drums,Live!Drums,127,0,41,Perc. & Drums/BrushKit.T375.ldr,off,PercRoom,Legacy,REVERB1,2,22,30,8,0,poly,89
+Celesta,Main,Perc. & Drums,Regular,0,112,9,Perc. & Drums/Celesta.T361.vce,off,Hall5,Reverb,REVERB1,1,1,40,25,0,poly,88
+CubanKit,Main,Perc. & Drums,Live!SFX,126,0,41,Perc. & Drums/CubanKit.T377.lsf,off,Echo,Delay,ECHO,7,0,18,8,0,poly,89
+DanceKit,Main,Perc. & Drums,Drums,127,0,28,Perc. & Drums/DanceKit.T374.drm,on,CompHeavy,EQ & Comp,COMPRESSOR,83,17,42,4,0,poly,89
+ElectroKit,Main,Perc. & Drums,Drums,127,0,25,Perc. & Drums/ElectroKit.T374.drm,off,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,20,12,0,poly,89
+Glockenspiel,Main,Perc. & Drums,Regular,0,112,10,Perc. & Drums/Glockenspiel.T362.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,24,25,0,poly,126
+HipHopKit,Main,Perc. & Drums,Drums,127,0,57,Perc. & Drums/HipHopKit.T374.drm,off,LoopFX1,Misc,LO FI,94,16,90,0,0,poly,100
+HitKit,Main,Perc. & Drums,Drums,127,0,5,Perc. & Drums/HitKit.T374.drm,off,DrumsRoom,Reverb,REVERB1,2,21,55,9,0,poly,89
+HouseKit,Main,Perc. & Drums,Drums,127,0,61,Perc. & Drums/HouseKit.T374.drm,off,DrumsRoom,Reverb,REVERB1,2,21,30,3,0,poly,86
+JazzKit,Main,Perc. & Drums,Drums,127,0,33,Perc. & Drums/JazzKit.T375.drm,off,PercRoom,Legacy,REVERB1,2,22,30,6,0,poly,88
+JazzVibes,Main,Perc. & Drums,Regular,0,113,12,Perc. & Drums/JazzVibes.T263.vce,on,VibeRotor,Legacy,VIBE VIBRATE,119,0,26,19,0,poly,108
+Kalimba,Main,Perc. & Drums,Regular,0,112,109,Perc. & Drums/Kalimba.T365.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,22,16,0,poly,96
+Marimba,Main,Perc. & Drums,Regular,0,112,13,Perc. & Drums/Marimba.T358.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,23,19,0,poly,125
+MusicBox,Main,Perc. & Drums,Regular,0,112,11,Perc. & Drums/MusicBox.T363.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,22,21,0,poly,92
+NoisesKit,Main,Perc. & Drums,SFX,126,0,9,Perc. & Drums/NoisesKit.T266.sfx,off,CrossDelay1,Delay,CROSS DELAY,8,0,30,3,0,poly,86
+PopLatinKit,Main,Perc. & Drums,Live!SFX,126,0,44,Perc. & Drums/PopLatinKit.T377.lsf,off,Echo,Delay,ECHO,7,0,18,8,0,poly,89
+PowerKit1,Main,Perc. & Drums,Live!Drums,127,0,88,Perc. & Drums/PowerKit1.T267.ldr,off,RoomM,Legacy,REVERB1,2,6,53,8,0,poly,89
+PowerKit2,Main,Perc. & Drums,Live!Drums,127,0,89,Perc. & Drums/PowerKit2.T267.ldr,off,RoomM,Legacy,REVERB1,2,6,50,8,0,poly,89
+RealDrumKit,Main,Perc. & Drums,Live!Drums,127,0,92,Perc. & Drums/RealDrumKit.T373.ldr,off,DrumsRoom,Reverb,REVERB1,2,21,30,6,0,poly,100
+RockKit,Main,Perc. & Drums,Live!Drums,127,0,91,Perc. & Drums/RockKit.T267.ldr,off,DrumsRoom,Reverb,REVERB1,2,21,30,8,0,poly,86
+RoomKit,Main,Perc. & Drums,Drums,127,0,9,Perc. & Drums/RoomKit.T373.drm,on,DrumsRoom,Reverb,REVERB1,2,21,40,0,0,poly,84
+SFX Kit1,Main,Perc. & Drums,SFX,126,0,1,Perc. & Drums/SFX Kit1.T266.sfx,off,TempoDelay1,Delay,TEMPO DELAY,21,0,50,19,0,poly,89
+SFX Kit2,Main,Perc. & Drums,SFX,126,0,2,Perc. & Drums/SFX Kit2.T266.sfx,off,TempoDelay1,Delay,TEMPO DELAY,21,0,40,12,0,poly,89
+SteelDrums,Main,Perc. & Drums,Regular,0,112,115,Perc. & Drums/SteelDrums.T360.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,17,22,0,poly,93
+StudioKit,Main,Perc. & Drums,Live!Drums,127,0,87,Perc. & Drums/StudioKit.T267.ldr,off,DrumsRoom,Reverb,REVERB1,2,21,30,11,0,poly,89
+SymphonyKit,Main,Perc. & Drums,Live!Drums,127,0,49,Perc. & Drums/SymphonyKit.T376.ldr,off,AtmoHall,Legacy,REVERB1,1,23,26,25,0,poly,89
+Timpani,Main,Perc. & Drums,Regular,0,112,48,Perc. & Drums/Timpani.T339.vce,off,Hall5,Reverb,REVERB1,1,1,20,30,0,poly,127
+TubularBells,Main,Perc. & Drums,Regular,0,112,15,Perc. & Drums/TubularBells.T364.vce,on,Hall5,Reverb,REVERB1,1,1,30,32,0,poly,92
+TurkishKit,Main,Perc. & Drums,Live!SFX,126,0,68,Perc. & Drums/TurkishKit.T382.lsf,off,Echo,Delay,ECHO,7,0,18,8,0,poly,89
+Vibes&Flutes,Main,Perc. & Drums,Regular,0,114,12,Perc. & Drums/Vibes&Flutes.T263.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,22,22,0,poly,108
+Vibraphone,Main,Perc. & Drums,Regular,0,112,12,Perc. & Drums/Vibraphone.T263.vce,on,3BandEQ,EQ & Comp,3BAND EQ,76,0,127,20,0,poly,102
+Xylophone,Main,Perc. & Drums,Regular,0,112,14,Perc. & Drums/Xylophone.T359.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,18,19,0,poly,106
+AmbientPiano,Main,Piano & E.Piano,Natural!,104,19,4,Piano & E.Piano/AmbientPiano.T228.nlv,on,TempoDelay1,Delay,TEMPO DELAY,21,0,30,28,0,poly,116
+AmbientPiano,Main,Piano & E.Piano,VRM,108,27,4,Piano & E.Piano/AmbientPiano.T228.vrm,on,TempoDelay1,Delay,TEMPO DELAY,21,0,30,28,0,poly,108
+BalladStack,Main,Piano & E.Piano,Regular,0,114,3,Piano & E.Piano/BalladStack.T327.vce,on,Chorus2,Modulation,CHORUS,66,8,16,25,0,poly,90
+BrightPiano,Main,Piano & E.Piano,Natural!,0,123,1,Piano & E.Piano/BrightPiano.T228.nlv,off,Chorus1,Modulation,CHORUS,66,17,30,13,0,poly,114
+BrightPiano,Main,Piano & E.Piano,VRM,108,16,2,Piano & E.Piano/BrightPiano.T228.vrm,off,Chorus1,Modulation,CHORUS,66,17,30,13,0,poly,110
+CFX Grand,Main,Piano & E.Piano,Natural!,0,122,1,Piano & E.Piano/CFX Grand.T228.nlv,off,Hall5,Reverb,REVERB1,1,1,15,15,0,poly,118
+CFX Grand,Main,Piano & E.Piano,VRM,108,0,1,Piano & E.Piano/CFX Grand.T228.vrm,off,Hall5,Reverb,REVERB1,1,1,15,15,0,poly,106
+CP80 Stage,Main,Piano & E.Piano,Regular,0,113,3,Piano & E.Piano/CP80 Stage.T231.vce,off,Tremolo3,Legacy,TREMOLO,70,0,25,12,10,poly,103
+ChorusBell,Main,Piano & E.Piano,Regular,0,120,6,Piano & E.Piano/ChorusBell.T327.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,44,21,0,poly,114
+ClaviBright,Main,Piano & E.Piano,Regular,0,112,8,Piano & E.Piano/ClaviBright.T233.vce,on,BCmbCustom,Distortion,BRITISH COMBO,97,34,24,6,0,poly,99
+CocktailPiano,Main,Piano & E.Piano,Natural!,104,20,4,Piano & E.Piano/CocktailPiano.T228.nlv,on,Hall5,Reverb,REVERB1,1,1,22,28,0,poly,106
+CocktailPiano,Main,Piano & E.Piano,VRM,108,28,4,Piano & E.Piano/CocktailPiano.T228.vrm,on,Hall5,Reverb,REVERB1,1,1,22,28,0,poly,98
+DX Ballad,Main,Piano & E.Piano,Cool!,0,124,6,Piano & E.Piano/DX Ballad.T232.clv,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,42,24,0,poly,112
+DX BalladBells,Main,Piano & E.Piano,Cool!,104,2,6,Piano & E.Piano/DX BalladBells.T232.clv,on,Chorus3,Legacy,CHORUS,66,16,34,22,0,poly,103
+DX Dream,Main,Piano & E.Piano,Cool!,104,3,6,Piano & E.Piano/DX Dream.T232.clv,on,TempoDelay1,Delay,TEMPO DELAY,21,0,34,22,0,poly,95
+DX Dynamic,Main,Piano & E.Piano,Cool!,0,123,6,Piano & E.Piano/DX Dynamic.T232.clv,on,Chorus2,Modulation,CHORUS,66,8,34,24,0,poly,112
+DX Midnight,Main,Piano & E.Piano,Cool!,104,1,6,Piano & E.Piano/DX Midnight.T232.clv,on,Chorus6,Legacy,CHORUS,65,0,30,24,0,poly,100
+DX Sparkle,Main,Piano & E.Piano,Cool!,0,121,6,Piano & E.Piano/DX Sparkle.T232.clv,on,Chorus3,Legacy,CHORUS,66,16,34,24,0,poly,112
+DX Sweet,Main,Piano & E.Piano,Cool!,104,0,6,Piano & E.Piano/DX Sweet.T232.clv,on,Chorus3,Legacy,CHORUS,66,16,35,22,0,poly,89
+ElectricPiano,Main,Piano & E.Piano,Cool!,0,119,5,Piano & E.Piano/ElectricPiano.T327.clv,on,EP AutoPan,Legacy,AUTO PAN1,71,21,127,12,20,poly,95
+FunkEP,Main,Piano & E.Piano,Regular,0,112,5,Piano & E.Piano/FunkEP.T327.vce,on,EP TcWah,Legacy,TOUCH WAH2,82,19,110,3,0,poly,110
+GalaxyEP,Main,Piano & E.Piano,Cool!,0,114,5,Piano & E.Piano/GalaxyEP.T232.clv,on,Chorus3,Legacy,CHORUS,66,16,34,24,0,poly,104
+GrandHarpsichord,Main,Piano & E.Piano,Live!,0,113,7,Piano & E.Piano/GrandHarpsichord.T234.liv,on,Stage1,Reverb,REVERB1,3,16,30,0,0,poly,112
+HarpsiCoupler,Main,Piano & E.Piano,Natural!,0,123,7,Piano & E.Piano/HarpsiCoupler.T234.nlv,off,AtmoHall,Legacy,REVERB1,1,23,20,14,0,poly,84
+Harpsichord SW,Main,Piano & E.Piano,S.Art!,8,32,113,Piano & E.Piano/Harpsichord SW.T234.sar,off,AcousticRoom,Reverb,REVERB1,2,20,20,12,0,poly,112
+Harpsichord,Main,Piano & E.Piano,Natural!,0,122,7,Piano & E.Piano/Harpsichord.T234.nlv,off,AtmoHall,Legacy,REVERB1,1,23,20,12,0,poly,84
+HonkyTonk,Main,Piano & E.Piano,Regular,0,112,4,Piano & E.Piano/HonkyTonk.T229.vce,off,Stage2,Legacy,REVERB1,3,17,24,10,0,poly,118
+JazzChorus,Main,Piano & E.Piano,Regular,0,118,6,Piano & E.Piano/JazzChorus.T327.vce,on,PitchChange1,Legacy,PITCH CHANGE1,80,16,48,20,0,poly,110
+MIDI Grand,Main,Piano & E.Piano,Live!,104,0,3,Piano & E.Piano/MIDI Grand.T230.liv,off,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,30,22,0,poly,110
+MIDI GrandPad,Main,Piano & E.Piano,Live!,104,1,3,Piano & E.Piano/MIDI GrandPad.T230.liv,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,20,22,0,poly,105
+MIDI GrandSyn,Main,Piano & E.Piano,Live!,104,1,1,Piano & E.Piano/MIDI GrandSyn.T230.liv,on,TempoDelay2,Delay,TEMPO DELAY,21,16,16,24,0,poly,96
+OctavePiano1,Main,Piano & E.Piano,Natural!,0,123,4,Piano & E.Piano/OctavePiano1.T228.nlv,off,Chorus1,Modulation,CHORUS,66,17,30,13,0,poly,108
+OctavePiano1,Main,Piano & E.Piano,VRM,108,22,2,Piano & E.Piano/OctavePiano1.T228.vrm,off,Chorus1,Modulation,CHORUS,66,17,30,13,0,poly,102
+OctavePiano2,Main,Piano & E.Piano,Natural!,0,124,4,Piano & E.Piano/OctavePiano2.T228.nlv,off,Chorus1,Modulation,CHORUS,66,17,30,13,0,poly,102
+OctavePiano2,Main,Piano & E.Piano,VRM,108,23,2,Piano & E.Piano/OctavePiano2.T228.vrm,off,Chorus1,Modulation,CHORUS,66,17,30,13,0,poly,94
+PhaseClavi,Main,Piano & E.Piano,Regular,0,115,8,Piano & E.Piano/PhaseClavi.T233.vce,on,Phaser2,Legacy,PHASER2,72,8,127,6,0,poly,69
+PianoOrchestra,Main,Piano & E.Piano,Live!,104,2,1,Piano & E.Piano/PianoOrchestra.T230.liv,off,AtmoHall,Legacy,REVERB1,1,23,30,21,0,poly,96
+PopGrand,Main,Piano & E.Piano,Natural!,104,6,1,Piano & E.Piano/PopGrand.T228.nlv,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,6,8,0,poly,116
+PopGrand,Main,Piano & E.Piano,VRM,108,17,2,Piano & E.Piano/PopGrand.T228.vrm,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,6,8,0,poly,97
+RockPiano,Main,Piano & E.Piano,Natural!,0,124,3,Piano & E.Piano/RockPiano.T228.nlv,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,8,0,poly,108
+RockPiano,Main,Piano & E.Piano,VRM,108,16,3,Piano & E.Piano/RockPiano.T228.vrm,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,8,0,poly,104
+SmoothTine,Main,Piano & E.Piano,Regular,0,119,6,Piano & E.Piano/SmoothTine.T327.vce,on,EP AutoPan,Legacy,AUTO PAN1,71,21,127,12,0,poly,112
+StageEP,Main,Piano & E.Piano,Regular,0,117,5,Piano & E.Piano/StageEP.T327.vce,on,Chorus2,Modulation,CHORUS,66,8,30,15,0,poly,100
+StudioGrand,Main,Piano & E.Piano,Natural!,104,19,1,Piano & E.Piano/StudioGrand.T228.nlv,on,3BandEQ,EQ & Comp,3BAND EQ,76,0,15,15,0,poly,127
+StudioGrand,Main,Piano & E.Piano,VRM,108,30,1,Piano & E.Piano/StudioGrand.T228.vrm,on,3BandEQ,EQ & Comp,3BAND EQ,76,0,15,15,0,poly,120
+SuitcaseEP,Main,Piano & E.Piano,Cool!,0,118,5,Piano & E.Piano/SuitcaseEP.T327.clv,on,Celeste2,Legacy,CHORUS,66,2,18,12,0,poly,107
+TremoloSuitcase,Main,Piano & E.Piano,Cool!,0,113,5,Piano & E.Piano/TremoloSuitcase.T327.clv,on,EP Tremolo,Modulation,TREMOLO,70,18,127,12,0,poly,103
+VintageEP,Main,Piano & E.Piano,Regular,0,116,5,Piano & E.Piano/VintageEP.T327.vce,off,EP Tremolo,Modulation,TREMOLO,70,18,127,7,0,poly,101
+WahClavi,Main,Piano & E.Piano,Regular,0,113,8,Piano & E.Piano/WahClavi.T233.vce,on,ClaviTcWah,Legacy,TOUCH WAH2,82,18,58,4,0,poly,74
+WarmGrand,Main,Piano & E.Piano,Live!,0,114,1,Piano & E.Piano/WarmGrand.T228.liv,off,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,36,20,0,poly,104
+Allegro,Main,Strings & Choir,Live!,0,122,50,Strings & Choir/Allegro.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,100
+Cello,Main,Strings & Choir,Regular,0,112,43,Strings & Choir/Cello.T336.vce,off,Hall5,Reverb,REVERB1,1,1,36,28,0,poly,96
+ChamberStrings,Main,Strings & Choir,Regular,0,112,50,Strings & Choir/ChamberStrings.T250.vce,off,AtmoHall,Legacy,REVERB1,1,23,36,25,0,poly,112
+ConcertStrings,Main,Strings & Choir,S.Art!,8,32,50,Strings & Choir/ConcertStrings.T250.sar,off,AtmoHall,Legacy,REVERB1,1,23,28,32,0,poly,92
+Contrabass,Main,Strings & Choir,Regular,0,112,44,Strings & Choir/Contrabass.T337.vce,off,Hall5,Reverb,REVERB1,1,1,30,28,0,poly,95
+DiscoStrings1,Main,Strings & Choir,Live!,0,123,50,Strings & Choir/DiscoStrings1.T250.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,16,0,poly,95
+DiscoStrings2,Main,Strings & Choir,Live!,0,124,50,Strings & Choir/DiscoStrings2.T250.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,30,16,0,poly,95
+Dulcimer,Main,Strings & Choir,Regular,0,112,16,Strings & Choir/Dulcimer.T366.vce,on,Chorus2,Modulation,CHORUS,66,8,24,32,0,poly,86
+GospelVoices,Main,Strings & Choir,Live!,0,116,53,Strings & Choir/GospelVoices.T253.liv,on,Hall5,Reverb,REVERB1,1,1,44,0,0,poly,106
+GothicVox,Main,Strings & Choir,Regular,0,113,54,Strings & Choir/GothicVox.T253.vce,on,AtmoHall,Legacy,REVERB1,1,23,34,0,0,poly,102
+Hackbrett,Main,Strings & Choir,Regular,104,2,47,Strings & Choir/Hackbrett.T366.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,20,32,0,poly,68
+HahChoir,Main,Strings & Choir,Regular,0,114,53,Strings & Choir/HahChoir.T253.vce,on,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,127,35,0,poly,94
+Humming,Main,Strings & Choir,Live!,0,118,53,Strings & Choir/Humming.T253.liv,off,CrossDelay2,Delay,CROSS DELAY,8,16,32,32,0,poly,94
+Koto,Main,Strings & Choir,Regular,0,112,108,Strings & Choir/Koto.T380.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,23,25,0,poly,99
+MellowHarp,Main,Strings & Choir,Regular,104,0,47,Strings & Choir/MellowHarp.T338.vce,on,Hall5,Reverb,REVERB1,1,1,20,33,0,poly,76
+Mmh,Main,Strings & Choir,Live!,0,117,53,Strings & Choir/Mmh.T253.liv,off,HmEnhance2,Legacy,HARMONIC ENHANCER,81,0,24,34,0,poly,106
+MovieStrings,Main,Strings & Choir,Live!,0,123,49,Strings & Choir/MovieStrings.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,42,32,0,poly,97
+OberStrings,Main,Strings & Choir,Regular,0,113,52,Strings & Choir/OberStrings.T271.vce,off,Chorus2,Modulation,CHORUS,66,8,32,26,0,poly,107
+OrchestraHit,Main,Strings & Choir,Regular,0,112,56,Strings & Choir/OrchestraHit.T251.vce,off,Echo,Delay,ECHO,7,0,44,30,0,poly,109
+OrchestraTutti,Main,Strings & Choir,Regular,0,120,50,Strings & Choir/OrchestraTutti.T251.vce,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,110
+OrchestralHarp,Main,Strings & Choir,Regular,104,1,47,Strings & Choir/OrchestralHarp.T338.vce,on,Hall5,Reverb,REVERB1,1,1,20,33,0,poly,78
+PizzicatoGlocken,Main,Strings & Choir,Live!,0,115,46,Strings & Choir/PizzicatoGlocken.T251.liv,off,TempoDelay1,Delay,TEMPO DELAY,21,0,12,25,0,poly,88
+PizzicatoStrings,Main,Strings & Choir,Live!,0,113,46,Strings & Choir/PizzicatoStrings.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,28,25,0,poly,88
+SpiccatoStrings,Main,Strings & Choir,S.Art!,8,33,49,Strings & Choir/SpiccatoStrings.T250.sar,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,97
+Strings f,Main,Strings & Choir,Live!,0,119,49,Strings & Choir/Strings f.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,97
+Strings mf,Main,Strings & Choir,Live!,0,118,49,Strings & Choir/Strings mf.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,95
+Strings p,Main,Strings & Choir,Live!,0,117,49,Strings & Choir/Strings p.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,36,32,0,poly,89
+StringsPad,Main,Strings & Choir,Live!,0,117,50,Strings & Choir/StringsPad.T250.liv,on,TempoDelay1,Delay,TEMPO DELAY,21,0,36,32,0,poly,98
+StudioStrings,Main,Strings & Choir,S.Art!,8,32,49,Strings & Choir/StudioStrings.T250.sar,off,AtmoHall,Legacy,REVERB1,1,23,26,32,0,poly,100
+SynthStrings1,Main,Strings & Choir,Regular,0,112,51,Strings & Choir/SynthStrings1.T271.vce,off,Chorus2,Modulation,CHORUS,66,8,80,30,0,poly,112
+SynthStrings2,Main,Strings & Choir,Regular,0,113,51,Strings & Choir/SynthStrings2.T271.vce,on,Chorus4,Legacy,CHORUS,66,1,30,30,0,poly,105
+TremoloBowing SW,Main,Strings & Choir,S.Art!,8,34,49,Strings & Choir/TremoloBowing SW.T250.sar,off,AtmoHall,Legacy,REVERB1,1,23,32,26,0,poly,97
+TremoloStrings,Main,Strings & Choir,Live!,0,113,45,Strings & Choir/TremoloStrings.T250.liv,off,AtmoHall,Legacy,REVERB1,1,23,26,26,0,poly,96
+Viola,Main,Strings & Choir,Regular,0,112,42,Strings & Choir/Viola.T335.vce,off,Hall5,Reverb,REVERB1,1,1,36,30,0,poly,96
+Violin,Main,Strings & Choir,Sweet!,0,113,41,Strings & Choir/Violin.T249.swv,off,Hall5,Reverb,REVERB1,1,1,36,25,0,poly,84
+Voices,Main,Strings & Choir,Regular,0,113,55,Strings & Choir/Voices.T253.vce,on,AtmoHall,Legacy,REVERB1,1,23,47,7,0,poly,100
+Zither1,Main,Strings & Choir,Regular,104,1,16,Strings & Choir/Zither1.T325.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,17,0,poly,75
+Zither2,Main,Strings & Choir,Regular,104,0,16,Strings & Choir/Zither2.T325.vce,off,TempoDelay1,Delay,TEMPO DELAY,21,0,21,12,0,poly,83
+AnalogPad,Main,Synth & Pad,Regular,0,120,90,Synth & Pad/AnalogPad.T273.vce,on,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,36,40,64,poly,90
+AnalogSeq,Main,Synth & Pad,Regular,104,3,88,Synth & Pad/AnalogSeq.T270.vce,on,TempoAtPan1,Modulation,TEMPO AUTO PAN1,121,0,42,9,0,poly,86
+BalladComp,Main,Synth & Pad,Regular,104,6,89,Synth & Pad/BalladComp.T270.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,32,20,28,poly,73
+BellHeaven,Main,Synth & Pad,Regular,0,119,89,Synth & Pad/BellHeaven.T273.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,27,30,16,poly,105
+BreathPad,Main,Synth & Pad,Regular,104,0,92,Synth & Pad/BreathPad.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,40,40,36,poly,48
+BrightFatSaw,Main,Synth & Pad,Regular,104,5,91,Synth & Pad/BrightFatSaw.T248.vce,on,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,29,26,16,poly,64
+BrightPadBell,Main,Synth & Pad,Regular,104,7,89,Synth & Pad/BrightPadBell.T275.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,32,32,32,poly,100
+ButterStrings,Main,Synth & Pad,Regular,104,2,51,Synth & Pad/ButterStrings.T273.vce,on,Phaser3,Legacy,PHASER2,72,19,24,20,0,poly,76
+Chordmaster,Main,Synth & Pad,Regular,104,13,82,Synth & Pad/Chordmaster.T270.vce,on,ChorusFast,Legacy,CHORUS,65,16,36,12,0,poly,72
+ClubLead,Main,Synth & Pad,Regular,104,3,63,Synth & Pad/ClubLead.T248.vce,on,AmpSim2,Legacy,AMP SIMULATOR2,75,1,44,15,0,mono,75
+CrossPhase,Main,Synth & Pad,Regular,104,1,102,Synth & Pad/CrossPhase.T275.vce,on,Phaser3,Legacy,PHASER2,72,19,64,36,0,poly,58
+CryingLead,Main,Synth & Pad,Regular,0,114,88,Synth & Pad/CryingLead.T248.vce,on,AtWah+Dist1,Modulation,AUTO WAH DISTORTION,78,17,64,9,17,poly,68
+DanceChords,Main,Synth & Pad,Regular,104,5,52,Synth & Pad/DanceChords.T248.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,36,22,22,poly,118
+DanceHook,Main,Synth & Pad,Regular,0,112,87,Synth & Pad/DanceHook.T248.vce,on,ChorusFast,Legacy,CHORUS,65,16,30,12,0,poly,83
+DancyHook,Main,Synth & Pad,Regular,104,9,82,Synth & Pad/DancyHook.T248.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,24,7,25,poly,78
+DarkFatSaw,Main,Synth & Pad,Regular,104,2,90,Synth & Pad/DarkFatSaw.T273.vce,on,EnsDetune1,Legacy,ENSEMBLE DETUNE,87,0,28,30,12,poly,70
+DetunedSawOct,Main,Synth & Pad,Regular,104,8,82,Synth & Pad/DetunedSawOct.T248.vce,on,ChorusFast,Legacy,CHORUS,65,16,41,12,0,poly,75
+DetunedVintage,Main,Synth & Pad,Regular,104,1,85,Synth & Pad/DetunedVintage.T248.vce,on,DelayLR,Delay,DELAY LR,6,0,26,20,0,mono,80
+DigitalSeq,Main,Synth & Pad,Regular,104,2,88,Synth & Pad/DigitalSeq.T270.vce,on,DelayLCR2,Delay,DELAY LCR,5,0,16,9,0,poly,50
+DouxFlange,Main,Synth & Pad,Regular,104,3,96,Synth & Pad/DouxFlange.T273.vce,on,Flanger4,Legacy,FLANGER,67,1,64,28,0,poly,92
+DreamHeaven,Main,Synth & Pad,Regular,0,121,89,Synth & Pad/DreamHeaven.T273.vce,off,ChorusLite,Legacy,CHORUS,65,17,42,26,0,poly,100
+EarlyLead,Main,Synth & Pad,Regular,0,118,82,Synth & Pad/EarlyLead.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,22,9,0,mono,76
+EasternAir,Main,Synth & Pad,Regular,104,1,98,Synth & Pad/EasternAir.T270.vce,on,Echo,Delay,ECHO,7,0,32,15,28,poly,96
+FaaatComp,Main,Synth & Pad,Regular,104,4,52,Synth & Pad/FaaatComp.T270.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,24,9,24,poly,94
+FatSawHook,Main,Synth & Pad,Regular,104,7,52,Synth & Pad/FatSawHook.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,24,7,13,poly,116
+GalaxyPad,Main,Synth & Pad,Regular,104,3,89,Synth & Pad/GalaxyPad.T273.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,56,40,24,poly,50
+HPF Dance,Main,Synth & Pad,Regular,104,0,91,Synth & Pad/HPF Dance.T248.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,28,13,24,poly,78
+HeavenBell,Main,Synth & Pad,Regular,104,0,101,Synth & Pad/HeavenBell.T275.vce,on,Hall5,Reverb,REVERB1,1,1,54,0,36,poly,64
+HipaLead,Main,Synth & Pad,Regular,0,118,85,Synth & Pad/HipaLead.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,22,25,30,poly,76
+HotSwell,Main,Synth & Pad,Regular,104,2,96,Synth & Pad/HotSwell.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,36,31,26,poly,98
+LektroCodes,Main,Synth & Pad,Regular,104,2,85,Synth & Pad/LektroCodes.T248.vce,on,TempoAutoWah,Modulation,TEMPO AUTO WAH1,79,0,32,16,13,poly,63
+LightPad,Main,Synth & Pad,Regular,104,2,52,Synth & Pad/LightPad.T273.vce,off,Phaser1,Modulation,PHASER1,72,0,127,15,0,poly,92
+MagicBell,Main,Synth & Pad,S.Art!,8,32,121,Synth & Pad/MagicBell.T275.sar,on,CrossDelay2,Delay,CROSS DELAY,8,16,38,35,0,poly,96
+Matrix,Main,Synth & Pad,Regular,0,123,82,Synth & Pad/Matrix.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,20,9,0,mono,108
+Mediterrain,Main,Synth & Pad,Regular,0,114,100,Synth & Pad/Mediterrain.T275.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,32,20,0,poly,92
+MorningDew,Main,Synth & Pad,Regular,104,0,95,Synth & Pad/MorningDew.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,54,40,32,poly,74
+MouthLead,Main,Synth & Pad,Regular,104,0,82,Synth & Pad/MouthLead.T248.vce,on,DynPhaser,Legacy,DYNAMIC PHASER,111,0,48,3,0,mono,76
+NewAtmosphere,Main,Synth & Pad,Regular,104,4,90,Synth & Pad/NewAtmosphere.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,64,40,18,poly,88
+NightMotion,Main,Synth & Pad,Regular,104,4,89,Synth & Pad/NightMotion.T273.vce,on,Phaser3,Legacy,PHASER2,72,19,36,32,0,poly,62
+NobleMan,Main,Synth & Pad,Regular,104,1,89,Synth & Pad/NobleMan.T273.vce,on,Flanger2,Legacy,FLANGER,67,16,32,20,0,poly,86
+NylonPad,Main,Synth & Pad,Regular,104,0,100,Synth & Pad/NylonPad.T273.vce,on,ChorusLite,Legacy,CHORUS,65,17,28,26,0,poly,75
+OctaveHook,Main,Synth & Pad,Regular,0,113,87,Synth & Pad/OctaveHook.T248.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,32,15,0,poly,82
+Oxygen,Main,Synth & Pad,Regular,0,122,82,Synth & Pad/Oxygen.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,24,8,0,mono,100
+PWM Lead,Main,Synth & Pad,Regular,104,1,82,Synth & Pad/PWM Lead.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,24,9,0,poly,80
+PWM Wild,Main,Synth & Pad,Regular,104,4,81,Synth & Pad/PWM Wild.T270.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,22,9,0,poly,72
+PanHeaven,Main,Synth & Pad,Regular,0,120,89,Synth & Pad/PanHeaven.T273.vce,on,ChorusLite,Legacy,CHORUS,65,17,44,20,0,poly,96
+PearlsPad,Main,Synth & Pad,Regular,104,2,89,Synth & Pad/PearlsPad.T273.vce,on,Flanger5,Legacy,FLANGER,67,0,36,35,16,poly,60
+PercSeqFM1,Main,Synth & Pad,Regular,104,7,88,Synth & Pad/PercSeqFM1.T270.vce,on,ReverseGate,Legacy,GATE REVERB,11,0,18,6,0,poly,60
+PercSeqFM2,Main,Synth & Pad,Regular,104,8,88,Synth & Pad/PercSeqFM2.T270.vce,on,TempoPhaser2,Legacy,TEMPO PHASER,108,16,64,12,0,poly,56
+PercSeqFS,Main,Synth & Pad,Regular,104,6,88,Synth & Pad/PercSeqFS.T270.vce,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,16,6,0,poly,48
+PercSeqHipa,Main,Synth & Pad,Regular,104,9,88,Synth & Pad/PercSeqHipa.T270.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,24,7,0,poly,125
+PercSeqSaw,Main,Synth & Pad,Regular,104,11,82,Synth & Pad/PercSeqSaw.T270.vce,on,AutoPan2,Legacy,AUTO PAN1,71,0,127,11,0,poly,62
+PitchFall,Main,Synth & Pad,Regular,104,0,104,Synth & Pad/PitchFall.T275.vce,on,TempoEcho,Delay,TEMPO DELAY,21,8,28,0,0,poly,79
+PremiumPad,Main,Synth & Pad,Regular,104,0,52,Synth & Pad/PremiumPad.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,26,40,24,poly,104
+ProHeaven,Main,Synth & Pad,Regular,0,122,89,Synth & Pad/ProHeaven.T273.vce,on,CrossDelay2,Delay,CROSS DELAY,8,16,42,28,16,poly,106
+PunchLead,Main,Synth & Pad,Regular,104,7,82,Synth & Pad/PunchLead.T248.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,24,0,0,mono,82
+PunchyHook,Main,Synth & Pad,Regular,0,127,82,Synth & Pad/PunchyHook.T248.vce,on,Chorus6,Legacy,CHORUS,65,0,47,9,0,poly,88
+ResonanceComp,Main,Synth & Pad,Regular,104,4,63,Synth & Pad/ResonanceComp.T270.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,16,6,24,poly,85
+SazFeeze,Main,Synth & Pad,Regular,104,0,98,Synth & Pad/SazFeeze.T270.vce,on,Phaser2,Legacy,PHASER2,72,8,54,16,16,poly,108
+SimpleComp,Main,Synth & Pad,Regular,104,12,82,Synth & Pad/SimpleComp.T270.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,22,0,0,poly,93
+SixthSense,Main,Synth & Pad,Regular,104,2,102,Synth & Pad/SixthSense.T275.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,48,40,24,poly,62
+Skyline,Main,Synth & Pad,Regular,0,115,85,Synth & Pad/Skyline.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,20,12,0,mono,100
+SoftR&B,Main,Synth & Pad,Regular,0,119,81,Synth & Pad/SoftR&B.T248.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,22,9,0,mono,100
+SoftSquare,Main,Synth & Pad,Regular,104,5,81,Synth & Pad/SoftSquare.T248.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,24,9,0,mono,74
+SpaceRider,Main,Synth & Pad,Regular,104,1,96,Synth & Pad/SpaceRider.T273.vce,on,TempoPhaser2,Legacy,TEMPO PHASER,108,16,36,40,16,poly,79
+SuperDarkPad,Main,Synth & Pad,Regular,0,119,90,Synth & Pad/SuperDarkPad.T273.vce,on,ChorusLite,Legacy,CHORUS,65,17,40,40,32,poly,100
+SweetHeaven,Main,Synth & Pad,Regular,0,118,89,Synth & Pad/SweetHeaven.T273.vce,on,TempoDelay2,Delay,TEMPO DELAY,21,16,26,32,0,poly,114
+SynthSticks,Main,Synth & Pad,Regular,104,0,107,Synth & Pad/SynthSticks.T270.vce,on,Hall5,Reverb,REVERB1,1,1,24,0,0,poly,80
+TimeTravel,Main,Synth & Pad,Regular,0,116,89,Synth & Pad/TimeTravel.T275.vce,on,TempoCross1,Delay,TEMPO CROSS DELAY,22,0,46,13,0,poly,103
+TrancePerc,Main,Synth & Pad,Regular,104,5,82,Synth & Pad/TrancePerc.T270.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,24,30,24,poly,94
+TranceSeq1,Main,Synth & Pad,Regular,104,4,88,Synth & Pad/TranceSeq1.T270.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,22,22,0,poly,54
+TranceSeq2,Main,Synth & Pad,Regular,104,5,88,Synth & Pad/TranceSeq2.T270.vce,on,ChorusFast,Legacy,CHORUS,65,16,40,9,0,poly,44
+TranceSeq3,Main,Synth & Pad,Regular,104,1,91,Synth & Pad/TranceSeq3.T270.vce,on,TempoCross4,Delay,TEMPO CROSS DELAY,22,18,28,15,0,poly,114
+VP Soft,Main,Synth & Pad,Regular,104,0,90,Synth & Pad/VP Soft.T273.vce,on,EnsDetune2,Legacy,ENSEMBLE DETUNE,87,16,36,19,0,poly,84
+VaporPad,Main,Synth & Pad,Regular,104,1,90,Synth & Pad/VaporPad.T273.vce,on,Lo-FiDrum1,Misc,LO FI,94,18,64,35,0,poly,84
+VinalogSaw,Main,Synth & Pad,Regular,104,3,82,Synth & Pad/VinalogSaw.T248.vce,on,TempoCross3,Delay,TEMPO CROSS DELAY,22,17,24,0,28,poly,64
+WireLead,Main,Synth & Pad,Regular,0,120,82,Synth & Pad/WireLead.T248.vce,on,TempoCross2,Delay,TEMPO CROSS DELAY,22,16,25,16,30,mono,101
