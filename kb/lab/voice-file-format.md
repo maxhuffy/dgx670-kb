@@ -3,6 +3,7 @@ topic: Internal format of DGX-670 Voice (Voice Set) files, panel-value mapping, 
 status: partial
 tested: 2026-10-01
 evidence: initial_dgx_voices_saved_to_usb/ (all 630 preset Voices + kits copied from the Preset tab, plus CFX Grand M/NM test pair in NewFolder/); settings_screenshots/ (Voice Set pages of SL0 and SL3, SL3 DSP Detail); generated_voices/batch1, batch2 and tools/ (vce.py decoder, gen.py generator)
+files: voice_file_fields.csv
 summary: A Voice file is a ~670-byte Standard MIDI File of XG parameter messages (part 0, insertion effect 0) plus ~12 Yamaha-specific messages; no checksum, no encryption, name = filename. Files generated on a PC load and play; panel values map to file values by simple rules (confirmed from screenshots). Field map: voice_file_fields.csv.
 
 ## Manual baseline

@@ -16,12 +16,15 @@ Trust tier (between the manuals and `kb/external/`):
 - Never upgrade a status without new evidence. Record the date and the evidence (file names, screenshots) for each.
 
 ## File: `kb/lab/<slug>.md`
+Register with `python scripts/register.py lab <slug>` (validates fields, finding statuses and companion files, then
+updates `INDEX.md`); `scripts/check_kb.py` re-checks every entry. Voice files: `python scripts/voicefile.py decode|diff`.
 ```
 # <Topic>
 topic: <one line, used in INDEX.md>
 status: <overall: confirmed | partial | hypothesis>
 tested: YYYY-MM-DD (last update)
 evidence: <where the raw evidence lives (local, untracked folders), e.g. initial_dgx_voices_saved_to_usb/>
+files: <optional: comma-separated companion files in kb/lab/, e.g. a field-map CSV>
 summary: <one line, used in INDEX.md>
 
 ## Manual baseline
@@ -37,6 +40,7 @@ summary: <one line, used in INDEX.md>
 <what to test next, and how>
 ```
 
-Machine-readable companions (CSV) sit next to the entry, e.g. `voice_file_fields.csv`.
+Machine-readable companions (CSV) sit next to the entry, e.g. `voice_file_fields.csv`, and are named on its `files:`
+line so the index links them.
 Evidence folders (`initial_dgx_voices_saved_to_usb/`, `settings_screenshots/`, `generated_voices/`) are local and
 untracked; findings must be understandable without them.

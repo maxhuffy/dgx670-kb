@@ -14,7 +14,11 @@ Source of truth: the PDFs in `dgx_source_docs/`. Everything in `kb/` is derived 
 9. `datalist/INDEX.md` — every Data List table (voices, styles, songs, drum kits, effects, Parameter Chart,
    Direct Access Chart, MIDI) as CSV, with a searchable brief each. `maps/DATALIST_TOC.md` — its page ranges.
 10. `guides/` — cited cheat sheets that pull one topic together across OM/RM/DL (e.g. `voice-editing-cheat-sheet.md`).
-11. `external/INDEX.md` — **externally researched** topics (forums, Reddit, Yamaha support pages, videos…) for gaps the
+11. `lab/INDEX.md` — **lab findings** tested on the user's own DGX-670 (file analysis, generated files loaded on it,
+    display screenshots), e.g. the internals of Voice files. Middle trust tier: below the manuals, above `external/`;
+    labelled "(lab-tested on the user's DGX-670, not from the manuals)", cited `[LAB <slug>#L<n>]`, and each finding
+    carries a status (confirmed / likely / hypothesis / unknown).
+12. `external/INDEX.md` — **externally researched** topics (forums, Reddit, Yamaha support pages, videos…) for gaps the
     manuals leave open, including "nothing found online as of <date>". Lower trust tier: never overrides the
     manuals; always labelled "(external, not from the manuals)" and cited `[EXT <slug>#E<n>]`.
 
