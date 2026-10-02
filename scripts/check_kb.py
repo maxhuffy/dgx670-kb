@@ -8,7 +8,7 @@ import re
 import sys
 
 from kbcommon import KB, ROOT, cached_figure_titles
-from register import ROW_KEY_RE, external_problems
+from register import ROW_KEY_RE, external_problems, lab_problems
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -75,7 +75,8 @@ for doc, ref in REFERENCE_FIGURES.items():
 # Cache indexes <-> files
 for folder, pattern in ((KB / "figures", "[A-Z][A-Z]-[0-9][0-9][0-9].md"),
                         (ROOT / "faq", "*.md"),
-                        (KB / "external", "*.md")):
+                        (KB / "external", "*.md"),
+                        (KB / "lab", "*.md")):
     index = folder / "INDEX.md"
     if not index.exists():
         fail(f"missing {index.relative_to(ROOT)}")
@@ -95,6 +96,16 @@ for f in sorted((KB / "external").glob("*.md")):
     if f.name not in ("INDEX.md", "README.md"):
         for p in external_problems(f.read_text(encoding="utf-8")):
             fail(f"external/{f.name}: {p}")
+
+for f in sorted((KB / "lab").glob("*.md")):
+    if f.name not in ("INDEX.md", "README.md"):
+        for p in lab_problems(f.read_text(encoding="utf-8")):
+            fail(f"lab/{f.name}: {p}")
+for f in sorted((KB / "lab").glob("*.csv")):
+    with f.open(encoding="utf-8", newline="") as fh:
+        widths = {len(r) for r in csv.reader(fh)}
+    if len(widths) != 1:
+        fail(f"lab/{f.name}: ragged rows {sorted(widths)}")
 
 for name in ("INDEX.md", "maps/TOC.md", "maps/TERMS.md", "maps/BUTTONS.md", "maps/MENU_PATHS.md",
              "maps/DATALIST_TOC.md", "maps/GLOSSARY.md", "datalist/INDEX.md", "datalist/CHECKS.md",

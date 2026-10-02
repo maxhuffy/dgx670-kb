@@ -29,8 +29,10 @@ parallel `Grep` calls** (FAQ index, GLOSSARY, TERMS, MENU_PATHS, BUTTONS, TOC, a
    - `kb/datalist/INDEX.md` (briefs of all 18 Data List tables: voices, styles, songs, drum kits, effects,
      Parameter Chart = what is saved where, Direct Access Chart, MIDI…) → which CSV can answer
 4. **Backstop** — only if the maps found nothing: `Grep -i` `kb/pages` for distinctive words.
-5. **External tier** — if the manuals leave a gap, `Grep -i` `kb/external/INDEX.md` (include it in the step-1
-   batch). Use it only for the gap; see §6.
+5. **Lab tier, then external tier** — if the manuals leave a gap, `Grep -i` `kb/lab/INDEX.md` and then
+   `kb/external/INDEX.md` (include both in the step-1 batch). Lab findings were tested on the user's own DGX-670 (e.g.
+   Voice file internals: `kb/lab/voice-file-format.md` + `voice_file_fields.csv`); external ones come from online
+   research. Use them only for the gap; see §6 and §6b.
 
 ## 2. Read
 - Read the candidate page files (`kb/pages/OM/OM-058.md` etc.) **in full** — usually 1–4 pages is enough.
@@ -69,6 +71,9 @@ Sources: OM p.58 · RM p.24 · FIG RM-005-f1 · DL p.23
 - Undocumented: `**Not documented in the DGX-670 manuals.**` then `**Closest documented:**` + cited items
   (omit that part if nothing is close). Never fill the gap from general knowledge.
 - Conflicting pages (e.g. OM vs RM): show both, cited, and say which is more specific.
+- Lab findings go **after** the manual-backed answer, under `**Lab-tested on your DGX-670 (not from the manuals):**`,
+  each claim cited `[LAB <slug>#L<n>]` with its status (confirmed / likely / hypothesis / unknown). Don't present a
+  `likely` or `hypothesis` finding as fact.
 - External research goes **after** the manual-backed answer, under `**External research (not from the manuals):**`,
   each claim cited `[EXT <slug>#E<n>]` with its source type (forum/Reddit/official…). A `nothing-found` entry is
   reported as "Nothing found online as of <date> [EXT <slug>]".
@@ -81,6 +86,14 @@ Sources: OM p.58 · RM p.24 · FIG RM-005-f1 · DL p.23
 3. Write `kb/external/<slug>.md` exactly as in `kb/external/README.md` (manual baseline cited, one `**[En]**` per
    claim with URL, source type, which model it's about, trust). Record negatives with the date.
 4. `python scripts/register.py external <slug>`, then commit `kb: external <slug>` and push.
+
+## 6b. Lab findings (first-hand tests on the user's DGX-670)
+1. When the user reports a test (screenshots, files the keyboard saved, what loaded/sounded), or you analyse files they
+   saved, update the matching `kb/lab/<slug>.md` (or create one) exactly as in `kb/lab/README.md`: one `**[Ln]**`
+   paragraph per finding with `Status:` and evidence, a dated experiment-log line, and the remaining open questions.
+2. Upgrade a status only with new evidence (e.g. `likely` → `confirmed` when the display shows the value).
+3. Voice files: decode/diff with `python scripts/voicefile.py decode|diff …`; keep `voice_file_fields.csv` in step.
+4. `python scripts/register.py lab <slug>`, then commit `kb: lab <slug> …` and push.
 
 ## 7. Grow the knowledge base (then commit + push only kb/ and faq/)
 - **Glossary gap**: the user's wording needed a term not in GLOSSARY → add a row (alphabetical), commit

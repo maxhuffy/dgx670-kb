@@ -530,7 +530,11 @@ Source of truth: the PDFs in `dgx_source_docs/`. Everything in `kb/` is derived 
 9. `datalist/INDEX.md` — every Data List table (voices, styles, songs, drum kits, effects, Parameter Chart,
    Direct Access Chart, MIDI) as CSV, with a searchable brief each. `maps/DATALIST_TOC.md` — its page ranges.
 10. `guides/` — cited cheat sheets that pull one topic together across OM/RM/DL (e.g. `voice-editing-cheat-sheet.md`).
-11. `external/INDEX.md` — **externally researched** topics (forums, Reddit, Yamaha support pages, videos…) for gaps the
+11. `lab/INDEX.md` — **lab findings** tested on the user's own DGX-670 (file analysis, generated files loaded on it,
+    display screenshots), e.g. the internals of Voice files. Middle trust tier: below the manuals, above `external/`;
+    labelled "(lab-tested on the user's DGX-670, not from the manuals)", cited `[LAB <slug>#L<n>]`, and each finding
+    carries a status (confirmed / likely / hypothesis / unknown).
+12. `external/INDEX.md` — **externally researched** topics (forums, Reddit, Yamaha support pages, videos…) for gaps the
     manuals leave open, including "nothing found online as of <date>". Lower trust tier: never overrides the
     manuals; always labelled "(external, not from the manuals)" and cited `[EXT <slug>#E<n>]`.
 
@@ -588,6 +592,11 @@ def main():
     seed(ROOT / "faq" / "INDEX.md",
          "# Verified FAQ\n\nAnswers the user confirmed as correct. One row per entry; details in `faq/<slug>.md`.\n\n"
          "| Question | File | Citations |\n|---|---|---|\n")
+    seed(KB / "lab" / "INDEX.md",
+         "# Lab Findings (tested on the user's DGX-670)\n\n"
+         "First-hand findings: analysis of files the instrument saved, generated files loaded on it, and what its display\n"
+         "showed. Trust tier between the manuals and `external/`: cite as `[LAB <slug>#L<n>]`. Format and rules: `README.md`.\n\n"
+         "| Topic | File | Status | Tested | Summary |\n|---|---|---|---|---|\n")
     seed(KB / "external" / "INDEX.md",
          "# Externally Researched Topics\n\n"
          "Online research (forums, Reddit, Yamaha support pages, videos, third-party docs) on gaps the DGX-670 manuals\n"

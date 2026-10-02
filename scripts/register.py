@@ -6,6 +6,7 @@ Usage:
   python scripts/register.py figure   RM-005     # after writing kb/figures/RM-005.md
   python scripts/register.py faq      split-point-change   # after writing faq/split-point-change.md
   python scripts/register.py external filter-envelope      # after writing kb/external/filter-envelope.md
+  python scripts/register.py lab      voice-file-format      # after writing kb/lab/voice-file-format.md
 """
 import re
 import sys
@@ -118,8 +119,56 @@ def register_external(slug):
     print(f"ok: external/{slug} registered ({field(body, 'status')})")
 
 
+LAB_STATUSES = ("confirmed", "partial", "hypothesis")
+LAB_FIELDS = ("topic", "status", "tested", "evidence", "summary")
+LAB_FINDING_STATUSES = ("confirmed", "likely", "hypothesis", "unknown")
+
+
+def lab_companions(body):
+    """Companion files named on the optional 'files:' line (e.g. a field-map CSV next to the entry)."""
+    return [x.strip() for x in (field(body, "files") or "").split(",") if x.strip()]
+
+
+def lab_problems(body):
+    """Return what is wrong with a lab entry (empty list = valid). Shared with check_kb.py."""
+    problems = [f"missing '{n}:' line" for n in LAB_FIELDS if not field(body, n)]
+    status = field(body, "status")
+    if status and status not in LAB_STATUSES:
+        problems.append(f"status must be one of {LAB_STATUSES}")
+    if field(body, "tested") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", field(body, "tested")):
+        problems.append("tested must be YYYY-MM-DD")
+    if not re.search(r"^## Manual baseline", body, re.M):
+        problems.append("missing '## Manual baseline' section (what the manuals do/don't say, cited)")
+    findings = re.split(r"(?m)^(?=\*\*\[L\d+\]\*\*)", body)[1:]
+    if not findings:
+        problems.append("needs '**[L1]** …' finding paragraphs")
+    for para in findings:
+        para = para.split("\n\n")[0]
+        if not re.search(r"Status: (%s)" % "|".join(LAB_FINDING_STATUSES), para):
+            problems.append(f"finding without 'Status: <{'/'.join(LAB_FINDING_STATUSES)}>': {para[:40]}")
+    for name in lab_companions(body):
+        if not (KB / "lab" / name).exists():
+            problems.append(f"companion file kb/lab/{name} is missing")
+    return problems
+
+
+def register_lab(slug):
+    f = KB / "lab" / f"{slug}.md"
+    if not f.exists():
+        die(f"{f} does not exist")
+    body = f.read_text(encoding="utf-8")
+    problems = lab_problems(body)
+    if problems:
+        die(f"{f.name}: " + "; ".join(problems))
+    cell = lambda n: field(body, n).replace("|", "/")
+    links = " · ".join([f"[{slug}]({slug}.md)"] + [f"[{n}]({n})" for n in lab_companions(body)])
+    upsert_row(KB / "lab" / "INDEX.md", slug,
+               f"| {cell('topic')} | {links} | {cell('status')} | {cell('tested')} | {cell('summary')} |")
+    print(f"ok: lab/{slug} registered ({field(body, 'status')})")
+
+
 if __name__ == "__main__":
-    kinds = {"figure": register_figure, "faq": register_faq, "external": register_external}
+    kinds = {"figure": register_figure, "faq": register_faq, "external": register_external, "lab": register_lab}
     if len(sys.argv) != 3 or sys.argv[1] not in kinds:
         print(__doc__)
         sys.exit(2)
