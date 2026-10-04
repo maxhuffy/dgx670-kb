@@ -149,6 +149,15 @@ Status: confirmed (all preset copies and the user's clone). Evidence: file listi
   - Keyboard-saved oddities: Harmony Volume byte `FF` and a pedal message with `7F FF` in G4 MODI 2 (bytes above 7F in
     Yamaha-specific fields); the Harmony Type message was dropped. Meaning unknown.
 
+- 2026-10-04, batch `bwv565` (`generated_voices/bwv565/`, recipe `generated_voices/bwv565_recipe.py`, not yet tested):
+  pipe organ for the BWV 565 Toccata opening (research: [EXT pipe-organ-bwv565-emulation]). Main candidates: P1 Pleno
+  Bright (FullOrgan, Brightness +12, EnsDetune Dry/Wet D=W, Reverb 80), P2 Chapel Cathedral (ChapelOrgan1, Hall5 insert
+  stretched to 5.5 s / 47 ms pre-delay / D6>W), P3 Pleno Cathedral (FullOrgan + Chapel's Hall5 DSP spliced, same hall),
+  P4 XG NotreDame (P2 retargeted to the GM & XG NotreDame 0/40/20 [DL p.8], 7.0 s; tests whether a hidden XG Voice
+  plays from a Voice file). Layer helpers: L1 Sub16 (HymnOrgan, Part Octave −1, darker, DSP off), L2 Reed8 (Legacy
+  Trumpet8'). Decode notes: the organ presets already store Touch Sense Depth 0 / Offset 114 (velocity ignored), and
+  the Trumpet8' and Trumpet16'&8' preset files store Part Octave −1.
+
 ## Open questions
 - Voice EQ gain display: does G4 MODI 2 show about +10 dB (Low) and −12 dB (High)? Confirms the DL p.66 scale.
 - Retarget display [L11]: does SQ5 show SquareLead as its Voice?

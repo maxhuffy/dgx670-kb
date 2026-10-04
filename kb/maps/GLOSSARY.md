@@ -14,6 +14,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | bass with left hand, chords with right hand | Specifying Chords with Your Right Hand while Playing Bass with Your Left Hand (RM Ch3) |
 | bell, accent on beat 1, downbeat click | Metronome Settings → Sound ("bell accent … at the first beat of each measure") |
 | BPM, speed | Tempo; [TEMPO/TAP]; Tap Tempo |
+| cathedral reverb, bigger room, longer reverb | Reverb; Effect Block; Reverb Time (Data List effect parameters); Mixer |
 | change key, key shift | Transpose; TRANSPOSE [-]/[+] |
 | chord detection, one-finger chords, which chords are recognized | Chord Fingering; AI Full Keyboard; Smart Chord; Chord Types Recognized in Fingered |
 | click, count-in, metronome settings | Metronome; Time Signature; [METRONOME] |
@@ -31,6 +32,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | fill, intro, ending | [INTRO]; [ENDING/rit.]; Fill-in; Break; [MAIN] |
 | harmony notes on the melody | Keyboard Harmony; [VOICE EFFECT] |
 | headphones, amp, external speakers, line out | [PHONES/OUTPUT] jack; Speaker (setting) |
+| historical tuning, temperament, Bach-era tuning | Scale Tune; Werckmeister, Kirnberger; Mean-Tone |
 | iPad, phone app, tablet, Wi-Fi | Smart Device; Wireless LAN; Bluetooth |
 | karaoke, mic, singing, vocal effect | Microphone; [MIC SETTING]; [MIC INPUT]; Noise Gate; Talk; DSP |
 | language of the display | Language (System) |
@@ -42,6 +44,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | MP3, WAV, play audio from USB stick | USB Audio Player; WAV; Compatible Format (the manuals name WAV, not MP3) |
 | mute internal speakers | Speaker (Utility → Config1) |
 | mute one hand in a song | Channel On/Off; Part Channel; Guide |
+| octave doubling, 16 foot, sub-octave | Layer part; Part Octave; Octave (Voice Setting → Tune) |
 | one sound in left hand, split keyboard | Split Point; Left part; PART ON/OFF |
 | phone music through the keyboard | [AUX IN]; Bluetooth; Audio Loopback; [USB TO HOST] |
 | pitch wheel | [PITCH BEND] wheel |
