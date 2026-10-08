@@ -57,6 +57,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | stack two sounds | Layer part; PART ON/OFF |
 | start the style when I play | [SYNC START]; Synchro Start; Synchro Stop |
 | sustain pedal, damper pedal, foot pedal | Pedal; footswitch; FC3A; FC4A; [PEDAL UNIT]; AUX Pedal |
+| transpose only the left side, play a right-hand passage with both hands | Left part; Left Split Point; Octave (Voice Setting → Tune) |
 | tune to other instruments, A=440 | Master Tune; Scale Tune; Tuning; Pitch-Related Settings |
 | USB stick, delete/rename/save a file | File Management; USB flash drive; [USB TO DEVICE] |
 | user voice file, .vce file, custom voice file, edit voices on a computer | Voice Set; Editing Voices (Voice Set); File Management (file internals: `kb/lab/voice-file-format.md`) |
