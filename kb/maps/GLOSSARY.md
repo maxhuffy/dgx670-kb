@@ -34,6 +34,7 @@ question's wording didn't map and you found the right term, add a row (keep alph
 | headphones, amp, external speakers, line out | [PHONES/OUTPUT] jack; Speaker (setting) |
 | historical tuning, temperament, Bach-era tuning | Scale Tune; Werckmeister, Kirnberger; Mean-Tone |
 | iPad, phone app, tablet, Wi-Fi | Smart Device; Wireless LAN; Bluetooth |
+| key weight, heavy/light keys, keys easier/harder to play loud | Touch Response (Touch, Touch Off Level); Touch Sense (Depth/Offset); GHS (Graded Hammer Standard) |
 | karaoke, mic, singing, vocal effect | Microphone; [MIC SETTING]; [MIC INPUT]; Noise Gate; Talk; DSP |
 | language of the display | Language (System) |
 | learn a song, practice mode | Guide; Lesson; Score; Guide Mode |
