@@ -158,7 +158,24 @@ Status: confirmed (all preset copies and the user's clone). Evidence: file listi
   Trumpet8'). Decode notes: the organ presets already store Touch Sense Depth 0 / Offset 114 (velocity ignored), and
   the Trumpet8' and Trumpet16'&8' preset files store Part Octave −1.
 
+- 2026-10-15, batch `IWUIAC_v1` (`generated_voices/IWUIAC_v1/` + README.txt, recipe
+  `generated_voices/IWUIAC_v1_recipe.py`, not yet tested): bright, compressed pop-rock grand for Something Corporate's
+  "I Woke Up In A Car". VRM bases PopGrand 108/17/2, StudioGrand 108/30/1, BrightPiano 108/16/2 (extension .vrm kept).
+  In-Voice compression by splicing the Compressor block (83/0) from Legacy PunchyBass, the multi-band comp (105/16) from
+  ClubBass, and an AcousticRoom insert (2/20) from Legacy ConcertGrand. A1 Pop Comp (3:1 above −20 dB, 18/115 ms,
+  DSP Depth 64), A2 = A1 with Touch Sense 72/60, B1 Studio Dry (StudioGrand + A1-style comp, Reverb 0), B2 Studio EQ
+  (StudioGrand's 3BandEQ retuned, no comp), C1 Bright Heavy (5:1 above −27 dB, 12/85 ms, Touch 72/60), C2 Bright MBC
+  (type Attacky, low −8 / high +8 offsets), D1 Pop Room (PopGrand preset + its own 0.9 s room insert, Reverb send 0).
+  Decode notes: PopGrand.vrm stores Touch Sense Depth 55 / Offset 70 (the other piano VRM presets 64/64), Part EQ
+  treble +8.6 dB at 2.8 kHz, EnsDetune2 at Dry/Wet 6. StudioGrand's 3BandEQ is low +1 dB @125 Hz, mid −6 dB @700 Hz
+  width 0.6, high +2 dB @4.0 kHz, DSP Depth 15. The factory Compressor Voices store DSP Depth 36–40 although COMPRESSOR
+  lists no Dry/Wet parameter [DL p.42]. Compressor Threshold file value = dB + 127 (range 79–121 = −48…−6 dB).
+
 ## Open questions
+- Touch Sense curve: is it out = 64 + (in − 64)·Depth/64 + 2·(Offset − 64)? (RM p.13 figure labels: Offset 96 = +64,
+  Depth 127 = twice, Depth 0 = flat "depends on offset"). Test: IWUIAC A1 (64/64) vs A2 (72/60). Status: hypothesis.
+- What does DSP Depth do for types without a Dry/Wet parameter (COMPRESSOR, MULTI BAND COMP, 3BAND EQ)? Test: IWUIAC A1.
+- Is a VRM Voice's own Reverb Depth (CC91) used, or replaced by Voice Setting → Piano → Reverb [RM p.6]?
 - Voice EQ gain display: does G4 MODI 2 show about +10 dB (Low) and −12 dB (High)? Confirms the DL p.66 scale.
 - Retarget display [L11]: does SQ5 show SquareLead as its Voice?
 - Portamento Time type (`0A 00 03`, 00 = Fixed Rate): the other option's value is untested.
