@@ -170,6 +170,14 @@ Status: confirmed (all preset copies and the user's clone). Evidence: file listi
   treble +8.6 dB at 2.8 kHz, EnsDetune2 at Dry/Wet 6. StudioGrand's 3BandEQ is low +1 dB @125 Hz, mid −6 dB @700 Hz
   width 0.6, high +2 dB @4.0 kHz, DSP Depth 15. The factory Compressor Voices store DSP Depth 36–40 although COMPRESSOR
   lists no Dry/Wet parameter [DL p.42]. Compressor Threshold file value = dB + 127 (range 79–121 = −48…−6 dB).
+- 2026-10-15, batch `KOBMD_v1` (`generated_voices/KOBMD_v1/` + README.txt, recipe `generated_voices/KOBMD_v1_recipe.py`,
+  not yet tested): acoustic piano for Something Corporate's "Keep On Bringing Me Down" (tighter, drier, more produced
+  than IWUIAC). Same compressor donor (PunchyBass 83/0) at four strengths: E1 Bright Nat light 2:1, B1 Pop Process and
+  D1 Studio Proc 3:1, A1 Bright Dry and C2 Rock Comp 5:1, F1 Tight Mix 10:1 (+ Touch 72/60, EG Release −12, Reverb 0).
+  A2 = A1 with Touch 72/60. C1 Rock Enhance keeps RockPiano's own DSP (corrective EQ only). Part EQ bass band placed at
+  225–315 Hz to trim low-mids and bass with one band. Decode notes: RockPiano.vrm = HmEnhance2 (HPF 4.0 kHz, Drive 20,
+  Mix 40, DSP Depth 127), Part EQ bass +0.75 dB @180 Hz / treble +1.9 dB @4.0 kHz, Brightness 0, Touch 64/64, no
+  compressor; BrightPiano.vrm and PopGrand.vrm both store Brightness +6.
 
 ## Open questions
 - Touch Sense curve: is it out = 64 + (in − 64)·Depth/64 + 2·(Offset − 64)? (RM p.13 figure labels: Offset 96 = +64,
